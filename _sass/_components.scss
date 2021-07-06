@@ -1,0 +1,64 @@
+nav {
+  height: var(--space-large);
+  width: 100vw;
+  position: fixed;
+  place-items: center;
+  // z-index: 99;
+  // top: 0;
+  display: flex;
+  justify-content: space-between;
+  // align-items: center;
+  padding: 5vw;
+
+  // @include media-query($on-laptop) {
+  // }
+
+  // @include media-query($on-palm) {
+  // }
+
+  .active {
+    // color: var(--accent);
+    // color: rgba($primary, 1);
+  }
+  p {
+    @include spacing(0, 0);
+    @include font-size(1, 2);
+    display: inline-grid;
+    color: var(--accent);
+    display: inline-flex;
+    margin-left: var(--spacer);
+    @include transition(all $transition);
+    font-family: "Obviously";
+    text-transform: uppercase;
+    font-feature-settings: normal;
+
+    span {
+      @include font-size(0.5, 1);
+      margin-right: var(--spacer);
+    }
+
+    &:hover {
+      // color: rgba($primary, 1);
+      text-decoration: none;
+      @include transition(all $transition);
+    }
+  }
+}
+
+.footer {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  width: 100vw;
+  background: var(--accent);
+  justify-content: space-between;
+  align-items: center;
+  position: absolute;
+  z-index: 99;
+  padding: 2vw 5vw 2vw 5vw;
+  height: var(--spacer-large);
+
+  * {
+    color: white;
+    @include spacing(0, 0);
+  }
+}

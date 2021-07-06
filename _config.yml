@@ -1,1 +1,31 @@
-theme: jekyll-theme-cayman
+# Site settings
+title: Considered Design
+email: dominic@considered.design
+description: > # this means to ignore newlines until "baseurl:"
+  I like solving interesting problems, for things that matter. Product designer. London, Rio, now Sydney.
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://considered.design" # the base hostname & protocol for your site
+twitter_username: dominosebastian
+github_username:  domseb
+
+
+# Build settings
+markdown: kramdown
+
+# Collections
+collections:
+  projects:
+    output: true
+    permalink: /projects/:path/
+
+gems:
+  - jekyll-assets
+  - octopress-autoprefixer
+
+navigation:
+  - title: work
+    url: /work/
+  - title: about
+    url: /about/
+  - title: writing
+    url: /writing/

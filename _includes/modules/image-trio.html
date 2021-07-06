@@ -1,0 +1,10 @@
+<figure class="image-trio">
+  <div class="items">
+    <img src="{{ site.baseUrl }}{{ include.url1 }}" />
+    <img src="{{ site.baseUrl }}{{ include.url2 }}" />
+    <img src="{{ site.baseUrl }}{{ include.url3 }}" />
+  </div>
+  {% if include.description %}
+  <figcaption>{{ include.description }}</figcaption>
+  {% endif %}
+</figure>

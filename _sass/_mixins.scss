@@ -1,0 +1,52 @@
+@mixin split($gap) {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: $gap;
+}
+
+@mixin thirds($gap) {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: $gap;
+}
+
+@mixin fifths($gap) {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 250px));
+  gap: $gap;
+}
+
+@mixin triplets($gap) {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: $gap;
+}
+
+@mixin aside($gap) {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: $gap;
+
+  h2,
+  > div:first-child {
+    grid-column-end: span 3;
+  }
+}
+
+@mixin spacing($margin, $padding) {
+  margin: $margin;
+  padding: $padding;
+}
+
+@mixin margin($top, $bottom) {
+  margin-top: #{$top * $base-line-height + "rem"};
+  margin-bottom: #{$bottom * $base-line-height + "rem"};
+}
+
+@mixin font-size($min, $max) {
+  font-size: clamp(
+    #{$min * $base-font-size + "px"},
+    #{$min * 2 + "vw"},
+    #{$max * $base-font-size + "px"}
+  );
+}
