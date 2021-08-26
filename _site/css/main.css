@@ -708,17 +708,56 @@ hr {
     color: #099; }
 
 nav {
-  height: var(--space-large);
   width: 100vw;
   position: fixed;
   place-items: center;
   display: flex;
   justify-content: space-between;
   padding: 5vw; }
+  nav .active:after {
+    content: "";
+    width: 5em;
+    height: 2em;
+    -webkit-mask: url(/assets/site/ring-a.svg) no-repeat center;
+    mask: url(/assets/site/ring-a.svg) no-repeat center;
+    -webkit-mask-size: contain;
+    mask-size: contain;
+    background: var(--accent);
+    position: absolute; }
+  nav .active-b:after {
+    content: "";
+    width: 3em;
+    height: 3em;
+    -webkit-mask: url(/assets/site/line-a.svg) no-repeat center;
+    mask: url(/assets/site/line-a.svg) no-repeat center;
+    -webkit-mask-size: contain;
+    mask-size: contain;
+    background: var(--accent);
+    position: absolute; }
+  nav .active-c:after {
+    content: "";
+    width: 3em;
+    height: 4em;
+    -webkit-mask: url(/assets/site/line-b.svg) no-repeat center;
+    mask: url(/assets/site/line-b.svg) no-repeat center;
+    -webkit-mask-size: contain;
+    mask-size: contain;
+    background: var(--accent);
+    position: absolute; }
+  nav .active-d:after {
+    content: "";
+    width: 8em;
+    height: 2em;
+    -webkit-mask: url(/assets/site/ring-b.svg) no-repeat center;
+    mask: url(/assets/site/ring-b.svg) no-repeat center;
+    -webkit-mask-size: contain;
+    mask-size: contain;
+    background: var(--accent);
+    position: absolute; }
   nav p {
     margin: 0;
     padding: 0;
-    font-size: clamp(20px, 2vw, 40px);
+    font-size: clamp(24px, 2.4vw, 40px);
     display: inline-grid;
     color: var(--accent);
     display: inline-flex;
@@ -744,8 +783,7 @@ nav {
   align-items: center;
   position: absolute;
   z-index: 99;
-  padding: 2vw 5vw 2vw 5vw;
-  height: var(--spacer-large); }
+  padding: 2vw 5vw 2vw 5vw; }
   .footer * {
     color: white;
     margin: 0;
