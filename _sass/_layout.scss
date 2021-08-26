@@ -39,7 +39,7 @@ body {
 .onyx {
   --background: var(--onyx);
   img {
-    width: clamp(350px, 50vw, 1000px);
+    width: clamp(400px, 50vw, 1000px);
   }
 }
 
@@ -61,7 +61,7 @@ article {
 
 section {
   display: grid;
-  width: clamp(150px, 85vw, 1200px);
+  width: clamp(500px, 80vw, 1200px);
   //Make margin a ratio of the space add as a clamp property
   margin: 20vh auto;
 
@@ -73,7 +73,7 @@ section {
 .credits {
   width: clamp(150px, 85vw, 650px);
   display: grid;
-  grid-template-columns: minmax(25px, 50px) auto auto;
+  grid-template-columns: 60px auto auto;
   align-items: center;
   gap: var(--spacer);
 
@@ -130,7 +130,7 @@ hr {
 }
 
 .tiles {
-  @include thirds(0px 40px);
+  @include thirds(40px);
   margin: 20px 0 20px 0;
 }
 
@@ -176,9 +176,8 @@ hr {
   position: relative;
   h1 {
     @include font-size(5, 15);
-    @include margin(0, 0);
     position: absolute;
-    transform: translate(-50%, -70%);
+    transform: translate(-50%, -140%);
     top: 50%;
     color: white;
     left: 50%;
@@ -190,21 +189,23 @@ hr {
 
 .impact {
   display: grid;
+  // height: calc(100vh - var(--spacer-large));
   height: 100vh;
-  padding-left: 5vw;
+  place-items: center;
   background: var(--background);
 
   .byline {
     font-family: "Obviously";
-    @include font-size(0.5, 1.2);
     text-transform: uppercase;
     font-feature-settings: normal;
-    color: var(--darkest);
     line-height: 1.2;
-    @include margin(2, 2);
-    width: 80%;
+    color: var(--accent);
+
+    span {
+      font-size: 50%;
+    }
   }
-  // This has to be a div, otherwise the background colour won't fill it
+
   > div {
     width: 90vw;
     align-self: end;
@@ -213,90 +214,30 @@ hr {
   p {
     min-height: 0vw;
     @include font-size(1, 1.1);
-    color: var(--dark);
+    color:rgba(255,255,255,.75);
+
+  }
+  .hero {
+    width: 500px;
   }
 
   h5 {
     color: var(--darkest);
     font-family: "Degular Bold";
   }
-}
 
-.impact-4 {
-  display: grid;
-  // height: 100vh;
-  padding-top: 40vh;
-  padding-left: 5vw;
-  background: var(--background);
-
-  .byline {
-    font-family: "Obviously";
-    @include font-size(0.5, 1.2);
-    text-transform: uppercase;
-    font-feature-settings: normal;
-    color: var(--darkest);
-    line-height: 1.2;
-    @include margin(2, 2);
-    width: 80%;
-  }
-  // This has to be a div, otherwise the background colour won't fill it
-  > div {
-    width: 90vw;
-    align-self: end;
-    // margin: 300px auto;
-  }
-  p {
-    min-height: 0vw;
-    @include font-size(1, 1.1);
-    color: var(--dark);
-  }
-
-  h5 {
-    color: var(--darkest);
-    font-family: "Degular Bold";
-  }
-}
-
-.impact-2 {
-  display: grid;
-  height: 85vh;
-  place-items: center;
-  background: var(--background);
-  width: 90vw;
-  margin-left: 5vw;
-  align-content: end;
-}
-
-.impact-3 {
-  display: grid;
-  height: 100vh;
-  place-items: center;
-  background: var(--background);
-  width: 100vw;
-}
-
-.nostalgia {
-  display: grid;
-  // height: 85vh;
-  place-items: center;
-
-  > div {
-    position: relative;
-    width: clamp(150px, 85vw, 1500px);
-    margin-top: 20vh;
-    // margin: 300px auto;
-  }
-  h1 {
-    @include margin(0, 0);
-    position: absolute;
-    transform: translate(-50%, -60%);
-    top: 50%;
-    color: white;
-    left: 50%;
-    z-index: 99;
-    line-height: 0.85;
+  .center {
     text-align: center;
   }
+}
+
+.band {
+  background: var(--dark);
+  display: grid;
+  place-content: center;
+  padding: 80px;
+
+  h1,h2,h3,h4,h5,h6,p,a { color:white; }
 }
 
 .photo-grid {
@@ -333,25 +274,25 @@ hr {
 }
 
 // Needs a minimum height in px to avoid clipping. Maybe a max too?
-// .dom-face {
-//   background-image: url(/assets/site/dom-profile.jpg);
-//   filter: blur(60px);
-//   // -webkit-filter: blur(8px);
-//   background-position: center;
-//   background-repeat: no-repeat;
-//   background-size: cover;
-//   height: 50vh;
-// }
+.dom-face {
+  background-image: url(/assets/site/dom-profile.jpg);
+  filter: blur(60px);
+  // -webkit-filter: blur(8px);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 50vh;
+}
 
-// .photo-bomb {
-//   display: grid;
-//   width: clamp(500px, 80vw, 1200px);
-//   position: absolute;
-//   top: 50%;
-//   left: 50%;
-//   transform: translate(-50%, -50%);
-//   z-index: 2;
-// }
+.photo-bomb {
+  display: grid;
+  width: clamp(500px, 80vw, 1200px);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+}
 
 //TODO
 

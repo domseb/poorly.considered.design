@@ -118,9 +118,9 @@ h2 {
 
 h3 {
   // font-size: 46px;
-  @include font-size(2, 2.5);
+  @include font-size(1.5, 2.5);
   line-height: 1.2;
-  @include margin(2, 0.75);
+  @include margin(3, 0.75);
 }
 
 h4 {
