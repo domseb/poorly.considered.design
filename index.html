@@ -4,63 +4,24 @@ theme: test
 ---
 
 <div class="impact">
-  <div>
-    <h1>The Lifelong Creative Practice.</h1>
+  <div class="center">
+    <h5>The</h5>
+    <h1>Neverending Practice.</h1>
+    <p class="hero">Dominic Sebastian, a designer by profession, finds himself obsessively thinking about how to practice more considered design. Even as he makes progress, the work never stops, and he faces new challenges in finding creative fulfillment.</p>
     <p class="byline">
-      Blurb. You’re a curious fellow. Get your expecting a bit of a yarn. This
-      site is genuinely held together with spit, but each version I manage to
-      improve on Currently Head of Design for Qwilr, based in Sydney. I’ve also
-      started setting goals for a more fulfilling creative life. Currently Head
-      of Design for Qwilr, based in Sydney. I’ve also started setting goals for
-      a more fulfilling creative life. Currently Head of Design for Qwilr, based
-      in Sydney. Blurb. You’re a curious fellow. Get your expecting a bit of a
-      yarn. This site is genuinely held together with spit, but each version I
-      manage to improve on Currently Head of Design for Qwilr, based in Sydney.
-      I’ve also started setting goals for a more fulfilling creative life.
-      Currently Head of Design for Qwilr, based in Sydney. I’ve also started
-      setting goals for a more fulfilling creative life. Currently Head of
-      Design for Qwilr, based in Sydney.
+      <span>presented by</span> considered design <span>created by</span>  dominic sebastian  <span>written for</span> curious and lovely humans like you <span>edited by</span> james shakespeare <span>and</span> max wozniak <span>with support from</span> serafin danessa <span>and</span> dylan baskind <span>fonts created by</span> oh no type foundry <span>built with</span>  jekyll <span>using</span> vscode <span>published on</span> github pages <span>designed with</span> figma <span>site based on</span> The film constantly running in my head <span>dir. of photography</span> Dominic sebastian  <span>with contributions from</span> max wozniak  <span>for anyone</span> still reading this <span>you are an</span>  impressively dedicated human <span>so</span> thank you <span>and I hope you</span> enjoy this little project
     </p>
   </div>
 </div>
-<section>
-  <div class="split space-reset">
-    <h2>Manifesto for a fulfilling 2021.</h2>
-    <p>
-      2020 has been a complete shit show, for all the obvious reasons and a few
-      very personal ones. Next year I want to be better, and put all of this
-      behind me with progress.
-    </p>
-  </div>
-</section>
-<section class="chapters">
-  <h1>Chapters.</h1>
-  <div class="posters">
-    <img src="/assets/projects/poster-test.jpg" />
-    <img src="/assets/projects/poster-test.jpg" />
-    <img src="/assets/projects/poster-test.jpg" />
-  </div>
-</section>
-<section>
-  <div class="aside space-reset">
-  <h2>Less mindless screens, more learning to see.</h2>
-    <p>★★★</br>"He needs to use less commas and more clarity"</p>
-  </div>
-  <div>
-    <h5 class="label">Recent posts</h5>
-    <hr />
-  </div>
-  <div class="tiles space-reset">
-    {% for post in site.posts | limit: 3 %}
-    <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
-    {% endfor %}
-  </div>
-  <hr />
-</section>
+<div class="band space-reset">
+  <h2><span class="regular">№ 1 </span>Learning to see</h2>
+  <h2><span class="regular">№ 2 </span>Thinking with clarity</h2>
+  <h2><span class="regular">№ 3 </span>Creating value</h2>
+</div>
 <section>
   <div class="photo-grid">
     <div class="grid-text">
-      <h2>Learning to see.</h2>
+      <h2><span class="regular">№ 1 </span>Learning to see.</h2>
       <p>
         2020 has been a complete shit show, for all the obvious reasons and a
         few very personal ones. Next year I want to be better, and put all of
@@ -81,7 +42,43 @@ theme: test
     ></div>
   </div>
 </section>
-<div style="position: relative">
+<section>
+  <div class="aside space-reset">
+  <h2><span class="regular">№ 2 </span>Thinking with clarity</h2>
+    <p>★★★</br>"He needs to use less commas and more clarity"</p>
+  </div>
+  <div>
+    <h5 class="label">Recent posts</h5>
+    <hr />
+  </div>
+  <div class="tiles space-reset">
+    {% for post in site.posts | limit: 3 %}
+    <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
+    {% endfor %}
+  </div>
+  <hr />
+</section>
+<section>
+  <div class="split space-reset">
+    <h2><span class="regular">№ 3 </span>Creating value</h2>
+    <p>
+      2020 has been a complete shit show, for all the obvious reasons and a few
+      very personal ones. Next year I want to be better, and put all of this
+      behind me with progress.
+    </p>
+  </div>
+</section>
+<section class="chapters">
+  <h1>Chapters.</h1>
+  <div class="posters">
+    <img src="/assets/projects/poster-test.jpg" />
+    <img src="/assets/projects/poster-test.jpg" />
+    <img src="/assets/projects/poster-test.jpg" />
+  </div>
+</section>
+
+
+<!-- <div style="position: relative">
   <div class="dom-face"></div>
   <div class="photo-bomb">
     <div class="split space-reset">
@@ -96,4 +93,4 @@ theme: test
       <img src="/assets/site/dom-profile.jpg" />
     </div>
   </div>
-</div>
+</div> -->

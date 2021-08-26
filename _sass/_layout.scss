@@ -189,7 +189,8 @@ hr {
 
 .impact {
   display: grid;
-  height: calc(100vh - var(--spacer-large));
+  // height: calc(100vh - var(--spacer-large));
+  height: 100vh;
   place-items: center;
   background: var(--background);
 
@@ -198,6 +199,11 @@ hr {
     text-transform: uppercase;
     font-feature-settings: normal;
     line-height: 1.2;
+    color: var(--accent);
+
+    span {
+      font-size: 50%;
+    }
   }
 
   > div {
@@ -208,13 +214,30 @@ hr {
   p {
     min-height: 0vw;
     @include font-size(1, 1.1);
-    color: var(--dark);
+    color:rgba(255,255,255,.75);
+
+  }
+  .hero {
+    width: 500px;
   }
 
   h5 {
     color: var(--darkest);
     font-family: "Degular Bold";
   }
+
+  .center {
+    text-align: center;
+  }
+}
+
+.band {
+  background: var(--dark);
+  display: grid;
+  place-content: center;
+  padding: 80px;
+
+  h1,h2,h3,h4,h5,h6,p,a { color:white; }
 }
 
 .photo-grid {
