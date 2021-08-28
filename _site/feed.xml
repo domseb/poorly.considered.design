@@ -4,11 +4,11 @@
     <title>Considered Design</title>
     <description>I like solving interesting problems, for things that matter. Product designer. London, Rio, now Sydney.
 </description>
-    <link>http://poorly.considered.design/</link>
-    <atom:link href="http://poorly.considered.design/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 16 Jul 2021 06:42:57 +1000</pubDate>
-    <lastBuildDate>Fri, 16 Jul 2021 06:42:57 +1000</lastBuildDate>
-    <generator>Jekyll v4.2.0</generator>
+    <link>http://localhost:4000/</link>
+    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Sat, 28 Aug 2021 13:26:55 +1000</pubDate>
+    <lastBuildDate>Sat, 28 Aug 2021 13:26:55 +1000</lastBuildDate>
+    <generator>Jekyll v3.7.3</generator>
     
       <item>
         <title>The rhythm of our weeks</title>
@@ -103,8 +103,8 @@
 &lt;p&gt;What I’ve been trying to “maximise” in my life has changed a lot over the years, especially since becoming a parent. The joy is being comfortable with that change, and re-scaffolding my week to support it. For now though, my white noise work week has faded. My weeks have their rhythm back, and I have a process to keep that on course.&lt;/p&gt;
 </description>
         <pubDate>Sun, 11 Oct 2020 00:00:00 +1100</pubDate>
-        <link>http://poorly.considered.design/rhythm-of-our-weeks/</link>
-        <guid isPermaLink="true">http://poorly.considered.design/rhythm-of-our-weeks/</guid>
+        <link>http://localhost:4000/rhythm-of-our-weeks/</link>
+        <guid isPermaLink="true">http://localhost:4000/rhythm-of-our-weeks/</guid>
         
         
       </item>
@@ -126,8 +126,8 @@
 &lt;p&gt;I enjoy writing, so much more than I’ll ever enjoy running, so I’m wary of putting too much structure around it as a habit. Thinking of it like exercise though is the perfect way to quiet the thinking that every post has to attempt to break some personal PB, or be the best exercise I can get. Sometimes a brisk morning 5k is just enough to feel content.&lt;/p&gt;
 </description>
         <pubDate>Thu, 06 Aug 2020 00:00:00 +1000</pubDate>
-        <link>http://poorly.considered.design/necessary-exercise-in-writing/</link>
-        <guid isPermaLink="true">http://poorly.considered.design/necessary-exercise-in-writing/</guid>
+        <link>http://localhost:4000/necessary-exercise-in-writing/</link>
+        <guid isPermaLink="true">http://localhost:4000/necessary-exercise-in-writing/</guid>
         
         
       </item>
@@ -184,8 +184,8 @@
 &lt;p&gt;Having this kind of memory assistant to keep me connected to people I care about would also help me with the emotional labour staying connected can sometimes feel like, especially in times like this. Whilst I wait for technology to magically solve this for me, there are some blunter ways I might be able to fold this into individual practice. I could set a weekly reminder to go through images I’ve taken each week, to tag people and the missing context just outside of the frame. Create a location based shortcut to intentionally select highlights on my commute (whenever that’s a thing again). Share more moments in posts like these. Maybe private blog posts just for closest friends. This all might prove to be more work than it’s worth. For now at least, I have Mia’s Moments.&lt;/p&gt;
 </description>
         <pubDate>Sat, 25 Apr 2020 00:00:00 +1000</pubDate>
-        <link>http://poorly.considered.design/shot-on-iphone/</link>
-        <guid isPermaLink="true">http://poorly.considered.design/shot-on-iphone/</guid>
+        <link>http://localhost:4000/shot-on-iphone/</link>
+        <guid isPermaLink="true">http://localhost:4000/shot-on-iphone/</guid>
         
         
       </item>
@@ -227,7 +227,7 @@
   
 &lt;/figure&gt;
 
-&lt;p&gt;To set my slack status was a little more complicated (for some reason I couldn’t get it to work through the same url schemes as above), but found &lt;a href=&quot;https://routinehub.co/shortcut/2443&quot;&gt;this Shortcut from Jake Bathman really useful&lt;/a&gt; (he also has an &lt;a href=&quot;https://medium.com/@jakebathman/setting-up-a-slack-app-for-use-with-ios-shortcuts-e8e16b15d0f3&quot;&gt;accompanying post here too&lt;/a&gt;). His Shortcut let’s you put in a custom text status each time, but as I just wanted to set a specific one each time, I cut a few of the steps out, and now mine looks like this, with a step above this which uses text to set my &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;SlackOAuthToken&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;To set my slack status was a little more complicated (for some reason I couldn’t get it to work through the same url schemes as above), but found &lt;a href=&quot;https://routinehub.co/shortcut/2443&quot;&gt;this Shortcut from Jake Bathman really useful&lt;/a&gt; (he also has an &lt;a href=&quot;https://medium.com/@jakebathman/setting-up-a-slack-app-for-use-with-ios-shortcuts-e8e16b15d0f3&quot;&gt;accompanying post here too&lt;/a&gt;). His Shortcut let’s you put in a custom text status each time, but as I just wanted to set a specific one each time, I cut a few of the steps out, and now mine looks like this, with a step above this which uses text to set my &lt;code class=&quot;highlighter-rouge&quot;&gt;SlackOAuthToken&lt;/code&gt;.&lt;/p&gt;
 
 &lt;figure class=&quot;image-trio&quot;&gt;
   &lt;div class=&quot;items&quot;&gt;
@@ -289,8 +289,8 @@
 &lt;p&gt;There’s a few other Shortcuts I’m playing with at the moment, but haven’t got quite right yet. All solving the big problems in life — fade out the nursery light and fade in white noise, triggering the office logo to do a rainbow loop on a launch — but I’ll keep tinkering and share them when they’re done. If you’re interested in creating your own, the best places I found were the &lt;a href=&quot;https://www.reddit.com/r/shortcuts/&quot;&gt;Shortcuts subreddit&lt;/a&gt;, and this &lt;a href=&quot;https://shortcutsgallery.com&quot;&gt;Shortcuts Gallery&lt;/a&gt;. Both buzzing with hobbyist creators, and also very eager to answer questions — enjoy 🙂.&lt;/p&gt;
 </description>
         <pubDate>Thu, 09 Jan 2020 00:00:00 +1100</pubDate>
-        <link>http://poorly.considered.design/shortcuts-for-automated-bliss/</link>
-        <guid isPermaLink="true">http://poorly.considered.design/shortcuts-for-automated-bliss/</guid>
+        <link>http://localhost:4000/shortcuts-for-automated-bliss/</link>
+        <guid isPermaLink="true">http://localhost:4000/shortcuts-for-automated-bliss/</guid>
         
         
       </item>
@@ -443,8 +443,8 @@
 &lt;p&gt;Something I won’t ever get tired of saying is how great our users are. Personally, I want to say a huge, huge thank you to everyone that has helped and continues to help us beta test not just custom styles but all our features. Taking the time and risk of using something new on your live projects, whilst being open and transparent about what’s not working and what could be improved is exactly what guides us in delivering the best solutions we can. Thank you.&lt;/p&gt;
 </description>
         <pubDate>Fri, 19 Jan 2018 00:00:00 +1100</pubDate>
-        <link>http://poorly.considered.design/quest-for-undeniable-bestness/</link>
-        <guid isPermaLink="true">http://poorly.considered.design/quest-for-undeniable-bestness/</guid>
+        <link>http://localhost:4000/quest-for-undeniable-bestness/</link>
+        <guid isPermaLink="true">http://localhost:4000/quest-for-undeniable-bestness/</guid>
         
         
       </item>
@@ -539,8 +539,8 @@
 &lt;p&gt;Qwilr lets you create business documents as beautiful, mobile friendly websites, that are quick to create and impressive to receive. To find out more check out our website, and if you want to &lt;a href=&quot;https://qwilr.com/&quot;&gt;try Qwilr yourself&lt;/a&gt;, you can &lt;a href=&quot;https://qwilr.com/signup&quot;&gt;signup here&lt;/a&gt;.&lt;/p&gt;
 </description>
         <pubDate>Thu, 14 Sep 2017 00:00:00 +1000</pubDate>
-        <link>http://poorly.considered.design/introducing-image-carousel/</link>
-        <guid isPermaLink="true">http://poorly.considered.design/introducing-image-carousel/</guid>
+        <link>http://localhost:4000/introducing-image-carousel/</link>
+        <guid isPermaLink="true">http://localhost:4000/introducing-image-carousel/</guid>
         
         
       </item>
@@ -626,8 +626,8 @@
 &lt;/ol&gt;
 </description>
         <pubDate>Thu, 05 Jan 2017 00:00:00 +1100</pubDate>
-        <link>http://poorly.considered.design/2016-review/</link>
-        <guid isPermaLink="true">http://poorly.considered.design/2016-review/</guid>
+        <link>http://localhost:4000/2016-review/</link>
+        <guid isPermaLink="true">http://localhost:4000/2016-review/</guid>
         
         <category>review</category>
         
@@ -661,8 +661,8 @@
 &lt;p&gt;Peace.&lt;/p&gt;
 </description>
         <pubDate>Tue, 18 Oct 2016 00:00:00 +1100</pubDate>
-        <link>http://poorly.considered.design/purging-my-pocket/</link>
-        <guid isPermaLink="true">http://poorly.considered.design/purging-my-pocket/</guid>
+        <link>http://localhost:4000/purging-my-pocket/</link>
+        <guid isPermaLink="true">http://localhost:4000/purging-my-pocket/</guid>
         
         <category>thoughts</category>
         
@@ -747,8 +747,8 @@
 &lt;p&gt;&lt;em&gt;This post originally appeared on the &lt;a href=&quot;https://www.smartsparrow.com/2016/03/01/personlisation-starts-with-empathy/&quot;&gt;Smart Sparrow blog&lt;/a&gt; on March 6th, 2016.&lt;/em&gt;&lt;/p&gt;
 </description>
         <pubDate>Thu, 29 Oct 2015 16:34:51 +1100</pubDate>
-        <link>http://poorly.considered.design/start-with-empathy/</link>
-        <guid isPermaLink="true">http://poorly.considered.design/start-with-empathy/</guid>
+        <link>http://localhost:4000/start-with-empathy/</link>
+        <guid isPermaLink="true">http://localhost:4000/start-with-empathy/</guid>
         
         <category>process</category>
         
@@ -827,8 +827,8 @@
 &lt;/ol&gt;
 </description>
         <pubDate>Sat, 03 Jan 2015 00:00:00 +1100</pubDate>
-        <link>http://poorly.considered.design/2015-review/</link>
-        <guid isPermaLink="true">http://poorly.considered.design/2015-review/</guid>
+        <link>http://localhost:4000/2015-review/</link>
+        <guid isPermaLink="true">http://localhost:4000/2015-review/</guid>
         
         <category>review</category>
         

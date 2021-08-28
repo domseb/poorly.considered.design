@@ -73,7 +73,8 @@ section {
 .credits {
   width: clamp(150px, 85vw, 650px);
   display: grid;
-  grid-template-columns: minmax(25px, 50px) auto auto;
+  grid-template-columns: 60px auto auto;
+  // grid-template-columns: minmax(25px, 50px) auto auto;
   align-items: center;
   gap: var(--spacer);
 
@@ -191,7 +192,8 @@ hr {
 .impact {
   display: grid;
   height: 100vh;
-  padding-left: 5vw;
+  place-items: center;
+  // padding-left: 5vw;
   background: var(--background);
 
   .byline {
@@ -203,6 +205,9 @@ hr {
     line-height: 1.2;
     @include margin(2, 2);
     width: 80%;
+    span {
+      font-size: 50%;
+    }
   }
   // This has to be a div, otherwise the background colour won't fill it
   > div {
@@ -220,6 +225,28 @@ hr {
     color: var(--darkest);
     font-family: "Degular Bold";
   }
+}
+
+.band {
+  background: var(--dark);
+  display: grid;
+  place-content: center;
+  padding: 80px;
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  p,
+  a {
+    color: white;
+  }
+}
+
+.center {
+  text-align: center;
 }
 
 .impact-4 {
@@ -331,27 +358,6 @@ hr {
     grid-row: 3 / span 2;
   }
 }
-
-// Needs a minimum height in px to avoid clipping. Maybe a max too?
-// .dom-face {
-//   background-image: url(/assets/site/dom-profile.jpg);
-//   filter: blur(60px);
-//   // -webkit-filter: blur(8px);
-//   background-position: center;
-//   background-repeat: no-repeat;
-//   background-size: cover;
-//   height: 50vh;
-// }
-
-// .photo-bomb {
-//   display: grid;
-//   width: clamp(500px, 80vw, 1200px);
-//   position: absolute;
-//   top: 50%;
-//   left: 50%;
-//   transform: translate(-50%, -50%);
-//   z-index: 2;
-// }
 
 //TODO
 

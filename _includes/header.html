@@ -3,10 +3,10 @@
     <p {% if page.url == '/' %} class="active"{% endif %}>
       <a class="fade-in-up-1" href="{{ site.baseurl }}/">Considered Design</a>
     </p>
-    <p {% if page.url contains '/chapters/' %} class="active-b"{% endif %}>
+    <p {% if page.url == '/chapters/' %} class="active-b"{% endif %}>
       <a class="fade-in-up-1" href="/chapters/">Chapters</a>
     </p>
-    <p {% if page.url contains '/blog/' %} class="active-c"{% endif %}>
+    <p {% if page.url == '/blog/' %} class="active-c"{% endif %}>
       <a class="fade-in-up-2" href="/blog/">Thoughts</a>
     </p>
   </div>
