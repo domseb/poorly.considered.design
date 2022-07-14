@@ -157,8 +157,8 @@ h6 {
 p {
   font-family: "Degular Light";
   @include font-size(1, 1.2);
-  color: var(--slate);
   @include margin(0, 1);
+  opacity: 0.5;
 }
 
 .light {
@@ -198,6 +198,7 @@ article {
 
   p {
     @include margin(0, 1);
+    color: var(--slate);
   }
 }
 
