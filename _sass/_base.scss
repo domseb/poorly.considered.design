@@ -171,6 +171,36 @@ p {
   font-family: "Degular Bold" !important;
 }
 
+article {
+  h1 {
+    @include margin(3, 1);
+  }
+
+  h2 {
+    @include margin(3, 1);
+  }
+
+  h3 {
+    @include font-size(2, 2.5);
+  }
+
+  h4 {
+    @include margin(1, 0);
+  }
+
+  h5 {
+    @include margin(1, 0.5);
+  }
+
+  h6 {
+    @include margin(1, 0);
+  }
+
+  p {
+    @include margin(0, 1);
+  }
+}
+
 .impact {
   @include font-size(5, 20);
   line-height: 0.8;
