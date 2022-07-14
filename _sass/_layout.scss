@@ -1,11 +1,13 @@
 // HEROS
 // LAYOUTS
 
+// TODO should this be root instead?
+
 body {
   // Colour variables
   --lightness: 25%;
   --opacity: 1;
-  --background: hsl(var(--hue), 100%, 25%);
+  --colour-base: hsl(var(--hue), 100%, 25%);
   --dark: hsl(var(--hue), 100%, 15%);
   --darkest: hsl(var(--hue), 100%, 5%);
   --accent: hsl(var(--hue, 260), 100%, 65%);
@@ -29,6 +31,10 @@ body {
 }
 .test {
   --hue: 235;
+  --colour-text: white;
+  background-image: url('/assets/site/noise.png');
+  background-color: var(--colour-base);
+  color: var(--colour-text);
 }
 .jub {
   --hue: 100;
@@ -37,7 +43,7 @@ body {
   --hue: 340;
 }
 .onyx {
-  --background: var(--onyx);
+  --colour-base: var(--onyx);
   img {
     width: clamp(350px, 50vw, 1000px);
   }
@@ -63,11 +69,18 @@ section {
   display: grid;
   width: clamp(150px, 85vw, 1200px);
   //Make margin a ratio of the space add as a clamp property
-  margin: 20vh auto;
+  margin: 0 auto;
+  padding: 10vh 0;
 
   p {
     @include font-size(1, 1.5);
   }
+
+
+}
+
+.banner {
+  background-color: var(--dark);
 }
 
 .credits {
@@ -101,6 +114,44 @@ hr {
   @include font-size(5, 25);
   color: var(--smoke);
   margin-bottom: -1em !important;
+}
+
+.domtest {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+}
+
+.domtest2 {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 20px;
+}
+
+.domtest3 {
+
+    // display: flex;
+  li {
+    border-bottom: 1px solid var(--dark);
+    list-style-type: none;
+
+    h3 {
+      padding-top: var(--spacer);
+      padding-bottom: var(--spacer);
+
+      span {
+        font-family: Obviously;
+        font-size: 32px;
+        position: relative;
+        top: -16px;
+        margin-left: 10px;
+      }
+    }
+  }
+
+  li:last-child {
+    border-bottom: none;
+  }
 }
 
 .space-reset {
@@ -173,191 +224,7 @@ hr {
     }
   }
 }
-.chapters {
-  position: relative;
-  h1 {
-    @include font-size(5, 15);
-    @include margin(0, 0);
-    position: absolute;
-    transform: translate(-50%, -70%);
-    top: 50%;
-    color: white;
-    left: 50%;
-    z-index: 99;
-  }
-}
 
-// CUSTOM LAYOUTS
-
-.impact {
-  display: grid;
-  height: 100vh;
-  place-items: center;
-  // padding-left: 5vw;
-  background: var(--background);
-
-  .byline {
-    font-family: "Obviously";
-    @include font-size(0.5, 1.2);
-    text-transform: uppercase;
-    font-feature-settings: normal;
-    color: var(--darkest);
-    line-height: 1.2;
-    @include margin(2, 2);
-    width: 80%;
-    span {
-      font-size: 50%;
-    }
-  }
-  // This has to be a div, otherwise the background colour won't fill it
-  > div {
-    width: 90vw;
-    align-self: end;
-    // margin: 300px auto;
-  }
-  p {
-    min-height: 0vw;
-    @include font-size(1, 1.1);
-    color: var(--dark);
-  }
-
-  h5 {
-    color: var(--darkest);
-    font-family: "Degular Bold";
-  }
-}
-
-.band {
-  background: var(--dark);
-  display: grid;
-  place-content: center;
-  padding: 80px;
-
-  h1,
-  h2,
-  h3,
-  h4,
-  h5,
-  h6,
-  p,
-  a {
-    color: white;
-  }
-}
-
-.center {
-  text-align: center;
-}
-
-.impact-4 {
-  display: grid;
-  // height: 100vh;
-  padding-top: 40vh;
-  padding-left: 5vw;
-  background: var(--background);
-
-  .byline {
-    font-family: "Obviously";
-    @include font-size(0.5, 1.2);
-    text-transform: uppercase;
-    font-feature-settings: normal;
-    color: var(--darkest);
-    line-height: 1.2;
-    @include margin(2, 2);
-    width: 80%;
-  }
-  // This has to be a div, otherwise the background colour won't fill it
-  > div {
-    width: 90vw;
-    align-self: end;
-    // margin: 300px auto;
-  }
-  p {
-    min-height: 0vw;
-    @include font-size(1, 1.1);
-    color: var(--dark);
-  }
-
-  h5 {
-    color: var(--darkest);
-    font-family: "Degular Bold";
-  }
-}
-
-.impact-2 {
-  display: grid;
-  height: 85vh;
-  place-items: center;
-  background: var(--background);
-  width: 90vw;
-  margin-left: 5vw;
-  align-content: end;
-}
-
-.impact-3 {
-  display: grid;
-  height: 100vh;
-  place-items: center;
-  background: var(--background);
-  width: 100vw;
-}
-
-.nostalgia {
-  display: grid;
-  // height: 85vh;
-  place-items: center;
-
-  > div {
-    position: relative;
-    width: clamp(150px, 85vw, 1500px);
-    margin-top: 20vh;
-    // margin: 300px auto;
-  }
-  h1 {
-    @include margin(0, 0);
-    position: absolute;
-    transform: translate(-50%, -60%);
-    top: 50%;
-    color: white;
-    left: 50%;
-    z-index: 99;
-    line-height: 0.85;
-    text-align: center;
-  }
-}
-
-.photo-grid {
-  display: grid;
-  column-gap: var(--spacer-medium);
-  grid-template-columns: repeat(6, 1fr);
-  // grid-template-rows: repeat(9, 3vw);
-  grid-template-rows: auto minmax(200px, 300px) 3vw 3vw;
-  row-gap: var(--spacer);
-
-  .grid-text {
-    grid-column: 1 / span 3;
-  }
-
-  > div {
-    background-repeat: no-repeat;
-    background-size: cover;
-    box-shadow: 0px 0px 0px 10px white;
-    border-radius: var(--spacer-small);
-  }
-
-  .portrait {
-    grid-column: 4 / span 3;
-    grid-row: 1 / span 3;
-  }
-  .landscape {
-    grid-column: 1 / span 4;
-    grid-row: 2 / span 2;
-  }
-  .thumbnail {
-    grid-column: 1 / span 1;
-    grid-row: 3 / span 2;
-  }
-}
 
 //TODO
 
