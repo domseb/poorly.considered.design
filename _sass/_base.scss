@@ -104,6 +104,7 @@ h1 {
   color: var(--text-headline);
   line-height: 1;
   min-height: 0vw;
+  letter-spacing: -1px;
   @include font-size(5, 15);
   // @include margin(3, 1);
 }
@@ -112,13 +113,13 @@ h2 {
   @include font-size(3, 5);
   min-height: 0vw;
   line-height: 1;
-  letter-spacing: -2px;
+  letter-spacing: -1px;
   // @include margin(3, 1);
 }
 
 h3 {
   // font-size: 46px;
-  @include font-size(2, 2.5);
+  @include font-size(1.5, 2.5);
   line-height: 1.2;
   // @include margin(2, 0.75);
 }

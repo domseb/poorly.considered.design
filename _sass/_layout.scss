@@ -66,11 +66,22 @@ article {
 }
 
 section {
-  display: grid;
+  // display: grid;
   width: clamp(150px, 85vw, 1200px);
   //Make margin a ratio of the space add as a clamp property
   margin: 0 auto;
   padding: 10vh 0;
+}
+
+.sectiontest {
+  // display: grid;
+  display: grid;
+  grid-template-columns: 2fr 2fr;
+  width: clamp(150px, 85vw, 1200px);
+  //Make margin a ratio of the space add as a clamp property
+  margin: 0 auto;
+  align-items: center;
+  gap: 150px;
 }
 
 .banner {
@@ -78,13 +89,55 @@ section {
 }
 
 .hero {
-  grid-template-columns: 8fr 4fr;
-  gap: 20px;
-  align-items: end;
+  display: flex;
+  flex-wrap: wrap;
+  height: 80vh;
+  align-content: flex-end;
+  // grid-template-columns: 8fr 4fr;
+  // gap: 20px;
+  // align-items: end;
+
+  div:first-of-type {
+    flex: 2;
+    min-width: 400px;
+    max-width: 100%;
+  }
+
+  div:nth-of-type(2) {
+    flex: 1;
+    min-width: 200px;
+    max-width: 100%;
+  }
+}
+
+.heroflex {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 32px;
+  max-width: 1400px;
+  margin: 32px auto;
+  padding: 0 16px;
+
+  div:first-of-type {
+    background-color: #eee;
+    padding: 16px;
+    flex-grow: 2;
+    min-width: 400px;
+    max-width: 100%;
+  }
+
+  div:nth-of-type(2) {
+    background-color: #eee;
+    padding: 16px;
+    flex-grow: 1;
+    min-width: 200px;
+    max-width: 100%;
+  }
 }
 
 .callout {
   border: 1px solid var(--accent);
+  padding: 20px;
 }
 
 .grid {
@@ -93,15 +146,16 @@ section {
 }
 
 .flex {
-/*   display: inline-flex;
+  /*   display: inline-flex;
   height: 100vh;
   width: 50%; */
   background: red;
 }
 .flexy {
   height: 100vh;
-  background: #00064C;
+  background: #00064c;
   position: relative;
+  width: 130%;
 }
 
 .face {
@@ -136,7 +190,7 @@ section {
   position: absolute;
   bottom: 0;
   left: 0;
-  background-color: #00064C;
+  background-color: #00064c;
   z-index: 170;
 }
 
@@ -157,7 +211,7 @@ section {
   position: absolute;
   bottom: 0;
   left: 0;
-  background-color: #00064C;
+  background-color: #00064c;
   z-index: 150;
 }
 
@@ -178,7 +232,7 @@ section {
   position: absolute;
   bottom: 0;
   left: 0;
-  background-color: #00064C;
+  background-color: #00064c;
   z-index: 130;
 }
 
@@ -199,7 +253,7 @@ section {
   position: absolute;
   bottom: 0;
   left: 0;
-  background-color: #00064C;
+  background-color: #00064c;
   z-index: 110;
 }
 
