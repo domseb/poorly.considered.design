@@ -77,6 +77,16 @@ section {
   background-color: var(--dark);
 }
 
+.hero {
+  grid-template-columns: 8fr 4fr;
+  gap: 20px;
+  align-items: end;
+}
+
+.callout {
+  border: 1px solid var(--accent);
+}
+
 .grid {
   display: grid;
   grid-template-columns: 2fr 1fr;
