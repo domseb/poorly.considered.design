@@ -12,6 +12,12 @@ nav {
   justify-content: space-between;
   align-items: center;
 
+  @media (max-width: 750px) {
+    .cta {
+      display: none;
+    }
+  }
+
   img {
     margin: 0 !important;
   }
@@ -117,13 +123,12 @@ nav {
   width: 100vw;
 
   > div {
-
     display: grid;
     width: clamp(150px, 85vw, 1200px);
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     // width: 100vw;
     margin: 0 auto;
-  
+
     // background: var(--accent);
     justify-content: space-between;
     align-items: center;

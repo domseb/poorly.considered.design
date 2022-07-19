@@ -82,10 +82,11 @@ body {
   -ms-font-feature-settings: "lnum", "ss03" 1, "ss01" 1, "ss05" 1;
   -webkit-font-feature-settings: "lnum", "ss03" 1, "ss01" 1, "ss05" 1;
   -o-font-feature-settings: "lnum", "ss03" 1, "ss01" 1, "ss05" 1;
-  font-weight: 300;
+  // font-weight: 300;
   // background-color: var(--colour-base);
   -webkit-text-size-adjust: 100%;
   -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
   hanging-punctuation: first;
 }
 
@@ -111,7 +112,7 @@ h1 {
   min-height: 0vw;
   letter-spacing: -1px;
   // @include font-size(5, 15);
-  font-size: clamp(100px, 8vw, 190px);
+  font-size: clamp(100px, 12vw, 190px);
   // @include margin(3, 1);
 }
 
@@ -299,13 +300,13 @@ li {
 /**
  * Headings
  */
-h1,
-h3,
-h4,
-h5,
-h6 {
-  font-weight: 400;
-}
+// h1,
+// h3,
+// h4,
+// h5,
+// h6 {
+//   font-weight: 400;
+// }
 
 /**
  * Links
@@ -375,7 +376,7 @@ pre {
   background-color: var(--accent);
   text-align: center;
   // font-size: $base-font-size + px;
-  font-size: 22px; 
+  font-size: 22px;
   padding: 5px 20px 10px;
   margin: 0px;
   font-family: "Obviously Semi";
