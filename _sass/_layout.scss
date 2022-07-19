@@ -116,8 +116,8 @@ section {
     min-width: 300px;
     max-width: 100%;
     p {
-      width: clamp(150px, 75%, 600px);
-      opacity: 0.65;
+      width: clamp(40ch, 85%, 50ch);
+      // opacity: 0.65;
     }
   }
 
@@ -126,7 +126,6 @@ section {
     min-width: 200px;
     max-width: 100%;
   }
-
 }
 
 .callout {
