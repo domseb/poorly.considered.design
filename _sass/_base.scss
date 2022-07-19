@@ -112,8 +112,9 @@ h1 {
   min-height: 0vw;
   letter-spacing: -1px;
   // @include font-size(5, 15);
-  font-size: clamp(100px, 12vw, 190px);
+  font-size: clamp(90px, 12vw, 190px);
   // @include margin(3, 1);
+  margin-bottom: 50px;
 }
 
 h2 {
@@ -122,7 +123,7 @@ h2 {
   min-height: 0vw;
   line-height: 0.9;
   letter-spacing: -1px;
-  margin-bottom: 100px;
+  // margin-bottom: 100px;
   // @include margin(3, 1);
 }
 
