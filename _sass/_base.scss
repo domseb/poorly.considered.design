@@ -135,6 +135,7 @@ h3 {
   font-size: clamp(30px, 3vw, 50px);
   line-height: 1.2;
   margin-bottom: 10px;
+  font-weight: normal !important;
   // @include margin(2, 0.75);
 }
 
@@ -160,6 +161,8 @@ h5 {
   // @include font-size(1, 1.5);
   letter-spacing: 1px;
   line-height: 1;
+  font-weight: normal !important;
+
   // @include margin(1, 0.5);
   font-size: $base-font-size + px;
   font-family: "Degular Regular";
@@ -170,6 +173,8 @@ h6 {
   // font-size: 24px;
   @include font-size(1, 1.5);
   line-height: 1;
+  font-weight: normal !important;
+
   // @include margin(1, 0);
 }
 
