@@ -124,7 +124,7 @@ h2 {
   line-height: 0.9;
   letter-spacing: -1px;
   font-weight: normal !important;
-
+  width: clamp(16ch, 85%, 20ch);
   // margin-bottom: 100px;
   // @include margin(3, 1);
 }

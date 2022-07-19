@@ -117,7 +117,8 @@ h2 {
   min-height: 0vw;
   line-height: 0.9;
   letter-spacing: -1px;
-  font-weight: normal !important; }
+  font-weight: normal !important;
+  width: clamp(16ch, 85%, 20ch); }
 
 h3 {
   font-size: clamp(30px, 3vw, 50px);
