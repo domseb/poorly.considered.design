@@ -36,6 +36,11 @@ body {
   background-color: var(--colour-base);
   color: var(--colour-text);
 }
+.profile {
+  --hue: 235;
+  --colour-text: white;
+  color: var(--colour-text);
+}
 .jub {
   --hue: 100;
 }
@@ -88,11 +93,20 @@ section {
   background-color: var(--dark);
 }
 
+.writing-hero {
+  width: clamp(150px, 85vw, 1200px);
+  margin: 0 auto;
+  margin-top: 10vh;
+}
+
 .hero {
   display: flex;
   flex-wrap: wrap;
   height: 80vh;
   align-content: flex-end;
+  padding-top: 150px;
+  margin-top: -150px;
+  gap: 100px;
   // grid-template-columns: 8fr 4fr;
   // gap: 20px;
   // align-items: end;
@@ -103,33 +117,8 @@ section {
     max-width: 100%;
   }
 
-  div:nth-of-type(2) {
+  a {
     flex: 1;
-    min-width: 200px;
-    max-width: 100%;
-  }
-}
-
-.heroflex {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 32px;
-  max-width: 1400px;
-  margin: 32px auto;
-  padding: 0 16px;
-
-  div:first-of-type {
-    background-color: #eee;
-    padding: 16px;
-    flex-grow: 2;
-    min-width: 400px;
-    max-width: 100%;
-  }
-
-  div:nth-of-type(2) {
-    background-color: #eee;
-    padding: 16px;
-    flex-grow: 1;
     min-width: 200px;
     max-width: 100%;
   }
@@ -138,6 +127,15 @@ section {
 .callout {
   border: 1px solid var(--accent);
   padding: 20px;
+
+  h4 {
+    margin-bottom: 10px;
+    font-size: 22px;
+  }
+
+  p {
+    font-size: clamp(18px, 2vw, 22px);
+  }
 }
 
 .grid {
@@ -152,7 +150,7 @@ section {
   background: red;
 }
 .flexy {
-  height: 100vh;
+  height: 80vh;
   background: #00064c;
   position: relative;
   width: 130%;
