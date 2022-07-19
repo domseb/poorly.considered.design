@@ -17,15 +17,18 @@ collections:
   projects:
     output: true
     permalink: /projects/:path/
+  chapters:
+    output: true
+    permalink: /chapters/:path/
 
 gems:
   - jekyll-assets
   - octopress-autoprefixer
 
 navigation:
-  - title: work
-    url: /work/
-  - title: about
-    url: /about/
+  - title: chapters
+    url: /chapters/
+  - title: profile
+    url: /profile/
   - title: writing
     url: /writing/

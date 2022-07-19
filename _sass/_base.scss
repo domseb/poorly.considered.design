@@ -116,7 +116,8 @@ h1 {
 }
 
 h2 {
-  @include font-size(3, 5);
+  // @include font-size(3, 5);
+  font-size: clamp(55px, 6vw, 100px);
   min-height: 0vw;
   line-height: 0.9;
   letter-spacing: -1px;
@@ -178,7 +179,7 @@ p {
   font-family: "Degular Light";
   @include font-size(1, 1.2);
   // @include margin(0, 1);
-  opacity: 0.5;
+  // opacity: 0.5;
 }
 
 .light {

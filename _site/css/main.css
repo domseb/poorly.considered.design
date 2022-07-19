@@ -33,7 +33,7 @@ h1, h2, h3, h4, h5, h6 { color: var(--colour-text); font-family: "Degular Bold";
 
 h1 { color: var(--text-headline); line-height: 0.8; min-height: 0vw; letter-spacing: -1px; font-size: clamp(100px, 8vw, 190px); }
 
-h2 { font-size: clamp(60px, 6vw, 100px); min-height: 0vw; line-height: 0.9; letter-spacing: -1px; margin-bottom: 100px; }
+h2 { font-size: clamp(55px, 6vw, 100px); min-height: 0vw; line-height: 0.9; letter-spacing: -1px; margin-bottom: 100px; }
 
 h3 { font-size: clamp(30px, 3vw, 50px); line-height: 1.2; margin-bottom: 10px; }
 
@@ -45,7 +45,7 @@ h6 { color: var(--text-muted); font-size: clamp(20px, 2vw, 30px); line-height: 1
 
 .emdash::after { content: url("/assets/site/thin-stroke.svg"); display: inline-flex; margin-left: 10px; margin-bottom: 30px; vertical-align: middle; }
 
-p { font-family: "Degular Light"; font-size: clamp(20px, 2vw, 24px); opacity: 0.5; }
+p { font-family: "Degular Light"; font-size: clamp(20px, 2vw, 24px); }
 
 .light { font-family: "Degular Light" !important; }
 

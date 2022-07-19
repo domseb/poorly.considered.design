@@ -27,7 +27,7 @@ theme: test
 
 <section>
   <h4>Outcomes</h4>
-  <h2>I help differentiate companies through design.</h2>
+  <h2>I differentiate companies through design.</h2>
   <div class="domtest">
     <div>
       <img src="/assets/site/strat.png" />
@@ -63,24 +63,35 @@ theme: test
 </section>
 
 <section>
+  <h4>Vingettes</h4>
+  {% for project in site.projects %}
+  <a href="{{ project.url }}">
+    <img src="{{ project.image }}">
+    <div>
+      <div>
+        <h3>{{ project.year }}</h3>
+        <h3>{{ project.title }}</h3>
+      </div>
+      <div>
+        <h4>{{ project.tag1 }}</h4><h4>{{ project.tag2 }}</h4>
+        <button class="button">View project</button>
+      </div>
+    </div>
+  </a>
+  {% endfor %}
+</section>
+
+<section>
   <h4>Chapters</h4>
   <h2>Experienced in AR to SaaS, and seed to series C.</h2>
   <ul class="domtest3">
+    {% for chapter in site.chapters %}
     <li>
-      <a class="testest" href="google.com">
-        <h3>VP Design, Qwilr<span>2017 — 2022</span></h3>
+      <a class="testest" href="{{ chapter.url }}">
+        <h3>{{ chapter.title }}<span>{{ chapter.timeline }}</span></h3>
       </a>
     </li>
-    <li>
-      <a class="testest" href="google.com">
-        <h3>Head of Design, Smart Sparrow<span>2014 — 2017</span></h3>
-      </a>
-    </li>
-    <li>
-      <a class="testest" href="google.com">
-        <h3>Design Lead, Digicave<span>2011 — 2013</span></h3>
-      </a>
-    </li>
+    {% endfor %}
   </ul>
 </section>
 
