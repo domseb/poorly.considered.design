@@ -287,6 +287,21 @@ section {
   }
 }
 
+.tile {
+  padding-bottom: 20px;
+
+  &:hover {
+    background-color: var(--dark);
+    box-shadow: 0 0 0 15px var(--dark);
+    @include transition(all $default-transition);
+    border-radius: 4px;
+  }
+
+  h3 {
+    font-size: clamp(25px, 3vw, 35px);
+  }
+}
+
 .vingette {
   margin-bottom: 70px;
   padding-bottom: 20px;
@@ -295,6 +310,7 @@ section {
     background-color: var(--dark);
     box-shadow: 0 0 0 20px var(--dark);
     @include transition(all $default-transition);
+    border-radius: 4px;
   }
 
   img {
@@ -349,7 +365,7 @@ hr {
 .domtest2 {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
-  gap: 20px;
+  gap: 30px;
   margin-top: 100px;
 }
 

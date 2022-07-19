@@ -568,13 +568,24 @@ section {
   .credits h5:nth-child(3n + 0) {
     justify-self: end; }
 
+.tile {
+  padding-bottom: 20px; }
+  .tile:hover {
+    background-color: var(--dark);
+    box-shadow: 0 0 0 15px var(--dark);
+    transition: all 0.3s ease;
+    border-radius: 4px; }
+  .tile h3 {
+    font-size: clamp(25px, 3vw, 35px); }
+
 .vingette {
   margin-bottom: 70px;
   padding-bottom: 20px; }
   .vtest .vingette:hover {
     background-color: var(--dark);
     box-shadow: 0 0 0 20px var(--dark);
-    transition: all 0.3s ease; }
+    transition: all 0.3s ease;
+    border-radius: 4px; }
   .vingette img {
     -o-object-fit: cover;
        object-fit: cover;
@@ -617,7 +628,7 @@ hr {
 .domtest2 {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
-  gap: 20px;
+  gap: 30px;
   margin-top: 100px; }
 
 .domtest3 {
