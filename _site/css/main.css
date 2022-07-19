@@ -118,12 +118,11 @@ h2 {
   line-height: 0.9;
   letter-spacing: -1px;
   font-weight: normal !important;
-  width: clamp(16ch, 85%, 20ch); }
+  width: clamp(14ch, 85%, 20ch); }
 
 h3 {
   font-size: clamp(30px, 3vw, 50px);
-  line-height: 1.2;
-  margin-bottom: 10px;
+  line-height: 0.9;
   font-weight: normal !important; }
 
 h4 {
@@ -570,24 +569,30 @@ section {
     justify-self: end; }
 
 .vingette {
-  margin-bottom: 70px; }
+  margin-bottom: 70px;
+  padding-bottom: 20px; }
+  .vtest .vingette:hover {
+    background-color: var(--dark);
+    box-shadow: 0 0 0 20px var(--dark);
+    transition: all 0.3s ease; }
   .vingette img {
     -o-object-fit: cover;
        object-fit: cover;
     height: 60vh;
     width: 100%; }
-  .vingette > div:first-of-type {
-    justify-content: space-between;
+  .vingette div:first-of-type {
     display: flex;
-    align-items: center; }
-  .vingette > * div {
+    align-items: center;
+    justify-content: space-between; }
+  .vingette div > * {
     display: flex;
     align-items: center; }
   .vingette h3:first-of-type {
-    font-family: "Obviously";
+    font-family: "Obviously Semi";
     color: var(--accent);
     margin-right: 20px;
-    font-size: 60px; }
+    font-size: 60px;
+    margin-top: -10px; }
 
 hr {
   margin: 20px 0 20px 0;

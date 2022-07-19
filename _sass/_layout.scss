@@ -289,6 +289,13 @@ section {
 
 .vingette {
   margin-bottom: 70px;
+  padding-bottom: 20px;
+
+  .vtest &:hover {
+    background-color: var(--dark);
+    box-shadow: 0 0 0 20px var(--dark);
+    @include transition(all $default-transition);
+  }
 
   img {
     object-fit: cover;
@@ -296,21 +303,23 @@ section {
     width: 100%;
   }
 
-  > div:first-of-type {
+  div:first-of-type {
+    display: flex;
+    align-items: center;
     justify-content: space-between;
+  }
+
+  div > * {
     display: flex;
     align-items: center;
   }
 
-  > * div {
-    display: flex;
-    align-items: center;
-  }
   h3:first-of-type {
-    font-family: "Obviously";
+    font-family: "Obviously Semi";
     color: var(--accent);
     margin-right: 20px;
     font-size: 60px;
+    margin-top: -10px;
   }
 }
 

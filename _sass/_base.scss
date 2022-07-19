@@ -124,7 +124,7 @@ h2 {
   line-height: 0.9;
   letter-spacing: -1px;
   font-weight: normal !important;
-  width: clamp(16ch, 85%, 20ch);
+  width: clamp(14ch, 85%, 20ch);
   // margin-bottom: 100px;
   // @include margin(3, 1);
 }
@@ -133,8 +133,8 @@ h3 {
   // font-size: 46px;
   // @include font-size(1.5, 2.5);
   font-size: clamp(30px, 3vw, 50px);
-  line-height: 1.2;
-  margin-bottom: 10px;
+  line-height: 0.9;
+  // margin-bottom: 10px;
   font-weight: normal !important;
   // @include margin(2, 0.75);
 }

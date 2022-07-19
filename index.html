@@ -78,7 +78,7 @@ theme: test
 <section>
   <h4>Vingettes</h4>
   {% for project in site.projects %}
-  <a href="{{ project.url }}">
+  <a class="vtest" href="{{ project.url }}">
     <div class="vingette">
       <img src="{{ project.image }}" />
       <div>
@@ -86,7 +86,7 @@ theme: test
           <h3>{{ project.year }}</h3>
           <h3>{{ project.title }}</h3>
         </div>
-        <button class="button">View project</button>
+        {% include svg/arrow-right.svg %}
       </div>
     </div>
   </a>
