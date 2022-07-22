@@ -1,6 +1,6 @@
 ---
 layout: default
-theme: test
+theme: indigo
 ---
 
 <div class="banner">
@@ -68,7 +68,7 @@ theme: test
     {% for chapter in site.chapters %}
     <li>
       <a class="testest" href="{{ chapter.url }}">
-        <h3>{{ chapter.title }}<span>{{ chapter.timeline }}</span></h3>
+        <h3>{{ chapter.title }}<span class="{{ chapter.theme }}">{{ chapter.timeline }}</span></h3>
       </a>
     </li>
     {% endfor %}

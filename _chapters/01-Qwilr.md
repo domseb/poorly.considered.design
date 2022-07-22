@@ -3,6 +3,7 @@ layout: chapter
 chapter: three
 timeline: 2017 — 2022
 title: VP Design, Qwilr
+theme: work
 ---
 
 ### Collaborators

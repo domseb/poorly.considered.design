@@ -143,7 +143,7 @@ h4 {
   font-family: "Obviously Semi";
   text-transform: uppercase;
   letter-spacing: 1px;
-  color: var(--accent);
+  color: var(--colour-lighter);
   font-weight: normal !important;
 
   // font-size: 32px;
@@ -155,7 +155,7 @@ h4 {
 }
 
 h5 {
-  color: var(--dark);
+  color: var(--colour-darker);
   text-transform: uppercase;
   // font-size: 24px;
   // @include font-size(1, 1.5);
@@ -383,7 +383,7 @@ pre {
   display: inline-block;
 
   color: var(--colour-base);
-  background-color: var(--accent);
+  background-color: var(--colour-lighter);
   text-align: center;
   // font-size: $base-font-size + px;
   font-size: 22px;

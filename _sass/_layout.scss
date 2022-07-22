@@ -4,20 +4,21 @@
 // TODO should this be root instead?
 
 body {
-  // Colour variables
+  // General xolour variables
   --lightness: 25%;
   --opacity: 1;
   --colour-base: hsl(var(--hue), 100%, 25%);
-  --dark: hsl(var(--hue), 100%, 15%);
-  --darkest: hsl(var(--hue), 100%, 5%);
-  --accent: hsl(var(--hue, 260), 100%, 65%);
-  --accent-more: hsl(var(--hue), 100%, 75%);
+  --colour-darker: hsl(var(--hue), 100%, 15%);
+  --colour-darkest: hsl(var(--hue), 100%, 5%);
+  --colour-lighter: hsl(var(--hue, 260), 100%, 65%);
+  --colour-lightest: hsl(var(--hue), 100%, 75%);
+  // Specific color variables
   --text-headline: hsl(var(--hue), 0%, calc(var(--lightness) + 75%));
   --onyx: hsla(var(--hue, 0), 0%, 0%, var(--opacity));
   --slate: hsla(var(--hue, 0), 0%, 40%, var(--opacity));
   --smoke: hsla(var(--hue, 0), 0%, 80%, var(--opacity));
   --feather: hsla(var(--hue, 0), 0%, 90%, var(--opacity));
-  // spacing variables
+  // Spacing variables
   --spacer-small: 10px;
   --spacer: 20px;
   --spacer-medium: 40px;
@@ -28,31 +29,30 @@ body {
 
 .indigo {
   --hue: 235;
-}
-.test {
-  --hue: 235;
   --colour-text: white;
   background-image: url("/assets/site/noise.png");
   background-color: var(--colour-base);
   color: var(--colour-text);
 }
-.profile {
-  --hue: 235;
-  --colour-text: white;
-  color: var(--colour-text);
-}
+
 .jub {
   --hue: 100;
+  --colour-lighter: hsl(var(--hue, 260), 100%, 65%);
+  color: var(--colour-lighter);
 }
+
+.werks {
+  --hue: 250;
+  --colour-lighter: hsl(var(--hue, 260), 100%, 65%);
+  color: var(--colour-lighter);
+}
+
 .work {
   --hue: 340;
+  --colour-lighter: hsl(var(--hue, 260), 100%, 65%);
+  color: var(--colour-lighter);
 }
-.onyx {
-  --colour-base: var(--onyx);
-  img {
-    width: clamp(350px, 50vw, 1000px);
-  }
-}
+
 
 // CORE
 
@@ -90,7 +90,7 @@ section {
 }
 
 .banner {
-  background-color: var(--dark);
+  background-color: var(--colour-darker);
 }
 
 .writing-hero {
@@ -129,7 +129,7 @@ section {
 }
 
 .callout {
-  border: 1px solid var(--accent);
+  border: 1px solid var(--colour-lighter);
   padding: 20px;
 
   h4 {
@@ -291,8 +291,8 @@ section {
   padding-bottom: 20px;
 
   &:hover {
-    background-color: var(--dark);
-    box-shadow: 0 0 0 15px var(--dark);
+    background-color: var(--colour-darker);
+    box-shadow: 0 0 0 15px var(--colour-darker);
     @include transition(all $default-transition);
     border-radius: 4px;
   }
@@ -307,8 +307,8 @@ section {
   padding-bottom: 20px;
 
   .vtest &:hover {
-    background-color: var(--dark);
-    box-shadow: 0 0 0 20px var(--dark);
+    background-color: var(--colour-darker);
+    box-shadow: 0 0 0 20px var(--colour-darker);
     @include transition(all $default-transition);
     border-radius: 4px;
   }
@@ -332,17 +332,21 @@ section {
 
   h3:first-of-type {
     font-family: "Obviously Semi";
-    color: var(--accent);
+    color: var(--colour-lighter);
     margin-right: 20px;
     font-size: 60px;
     margin-top: -10px;
+  }
+
+  h3 {
+    font-size: clamp(25px, 3vw, 35px);
   }
 }
 
 hr {
   margin: 20px 0 20px 0;
   border: none;
-  border-top: 1px solid var(--dark, grey);
+  border-top: 1px solid var(--colour-darker, grey);
 }
 
 .nudge {
@@ -373,7 +377,7 @@ hr {
   margin-top: 100px;
   // display: flex;
   li {
-    border-bottom: 1px solid var(--dark);
+    border-bottom: 1px solid var(--colour-darker);
     list-style-type: none;
 
     h3 {
@@ -491,10 +495,10 @@ hr {
 
     .link {
       color: inherit;
-      border-bottom: 3px solid var(--accent);
+      border-bottom: 3px solid var(--colour-lighter);
       &:hover {
-        background-color: var(--accent);
-        color: var(--accent);
+        background-color: var(--colour-lighter);
+        color: var(--colour-lighter);
         // border-bottom: 3px solid rgba($primary, 0);
         @include transition(all $default-transition);
       }
@@ -503,7 +507,7 @@ hr {
 
   //TODO check if this should be H1 and ghosted
   .ordinal {
-    color: var(--accent);
+    color: var(--colour-lighter);
     height: 0px;
     transform: translate(-25vw, 5vw);
   }

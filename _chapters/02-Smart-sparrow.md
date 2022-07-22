@@ -3,6 +3,7 @@ layout: chapter
 chapter: three
 timeline: 2014 — 2017
 title: Head of Design, Smart Sparrow
+theme: werks
 ---
 
 ### Collaborators
