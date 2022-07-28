@@ -2,16 +2,26 @@
 layout: default
 ---
 
-<div class="writing-hero">
-  <!-- <div> -->
-    <h1>{{ page.title }}</h1>
-    <h5 class="label">
-      {{ page.date | date_to_string }} • {% assign words = page.content |
-      number_of_words %} {% if words < 360 %} 1 min read {% else %} {{ words |
-      divided_by:180 }} min read {% endif %}
-    </h5>
+<div class="banner">
+  <div class="header-chapter">
+    <h4>{{ page.timeframe }}</h4>
+    <h1>{{ page.role }}</h1>
     <hr />
-  <!-- </div> -->
+    <div class="domtest">
+      <div>
+        <h4>Test</h4>
+        <p>Dominic Sebastian, a designer by profession, finds himself obsessively thinking about how to practice more considered design.</p>
+      </div>
+      <div>
+        <h4>Test</h4>
+        <p>Dominic Sebastian, a designer by profession, finds himself obsessively thinking about how to practice more considered design.</p>
+      </div>
+      <div>
+        <h4>Test</h4>
+        <p>Dominic Sebastian, a designer by profession, finds himself obsessively thinking about how to practice more considered design.</p>
+      </div>
+    </div>
+  </div>
 </div>
 
 <article>{{ content }}</article>

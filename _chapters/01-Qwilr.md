@@ -1,9 +1,11 @@
 ---
 layout: chapter
 chapter: three
-timeline: 2017 — 2022
-title: VP Design, Qwilr
+timeframe: 2017 — 2022
+role: VP Design, Qwilr
 theme: work
+
+description: While designing in a studio helped me create quickly, it was all standalone experiences. I was craving working on something real people used.
 ---
 
 ### Collaborators

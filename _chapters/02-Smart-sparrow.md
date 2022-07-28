@@ -1,9 +1,12 @@
 ---
 layout: chapter
 chapter: three
-timeline: 2014 — 2017
-title: Head of Design, Smart Sparrow
+timeframe: 2014 — 2017
+role: Head of Design, Smart Sparrow
 theme: werks
+
+description: While designing in a studio helped me create quickly, it was all standalone experiences. I was craving working on something real people used.
+
 ---
 
 ### Collaborators

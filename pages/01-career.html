@@ -1,107 +1,44 @@
 ---
 layout: default
 title: Career
-theme: indigo
+theme: dark
 permalink: /career/
 description: I mainly write about design, film, and observations in between. I mainly write about design, film, and observations in between.
 ---
 
-<div class="writing-hero">
+<div class="header-centered">
+    <h4>2010 — 2022</h4>
     <h1>Career chapters.</h1>
-    <p class="label">Blah blah blah</p>
     <hr />
 </div>
-  <section>
-    <div class="split space-reset">
-      <div>
-        <h1 class="ghost">1</h1>
-        <h2>Honing craft with feedback loops</h2>
-      </div>
-      <div>
-        <div class="awards">
-          <img src="/assets/projects/cannes.svg" />
-          <img src="/assets/projects/cannes.svg" />
-          <img src="/assets/projects/cannes.svg" />
-        </div>
-        <p>
-          2020 has been a complete shit show, for all the obvious reasons and a
-          few very personal ones. Next year I want to be better, and put all of
-          this behind me with progress.
-        </p>
-      </div>
+
+{% for chapter in site.chapters %}
+<section>
+  <div class="domtest end">
+    <div>
+      <h4>{{ chapter.timeframe }}</h4>
+      <h2>{{ chapter.role }}</h2>
     </div>
-    <div class="postcards">
-      {% assign chapters = site.projects | where: "chapter","one" %} {% for
-      project in chapters %}
-      <a href="{{ project.url }}">
-        <div style="background-image: url(/assets/projects/poster-test.jpg">
-          <h3 class="byline">{{ project.title }}</h3>
-          <h3>{{ project.title }}</h3>
-        </div>
-      </a>
-      {% endfor %}
+    <div>
+      <p>{{ chapter.description }}.</p>
+      <button>Read more</button>
     </div>
-  </section>
-  <section>
-    <div class="split space-reset">
-      <div>
-        <h1 class="ghost">2</h1>
-        <h2>Honing craft with feedback loops</h2>
+  </div>
+
+  <!-- {% assign chapters = site.projects | where: "chapter","one" %} {% for
+    project in chapters %}
+    <a href="{{ project.url }}">
+      <div style="background-image: url(/assets/projects/poster-test.jpg">
+        <h3 class="byline">{{ project.title }}</h3>
+        <h3>{{ project.title }}</h3>
       </div>
-      <div>
-        <div class="awards">
-          <img src="/assets/projects/cannes.svg" />
-          <img src="/assets/projects/cannes.svg" />
-          <img src="/assets/projects/cannes.svg" />
-        </div>
-        <p>
-          2020 has been a complete shit show, for all the obvious reasons and a
-          few very personal ones. Next year I want to be better, and put all of
-          this behind me with progress.
-        </p>
-      </div>
-    </div>
-    <div class="postcards">
-      {% assign chapters = site.projects | where: "chapter","two" %} {% for
-      project in chapters %}
-      <a href="{{ project.url }}">
-        <div style="background-image: url(/assets/projects/poster-test.jpg">
-          <h3 class="byline">{{ project.title }}</h3>
-          <h3>{{ project.title }}</h3>
-        </div>
-      </a>
-      {% endfor %}
-    </div>
-  </section>
-  <section>
-    <div class="split space-reset">
-      <div>
-        <h1 class="ghost">3</h1>
-        <h2>Honing craft with feedback loops</h2>
-      </div>
-      <div>
-        <div class="awards">
-          <img src="/assets/projects/cannes.svg" />
-          <img src="/assets/projects/cannes.svg" />
-          <img src="/assets/projects/cannes.svg" />
-        </div>
-        <p>
-          2020 has been a complete shit show, for all the obvious reasons and a
-          few very personal ones. Next year I want to be better, and put all of
-          this behind me with progress.
-        </p>
-      </div>
-    </div>
-    <div class="postcards">
-      {% assign chapters = site.projects | where: "chapter","three" %} {% for
-      project in chapters %}
-      <a href="{{ project.url }}">
-        <div style="background-image: url(/assets/projects/poster-test.jpg">
-          <h3 class="byline">{{ project.title }}</h3>
-          <h3>{{ project.title }}</h3>
-        </div>
-      </a>
-      {% endfor %}
-    </div>
-  </section>
-</div>
+    </a>
+    {% endfor %} -->
+
+  <div class="domtest">
+    <img src="/assets/projects/digicave/digicave-banner-b.jpg">
+    <img src="/assets/projects/digicave/digicave-banner-b.jpg">
+    <img src="/assets/projects/digicave/digicave-banner-b.jpg">
+  </div>
+</section>
+{% endfor %}
