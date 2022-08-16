@@ -144,7 +144,7 @@ section {
     min-width: 300px;
     max-width: 100%;
     p {
-      width: clamp(33ch, 85%, 50ch);
+      width: clamp(200px, 85%, 50ch);
       // opacity: 0.65;
     }
   }
