@@ -8,7 +8,8 @@ body {
   --colour-darker: hsl(var(--hue), 100%, 15%);
   --colour-darkest: hsl(var(--hue), 100%, 5%);
   --colour-lighter: hsl(var(--hue, 260), 100%, 65%);
-  --colour-lightest: hsl(var(--hue), 100%, 75%);
+  --colour-lighter-dimmed: hsla(var(--hue, 260), 100%, 65%, 0.75);
+  --colour-lightest: hsl(var(--hue), 100%, 75%, var(--opacity));
   // Specific color variables
   --text-headline: hsl(var(--hue), 0%, calc(var(--lightness) + 75%));
   --onyx: hsla(var(--hue, 0), 0%, 0%, var(--opacity));
@@ -30,6 +31,11 @@ body {
   background-image: url("/assets/site/noise.png");
   background-color: var(--colour-base);
   color: var(--colour-text);
+  hr {
+    margin: 20px 0 20px 0;
+    border: none;
+    border-top: 1px solid var(--colour-lighter-dimmed);
+  }
 }
 
 .dark {
@@ -57,7 +63,6 @@ body {
   --colour-lighter: hsl(var(--hue, 260), 100%, 65%);
   color: var(--colour-lighter);
 }
-
 
 // CORE
 
@@ -139,7 +144,7 @@ section {
     min-width: 300px;
     max-width: 100%;
     p {
-      width: clamp(40ch, 85%, 50ch);
+      width: clamp(33ch, 85%, 50ch);
       // opacity: 0.65;
     }
   }
@@ -405,7 +410,7 @@ hr {
   margin-top: 100px;
   // display: flex;
   li {
-    border-bottom: 1px solid var(--colour-darker);
+    border-bottom: 1px solid var(--colour-lighter-dimmed);
     list-style-type: none;
 
     h3 {

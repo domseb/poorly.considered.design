@@ -62,13 +62,17 @@ theme: indigo
 </section>
 
 <section>
-  <h4>Chapters</h4>
+  <h4>Career</h4>
   <h2>Experienced in AR to SaaS, and seed to series C.</h2>
   <ul class="domtest3">
     {% for chapter in site.chapters %}
     <li>
       <a class="testest" href="{{ chapter.url }}">
-        <h3>{{ chapter.role }}<span class="{{ chapter.theme }}">{{ chapter.timeframe }}</span></h3>
+        <h3>
+          {{ chapter.role }}<span class="{{ chapter.theme }}"
+            >{{ chapter.timeframe }}</span
+          >
+        </h3>
       </a>
     </li>
     {% endfor %}
@@ -76,7 +80,7 @@ theme: indigo
 </section>
 
 <section>
-  <h4>Vingettes</h4>
+  <h4>Work</h4>
   {% for project in site.projects %}
   <a class="vtest" href="{{ project.url }}">
     <div class="vingette">
