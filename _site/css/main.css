@@ -33,9 +33,9 @@ h1, h2, h3, h4, h5, h6 { color: var(--colour-text); font-family: "Degular Bold";
 
 h1 { color: var(--text-headline); line-height: 0.8; min-height: 0vw; letter-spacing: -1px; font-size: clamp(90px, 12vw, 190px); margin-bottom: 50px; font-weight: normal !important; }
 
-h2 { font-size: clamp(55px, 6vw, 100px); min-height: 0vw; line-height: 0.9; letter-spacing: -1px; font-weight: normal !important; width: clamp(14ch, 85%, 20ch); }
+h2 { font-size: clamp(55px, 6vw, 100px); min-height: 0vw; line-height: 0.9; letter-spacing: -1px; font-weight: normal !important; width: clamp(14ch, 85%, 20ch); margin: 0.5em 0 1em 0; }
 
-h3 { font-size: clamp(30px, 3vw, 50px); line-height: 0.9; font-weight: normal !important; }
+h3 { font-size: clamp(30px, 3vw, 50px); line-height: 0.9; font-weight: normal !important; margin: 0.5em 0 0.25em 0; }
 
 h4 { font-family: "Obviously Semi"; text-transform: uppercase; letter-spacing: 1px; color: var(--colour-lighter); font-weight: normal !important; font-size: clamp(24px, 2vw, 30px); line-height: 1; margin-bottom: 50px; }
 
@@ -149,7 +149,7 @@ section { width: clamp(150px, 85vw, 1200px); margin: 0 auto; padding: 10vh 0; }
 
 .header-centered { width: clamp(150px, 85vw, 1200px); margin: 0 auto; margin-top: 10vh; text-align: center; }
 
-.header-chapter { width: clamp(150px, 85vw, 1200px); margin: 0 auto; margin-top: 10vh; padding-top: 250px; padding-bottom: 60px; margin-top: -150px; display: grid; gap: 30px; }
+.header-chapter { width: clamp(150px, 85vw, 1200px); margin: 0 auto; margin-top: 10vh; padding-top: 250px; padding-bottom: 60px; margin-top: -150px; display: grid; }
 
 .hero { display: flex; flex-wrap: wrap; align-items: flex-end; padding-top: 250px; margin-top: -150px; gap: 100px; }
 
