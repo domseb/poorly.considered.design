@@ -287,10 +287,14 @@
 </div>
     <div class="footer">
   <div>
-    <a href="https://www.youtube.com/watch?v=BJI1LAN68Mg&frags=pl%2Cwn">© Always and forever</a>
-    <p>Designed, built, and held together with spit, by Dominic Sebastian</p>
-  </div>
-  <!-- Begin Mailchimp Signup Form -->
+    <div>
+      <a href="https://www.youtube.com/watch?v=BJI1LAN68Mg&frags=pl%2Cwn">© Always and forever <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" viewBox="0 0 24 24">
+  <path fill-rule="evenodd" d="M21 6 8 2v12.016C7.267 13.393 6.195 13 5 13c-2.21 0-4 1.343-4 3s1.79 3 4 3 4-1.343 4-3V6.308l11 3.384v8.324C19.267 17.393 18.195 17 17 17c-2.21 0-4 1.343-4 3s1.79 3 4 3 4-1.343 4-3V6Z" clip-rule="evenodd"/>
+</svg>
+</a>
+      <p>Designed, built, and held together with spit, by Dominic Sebastian</p>
+    </div>
+    <!-- Begin Mailchimp Signup Form -->
 <link
   href="//cdn-images.mailchimp.com/embedcode/horizontal-slim-10_7.css"
   rel="stylesheet"
@@ -307,18 +311,47 @@
   }
 
   #mc_embed_signup .button {
-    color: #4d646f;
+    /* color: #4d646f;
     background-color: #ffffff;
     height: 40px;
     font-size: 18px;
     letter-spacing: 0px;
-    font-family: "Degular Regular", Helvetica, Arial, sans-serif;
+    font-family: "Degular Regular", Helvetica, Arial, sans-serif; */
+    display: inline-block;
+    height: auto;
+    color: var(--colour-base);
+    background-color: var(--colour-lighter);
+    text-align: center;
+    font-size: 22px;
+    padding: 5px 20px 10px;
+    margin: 0px;
+    font-family: "Obviously Semi";
+    text-transform: uppercase;
+    text-decoration: none;
+    white-space: nowrap;
+    cursor: pointer;
+    border: none;
+    box-sizing: border-box;
   }
   #mc_embed_signup .button:hover {
     background-color: rgba(255, 255, 255, 0.5);
   }
   #mc_embed_signup input.email {
-    border: 1px solid rgba(255, 255, 255, 0.25);
+    border: none;
+    border-radius: 0;
+    color: var(--colour-lighter);
+    background-color: var(--colour-darker);
+    padding: 5px 20px 10px;
+    height: auto;
+    text-transform: uppercase;
+    box-shadow: 1px solid var(--colour-lighter);
+    width: auto;
+    text-decoration: none;
+    font-size: 22px;
+    font-family: "Obviously Semi";
+    line-height: 32px;
+
+    /* border: 1px solid rgba(255, 255, 255, 0.25);
     border-radius: 4px;
     color: white;
     background-color: rgba(255, 255, 255, 0.1);
@@ -326,10 +359,10 @@
     padding: 0px 0.6em;
     width: 330px;
     font-size: 18px;
-    font-family: "Degular Regular", Helvetica, Arial, sans-serif;
+    font-family: "Degular Regular", Helvetica, Arial, sans-serif; */
   }
   #mc_embed_signup input::placeholder {
-    color: rgba(255, 255, 255, 0.5);
+    color: var(--colour-lighter);
   }
   #mc_embed_signup input:focus {
     outline: -webkit-focus-ring-color auto 0px;
@@ -379,6 +412,7 @@
 
 <!--End mc_embed_signup-->
 
+  </div>
 </div>
 
   </body>
