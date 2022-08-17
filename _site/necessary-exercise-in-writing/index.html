@@ -5,6 +5,7 @@
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#00064C" />
   <title>
     The necessary exercise in writing
   </title>
@@ -207,6 +208,7 @@
     white-space: nowrap;
     cursor: pointer;
     border: none;
+    line-height: initial !important;
     box-sizing: border-box;
   }
   #mc_embed_signup .button:hover {
@@ -214,18 +216,18 @@
   }
   #mc_embed_signup input.email {
     border: none;
+    margin-right: 20px;
     border-radius: 0;
     color: var(--colour-lighter);
     background-color: var(--colour-darker);
     padding: 5px 20px 10px;
     height: auto;
     text-transform: uppercase;
-    box-shadow: 1px solid var(--colour-lighter);
+    box-shadow: 0px 1px 0px 0px var(--colour-lighter);
     width: auto;
     text-decoration: none;
     font-size: 22px;
     font-family: "Obviously Semi";
-    line-height: 32px;
 
     /* border: 1px solid rgba(255, 255, 255, 0.25);
     border-radius: 4px;
@@ -240,8 +242,11 @@
   #mc_embed_signup input::placeholder {
     color: var(--colour-lighter);
   }
+  #mc_embed_signup input:focus-visible {
+    outline: -webkit-focus-ring-color auto 0px !important;
+  }
   #mc_embed_signup input:focus {
-    outline: -webkit-focus-ring-color auto 0px;
+    outline: none !important;
   }
 </style>
 <div id="mc_embed_signup">

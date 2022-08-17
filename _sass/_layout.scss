@@ -6,7 +6,9 @@ body {
   --opacity: 1;
   --colour-base: hsl(var(--hue), 100%, 25%);
   --colour-darker: hsl(var(--hue), 100%, 15%);
-  --colour-darkest: hsl(var(--hue), 100%, 5%);
+  --colour-darkest: hsla(var(--hue), 100%, 5%, 1);
+  --colour-darkest-dimmed: hsla(var(--hue), 100%, 5%, 0.2);
+
   --colour-lighter: hsl(var(--hue, 260), 100%, 65%);
   --colour-lighter-dimmed: hsla(var(--hue, 260), 100%, 65%, 0.75);
   --colour-lightest: hsl(var(--hue), 100%, 75%, var(--opacity));
@@ -157,7 +159,8 @@ section {
 }
 
 .callout {
-  border: 1px solid var(--colour-lighter);
+  border-radius: 16px;
+  background: var(--colour-darkest-dimmed);
   padding: 20px;
 
   h4 {
