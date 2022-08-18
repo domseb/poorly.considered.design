@@ -131,6 +131,18 @@ body { --lightness: 25%; --opacity: 1; --colour-base: hsl(var(--hue), 100%, 25%)
 
 .dark { --hue: 235; --colour-text: white; background-image: url("/assets/site/noise.png"); background-color: var(--colour-darker); color: var(--colour-text); }
 
+.maroon { --hue: 330; --colour-text: white; background-image: url("/assets/site/noise.png"); background-color: var(--colour-base); --colour-lighter: hsl(var(--hue, 260), 100%, 65%); color: var(--colour-lighter); }
+
+.maroon hr { margin: 20px 0 20px 0; border: none; border-top: 1px solid var(--colour-lighter-dimmed); }
+
+.emerald { --hue: 170; --colour-text: white; background-image: url("/assets/site/noise.png"); background-color: var(--colour-base); --colour-lighter: hsl(var(--hue, 260), 100%, 65%); color: var(--colour-lighter); }
+
+.emerald hr { margin: 20px 0 20px 0; border: none; border-top: 1px solid var(--colour-lighter-dimmed); }
+
+.purple { --hue: 280; --colour-text: white; --colour-lighter: hsl(var(--hue, 260), 100%, 65%); color: var(--colour-lighter); background-image: url("/assets/site/noise.png"); background-color: var(--colour-base); }
+
+.purple hr { margin: 20px 0 20px 0; border: none; border-top: 1px solid var(--colour-lighter-dimmed); }
+
 .jub { --hue: 100; --colour-lighter: hsl(var(--hue, 260), 100%, 65%); color: var(--colour-lighter); }
 
 .werks { --hue: 250; --colour-lighter: hsl(var(--hue, 260), 100%, 65%); color: var(--colour-lighter); }
@@ -239,7 +251,7 @@ hr { margin: 20px 0 20px 0; border: none; border-top: 1px solid var(--colour-dar
 
 .domtest3 li h3 { padding-top: var(--spacer); padding-bottom: var(--spacer); }
 
-.domtest3 li h3 span { font-family: Obviously; font-size: 32px; position: relative; top: -16px; margin-left: 10px; }
+.domtest3 li h3 span { font-family: Obviously; font-size: 32px; position: relative; font-feature-settings: normal; top: -16px; margin-left: 10px; }
 
 .domtest3 li:last-child { border-bottom: none; }
 

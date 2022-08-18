@@ -3,7 +3,7 @@ layout: chapter
 chapter: three
 timeframe: 2017 — 2022
 role: VP Design, Qwilr
-theme: work
+theme: purple
 
 description: While designing in a studio helped me create quickly, it was all standalone experiences. I was craving working on something real people used.
 ---

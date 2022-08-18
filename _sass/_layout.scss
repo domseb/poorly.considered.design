@@ -48,6 +48,51 @@ body {
   color: var(--colour-text);
 }
 
+.maroon {
+  --hue: 330;
+  --colour-text: white;
+  background-image: url("/assets/site/noise.png");
+  background-color: var(--colour-base);
+  --colour-lighter: hsl(var(--hue, 260), 100%, 65%);
+  color: var(--colour-lighter);
+  // color: var(--colour-text);
+  hr {
+    margin: 20px 0 20px 0;
+    border: none;
+    border-top: 1px solid var(--colour-lighter-dimmed);
+  }
+}
+
+.emerald {
+  --hue: 170;
+  --colour-text: white;
+  background-image: url("/assets/site/noise.png");
+  background-color: var(--colour-base);
+  // color: var(--colour-text);
+  --colour-lighter: hsl(var(--hue, 260), 100%, 65%);
+  color: var(--colour-lighter);
+  hr {
+    margin: 20px 0 20px 0;
+    border: none;
+    border-top: 1px solid var(--colour-lighter-dimmed);
+  }
+}
+
+.purple {
+  --hue: 280;
+  --colour-text: white;
+  --colour-lighter: hsl(var(--hue, 260), 100%, 65%);
+  color: var(--colour-lighter);
+  background-image: url("/assets/site/noise.png");
+  background-color: var(--colour-base);
+  // color: var(--colour-text);
+  hr {
+    margin: 20px 0 20px 0;
+    border: none;
+    border-top: 1px solid var(--colour-lighter-dimmed);
+  }
+}
+
 .jub {
   --hue: 100;
   --colour-lighter: hsl(var(--hue, 260), 100%, 65%);
@@ -428,6 +473,7 @@ hr {
         font-family: Obviously;
         font-size: 32px;
         position: relative;
+        font-feature-settings: normal;
         top: -16px;
         margin-left: 10px;
       }
