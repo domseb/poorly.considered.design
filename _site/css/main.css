@@ -53,17 +53,17 @@ p { font-family: "Degular Light"; font-size: clamp(20px, 2vw, 24px); opacity: 0.
 
 .bold { font-family: "Degular Bold" !important; }
 
-article h1 { margin-top: 3.9rem; margin-bottom: 1.3rem; }
+article h1 { margin-top: 3.9rem; margin-bottom: 1.3rem; color: var(--onyx); }
 
-article h2 { margin-top: 3.9rem; margin-bottom: 1.3rem; }
+article h2 { margin-top: 3.9rem; margin-bottom: 1.3rem; color: var(--onyx); }
 
-article h3 { font-size: clamp(40px, 4vw, 50px); }
+article h3 { font-size: clamp(40px, 4vw, 50px); color: var(--onyx); }
 
-article h4 { margin-top: 1.3rem; margin-bottom: 0rem; }
+article h4 { margin-top: 1.3rem; margin-bottom: 0rem; color: var(--onyx); }
 
-article h5 { margin-top: 1.3rem; margin-bottom: 0.65rem; }
+article h5 { margin-top: 1.3rem; margin-bottom: 0.65rem; color: var(--onyx); }
 
-article h6 { margin-top: 1.3rem; margin-bottom: 0rem; }
+article h6 { margin-top: 1.3rem; margin-bottom: 0rem; color: var(--onyx); }
 
 article p { margin-top: 0rem; margin-bottom: 1.3rem; color: var(--slate); }
 
@@ -131,23 +131,17 @@ body { --lightness: 25%; --opacity: 1; --colour-base: hsl(var(--hue), 100%, 25%)
 
 .dark { --hue: 235; --colour-text: white; background-image: url("/assets/site/noise.png"); background-color: var(--colour-darker); color: var(--colour-text); }
 
-.maroon { --hue: 330; --colour-text: white; background-image: url("/assets/site/noise.png"); background-color: var(--colour-base); --colour-lighter: hsl(var(--hue, 260), 100%, 65%); color: var(--colour-lighter); }
+.maroon { --hue: 330; color: hsl(var(--hue, 260), 100%, 65%); }
 
 .maroon hr { margin: 20px 0 20px 0; border: none; border-top: 1px solid var(--colour-lighter-dimmed); }
 
-.emerald { --hue: 170; --colour-text: white; background-image: url("/assets/site/noise.png"); background-color: var(--colour-base); --colour-lighter: hsl(var(--hue, 260), 100%, 65%); color: var(--colour-lighter); }
+.emerald { --hue: 170; color: hsl(var(--hue, 260), 100%, 65%); }
 
 .emerald hr { margin: 20px 0 20px 0; border: none; border-top: 1px solid var(--colour-lighter-dimmed); }
 
-.purple { --hue: 280; --colour-text: white; --colour-lighter: hsl(var(--hue, 260), 100%, 65%); color: var(--colour-lighter); background-image: url("/assets/site/noise.png"); background-color: var(--colour-base); }
+.purple { --hue: 280; color: hsl(var(--hue, 260), 100%, 65%); }
 
 .purple hr { margin: 20px 0 20px 0; border: none; border-top: 1px solid var(--colour-lighter-dimmed); }
-
-.jub { --hue: 100; --colour-lighter: hsl(var(--hue, 260), 100%, 65%); color: var(--colour-lighter); }
-
-.werks { --hue: 250; --colour-lighter: hsl(var(--hue, 260), 100%, 65%); color: var(--colour-lighter); }
-
-.work { --hue: 340; --colour-lighter: hsl(var(--hue, 260), 100%, 65%); color: var(--colour-lighter); }
 
 article { display: grid; margin-top: 3.9rem; margin-bottom: 6.5rem; place-items: center; }
 
@@ -165,7 +159,7 @@ section { width: clamp(150px, 85vw, 1200px); margin: 0 auto; padding: 10vh 0; }
 
 .header-centered { width: clamp(150px, 85vw, 1200px); margin: 0 auto; margin-top: 10vh; text-align: center; }
 
-.header-chapter { width: clamp(150px, 85vw, 1200px); margin: 0 auto; margin-top: 10vh; padding-top: 250px; padding-bottom: 60px; margin-top: -150px; display: grid; }
+.header-chapter { width: clamp(150px, 85vw, 1200px); margin: 0 auto; margin-top: 10vh; padding-top: 250px; padding-bottom: 60px; margin-top: -150px; display: grid; color: var(--colour-lighter); }
 
 .hero { display: flex; flex-wrap: wrap; align-items: flex-end; padding-top: 250px; margin-top: -150px; gap: 100px; }
 

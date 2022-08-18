@@ -209,26 +209,32 @@ p {
 article {
   h1 {
     @include margin(3, 1);
+    color: var(--onyx);
   }
 
   h2 {
     @include margin(3, 1);
+    color: var(--onyx);
   }
 
   h3 {
     @include font-size(2, 2.5);
+    color: var(--onyx);
   }
 
   h4 {
     @include margin(1, 0);
+    color: var(--onyx);
   }
 
   h5 {
     @include margin(1, 0.5);
+    color: var(--onyx);
   }
 
   h6 {
     @include margin(1, 0);
+    color: var(--onyx);
   }
 
   p {

@@ -1,6 +1,6 @@
 ---
 layout: chapter
-chapter: three
+chapter: one
 timeframe: 2017 — 2022
 role: VP Design, Qwilr
 theme: purple

@@ -1,12 +1,11 @@
 ---
 layout: chapter
-chapter: three
+chapter: two
 timeframe: 2014 — 2017
 role: Head of Design, Smart Sparrow
 theme: maroon
 
 description: While designing in a studio helped me create quickly, it was all standalone experiences. I was craving working on something real people used.
-
 ---
 
 ### Collaborators
