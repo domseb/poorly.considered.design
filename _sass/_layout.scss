@@ -32,7 +32,7 @@ body {
   --colour-text: white;
   background-image: url("/assets/site/noise.png");
   // background-image: url("/assets/site/noise.svg");
-  background-color: var(--colour-base);
+  background-color: var(--colour-darker);
   color: var(--colour-text);
   hr {
     margin: 20px 0 20px 0;
@@ -122,7 +122,7 @@ section {
 }
 
 .banner {
-  background-color: var(--colour-darker);
+  background-color: var(--colour-darkest);
 }
 
 .header-bold {
