@@ -118,7 +118,7 @@ h2 {
   line-height: 0.9;
   letter-spacing: -1px;
   font-weight: normal !important;
-  width: clamp(325px, 85%, 20ch);
+  max-width: 20ch;
   margin: 0.5em 0 1em 0; }
 
 h3 {
@@ -616,8 +616,8 @@ section {
 .tile {
   padding-bottom: 20px; }
   .tile:hover {
-    background-color: var(--colour-darker);
-    box-shadow: 0 0 0 15px var(--colour-darker);
+    background-color: var(--colour-darkest);
+    box-shadow: 0 0 0 15px var(--colour-darkest);
     transition: all 0.3s ease;
     border-radius: 4px; }
   .tile h3 {
@@ -627,8 +627,8 @@ section {
   margin-bottom: 70px;
   padding-bottom: 20px; }
   .vtest .vingette:hover {
-    background-color: var(--colour-darker);
-    box-shadow: 0 0 0 20px var(--colour-darker);
+    background-color: var(--colour-darkest);
+    box-shadow: 0 0 0 20px var(--colour-darkest);
     transition: all 0.3s ease;
     border-radius: 4px; }
   .vingette img {
@@ -677,7 +677,7 @@ hr {
 .domtest2 {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
-  gap: 30px; }
+  gap: 20px 10px; }
 
 .domtest3 li {
   border-bottom: 1px solid var(--colour-lighter-dimmed);

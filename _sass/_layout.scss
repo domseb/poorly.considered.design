@@ -343,8 +343,8 @@ section {
   padding-bottom: 20px;
 
   &:hover {
-    background-color: var(--colour-darker);
-    box-shadow: 0 0 0 15px var(--colour-darker);
+    background-color: var(--colour-darkest);
+    box-shadow: 0 0 0 15px var(--colour-darkest);
     @include transition(all $default-transition);
     border-radius: 4px;
   }
@@ -359,8 +359,8 @@ section {
   padding-bottom: 20px;
 
   .vtest &:hover {
-    background-color: var(--colour-darker);
-    box-shadow: 0 0 0 20px var(--colour-darker);
+    background-color: var(--colour-darkest);
+    box-shadow: 0 0 0 20px var(--colour-darkest);
     @include transition(all $default-transition);
     border-radius: 4px;
   }
@@ -426,7 +426,7 @@ hr {
 .domtest2 {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
-  gap: 30px;
+  gap: 20px 10px;
   // margin-top: 100px;
 }
 
