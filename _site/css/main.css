@@ -463,7 +463,7 @@ section {
   display: flex;
   flex-wrap: wrap;
   align-items: flex-end;
-  padding-top: 250px;
+  padding-top: 200px;
   margin-top: -150px;
   gap: 100px; }
   .hero .headline {
