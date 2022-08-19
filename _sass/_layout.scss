@@ -437,17 +437,34 @@ hr {
     border-bottom: 1px solid var(--colour-lighter-dimmed);
     list-style-type: none;
 
-    h3 {
-      padding-top: var(--spacer);
-      padding-bottom: var(--spacer);
+    // h3 {
+    //   padding-top: var(--spacer);
+    //   padding-bottom: var(--spacer);
 
-      span {
+    //   .timeline {
+    //     font-family: Obviously;
+    //     font-size: 32px;
+    //     position: relative;
+    //     font-feature-settings: normal;
+    //     // top: -16px;
+    //     // margin-left: 10px;
+    //   }
+    // }
+
+    .testest {
+      display: inline-flex;
+      h3 {
+        padding-top: var(--spacer);
+        padding-bottom: var(--spacer);
+        top: -16px;
+        margin-left: 10px;
+      }
+
+      h3:nth-of-type(2) {
         font-family: Obviously;
         font-size: 32px;
         position: relative;
         font-feature-settings: normal;
-        top: -16px;
-        margin-left: 10px;
       }
     }
   }

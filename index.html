@@ -68,11 +68,8 @@ theme: indigo
     {% for chapter in site.chapters %}
     <li>
       <a class="testest" href="{{ chapter.url }}">
-        <h3>
-          {{ chapter.role }}<span class="{{ chapter.theme }}"
-            >{{ chapter.timeframe }}</span
-          >
-        </h3>
+        <h3>{{ chapter.role }}</h3>
+        <h3 class="{{ chapter.theme }}">{{ chapter.timeframe }}</h3>
       </a>
     </li>
     {% endfor %}
