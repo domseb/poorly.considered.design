@@ -32,7 +32,7 @@ body {
   --colour-text: white;
   background-image: url("/assets/site/noise.png");
   // background-image: url("/assets/site/noise.svg");
-  background-color: var(--colour-base);
+  background-color: var(--colour-darker);
   color: var(--colour-text);
   hr {
     margin: 20px 0 20px 0;
@@ -122,7 +122,7 @@ section {
 }
 
 .banner {
-  background-color: var(--colour-darker);
+  background-color: var(--colour-darkest);
 }
 
 .header-bold {
@@ -155,7 +155,7 @@ section {
   flex-wrap: wrap;
   // height: 80vh;
   align-items: flex-end;
-  padding-top: 250px;
+  padding-top: 200px;
   margin-top: -150px;
   gap: 100px;
   // grid-template-columns: 8fr 4fr;
@@ -343,8 +343,8 @@ section {
   padding-bottom: 20px;
 
   &:hover {
-    background-color: var(--colour-darker);
-    box-shadow: 0 0 0 15px var(--colour-darker);
+    background-color: var(--colour-darkest);
+    box-shadow: 0 0 0 15px var(--colour-darkest);
     @include transition(all $default-transition);
     border-radius: 4px;
   }
@@ -359,8 +359,8 @@ section {
   padding-bottom: 20px;
 
   .vtest &:hover {
-    background-color: var(--colour-darker);
-    box-shadow: 0 0 0 20px var(--colour-darker);
+    background-color: var(--colour-darkest);
+    box-shadow: 0 0 0 20px var(--colour-darkest);
     @include transition(all $default-transition);
     border-radius: 4px;
   }
@@ -426,7 +426,7 @@ hr {
 .domtest2 {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
-  gap: 30px;
+  gap: 20px 10px;
   // margin-top: 100px;
 }
 
@@ -437,17 +437,34 @@ hr {
     border-bottom: 1px solid var(--colour-lighter-dimmed);
     list-style-type: none;
 
-    h3 {
-      padding-top: var(--spacer);
-      padding-bottom: var(--spacer);
+    // h3 {
+    //   padding-top: var(--spacer);
+    //   padding-bottom: var(--spacer);
 
-      span {
+    //   .timeline {
+    //     font-family: Obviously;
+    //     font-size: 32px;
+    //     position: relative;
+    //     font-feature-settings: normal;
+    //     // top: -16px;
+    //     // margin-left: 10px;
+    //   }
+    // }
+
+    .testest {
+      display: inline-flex;
+      h3 {
+        padding-top: var(--spacer);
+        padding-bottom: var(--spacer);
+        top: -16px;
+        margin-left: 10px;
+      }
+
+      h3:nth-of-type(2) {
         font-family: Obviously;
         font-size: 32px;
         position: relative;
         font-feature-settings: normal;
-        top: -16px;
-        margin-left: 10px;
       }
     }
   }
