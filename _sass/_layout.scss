@@ -125,6 +125,11 @@ section {
   background-color: var(--colour-darkest);
 }
 
+.banner-layered {
+  background-color: var(--colour-darkest);
+  padding-bottom: 500px;
+}
+
 .header-bold {
   width: clamp(150px, 85vw, 1200px);
   margin: 0 auto;
@@ -148,6 +153,52 @@ section {
   display: grid;
   color: var(--colour-lighter);
   // gap: 30px;
+}
+
+.header-chapter-centered {
+  width: clamp(150px, 85vw, 1200px);
+  margin: 0 auto;
+  margin-top: 10vh;
+  padding-top: 250px;
+  padding-bottom: 60px;
+  margin-top: -150px;
+  display: grid;
+  color: var(--colour-lighter);
+  padding-bottom: 400px;
+  text-align: center;
+  // gap: 30px;
+
+  p {
+    max-width: 55ch;
+    margin: 0 auto;
+  }
+}
+
+.collaborator {
+  height: 20px !important;
+  width: 20px;
+  border-radius: 10px;
+}
+
+.collaborator:hover .info {
+  visibility: visible;
+  position: absolute;
+}
+
+.info {
+  background: black;
+  color: white;
+  padding: 20px;
+  visibility: hidden;
+  position: absolute;
+}
+
+
+.hero-image {
+  width: clamp(150px, 85vw, 1200px);
+  margin: 0 auto;
+  display: flex;
+  margin-top: -350px !important;
 }
 
 .hero {
