@@ -1,18 +1,19 @@
 // TODO should this be root instead?
 
 body {
-  // General xolour variables
+  // Themeable colours
   --lightness: 25%;
   --opacity: 1;
   --colour-base: hsl(var(--hue), 100%, 25%);
+  // Darker
   --colour-darker: hsl(var(--hue), 100%, 15%);
   --colour-darkest: hsla(var(--hue), 100%, 5%, 1);
   --colour-darkest-dimmed: hsla(var(--hue), 100%, 5%, 0.2);
-
+  // Lighter
   --colour-lighter: hsl(var(--hue, 260), 100%, 65%);
   --colour-lighter-dimmed: hsla(var(--hue, 260), 100%, 65%, 0.75);
   --colour-lightest: hsl(var(--hue), 100%, 75%, var(--opacity));
-  // Specific color variables
+  // Specific colours
   --text-headline: hsl(var(--hue), 0%, calc(var(--lightness) + 75%));
   --onyx: hsla(var(--hue, 0), 0%, 0%, var(--opacity));
   --slate: hsla(var(--hue, 0), 0%, 40%, var(--opacity));
@@ -48,8 +49,8 @@ body {
   background-color: var(--colour-darker);
   color: var(--colour-text);
 }
-
-.maroon {
+// change to consolidate themes and names
+.maroon  {
   --hue: 330;
   color: hsl(var(--hue, 260), 100%, 65%);
 
@@ -513,13 +514,7 @@ hr {
   align-items: end;
 }
 
-.domtest2 {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
-  gap: 20px 10px;
-  // margin-top: 100px;
-}
-
+// move to base 
 .domtest3 {
   // margin-top: 100px;
   // display: flex;

@@ -271,8 +271,6 @@ hr { margin: 20px 0 20px 0; border: none; border-top: 1px solid var(--colour-dar
 
 .end { align-items: end; }
 
-.domtest2 { display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 20px 10px; }
-
 .domtest3 li { border-bottom: 1px solid var(--colour-lighter-dimmed); list-style-type: none; }
 
 .domtest3 li .testest { display: inline-flex; }
@@ -493,5 +491,3 @@ nav p:hover { text-decoration: none; }
 .image-trio .items { display: grid; grid-template-columns: repeat(auto-fill, minmax(350px, 1fr)); gap: var(--spacer); }
 
 .image-trio img { border-radius: var(--spacer-small); border: 2px solid rgba(77, 100, 111, 0.15); box-shadow: 0px 15px 35px rgba(77, 100, 111, 0.1); }
-
-/*# sourceMappingURL=main.css.map */
