@@ -1,3 +1,125 @@
+// COMPONENTS
+
+.button {
+  display: inline-block;
+
+  color: var(--colour-base);
+  background-color: var(--colour-lighter);
+  text-align: center;
+  // font-size: $base-font-size + px;
+  font-size: 22px;
+  padding: 5px 20px 10px;
+  margin: 0px;
+  font-family: "Obviously Semi";
+  text-transform: uppercase;
+  // line-height: 40px;
+  text-decoration: none;
+  white-space: nowrap;
+  cursor: pointer;
+  border: none;
+  box-sizing: border-box;
+  // letter-spacing: -1px;
+
+  &:hover,
+  &:focus {
+    // background-color: rgba($primary, 0.2);
+    // border-bottom: 3px solid rgba($primary, 0);
+  }
+
+  // @include transition(background-color 0.3s ease, border 0.3s ease);
+}
+
+.collaborator {
+  height: 20px !important;
+  width: 20px;
+  border-radius: 10px;
+
+  .info {
+    background: black;
+    color: white;
+    padding: 20px;
+    visibility: hidden;
+    position: absolute;
+    z-index: 99;
+  }
+
+  &:hover .info {
+    visibility: visible;
+    position: absolute;
+  }
+}
+
+.link-stack {
+  li {
+    border-bottom: 1px solid var(--colour-lighter-dimmed);
+    list-style-type: none;
+
+    .link-item {
+      display: inline-flex;
+      h3 {
+        padding-top: var(--spacer);
+        padding-bottom: var(--spacer);
+        top: -16px;
+        margin-left: 10px;
+      }
+
+      h3:nth-of-type(2) {
+        font-family: Obviously;
+        font-size: 32px;
+        position: relative;
+        font-feature-settings: normal;
+      }
+    }
+  }
+
+  li:last-child {
+    border-bottom: none;
+  }
+}
+
+.vingette {
+  margin-bottom: 70px;
+  padding-bottom: 20px;
+
+  .vtest &:hover {
+    background-color: var(--colour-darkest);
+    box-shadow: 0 0 0 20px var(--colour-darkest);
+    @include transition(all $default-transition);
+    border-radius: 4px;
+  }
+
+  img {
+    object-fit: cover;
+    height: 60vh;
+    width: 100%;
+  }
+
+  div:first-of-type {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  div > * {
+    display: flex;
+    align-items: center;
+  }
+
+  h3:first-of-type {
+    font-family: "Obviously Semi";
+    color: var(--colour-lighter);
+    margin-right: 20px;
+    font-size: 60px;
+    margin-top: -10px;
+  }
+
+  h3 {
+    font-size: clamp(25px, 3vw, 35px);
+  }
+}
+
+// PATTERNS
+
 nav {
   // height: var(--space-large);
   // width: 100vw;

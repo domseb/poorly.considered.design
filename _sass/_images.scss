@@ -1,4 +1,4 @@
-// Image styles
+// IMAGE STYLES
 
 .multiply {
   mix-blend-mode: multiply;
@@ -85,4 +85,120 @@
     border: 2px solid rgba(77, 100, 111, 0.15);
     box-shadow: 0px 15px 35px rgba(77, 100, 111, 0.1);
   }
+}
+
+.flexy {
+  height: 80vh;
+  background: #00064c;
+  position: relative;
+  width: 100%;
+}
+
+.face {
+  background-image: url("https://poorly.considered.design/assets/site/dom-profile.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.sixty {
+  width: 65%;
+  height: 75%;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  z-index: 190;
+}
+
+.seventy {
+  width: 72%;
+  height: 80%;
+  opacity: 0.5;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  z-index: 180;
+}
+
+.seventy-b {
+  width: 72%;
+  height: 80%;
+  opacity: 1;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background-color: #00064c;
+  z-index: 170;
+}
+
+.eighty {
+  width: 79%;
+  height: 85%;
+  opacity: 0.4;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  z-index: 160;
+}
+
+.eighty-b {
+  width: 79%;
+  height: 85%;
+  opacity: 1;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background-color: #00064c;
+  z-index: 150;
+}
+
+.ninety {
+  width: 86%;
+  height: 90%;
+  opacity: 0.3;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  z-index: 140;
+}
+
+.ninety-b {
+  width: 86%;
+  height: 90%;
+  opacity: 1;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background-color: #00064c;
+  z-index: 130;
+}
+
+.hunny {
+  width: 93%;
+  height: 95%;
+  opacity: 0.2;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  z-index: 120;
+}
+
+.hunny-b {
+  width: 93%;
+  height: 95%;
+  opacity: 1;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background-color: #00064c;
+  z-index: 110;
+}
+
+.hunnyy {
+  width: 100%;
+  height: 100%;
+  opacity: 0.1;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  z-index: 100;
 }

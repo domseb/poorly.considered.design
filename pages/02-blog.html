@@ -5,26 +5,28 @@ permalink: /blog/
 description: I mainly write about design, film, and observations in between. I mainly write about design, film, and observations in between.
 ---
 
-<div class="header-bold">
+<div class="header">
     <h1>Rambling thoughts on things.</h1>
-    <h5 class="label">Blah blah blah</h5>
+    <h5 class="label">Featured</h5>
     <hr />
 </div>
+
 <div class="listings">
   <ul>
     {% for post in site.posts %}
       {% assign currentdate = post.date | date: "%Y" %}
       {% if currentdate != date %}
         {% unless forloop.first %}</ul>{% endunless %}
-        <h1 class="ordinal" id="y{{post.date | date: "%Y"}}">{{ currentdate }}</h1>
+        <!-- <h4 class="ordinal" id="y{{post.date | date: "%Y"}}">{{ currentdate }}</h4> -->
+        <div>
+          <h5 class="label" id="y{{post.date | date: "%Y"}}">{{ currentdate }}</h5>
+          <hr />
+        </div>
         <ul>
         {% assign date = currentdate %}
       {% endif %}
           <li>
             <a href="{{ post.url | prepend: site.baseurl }}">
-            <h5 class="label">{{ post.date | date_to_string }} — {% assign words = post.content | number_of_words %}{% if words < 360 %}1 min read{% else %}{{ words | divided_by:180 }} min read{% endif %}
-            </h5>
-          <hr />
             <h3 href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</h3>
             <p>{{ post.content | strip_html | truncatewords:30 }} <a class="link" href="{{ post.url | prepend: site.baseurl }}">continue reading →</a></p>
           </a>
@@ -33,4 +35,3 @@ description: I mainly write about design, film, and observations in between. I m
     {% endfor %}
   </ul>
 </div>
-
