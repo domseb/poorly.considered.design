@@ -2,23 +2,19 @@
 
 .button {
   display: inline-block;
-
   color: var(--colour-base);
   background-color: var(--colour-lighter);
   text-align: center;
-  // font-size: $base-font-size + px;
   font-size: 22px;
   padding: 5px 20px 10px;
   margin: 0px;
   font-family: "Obviously Semi";
   text-transform: uppercase;
-  // line-height: 40px;
   text-decoration: none;
   white-space: nowrap;
   cursor: pointer;
   border: none;
   box-sizing: border-box;
-  // letter-spacing: -1px;
 
   &:hover,
   &:focus {
@@ -121,15 +117,10 @@
 // PATTERNS
 
 nav {
-  // height: var(--space-large);
-  // width: 100vw;
   width: clamp(150px, 85vw, 1200px);
   margin: 0 auto;
-  // position: fixed;
   height: 150px;
   place-items: center;
-  // z-index: 99;
-  // top: 0;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -145,76 +136,9 @@ nav {
   }
 
   // .active {
-  //   &:after {
-  //     content: "";
-  //     width: 5em;
-  //     height: 2em;
-  //     // background-image: url(/assets/site/ring-a.svg);
-  //     // background-repeat: no-repeat;
-  //     // background-position: center;
-  //     // background-size: 200px;
-  //     -webkit-mask: url(/assets/site/ring-a.svg) no-repeat center;
-  //     mask: url(/assets/site/ring-a.svg) no-repeat center;
-  //     -webkit-mask-size: contain;
-  //     mask-size: contain;
-  //     background: var(--colour-lighter);
-  //     position: absolute;
-  //   }
-  // }
-  // .active-b {
-  //   &:after {
-  //     content: "";
-  //     width: 3em;
-  //     height: 3em;
-  //     // background-image: url(/assets/site/ring-a.svg);
-  //     // background-repeat: no-repeat;
-  //     // background-position: center;
-  //     // background-size: 200px;
-  //     -webkit-mask: url(/assets/site/line-a.svg) no-repeat center;
-  //     mask: url(/assets/site/line-a.svg) no-repeat center;
-  //     -webkit-mask-size: contain;
-  //     mask-size: contain;
-  //     background: var(--colour-lighter);
-  //     position: absolute;
-  //   }
-  // }
-  // .active-c {
-  //   &:after {
-  //     content: "";
-  //     width: 3em;
-  //     height: 4em;
-  //     // background-image: url(/assets/site/ring-a.svg);
-  //     // background-repeat: no-repeat;
-  //     // background-position: center;
-  //     // background-size: 200px;
-  //     -webkit-mask: url(/assets/site/line-b.svg) no-repeat center;
-  //     mask: url(/assets/site/line-b.svg) no-repeat center;
-  //     -webkit-mask-size: contain;
-  //     mask-size: contain;
-  //     background: var(--colour-lighter);
-  //     position: absolute;
-  //   }
-  // }
-  // .active-d {
-  //   &:after {
-  //     content: "";
-  //     width: 8em;
-  //     height: 2em;
-  //     // background-image: url(/assets/site/ring-a.svg);
-  //     // background-repeat: no-repeat;
-  //     // background-position: center;
-  //     // background-size: 200px;
-  //     -webkit-mask: url(/assets/site/ring-b.svg) no-repeat center;
-  //     mask: url(/assets/site/ring-b.svg) no-repeat center;
-  //     -webkit-mask-size: contain;
-  //     mask-size: contain;
-  //     background: var(--colour-lighter);
-  //     position: absolute;
-  //   }
-  // }
+
   p {
     @include spacing(0, 0);
-    // @include font-size(1.2, 2);
     font-family: "Obviously Semi";
     font-size: 22px;
     display: inline-grid;
@@ -222,8 +146,6 @@ nav {
     opacity: 1;
     display: inline-flex;
     margin-right: var(--spacer);
-    // @include transition(all $transition);
-    // font-family: "Obviously";
     text-transform: uppercase;
     font-feature-settings: normal;
 
@@ -233,9 +155,7 @@ nav {
     }
 
     &:hover {
-      // color: rgba($primary, 1);
       text-decoration: none;
-      // @include transition(all $transition);
     }
   }
 }
@@ -248,16 +168,10 @@ nav {
     display: grid;
     width: clamp(150px, 85vw, 1200px);
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    // width: 100vw;
     margin: 0 auto;
-
-    // background: var(--colour-lighter);
     justify-content: space-between;
     align-items: center;
-    // position: absolute;
-    // z-index: 99;
     padding: 2vw 0 5vw 0;
-    // height: var(--spacer-large);
   }
 
   a {
