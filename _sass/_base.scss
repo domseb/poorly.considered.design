@@ -22,42 +22,42 @@ figure {
 }
 
 @include font-face(
-  "Degular Light",
+  "Degular Display Light",
   "../assets/fonts/Degular_Display-Light",
   ("woff2", "woff")
 );
 @include font-face(
-  "Degular Light Italic",
+  "Degular Display Italic",
   "../assets/fonts/Degular_Display-Light_Italic",
   ("woff2", "woff")
 );
 @include font-face(
-  "Degular Regular",
+  "Degular Display Regular",
   "../assets/fonts/Degular_Display-Regular",
   ("woff2", "woff")
 );
 @include font-face(
-  "Degular Italic",
+  "Degular Display Italic",
   "../assets/fonts/Degular_Display-Italic",
   ("woff2", "woff")
 );
 @include font-face(
-  "Degular Bold",
+  "Degular Display Bold",
   "../assets/fonts/Degular_Display-Bold",
   ("woff2", "woff")
 );
 @include font-face(
-  "Degular Bold Italic",
+  "Degular Display Bold Italic",
   "../assets/fonts/Degular_Display-Bold_Italic",
   ("woff2", "woff")
 );
 @include font-face(
-  "Degular Black",
+  "Degular Display Black",
   "../assets/fonts/Degular_Display-Black",
   ("woff2", "woff")
 );
 @include font-face(
-  "Degular Black Italic",
+  "Degular Display Black Italic",
   "../assets/fonts/Degular_Display-Black_Italic",
   ("woff2", "woff")
 );
@@ -71,9 +71,19 @@ figure {
   "../assets/fonts/ObviouslyDemo-CondensedSemibold",
   ("woff2", "woff")
 );
+@include font-face(
+  "Degular",
+  "../assets/fonts/Degular-Regular",
+  ("woff2", "woff")
+);
+@include font-face(
+  "Degular Italic",
+  "../assets/fonts/Degular-Italic",
+  ("woff2", "woff")
+);
 
 body {
-  font-family: "Degular Regular";
+  font-family: "Degular";
   font-size: $base-font-size;
   @include font-size(1, 1.3);
   line-height: $base-line-height;
@@ -102,7 +112,7 @@ h4,
 h5,
 h6 {
   color: var(--colour-text);
-  font-family: "Degular Bold";
+  font-family: "Degular Display Bold";
 }
 
 h1 {
@@ -169,7 +179,7 @@ h5 {
 
   // @include margin(1, 0.5);
   font-size: $base-font-size + px;
-  font-family: "Degular Regular";
+  font-family: "Degular Display Regular";
 }
 
 h6 {
@@ -191,20 +201,21 @@ h6 {
 }
 
 p {
-  font-family: "Degular Light";
-  @include font-size(1, 1.2);
+  font-family: "Degular";
+  font-size: clamp(16px, 1em, 20px);
+  // @include font-size(1, 1.2);
   // @include margin(0, 1);
   opacity: 0.75;
 }
 
 .light {
-  font-family: "Degular Light" !important;
+  font-family: "Degular Display Light" !important;
 }
 .regular {
-  font-family: "Degular Regular" !important;
+  font-family: "Degular Display Regular" !important;
 }
 .bold {
-  font-family: "Degular Bold" !important;
+  font-family: "Degular Display Bold" !important;
 }
 
 article {
