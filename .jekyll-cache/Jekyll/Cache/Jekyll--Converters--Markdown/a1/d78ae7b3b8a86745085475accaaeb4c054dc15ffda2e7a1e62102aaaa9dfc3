@@ -1,0 +1,61 @@
+I"�<p>Personalising a page to a prospect takes time, and compounds as sales teams get larger. Templates in Qwilr were a faster way to personalise pages, pulling in real data from their CRM. The feature initially was impossible to discover though, and when customers did it was brittle and extremely limited. This transformation project fixed that original automation workflow, extended it, and fleshed out a longer term vision for where we needed to go.</p>
+
+<section class="tiles center">
+    <div>
+        <h2>Templating simple token content</h2>
+        <div class="collaborators">
+            <div class="collaborator">
+                <img src="/assets/site/dom-profile.jpg" />
+                <div class="info">
+                    <p>Test</p>
+                </div>
+            </div>
+            <div class="collaborator">
+                <img src="/assets/site/dom-profile.jpg" />
+                <div class="info">
+                    <p>Test</p>
+                </div>
+            </div>
+            <div class="collaborator">
+                <img src="/assets/site/dom-profile.jpg" />
+                <div class="info">
+                    <p>Test</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div>
+        <p>To personalise a page with data from their CRM, customers needed to add “tokens” to their templates. Typed with curly brackets (like ), these tokens were impossible to discover and understand as functionality, often unclear what the original CRM references were, and even if they did, prone to typos. I needed to redesign how tokens worked, support creating from more data sources, so customers never had to leave their CRM.</p>
+    </div>
+</section>
+
+<section class="pair">
+    <div class="smaller">
+      <h3>Designing a new visual language of “tokens”</h3>
+      <p>
+        Tokens needed to be easy to scan and interact with on a page, but still be formatted and styled like regular text. Going back to first principles, I wanted tokens to be easily discoverable,  intuitive and tangible. To be a clear building block of automation. I designed a clear visual language and interaction patterns for tokens, that extended to other token types on the horizon. 
+      </p>
+    </div>
+    <img class="bigger" src="/assets/projects/automation/tokens.jpg" />
+</section>
+
+<section class="pair">
+    <div class="smaller reversed">
+      <h3>Making it easy to use them in pages</h3>
+      <p>
+        Some CRMs would have thousands of tokens, and some (like Salesforce) could also be nested in unlimited ways, with long and obscure custom names. We needed to make it really easy for customers to connect their CRM, and give them a way to search and navigate their tokens, adding them into their pages with ease. I created new integration flows for CRM and API customers, and a new home for their tokens to be managed. Allowing them to drag and drop tokens into their pages with ease. 
+      </p>
+    </div>
+    <img class="bigger" src="/assets/projects/automation/panel.jpg" />
+</section>
+
+<section class="pair">
+    <div class="smaller">
+      <h3>Making it easy to use them in pages</h3>
+      <p>
+        Some CRMs would have thousands of tokens, and some (like Salesforce) could also be nested in unlimited ways, with long and obscure custom names. We needed to make it really easy for customers to connect their CRM, and give them a way to search and navigate their tokens, adding them into their pages with ease. I created new integration flows for CRM and API customers, and a new home for their tokens to be managed. Allowing them to drag and drop tokens into their pages with ease. 
+      </p>
+    </div>
+    <img class="bigger" src="/assets/projects/automation/panel.jpg" />
+</section>
+:ET
