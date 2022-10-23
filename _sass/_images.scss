@@ -27,6 +27,7 @@
 }
 
 .full-width-image {
+  width: 100%;
   @include margin(3, 3);
   border-radius: 0 !important;
 
