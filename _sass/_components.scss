@@ -97,7 +97,7 @@ button {
       width: 100%;
       justify-content: space-between;
       border-radius: 10px;
-      @include transition (all $default-transition);
+      @include transition(all $default-transition);
 
       h3 {
         padding-top: var(--spacer);
@@ -120,16 +120,15 @@ button {
         margin: 0;
         padding: 0;
         align-self: center;
-
       }
       &:hover {
         background-color: var(--colour-darkest);
         padding: 0 30px 0 30px;
-        @include transition (all $default-transition);
+        @include transition(all $default-transition);
 
         .arrow {
           opacity: 1;
-          @include transition (all $default-transition);
+          @include transition(all $default-transition);
         }
         // div:first-of-type {
         //   translate: (10px);
@@ -243,10 +242,23 @@ nav {
     padding: 2vw 0 5vw 0;
   }
 
+  @media (max-width: 768px) {
+    div:first-of-type {
+      text-align: center;
+    }
+    p {
+      margin: 0 auto;
+    }
+  }
+
   a {
-    font-family: "Degular Bold";
-    font-size: 32px;
+    font-family: "Degular Display Bold";
+    font-size: 26px;
     margin-bottom: 10px;
+  }
+
+  svg {
+    margin-left: 10px;
   }
 
   p {
