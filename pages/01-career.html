@@ -16,29 +16,33 @@ description: I mainly write about design, film, and observations in between. I m
 <section>
   <div class="tiles end">
     <div>
-      <h4>{{ chapter.timeframe }}</h4>
+      <h4 class="{{ chapter.theme }}">{{ chapter.timeframe }}</h4>
       <h2>{{ chapter.role }}</h2>
     </div>
     <div>
       <p>{{ chapter.description }}.</p>
-      <button>Read more</button>
+      <button class="link-button {{ chapter.theme }}" onclick="location.href='{{ chapter.url }}'">Read more</button>
     </div>
   </div>
 
-  <!-- {% assign chapters = site.projects | where: "chapter","one" %} {% for
-    project in chapters %}
-    <a href="{{ project.url }}">
-      <div style="background-image: url(/assets/projects/poster-test.jpg">
-        <h3 class="byline">{{ project.title }}</h3>
-        <h3>{{ project.title }}</h3>
+  {% for project in site.projects %}
+  {% assign chapters = project.chapter %} 
+  {% if chapter = chapter.chapter %}
+  <a class="vtest" href="{{ project.url }}">
+    <div class="vingette">
+      <img src="{{ project.image }}" />
+      <div>
+        <div>
+          <h3 class="{{ project.theme }}">{{ project.year }}</h3>
+          <h3>{{ project.title }}</h3>
+        </div>
+        {% include svg/arrow-right.svg %}
       </div>
-    </a>
-    {% endfor %} -->
+    </div>
+  </a>
+  <!-- {% else %} -->
+  <img url="/assets/site/big.jpg">
+  {% endif %}
+  {% endfor %}
 
-  <div class="domtest">
-    <img src="/assets/projects/digicave/digicave-banner-b.jpg" />
-    <img src="/assets/projects/digicave/digicave-banner-b.jpg" />
-    <img src="/assets/projects/digicave/digicave-banner-b.jpg" />
-  </div>
-</section>
 {% endfor %}

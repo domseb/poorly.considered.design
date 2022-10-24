@@ -1,6 +1,6 @@
 // COMPONENTS
 
-.button {
+button {
   display: inline-block;
   color: var(--colour-darkest);
   background-color: var(--colour-light);
@@ -21,8 +21,49 @@
     // background-color: rgba($primary, 0.2);
     // border-bottom: 3px solid rgba($primary, 0);
   }
-
   // @include transition(background-color 0.3s ease, border 0.3s ease);
+}
+
+.link-button {
+  display: inline-block;
+  // color: var(--colour-light);
+  background-color: transparent;
+  text-align: center;
+  font-size: 22px;
+  padding: 10px 30px 15px 0px;
+  margin: 0px;
+  font-family: "Obviously Semi";
+  text-transform: uppercase;
+  text-decoration: none;
+  white-space: nowrap;
+  cursor: pointer;
+  border: none;
+  box-sizing: border-box;
+  box-shadow: 0px 0 0 0;
+  line-height: 22px;
+  margin-top: 20px;
+  @include transition(all $default-transition);
+
+  &::after {
+    content:'→';
+    font-family: "Degular Display Light";
+    font-size: 24px;
+    margin-left: 10px;
+    position: absolute;
+    // color: inherit;
+  }
+
+  &:hover {
+    @include transition(all $default-transition);
+    // box-shadow: 20px 0 0 0;
+    // border-bottom: 3px solid rgba($primary, 0);
+    &::after {
+      @include transition(all $default-transition);
+      // padding: 200px;
+      transform: translateX(10px);
+      // color: inherit;
+    }
+  }
 }
 
 .collaborator {
