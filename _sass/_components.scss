@@ -152,11 +152,11 @@ nav {
   justify-content: space-between;
   align-items: center;
 
-  @media (max-width: 750px) {
-    .cta {
-      display: none;
-    }
-  }
+  // @media (max-width: 750px) {
+  //   .cta {
+  //     display: none;
+  //   }
+  // }
 
   img {
     margin: 0 !important;

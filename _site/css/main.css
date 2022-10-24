@@ -809,9 +809,6 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center; }
-  @media (max-width: 750px) {
-    nav .cta {
-      display: none; } }
   nav img {
     margin: 0 !important; }
   nav p {
