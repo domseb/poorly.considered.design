@@ -201,6 +201,15 @@ nav {
     padding: 2vw 0 5vw 0;
   }
 
+  @media (max-width: 768px) {
+    div:first-of-type {
+      text-align: center;
+    }
+    p {
+      margin: 0 auto;
+    }
+  }
+
   a {
     font-family: "Degular Display Bold";
     font-size: 26px;
