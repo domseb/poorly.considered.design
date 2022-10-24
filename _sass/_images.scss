@@ -89,8 +89,8 @@
 }
 
 .flexy {
-  height: 80vh;
-  background: #00064c;
+  height: 70vh;
+  background: var(--colour-darkest);
   position: relative;
   width: 100%;
 }
@@ -127,7 +127,7 @@
   position: absolute;
   bottom: 0;
   left: 0;
-  background-color: #00064c;
+  background-color: var(--colour-darkest);
   z-index: 170;
 }
 
@@ -148,7 +148,7 @@
   position: absolute;
   bottom: 0;
   left: 0;
-  background-color: #00064c;
+  background-color: var(--colour-darkest);
   z-index: 150;
 }
 
@@ -169,7 +169,7 @@
   position: absolute;
   bottom: 0;
   left: 0;
-  background-color: #00064c;
+  background-color: var(--colour-darkest);
   z-index: 130;
 }
 
@@ -190,7 +190,7 @@
   position: absolute;
   bottom: 0;
   left: 0;
-  background-color: #00064c;
+  background-color: var(--colour-darkest);
   z-index: 110;
 }
 

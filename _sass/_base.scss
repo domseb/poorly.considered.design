@@ -157,7 +157,7 @@ h4 {
   font-family: "Obviously Semi";
   text-transform: uppercase;
   letter-spacing: 1px;
-  color: var(--colour-lighter);
+  color: var(--colour-light);
   font-weight: normal !important;
 
   // font-size: 32px;
@@ -268,10 +268,10 @@ article {
     color: var(--slate);
     a {
       color: inherit;
-      border-bottom: 3px solid var(--colour-lighter);
+      border-bottom: 3px solid var(--colour-light);
       &:hover {
-        background-color: var(--colour-lighter);
-        color: var(--colour-lighter);
+        background-color: var(--colour-light);
+        color: var(--colour-light);
         @include transition(all $default-transition);
       }
     }
