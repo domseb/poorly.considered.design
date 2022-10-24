@@ -23,11 +23,11 @@
     font-family: "Degular Regular", Helvetica, Arial, sans-serif; */
     display: inline-block;
     height: auto;
-    color: var(--colour-base);
+    color: var(--colour-darker);
     background-color: var(--colour-light);
     text-align: center;
     font-size: 22px;
-    padding: 5px 20px 10px;
+    padding: 5px 20px 10px !important;
     margin: 0px;
     font-family: "Obviously Semi";
     text-transform: uppercase;
@@ -39,15 +39,16 @@
     box-sizing: border-box;
   }
   #mc_embed_signup .button:hover {
-    background-color: rgba(255, 255, 255, 0.5);
+    background-color: var(--colour-light);
+    box-shadow: 0 0 0 3px var(--colour-light-dimmed);
   }
   #mc_embed_signup input.email {
     border: none;
     margin-right: 20px;
     border-radius: 0;
     color: var(--colour-light);
-    background-color: var(--colour-darker);
-    padding: 5px 20px 10px;
+    background-color: var(--colour-darkest);
+    padding: 5px 20px 10px !important;
     height: auto;
     text-transform: uppercase;
     box-shadow: 0px 1px 0px 0px var(--colour-light);
@@ -55,6 +56,9 @@
     text-decoration: none;
     font-size: 22px;
     font-family: "Obviously Semi";
+    @include transition(all $default-transition);
+    text-align: center;
+    border-radius: 4px;
 
     /* border: 1px solid rgba(255, 255, 255, 0.25);
     border-radius: 4px;
@@ -66,6 +70,13 @@
     font-size: 18px;
     font-family: "Degular Regular", Helvetica, Arial, sans-serif; */
   }
+
+  @media (max-width: 768px) {
+    #mc_embed_signup input.email {
+      width: 100% !important;
+      margin-bottom: 10px !important;
+    }
+  }
   #mc_embed_signup input::placeholder {
     color: var(--colour-light);
   }
@@ -74,6 +85,8 @@
   }
   #mc_embed_signup input:focus {
     outline: none !important;
+    background-color: var(--colour-darker);
+    @include transition(all $default-transition);
   }
 </style>
 <div id="mc_embed_signup">
