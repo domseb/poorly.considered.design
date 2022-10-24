@@ -139,7 +139,7 @@ body { --lightness: 25%; --opacity: 1; --colour-base: hsl(var(--hue), 100%, 25%)
 
 .indigo hr { margin: 20px 0 20px 0; border: none; border-top: 1px solid var(--colour-light-dimmed); }
 
-.dark { --hue: 245; --colour-text: white; background-image: url("/assets/site/noise.png"); background-color: var(--colour-darker); color: var(--colour-text); }
+.dark { --hue: 245; --colour-text: white; background-image: url("/assets/site/noise.png"); background-color: var(--colour-darkest); color: var(--colour-text); }
 
 .maroon { --hue: 330; color: hsl(var(--hue, 260), 100%, 65%); }
 
@@ -203,11 +203,13 @@ section { width: clamp(150px, 85vw, 1200px); margin: 0 auto; padding: 10vh 0; }
 
 .listings li { list-style-type: none; margin-left: 0px; margin-bottom: 5px; padding-top: 25px; padding-bottom: 5px; }
 
-.callout { border-radius: 16px; background: var(--colour-darkest-dimmed); padding: 20px; }
+.callout { border-radius: 16px; background: var(--colour-darker); -webkit-transition: all 0.3s ease; -moz-transition: all 0.3s ease; transition: all 0.3s ease; padding: 20px; }
 
 .callout h4 { margin-bottom: 10px; font-size: 22px; }
 
-.callout p { font-size: clamp(18px, 2vw, 22px); opacity: 0.65; }
+.callout p { opacity: 0.65; }
+
+.callout:hover { background: var(--colour-base); box-shadow: 0 0 0 5px var(--colour-base); -webkit-transition: all 0.3s ease; -moz-transition: all 0.3s ease; transition: all 0.3s ease; }
 
 .center { align-items: center; justify-content: center; }
 
@@ -358,7 +360,7 @@ section { width: clamp(150px, 85vw, 1200px); margin: 0 auto; padding: 10vh 0; }
 
 .link-stack li .link-item .arrow { opacity: 0; font-family: "Degular Display Light"; margin: 0; padding: 0; align-self: center; }
 
-.link-stack li .link-item:hover { background-color: var(--colour-darkest); padding: 0 30px 0 20px; -webkit-transition: all 0.3s ease; -moz-transition: all 0.3s ease; transition: all 0.3s ease; }
+.link-stack li .link-item:hover { background-color: var(--colour-darkest); padding: 0 30px 0 30px; -webkit-transition: all 0.3s ease; -moz-transition: all 0.3s ease; transition: all 0.3s ease; }
 
 .link-stack li .link-item:hover .arrow { opacity: 1; -webkit-transition: all 0.3s ease; -moz-transition: all 0.3s ease; transition: all 0.3s ease; }
 
