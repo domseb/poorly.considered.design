@@ -18,15 +18,12 @@ button {
 
   &:hover,
   &:focus {
-    // background-color: rgba($primary, 0.2);
-    // border-bottom: 3px solid rgba($primary, 0);
+
   }
-  // @include transition(background-color 0.3s ease, border 0.3s ease);
 }
 
 .link-button {
   display: inline-block;
-  // color: var(--colour-light);
   background-color: transparent;
   text-align: center;
   font-size: 22px;
@@ -50,39 +47,66 @@ button {
     font-size: 24px;
     margin-left: 10px;
     position: absolute;
-    // color: inherit;
   }
 
   &:hover {
     @include transition(all $default-transition);
-    // box-shadow: 20px 0 0 0;
-    // border-bottom: 3px solid rgba($primary, 0);
     &::after {
       @include transition(all $default-transition);
-      // padding: 200px;
       transform: translateX(10px);
-      // color: inherit;
     }
   }
 }
 
-.collaborator {
-  height: 20px !important;
-  width: 20px;
-  border-radius: 10px;
+.collaborators {
+  display: inline-flex;
 
-  .info {
-    background: black;
-    color: white;
-    padding: 20px;
-    visibility: hidden;
-    position: absolute;
-    z-index: 99;
-  }
+  .collaborator {
+    height: 40px !important;
+    width: 40px;
+    margin-right: 10px;
 
-  &:hover .info {
-    visibility: visible;
-    position: absolute;
+    img {
+      border-radius: 100%;
+      margin-bottom: 10px;
+    }
+  
+    .info {
+      background: var(--colour-darkest);
+      color: white;
+      padding: 25px 20px 20px 20px;
+      visibility: hidden;
+      position: absolute;
+      z-index: 99;
+      transform: translateY(-20px);
+      @include transition(all $default-transition);
+      border-radius: 10px;
+      width: 300px;
+      opacity: 0;
+
+      h6 {
+        color: white;
+        margin: 0;
+        margin-bottom: 10px;
+      }
+
+      p {
+        font-size: 18px;
+        color: white;
+      }
+  
+      a {
+        color: var(--colour-light);
+      }
+    }
+  
+    &:hover .info {
+      visibility: visible;
+      position: absolute;
+      transform: translateY(0px);
+      opacity: 1;
+      @include transition(all $default-transition);
+    }
   }
 }
 
@@ -102,7 +126,6 @@ button {
       h3 {
         padding-top: var(--spacer);
         padding-bottom: var(--spacer);
-        // top: -16px;
       }
       div {
         display: inline-flex;
@@ -110,7 +133,6 @@ button {
       .info {
         font-family: Obviously;
         font-size: 46px;
-        // position: relative;
         margin-left: 20px;
         font-feature-settings: normal;
       }
@@ -130,9 +152,6 @@ button {
           opacity: 1;
           @include transition(all $default-transition);
         }
-        // div:first-of-type {
-        //   translate: (10px);
-        // }
       }
     }
   }
@@ -146,7 +165,7 @@ button {
   margin-bottom: 70px;
   padding-bottom: 20px;
 
-  .vtest &:hover {
+  .halo &:hover {
     background-color: var(--colour-darkest);
     box-shadow: 0 0 0 20px var(--colour-darkest);
     @include transition(all $default-transition);
@@ -202,8 +221,6 @@ nav {
   img {
     margin: 0 !important;
   }
-
-  // .active {
 
   p {
     @include spacing(0, 0);

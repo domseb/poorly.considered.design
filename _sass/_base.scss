@@ -92,7 +92,6 @@ body {
   -ms-font-feature-settings: "lnum", "ss01" 1, "ss02" 1, "ss03" 1, "ss04" 1;
   -webkit-font-feature-settings: "lnum", "ss01" 1, "ss02" 1, "ss03" 1, "ss04" 1;
   -o-font-feature-settings: "lnum", "ss01" 1, "ss02" 1, "ss03" 1, "ss04" 1;
-  // background-color: var(--colour-base);
   -webkit-text-size-adjust: 100%;
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
@@ -120,37 +119,26 @@ h1 {
   line-height: 0.8;
   min-height: 0vw;
   letter-spacing: -1px;
-  // @include font-size(5, 15);
   font-size: clamp(90px, 12vw, 190px);
-  // @include margin(3, 1);
   margin-bottom: 50px;
   font-weight: normal !important;
 }
 
 h2 {
-  // @include font-size(3, 5);
   font-size: clamp(50px, 6vw, 100px);
   min-height: 0vw;
   line-height: 0.9;
   letter-spacing: -1px;
   font-weight: normal !important;
-  // width: clamp(325px, 85%, 20ch);
   max-width: 20ch;
-  // margin-bottom: 100px;
   margin: 0.5em 0 1em 0;
-  // @include margin(3, 1);
 }
 
 h3 {
-  // font-size: 46px;
-  // @include font-size(1.5, 2.5);
   font-size: clamp(30px, 3vw, 50px);
   line-height: 0.9;
-  // margin-bottom: 10px;
   font-weight: normal !important;
   margin: 0.5em 0 0.25em 0;
-
-  // @include margin(2, 0.75);
 }
 
 h4 {
@@ -159,37 +147,27 @@ h4 {
   letter-spacing: 1px;
   color: var(--colour-light);
   font-weight: normal !important;
-
-  // font-size: 32px;
   font-size: clamp(24px, 2vw, 30px);
-  // @include font-size(1, 2);
   line-height: 1;
   margin-bottom: 50px;
-  // @include margin(1, 0);
 }
 
 h5 {
   color: var(--colour-darker);
   text-transform: uppercase;
-  // font-size: 24px;
-  // @include font-size(1, 1.5);
   letter-spacing: 1px;
   line-height: 1;
   font-weight: normal !important;
-
-  // @include margin(1, 0.5);
   font-size: $base-font-size + px;
   font-family: "Degular Display Regular";
 }
 
 h6 {
   color: var(--text-muted);
-  // font-size: 24px;
-  @include font-size(1, 1.5);
+  font-size: clamp(20px, 2vw, 26px);
+  // @include font-size(1, 1.5);
   line-height: 1;
   font-weight: normal !important;
-
-  // @include margin(1, 0);
 }
 
 .emdash::after {
@@ -203,8 +181,6 @@ h6 {
 p {
   font-family: "Degular";
   font-size: clamp(16px, 1em, 20px);
-  // @include font-size(1, 1.2);
-  // @include margin(0, 1);
   opacity: 0.75;
 }
 
@@ -268,9 +244,9 @@ article {
     color: var(--slate);
     a {
       color: inherit;
-      border-bottom: 3px solid var(--colour-light);
+      border-bottom: 1px solid var(--colour-light);
       &:hover {
-        background-color: var(--colour-light);
+        background-color: var(--colour-light-dimmest);
         color: var(--colour-light);
         @include transition(all $default-transition);
       }
@@ -284,13 +260,8 @@ hr {
   border-top: 1px solid var(--colour-darkest, grey);
 }
 
-// h1,
-// h2,
-// h3,
-// h6,
 img,
 blockquote,
-// pre,
 ul,
 ol,
 dl,
@@ -352,35 +323,12 @@ li {
   }
 }
 
-/**
- * Headings
- */
-// h1,
-// h3,
-// h4,
-// h5,
-// h6 {
-//   font-weight: 400;
-// }
-
-/**
- * Links
- */
 a {
   color: inherit;
   text-decoration: none;
-
-  /*
-    &:hover {
-        color: $brand-secondary;
-        text-decoration: underline;
-        border-bottom: 1px solid $brand-secondary;
-    }*/
 }
 
-/**
- * Blockquotes
- */
+
 blockquote {
   padding-left: var(--spacer);
   font-style: italic;
@@ -391,9 +339,6 @@ blockquote {
   }
 }
 
-/**
- * Code formatting
- */
 pre,
 code {
   @include font-size(1, 1.1);
@@ -425,9 +370,6 @@ pre {
   margin: 0;
 }
 
-/**
- * Clearfix
- */
 %clearfix {
   &:after {
     content: "";
@@ -436,9 +378,6 @@ pre {
   }
 }
 
-/**
- * Icons
- */
 .icon {
   > svg {
     display: inline-block;

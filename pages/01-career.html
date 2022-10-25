@@ -25,24 +25,32 @@ description: I mainly write about design, film, and observations in between. I m
     </div>
   </div>
 
+  <div class="tiles">
   {% for project in site.projects %}
-  {% assign chapters = project.chapter %} 
-  {% if chapter = chapter.chapter %}
-  <a class="vtest" href="{{ project.url }}">
-    <div class="vingette">
-      <img src="{{ project.image }}" />
-      <div>
-        <div>
-          <h3 class="{{ project.theme }}">{{ project.year }}</h3>
-          <h3>{{ project.title }}</h3>
-        </div>
-        {% include svg/arrow-right.svg %}
-      </div>
-    </div>
-  </a>
-  <!-- {% else %} -->
-  <img url="/assets/site/big.jpg">
-  {% endif %}
-  {% endfor %}
+  {% capture ctag %}{{chapter.tags}}{% endcapture %}
+  {% capture ptag %}{{project.tags}}{% endcapture %}
 
+    {% if ptag == ctag %}
+      <a class="halo" href="{{ project.url }}">
+        <div class="vingette">
+          <img src="{{ project.image }}" />
+          <div>
+            <div>
+              <h3 class="{{ project.theme }}">{{ project.year }}</h3>
+              <h3>{{ project.title }}</h3>
+            </div>
+            {% include svg/arrow-right.svg %}
+          </div>
+        </div>
+      </a>
+      {% endif %}
+      {% endfor %}
+    </div>
+    <img src="{{ chapter.vingette }}">
 {% endfor %}
+</section>
+
+
+
+
+

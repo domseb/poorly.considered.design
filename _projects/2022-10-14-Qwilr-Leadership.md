@@ -3,6 +3,7 @@ layout: project
 refID: secondary
 chapter: two
 theme: purple
+tags: testtag
 
 year: 2019 — 2022
 title: Weaving strategy, culture & craft

@@ -11,7 +11,6 @@
 
 .image {
   width: clamp(150px, 85vw, 650px);
-  // border-radius: 20px;
   @include margin(3, 3);
 }
 
@@ -47,7 +46,6 @@
   @include margin(3, 3);
 
   img {
-    box-shadow: 0px 15px 35px var(--feather);
     border-radius: var(--spacer-small);
     border: 1px solid var(--feather);
   }

@@ -3,6 +3,7 @@ layout: project
 refID: secondary
 chapter: two
 theme: purple
+tags: testtag
 
 year: 2022
 title: Enabling intuitive automation
