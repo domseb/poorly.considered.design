@@ -81,8 +81,12 @@ button {
       transform: translateY(-20px);
       @include transition(all $default-transition);
       border-radius: 10px;
-      width: 300px;
+      width: clamp(150px, 85vw, 320px);
       opacity: 0;
+
+      @media (max-width: 450px) {
+        left: 7.5vw;
+      }
 
       h6 {
         color: white;
@@ -100,12 +104,19 @@ button {
       }
     }
   
-    &:hover .info {
-      visibility: visible;
-      position: absolute;
-      transform: translateY(0px);
-      opacity: 1;
-      @include transition(all $default-transition);
+    &:hover {
+
+      img {
+        box-shadow: 0 0 0 5px var(--colour-light-dimmed);
+        @include transition(all $default-transition);
+      }
+      .info {
+        visibility: visible;
+        position: absolute;
+        transform: translateY(0px);
+        opacity: 1;
+        @include transition(all $default-transition);
+      }
     }
   }
 }

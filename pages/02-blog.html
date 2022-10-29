@@ -25,12 +25,12 @@ description: I mainly write about design, film, and observations in between. I m
         <ul>
         {% assign date = currentdate %}
       {% endif %}
+      <a href="{{ post.url | prepend: site.baseurl }}">
           <li>
-            <a href="{{ post.url | prepend: site.baseurl }}">
             <h3 href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</h3>
-            <p>{{ post.content | strip_html | truncatewords:30 }} <a class="link" href="{{ post.url | prepend: site.baseurl }}">continue reading →</a></p>
-          </a>
+            <p>{{ post.content | strip_html | truncatewords:30 }}</p>
           </li>
+        </a>
       {% if forloop.last %}</ul>{% endif %}
     {% endfor %}
   </ul>
