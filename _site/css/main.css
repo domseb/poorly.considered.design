@@ -200,7 +200,7 @@ section { width: clamp(150px, 85vw, 1200px); margin: 0 auto; padding: 10vh 0; }
 
 .listings a:hover { background-color: var(--colour-light-dimmestest); -webkit-transition: all 0.3s ease; -moz-transition: all 0.3s ease; transition: all 0.3s ease; border-radius: 10px; position: relative; }
 
-.listings a:hover p { --opacity: 0; background: -webkit-linear-gradient(90deg, var(--colour-light-dimmestest), rgba(0, 0, 0, 0.2)); -webkit-background-clip: text; -webkit-text-fill-color: transparent; -webkit-transition: all 0.3s ease; -moz-transition: all 0.3s ease; transition: all 0.3s ease; }
+.listings a:hover p { --opacity: 0; background: -webkit-linear-gradient(90deg, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.2)); -webkit-background-clip: text; -webkit-text-fill-color: transparent; -webkit-transition: all 0.3s ease; -moz-transition: all 0.3s ease; transition: all 0.3s ease; }
 
 .listings a:hover:before { content: "Continue reading"; font-family: "Obviously Semi"; letter-spacing: 1px; color: var(--colour-light); font-size: 22px; position: absolute; left: 25px; bottom: 25px; text-transform: uppercase; }
 
@@ -406,6 +406,18 @@ button { display: inline-block; color: var(--colour-darkest); background-color: 
 .vingette h3:first-of-type { font-family: "Obviously Semi"; margin-right: 20px; font-size: 60px; margin-top: -10px; }
 
 .vingette h3 { font-size: clamp(25px, 3vw, 35px); }
+
+.featured-posts { margin-bottom: 70px; padding-bottom: 20px; }
+
+.halo .featured-posts:hover { background-color: var(--colour-darkest); box-shadow: 0 0 0 20px var(--colour-darkest); -webkit-transition: all 0.3s ease; -moz-transition: all 0.3s ease; transition: all 0.3s ease; border-radius: 4px; }
+
+.featured-posts div:first-of-type { display: flex; align-items: center; justify-content: space-between; }
+
+.featured-posts div > * { display: flex; align-items: center; }
+
+.featured-posts h3:first-of-type { font-family: "Obviously Semi"; margin-right: 20px; font-size: 60px; margin-top: -10px; }
+
+.featured-posts h3 { font-size: clamp(25px, 3vw, 35px); }
 
 nav { width: clamp(150px, 85vw, 1200px); margin: 0 auto; height: 150px; place-items: center; display: flex; justify-content: space-between; align-items: center; }
 

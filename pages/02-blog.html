@@ -9,6 +9,19 @@ description: I mainly write about design, film, and observations in between. I m
     <h1>Rambling thoughts on things.</h1>
     <h5 class="label">Featured</h5>
     <hr />
+    <div class="tiles">
+      <!-- <ul> -->
+        {% for post in site.posts | limit: 3 %}
+          <a href="{{ post.url | prepend: site.baseurl }}">
+              <div>
+                <img src="{{ post.featured-image }}">
+                <h5>{{ post.date }}</h5>
+                <h3 href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</h3>
+              </div>
+            </a>
+        {% endfor %}
+      <!-- </ul> -->
+    </div>
 </section>
 
 <div class="listings">

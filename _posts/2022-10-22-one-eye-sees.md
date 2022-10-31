@@ -2,6 +2,7 @@
 layout: post
 title: "One eye sees, the other feels"
 permalink: /writing/one-eye-sees-the-other-feels/
+featured-image: /assets/blog/oestof-featured.jpg
 ---
 
 I’ve found myself in a familiar place recently. Opening Slack at sunrise, responding to emails at dinner, doing busy work before bed. The bookends of the 9-5 have drifted, blurring the boundaries of life and work. Days slip by like this. My weeks are busy but unvaried, a wall of white noise.

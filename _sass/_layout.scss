@@ -245,7 +245,8 @@ section {
       // opacity: .2;
       // font-size: 72px;
       --opacity: 0;
-      background: -webkit-linear-gradient(90deg, var(--colour-light-dimmestest), rgba(0,0,0,.2));
+      // background: -webkit-linear-gradient(90deg, var(--colour-light-dimmestest), rgba(0,0,0,.2));
+      background: -webkit-linear-gradient(90deg, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.2));
       -webkit-background-clip: text;
       -webkit-text-fill-color: transparent;
       @include transition (all $default-transition);

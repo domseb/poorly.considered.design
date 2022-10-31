@@ -212,6 +212,46 @@ button {
   }
 }
 
+.featured-posts {
+  margin-bottom: 70px;
+  padding-bottom: 20px;
+
+  .halo &:hover {
+    background-color: var(--colour-darkest);
+    box-shadow: 0 0 0 20px var(--colour-darkest);
+    @include transition(all $default-transition);
+    border-radius: 4px;
+  }
+
+  // img {
+  //   object-fit: cover;
+  //   height: 60vh;
+  //   width: 100%;
+  // }
+
+  div:first-of-type {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  div > * {
+    display: flex;
+    align-items: center;
+  }
+
+  h3:first-of-type {
+    font-family: "Obviously Semi";
+    margin-right: 20px;
+    font-size: 60px;
+    margin-top: -10px;
+  }
+
+  h3 {
+    font-size: clamp(25px, 3vw, 35px);
+  }
+}
+
 // PATTERNS
 
 nav {
