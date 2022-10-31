@@ -204,7 +204,7 @@ article {
   h4,
   h5,
   p {
-    width: clamp(150px, 85vw, 650px);
+    width: clamp(150px, 85vw, 600px);
   }
 
   h1 {
@@ -241,8 +241,10 @@ article {
   }
 
   p {
-    @include margin(0, 1);
+    // @include margin(0, 1);
+    margin: 0 0 1.5em 0;
     color: var(--slate);
+    // text-indent: 20px;
     a {
       color: inherit;
       border-bottom: 1px solid var(--colour-light);
@@ -252,6 +254,10 @@ article {
         @include transition(all $default-transition);
       }
     }
+
+  }
+  p+p {
+    text-indent: 1em;
   }
 }
 
