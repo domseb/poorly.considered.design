@@ -15,7 +15,9 @@ description: I mainly write about design, film, and observations in between. I m
           <a href="{{ post.url | prepend: site.baseurl }}">
               <div>
                 <img src="{{ post.featured-image }}">
-                <h5>{{ post.date }}</h5>
+                <h5>{{ post.date | date_to_string }} • {% assign words = post.content |
+                  number_of_words %} {% if words < 360 %} 1 min read {% else %} {{ words |
+                  divided_by:180 }} min read {% endif %}</h5>
                 <h3 href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</h3>
               </div>
             </a>
@@ -40,6 +42,9 @@ description: I mainly write about design, film, and observations in between. I m
       {% endif %}
       <a href="{{ post.url | prepend: site.baseurl }}">
           <li>
+            <!-- <h5>{{ post.date | date_to_string }} • {% assign words = post.content |
+                  number_of_words %} {% if words < 360 %} 1 min read {% else %} {{ words |
+                  divided_by:180 }} min read {% endif %}</h5> -->
             <h3 href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</h3>
             <p>{{ post.content | strip_html | truncatewords:30 }}</p>
           </li>
