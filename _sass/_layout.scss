@@ -196,7 +196,8 @@ section {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-  gap: 100px;
+  column-gap: 100px;
+  row-gap: 30px;
 
   .bigger {
     flex: 7;

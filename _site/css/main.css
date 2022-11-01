@@ -185,10 +185,7 @@ p {
   font-family: "Degular Display Bold" !important; }
 
 article {
-  display: grid;
-  margin-top: 3.9rem;
-  margin-bottom: 6.5rem;
-  place-items: center; }
+  margin: 100px auto; }
   article h2,
   article h3,
   article h4,
@@ -479,7 +476,9 @@ section {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-  gap: 100px; }
+  -webkit-column-gap: 100px;
+          column-gap: 100px;
+  row-gap: 30px; }
   .pair .bigger {
     flex: 7;
     min-width: 300px;

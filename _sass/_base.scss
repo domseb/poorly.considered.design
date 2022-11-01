@@ -195,9 +195,10 @@ p {
 }
 
 article {
-  display: grid;
-  @include margin(3, 5);
-  place-items: center;
+  // display: grid;
+  // @include margin(3, 5);
+  margin: 100px auto;
+  // place-items: center;
 
   h2,
   h3,
@@ -254,9 +255,8 @@ article {
         @include transition(all $default-transition);
       }
     }
-
   }
-  p+p {
+  p + p {
     text-indent: 1em;
   }
 }
