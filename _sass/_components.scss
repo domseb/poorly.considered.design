@@ -2,8 +2,8 @@
 
 button {
   display: inline-block;
-  color: var(--colour-darkest);
-  background-color: var(--colour-light);
+  color: var(--colour-light);
+  background-color: var(--colour-light-dimmest);
   text-align: center;
   font-size: 22px;
   padding: 5px 20px 10px;
@@ -15,6 +15,7 @@ button {
   cursor: pointer;
   border: none;
   box-sizing: border-box;
+  border-radius: var(--radius-small);
 
   &:hover,
   &:focus {

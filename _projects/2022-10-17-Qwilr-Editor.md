@@ -146,7 +146,7 @@ image: /assets/projects/editor/hero-editor.jpg
     <img class="bigger" src="/assets/projects/editor/permissions.jpg">
 </section>
 
-<div class="banner">
+<div class="banner-break">
     <section class="tiles center">
         <div>
             <h2>Building blocks for a design system</h2>

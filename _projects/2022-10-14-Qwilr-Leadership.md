@@ -156,7 +156,7 @@ image: /assets/projects/leadership/hero-leadership.jpg
 
 {% include modules/image-layouts.html url="/assets/projects/leadership/droid.jpg" type="screen" %}
 
-<div class="banner">
+<div class="banner-break">
     <section class="tiles center">
         <div>
             <h2>Formalising our company strategy</h2>

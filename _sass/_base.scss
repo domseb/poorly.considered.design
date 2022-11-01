@@ -120,7 +120,7 @@ h1 {
   min-height: 0vw;
   letter-spacing: -1px;
   font-size: clamp(90px, 12vw, 190px);
-  margin-bottom: 50px;
+  margin-bottom: 0.25em;
   font-weight: normal !important;
 }
 
@@ -209,12 +209,14 @@ article {
   }
 
   h1 {
-    @include margin(3, 1);
+    // @include margin(3, 1);
+    margin: 1em auto 0.5em auto;
     color: var(--onyx);
   }
 
   h2 {
-    @include margin(3, 1);
+    // @include margin(3, 1);
+    margin: 1em auto 0.5em auto;
     font-size: clamp(50px, 6vw, 80px);
     color: var(--onyx);
   }
@@ -223,11 +225,12 @@ article {
     @include font-size(2, 2.5);
     font-size: clamp(30px, 3vw, 42px);
     color: var(--onyx);
-    margin: 0.5em 0 0.25em 0;
+    margin: 1em auto 0.5em auto;
   }
 
   h4 {
-    @include margin(1, 0);
+    // @include margin(1, 0);
+    margin: 0.5em auto 0.25em auto;
     color: var(--onyx);
   }
 
@@ -243,7 +246,7 @@ article {
 
   p {
     // @include margin(0, 1);
-    margin: 0 0 1.5em 0;
+    margin: 0 auto 1.5em auto;
     color: var(--slate);
     // text-indent: 20px;
     a {
