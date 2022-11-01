@@ -101,7 +101,7 @@ body {
 
 .banner {
   background-color: var(--colour-darkest);
-  padding-bottom: 10vh;
+  padding-bottom: 10vw;
 }
 
 .banner-layered {
@@ -111,13 +111,13 @@ body {
 
 .banner-break {
   background-color: var(--colour-darkest);
-  padding-bottom: 10vh;
-  padding-top: 10vh;
+  padding-bottom: 10vw;
+  padding-top: 10vw;
 }
 
 section {
   width: clamp(150px, 85vw, 1200px);
-  margin: 10vh auto;
+  margin: 10vw auto;
   // padding: 10vh 0;
 }
 
@@ -184,7 +184,7 @@ section {
   }
 
   &.project {
-    padding-bottom: clamp(50px, 10vh, 275px);
+    // padding-bottom: clamp(50px, 10vh, 275px);
     p {
       color: white;
     }
@@ -200,7 +200,7 @@ section {
   margin: 0 auto;
   display: flex;
   // margin-top: -35vw !important;
-  margin-top: clamp(-375px, -15vh, -50px);
+  margin-top: -17.5vw;
 }
 
 // LAYOUTS
