@@ -184,7 +184,7 @@ section {
   }
 
   &.project {
-    padding-bottom: 40vw;
+    padding-bottom: clamp(50px, 10vh, 275px);
     p {
       color: white;
     }
@@ -199,7 +199,8 @@ section {
   width: clamp(150px, 85vw, 1200px);
   margin: 0 auto;
   display: flex;
-  margin-top: -35vw !important;
+  // margin-top: -35vw !important;
+  margin: clamp(-375px, -15vh, -50px);
 }
 
 // LAYOUTS
@@ -249,7 +250,7 @@ section {
 
 .listings {
   margin-top: -10vh;
-  margin-bottom: 30vh;
+  margin-bottom: 200px;
   ul {
     display: grid;
     width: clamp(150px, 85vw, 650px);
