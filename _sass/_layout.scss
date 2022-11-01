@@ -295,6 +295,14 @@ section {
   }
 }
 
+.fullwidth {
+  height: calc(100vh - 150px - 186px);
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .callout {
   border-radius: 16px;
   background: var(--colour-darker);

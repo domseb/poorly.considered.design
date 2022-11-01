@@ -548,6 +548,13 @@ section {
     .listings li {
       padding: 0px 0px 25px 0px; } }
 
+.fullwidth {
+  height: calc(100vh - 150px - 186px);
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+
 .callout {
   border-radius: 16px;
   background: var(--colour-darker);
@@ -758,7 +765,7 @@ button {
   margin-top: 20px;
   transition: all 0.3s ease; }
   .link-button::after {
-    content: '→';
+    content: "→";
     font-family: "Degular Display Light";
     font-size: 24px;
     margin-left: 10px;
@@ -914,6 +921,38 @@ nav {
   @media (max-width: 750px) {
     nav .cta {
       display: none; } }
+  nav .tooltip {
+    background: var(--colour-darkest);
+    color: white;
+    padding: 25px 20px 20px 20px;
+    visibility: hidden;
+    position: absolute;
+    z-index: 99;
+    -webkit-transform: translateY(-20px);
+            transform: translateY(-20px);
+    transition: all 0.3s ease;
+    border-radius: 10px;
+    width: clamp(150px, 85vw, 320px);
+    opacity: 0; }
+    @media (max-width: 450px) {
+      nav .tooltip {
+        left: 7.5vw; } }
+    nav .tooltip h6 {
+      color: white;
+      margin: 0;
+      margin-bottom: 10px; }
+    nav .tooltip p {
+      font-size: 18px;
+      color: white; }
+    nav .tooltip a {
+      color: var(--colour-light); }
+  nav:hover .tooltip {
+    visibility: visible;
+    position: absolute;
+    -webkit-transform: translateY(10px);
+            transform: translateY(10px);
+    opacity: 1;
+    transition: all 0.3s ease; }
   nav img {
     margin: 0 !important; }
   nav p {

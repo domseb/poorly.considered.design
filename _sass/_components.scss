@@ -18,7 +18,6 @@ button {
 
   &:hover,
   &:focus {
-
   }
 }
 
@@ -42,7 +41,7 @@ button {
   @include transition(all $default-transition);
 
   &::after {
-    content:'→';
+    content: "→";
     font-family: "Degular Display Light";
     font-size: 24px;
     margin-left: 10px;
@@ -70,7 +69,7 @@ button {
       border-radius: 100%;
       margin-bottom: 10px;
     }
-  
+
     .info {
       background: var(--colour-darkest);
       color: white;
@@ -98,14 +97,13 @@ button {
         font-size: 18px;
         color: white;
       }
-  
+
       a {
         color: var(--colour-light);
       }
     }
-  
-    &:hover {
 
+    &:hover {
       img {
         box-shadow: 0 0 0 5px var(--colour-light-dimmed);
         @include transition(all $default-transition);
@@ -266,6 +264,49 @@ nav {
   @media (max-width: 750px) {
     .cta {
       display: none;
+    }
+  }
+
+  .tooltip {
+    background: var(--colour-darkest);
+    color: white;
+    padding: 25px 20px 20px 20px;
+    visibility: hidden;
+    position: absolute;
+    z-index: 99;
+    transform: translateY(-20px);
+    @include transition(all $default-transition);
+    border-radius: 10px;
+    width: clamp(150px, 85vw, 320px);
+    opacity: 0;
+
+    @media (max-width: 450px) {
+      left: 7.5vw;
+    }
+
+    h6 {
+      color: white;
+      margin: 0;
+      margin-bottom: 10px;
+    }
+
+    p {
+      font-size: 18px;
+      color: white;
+    }
+
+    a {
+      color: var(--colour-light);
+    }
+  }
+
+  &:hover {
+    .tooltip {
+      visibility: visible;
+      position: absolute;
+      transform: translateY(10px);
+      opacity: 1;
+      @include transition(all $default-transition);
     }
   }
 
