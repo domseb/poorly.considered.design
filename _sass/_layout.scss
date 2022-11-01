@@ -200,7 +200,7 @@ section {
   margin: 0 auto;
   display: flex;
   // margin-top: -35vw !important;
-  margin: clamp(-375px, -15vh, -50px);
+  margin-top: clamp(-375px, -15vh, -50px);
 }
 
 // LAYOUTS
