@@ -27,7 +27,8 @@ body {
   --spacer-medium: 40px;
   --spacer-large: 100px;
   // OTHER
-  --radius-small: 4px;
+  --radius-s: 4px;
+  --radius-m: 8px;
 }
 
 // THEMES
@@ -101,23 +102,18 @@ body {
 
 .banner {
   background-color: var(--colour-darkest);
-  padding-bottom: 10vw;
+  // padding-bottom: 10em;
 }
 
-.banner-layered {
-  background-color: var(--colour-darkest);
-  padding-bottom: 500px;
-}
-
-.banner-break {
-  background-color: var(--colour-darkest);
-  padding-bottom: 10vw;
-  padding-top: 10vw;
-}
+// .banner-break {
+//   background-color: var(--colour-darkest);
+//   padding-bottom: 7em;
+//   padding-top: 7em;
+// }
 
 section {
   width: clamp(150px, 85vw, 1200px);
-  margin: 10vw auto;
+  margin: 10em auto;
   // padding: 10vh 0;
 }
 
@@ -126,7 +122,10 @@ section {
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   align-items: center;
   column-gap: 150px;
+  margin: 0 auto;
   row-gap: 100px;
+  padding-top: 7em;
+  padding-bottom: 7em;
 
   h2 {
     margin: 0.5em 0 0.5em 0;
@@ -139,9 +138,11 @@ section {
   display: flex;
   flex-wrap: wrap;
   align-items: flex-end;
-  padding-top: 200px;
+  padding-top: 15em;
   margin-top: -150px;
+  margin-bottom: 0px;
   gap: 100px;
+  padding-bottom: 10em;
 
   .headline {
     flex: 5;
@@ -162,6 +163,7 @@ section {
 .header {
   padding-top: 250px;
   margin-top: -150px;
+  margin-bottom: 1em;
 
   p {
     max-width: 55ch;
@@ -178,6 +180,7 @@ section {
 
   &.chapter {
     padding-bottom: 60px;
+    padding-top: 15em;
     h1 {
       margin-bottom: 0.5em;
     }
@@ -234,7 +237,7 @@ section {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   gap: 20px;
-  padding: 3vw 0;
+  padding: 1em 0;
   h2,
   p {
     width: 100% !important;
@@ -249,7 +252,7 @@ section {
 }
 
 .listings {
-  margin-top: -10vh;
+  // margin-top: -10vh;
   margin-bottom: 200px;
   ul {
     display: grid;

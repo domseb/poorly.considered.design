@@ -15,7 +15,7 @@ button {
   cursor: pointer;
   border: none;
   box-sizing: border-box;
-  border-radius: var(--radius-small);
+  border-radius: var(--radius-s);
 
   &:hover,
   &:focus {
@@ -373,6 +373,7 @@ nav {
 
   p {
     max-width: 30ch;
+    margin-top: 6px;
   }
 
   * {
