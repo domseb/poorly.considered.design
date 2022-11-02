@@ -153,7 +153,7 @@ h4 {
 }
 
 h5 {
-  color: var(--colour-darker);
+  // color: var(--colour-darker);
   text-transform: uppercase;
   letter-spacing: 1px;
   line-height: 1;
@@ -398,4 +398,33 @@ pre {
       fill: inherit;
     }
   }
+}
+
+.breadcrumb {
+  display: flex;
+
+  > * {
+    padding-bottom: 5px;
+  }
+
+  a {
+    // border-bottom: 1px solid var(--colour-light-dimmed);
+    // padding-bottom: 7px;
+
+    &:hover {
+      // border-bottom: 1px solid var(--colour-light);
+      background: var(--colour-light-dimmest);
+      // background: var(--colour-light-dimmestest);
+      box-shadow: 0 0 0 8px var(--colour-light-dimmest);
+      border-radius: var(--radius-xs);
+      @include transition(all $default-transition);
+
+    }
+  }
+}
+
+.icon-text {
+  font-family: "Degular Display Light";
+  margin: 5px 10px 0 10px;
+  font-size: 20px;
 }

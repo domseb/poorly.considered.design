@@ -27,6 +27,7 @@ body {
   --spacer-medium: 40px;
   --spacer-large: 100px;
   // OTHER
+  --radius-xs: 2px;
   --radius-s: 4px;
   --radius-m: 8px;
 }
@@ -188,6 +189,7 @@ section {
 
   &.project {
     // padding-bottom: clamp(50px, 10vh, 275px);
+    padding-bottom: 25vw;
     p {
       color: white;
     }
@@ -202,8 +204,8 @@ section {
   width: clamp(150px, 85vw, 1200px);
   margin: 0 auto;
   display: flex;
-  // margin-top: -35vw !important;
-  margin-top: -17.5vw;
+  // margin-top: clamp(-50px, -10vh, -275px);
+  margin-top: -25vw;
 }
 
 // LAYOUTS

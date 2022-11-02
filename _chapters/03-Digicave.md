@@ -4,63 +4,50 @@ chapter: three
 timeframe: 2011 — 2014
 role: Design Lead, Digicave
 theme: emerald
+slug: digicave
 
 description: While designing in a studio helped me create quickly, it was all standalone experiences. I was craving working on something real people used.
-
 ---
 
-### Collaborators
+### My first startup experience
 
-Summarising the importance of collaborators, and what our actual responsibilities are beyond the titles.
+It's not exactly relevant or any indication of my design skills today, but this was a significant experience in my design career—my first true startup experience. Digicave was a creative studio, specialising in mixed and augmented reality projects, and my first true startup experience. I loved the people I worked with there and the projects it was capable of, and owe a lot of what I've learnt to my time there. A studio truly ahead of it's time. Below are some of my favourite projects I designed whilst I was there.
 
-{% include modules/credits.html %}
+{% include modules/image-grid.html url1="/assets/projects/digicave/cal.jpg" url2="/assets/projects/digicave/box-1.jpg" url3="/assets/projects/digicave/htc-3.jpg" url4="/assets/projects/digicave/museum-1.jpg" %}
 
-### The story begins...
+### The process
 
-Qwilr (pronounced quill-er) is simple but powerful content editing platform, that allows businesses to create and share all their sales documents as modern, interactive webpages. Unlike the common standard of sending proposals as boring PDFs, Qwilr Pages look professionally designed, and can be opened and signed from anywhere, including mobile. <br><br> I joined in mid 2017, pre Series A, as their first Design Lead. Although Qwilr had already largely found product market fit with SMBs, it needed to meet the growing demands of larger teams, and design some major feature updates to it’s core editing experience.
+Their proprietary 46 camera rig could capture and model an object using [photometry](<https://en.wikipedia.org/wiki/Photometry_(optics)>). Our leading edge was that we put capture quality first, with unbeatable industry knowledge. The level of detail was so good, we could capture pores on a models face, and individual strands of hair. I was hired as their first designer, responsible for all design work that came out of the studio.
 
-### The starting point
+{% include modules/image-trio.html url1="/assets/projects/digicave/photo-3.jpg" url2="/assets/projects/digicave/photo-2.jpg" url3="/assets/projects/digicave/photo-1.jpg" description="An example using an art marker (1) and the level of detail in the capture putting a head(2) and a statue (3) onto a desk" %}
 
-Qwilr’s CEO and design co-founder, Dylan Baskind, built the company from the outset to have design as a focus. The product was well designed and successful, but symptomatic of Dylan being CEO and sole designer for so long, design and it’s processes were time poor. Features wanted more time to be designed, and needed more time to be polished.
+### TEDx Houses of Parliament
 
-{% include modules/image-grid.html url1="/assets/projects/qwilr/qwilr-before-a.jpg" url2="/assets/projects/qwilr/qwilr-before-b.jpg" url3="/assets/projects/qwilr/analytics.jpg" url4="/assets/projects/qwilr/qwilr-before-d.jpg" %}
+Our work for TEDx focussed on putting users in control of the frame. Throughout the day the attendees could find custom TEDxHoP posters to scan with our app. Each frame had a unique AR scene we had built for them, which they could move around and find their perfect angle to capture, and share online with the world. [TEDx Houses of Parliament](https://play.google.com/store/apps/details?id=com.digicave.tedxhopframes)
 
-### Evolving the brand
+{% include modules/image-layouts.html url="/assets/projects/digicave/frames-1.jpg" type="wide" description="Screenshots from the app, showing one of the scenes we'd created which revealed Laura Whitmore behind one of the event banners" %}
 
-As new features were released, and the design language of the product was evolving, the website was starting to become out of date. As a first experience of Qwilr, it was really important for this first step to be aligned to the product, and help cement Qwilr as a memorable (and better) alternative to other products on the market.
+### HTC Specialist
 
-{% include modules/image-grid.html url1="/assets/projects/qwilr/homepage-a.jpg" url2="/assets/projects/qwilr/homepage-b.jpg" url3="/assets/projects/qwilr/homepage-c.jpg" url4="/assets/projects/qwilr/homepage-d.jpg" %}
+HTC needed a way to create a deeper product understanding of the HTC One for it's upcoming release, and wanted to move away from the expensive and ineffective print material they were using. Our solution was an augmente reality avatar, highlighting core value propositions of the device through interactive and visual storytelling. [HTC Specialist AR App](https://play.google.com/store/apps/details?id=com.digicave.htc.specialist.ar)
 
-### Redesigning Custom Styles
+{% include modules/image-layouts.html url="/assets/projects/digicave/htc-2.jpg" type="wide" %}
+{% include modules/image-layouts.html url="/assets/projects/digicave/htc-1.jpg" type="wide" description="Three core product feature narratives defined the experience – it's display, it's entertainment, and Beats audio" %}
 
-One of the core promises of the product is being able to create visually engaging and professional documents without a designer. The feature set that made this possible, called “Custom Styles”, had initially done a great job of this. Fast and easy to use controls grouped style concerns into compound actions, and users felt empowered. Over time though, needs evolved, and the guard rails that were put in place were under strain.
+### Hello! Magazine
 
-{% include modules/image-layouts.html url="/assets/projects/qwilr/custom-styles-old.jpg" type="wide" description="UI was custom but was inconsistent, space to grow/cramp" %}
+​Hello! Magazine has a readership of reaches over [2 million adults in the UK every week](http://www.hellomagazine.com/marketing/marketing01.html). For the Queen's Diamond Jubilee, the magazine wanted something special for their readers. We captured Gary Barlow, the signer at the centre of the celebrations, to create the an interactive augmented reality cover. A worldwide publishing first.
 
-Initially, you had some presets to choose from, but you couldn’t actually change the font sizes, background or font colours, and every change had to be done through CSS—which was making changes challenging to maintain and support. Walking through designs and prototypes with users, we introduced a new style editor overlay, which provided more granularity, without it feeling overwhelming to users.
+{% include modules/image-layouts.html url="/assets/projects/digicave/gary-barlow-1.jpg" type="wide" %}
 
-{% include modules/image-layouts.html url="/assets/projects/qwilr/custom-styles-2.0.jpg" type="wide" %}
+### James May Science Stories
 
-This got us part of the way there, but editing wasn’t contextual and felt removed, some found the controls confusing or hard to manipulate, and we had issues with feature discovery. All in all, users just didn’t love it. Undeniable bestness being one of Qwilr’s principles, we decided to go back to square one on the feature. [Something I wrote more about here.](https://medium.com/@dominosebastian/the-quest-for-undeniable-bestness-5153832463a)
+James May Science Stories was under development when I joined, and was designing by a contractor before I started. After initial design work was done though, there was a stream of changes and updates that had to be made, including design for additional marketing collateral during my time there. The combination of our high capture quality and storytelling talent meant AR avatars became a model of what we were known for – and they were very fun to work on. You can download and play with the app [here.](https://itunes.apple.com/pk/app/james-mays-science-stories/id517111167?mt=8)
 
-After a lot more research and user interviews, we approached the problem from a new perspective. Making editing contextual, simplified controls with thoughtful shortcuts, and allowed quick modifications without forcing users to save the style.
+{% include modules/image-grid.html url1="/assets/projects/digicave/rig-1.jpg" url2="/assets/projects/digicave/rig-2.jpg" url3="/assets/projects/digicave/rig-3.jpg" url4="/assets/projects/digicave/rig-4.jpg" %}
 
-{% include modules/image-grid.html url1="/assets/projects/qwilr/Splash Block.jpg" url2="/assets/projects/qwilr/Splash Block-1.jpg" url3="/assets/projects/qwilr/Splash Block-2.jpg" url4="/assets/projects/qwilr/Splash Block-3.jpg" %}
+### We Love Pop
 
-{% include modules/image-layouts.html url="/assets/projects/qwilr/colour-picker.jpg" type="wide" %}
+We Love Pop was a precursor to the Hello! Magazine front cover, and what became a popular format for publishers to play with augmented reality experiences. Rather than creating high poly models of objects and people we'd captured in the rig, we could overlay someone's face onto a magazine cover, live. Watch an [example on Vimeo.](https://vimeo.com/84395127)
 
-{% include modules/image-layouts.html url="/assets/projects/qwilr/style-shortcuts.jpg" type="wide" %}
-
-{% include modules/image-grid.html url1="/assets/projects/qwilr/Quote Block.png" url2="/assets/projects/qwilr/Quote Block-1.png" url3="/assets/projects/qwilr/Quote Block-2.png " url4="/assets/projects/qwilr/Quote Block-3.png" %}
-
-### Designing the ideal editing experience
-
-As one of our core customer feedback loops, our NPS was highlighting a trend—the content editor felt “buggy”. Buggy is really a catchall for something not feeling right in use, but being really hard to be specific about. Could be clicking on a button and feeling a delayed reaction, the cursor behaving unexpectedly, and interactions not behaving consistently.
-
-{% include modules/image-layouts.html url="/assets/projects/qwilr/editor-doc.png" type="wide" %}
-
-{% include modules/image-layouts.html url="/assets/projects/qwilr/new-editor-ui.jpg" type="screen" %}
-
-We consulted with engineers and designers at Medium and Dropbox to learn how they’ve approached their ideal editing experiences. Learning from this, and as part of a large engineering rewrite project, we did a deep dive into all the invisible interactions that could be contributing to this bad NPS, whilst redesigning some that were known problems.
-
-{% include modules/note.html title="Note" description="This is an ongoing project, and more will be added here after the beta is finished." %}
+{% include modules/image-layouts.html url="/assets/projects/digicave/pop-1.jpg" type="wide" %}

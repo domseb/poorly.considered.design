@@ -15,18 +15,18 @@ markdown: kramdown
 collections:
   projects:
     output: true
-    permalink: /projects/:path/
+    permalink: /work/:categories/:slug/
   chapters:
     output: true
-    permalink: /chapters/:path/
+    permalink: /chapters/:slug/
 
 gems:
   - jekyll-assets
   - octopress-autoprefixer
 
 navigation:
-  - title: career
-    url: /career/
+  - title: work
+    url: /work/
   - title: profile
     url: /profile/
   - title: writing

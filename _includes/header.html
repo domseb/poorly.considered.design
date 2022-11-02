@@ -4,17 +4,20 @@
       <!-- <a class="fade-in-up-1" href="{{ site.baseurl }}/">Considered Design</a> -->
       <a class="fade-in-up-1" href="{{ site.baseurl }}/">{% include svg/cd-logo.svg %}</a>
     </p>
-    <p {% if page.url == '/career/' %} class="active-b"{% endif %}>
-      <a class="fade-in-up-1" href="/career/">Career</a>
+    {% if page.url contains 'work/qwilr' %} 
+    <p>
+      <a class="fade-in-up-1" href="/work/">Work</a><span class="icon-text">▶</span><a class="fade-in-up-1" href="/chapters/qwilr/">Qwilr</a>
     </p>
-    <!-- <p {% if page.url == '/chapters/' %} class="active-b"{% endif %}>
-      <a class="fade-in-up-1" href="/chapters/">Work</a>
-    </p> -->
+    {% else %}
+    <p {% if page.url == '/work/' %} class="active-b"{% endif %}>
+      <a class="fade-in-up-1" href="/work/">Work</a>
+    </p>
+    {% endif %}
     <p {% if page.url == '/blog/' %} class="active-b"{% endif %}>
       <a class="fade-in-up-1" href="/blog/">Writing</a>
     </p>
     <p {% if page.url == '/profile/' %} class="active-c"{% endif %}>
-      <a class="fade-in-up-2" href="/profile/">Profile</a>
+      <a class="fade-in-up-2" href="/profile/">Ephemera</a>
     </p>
   </div>
   <div class="cta">
@@ -24,9 +27,9 @@
       <h6>Email</h6>
       <p>dominic@considered.design</p>
       <button class="link-button {{ page.theme }}" onclick="location.href='linkedin.com'">Open in Mail</button>
-  </div> -->
+  </div>-->
   </div>
   <!-- <p {% if page.url == '/profile/' %} class="active-d"{% endif %}>
-    <a class="fade-in-up-3" href="/profile/"><span>a site created by</span>Dominic Sebastian</a>
+    <a class="fade-in-up-3" href="/profile/">a site created by Dominic Sebastian</a>
   </p> -->
 </nav>

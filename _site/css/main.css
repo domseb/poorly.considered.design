@@ -44,7 +44,7 @@ h3 { font-size: clamp(30px, 5vw, 40px); line-height: 0.9; font-weight: normal !i
 
 h4 { font-family: "Obviously Semi"; text-transform: uppercase; letter-spacing: 1px; color: var(--colour-light); font-weight: normal !important; font-size: clamp(24px, 2vw, 30px); line-height: 1; margin-bottom: 50px; }
 
-h5 { color: var(--colour-darker); text-transform: uppercase; letter-spacing: 1px; line-height: 1; font-weight: normal !important; font-size: 20px; font-family: "Degular Display Regular"; }
+h5 { text-transform: uppercase; letter-spacing: 1px; line-height: 1; font-weight: normal !important; font-size: 20px; font-family: "Degular Display Regular"; }
 
 h6 { color: var(--text-muted); font-size: clamp(20px, 2vw, 26px); line-height: 1; font-weight: normal !important; }
 
@@ -126,7 +126,15 @@ pre > code { border: 0; padding-right: 0; padding-left: 0; }
 
 .icon > svg path { fill: inherit; }
 
-body { --lightness: 25%; --opacity: 1; --colour-base: hsl(var(--hue), 100%, 25%); --colour-darker: hsl(var(--hue, 245), 100%, 15%); --colour-darkest: hsla(var(--hue, 245), 100%, 5%, 1); --colour-darkest-dimmed: hsla(var(--hue, 245), 100%, 5%, 0.2); --colour-light: hsl(var(--hue, 245), 100%, 55%); --colour-light-dimmed: hsla(var(--hue, 245), 100%, 55%, 0.75); --colour-light-dimmest: hsla(var(--hue, 245), 100%, 55%, 0.25); --colour-light-dimmestest: hsla(var(--hue, 245), 100%, 55%, 0.1); --colour-lighter: hsl(var(--hue, 245), 100%, 65%, var(--opacity)); --text-headline: hsl(var(--hue), 0%, calc(var(--lightness) + 75%)); --onyx: hsla(var(--hue, 0), 0%, 0%, var(--opacity)); --slate: hsla(var(--hue, 0), 0%, 40%, var(--opacity)); --smoke: hsla(var(--hue, 0), 0%, 80%, var(--opacity)); --feather: hsla(var(--hue, 0), 0%, 90%, var(--opacity)); --spacer-small: 10px; --spacer: 20px; --spacer-medium: 40px; --spacer-large: 100px; --radius-s: 4px; --radius-m: 8px; }
+.breadcrumb { display: flex; }
+
+.breadcrumb > * { padding-bottom: 5px; }
+
+.breadcrumb a:hover { background: var(--colour-light-dimmest); box-shadow: 0 0 0 8px var(--colour-light-dimmest); border-radius: var(--radius-xs); -webkit-transition: all 0.3s ease; -moz-transition: all 0.3s ease; transition: all 0.3s ease; }
+
+.icon-text { font-family: "Degular Display Light"; margin: 5px 10px 0 10px; font-size: 20px; }
+
+body { --lightness: 25%; --opacity: 1; --colour-base: hsl(var(--hue), 100%, 25%); --colour-darker: hsl(var(--hue, 245), 100%, 15%); --colour-darkest: hsla(var(--hue, 245), 100%, 5%, 1); --colour-darkest-dimmed: hsla(var(--hue, 245), 100%, 5%, 0.2); --colour-light: hsl(var(--hue, 245), 100%, 55%); --colour-light-dimmed: hsla(var(--hue, 245), 100%, 55%, 0.75); --colour-light-dimmest: hsla(var(--hue, 245), 100%, 55%, 0.25); --colour-light-dimmestest: hsla(var(--hue, 245), 100%, 55%, 0.1); --colour-lighter: hsl(var(--hue, 245), 100%, 65%, var(--opacity)); --text-headline: hsl(var(--hue), 0%, calc(var(--lightness) + 75%)); --onyx: hsla(var(--hue, 0), 0%, 0%, var(--opacity)); --slate: hsla(var(--hue, 0), 0%, 40%, var(--opacity)); --smoke: hsla(var(--hue, 0), 0%, 80%, var(--opacity)); --feather: hsla(var(--hue, 0), 0%, 90%, var(--opacity)); --spacer-small: 10px; --spacer: 20px; --spacer-medium: 40px; --spacer-large: 100px; --radius-xs: 2px; --radius-s: 4px; --radius-m: 8px; }
 
 .default { --hue: 245; --colour-text: white; color: var(--colour-text); }
 
@@ -178,11 +186,13 @@ section { width: clamp(150px, 85vw, 1200px); margin: 10em auto; }
 
 .header.chapter h1 { margin-bottom: 0.5em; }
 
+.header.project { padding-bottom: 25vw; }
+
 .header.project p { color: white; }
 
 .header.centered { text-align: center; }
 
-.hero-image { width: clamp(150px, 85vw, 1200px); margin: 0 auto; display: flex; margin-top: -17.5vw; }
+.hero-image { width: clamp(150px, 85vw, 1200px); margin: 0 auto; display: flex; margin-top: -25vw; }
 
 .pair { display: flex; flex-wrap: wrap; align-items: center; column-gap: 100px; row-gap: 30px; }
 
@@ -487,13 +497,13 @@ nav p:hover { text-decoration: none; }
 
 .wide-image img { border-radius: var(--radius-m); border: 1px solid var(--feather); }
 
-.image-grid { display: grid; width: clamp(150px, 85vw, 1380px); margin-top: 3.9rem; margin-bottom: 3.9rem; }
+.image-grid { display: grid; width: clamp(150px, 85vw, 1200px); margin: 4em auto; }
 
 .image-grid .items { display: grid; grid-template-columns: repeat(auto-fill, minmax(450px, 1fr)); gap: var(--spacer); }
 
 .image-grid img { border-radius: var(--spacer-small); border: 2px solid rgba(77, 100, 111, 0.15); box-shadow: 0px 15px 35px rgba(77, 100, 111, 0.1); }
 
-.image-trio { display: grid; width: clamp(150px, 85vw, 1380px); margin-top: 3.9rem; margin-bottom: 3.9rem; }
+.image-trio { display: grid; width: clamp(150px, 85vw, 1200px); margin: 4em auto; }
 
 .image-trio .items { display: grid; grid-template-columns: repeat(auto-fill, minmax(350px, 1fr)); gap: var(--spacer); }
 
