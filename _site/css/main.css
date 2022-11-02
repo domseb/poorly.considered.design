@@ -186,13 +186,13 @@ section { width: clamp(150px, 85vw, 1200px); margin: 10em auto; }
 
 .header.chapter h1 { margin-bottom: 0.5em; }
 
-.header.project { padding-bottom: 25vw; }
+.header.project { padding-bottom: clamp(100px, 25vw, 300px); }
 
 .header.project p { color: white; }
 
 .header.centered { text-align: center; }
 
-.hero-image { width: clamp(150px, 85vw, 1200px); margin: 0 auto; display: flex; margin-top: -25vw; }
+.hero-image { width: clamp(150px, 85vw, 1200px); margin: 0 auto; display: flex; margin-top: clamp(-300px, -25vw, -100px); }
 
 .pair { display: flex; flex-wrap: wrap; align-items: center; column-gap: 100px; row-gap: 30px; }
 
