@@ -1,45 +1,29 @@
----
-layout: project
-refID: secondary
-chapter: two
-theme: purple
-tags: testtag
-
-year: 2019 — 2022
-title: Weaving strategy, culture & craft
-path: /leadership
-
-description: I enjoyed a broad remit as VP of Design at Qwilr, helping shape many aspects of the company. From creating strategies, principles, team structures, and rituals to hone craft. The immense challenge is finding a way for them all to work together, and create better impact for it. Below are the highlights that helped give me a deeper understanding of the relationships between strategy, people, intuition and impact.
-
-image: /assets/projects/leadership/hero-leadership.jpg
----
-
-<section class="tiles center">
+I"G<<section class="tiles center">
     <div>
         <h2>Forging and reforging teams</h2>
         <div class="collaborators">
             <div class="collaborator">
-                <img src="/assets/site/dom-profile.jpg">
+                <img src="/assets/site/dom-profile.jpg" />
                 <div class="info">
                     <h6>Josh Baskin</h6>
-                    <p>Lead ideation of new toys, managing R&D of all new iniatives.</p>
-                    <button class="link-button {{ page.theme }}" onclick="location.href='linkedin.com'">View profile</button>
+                    <p>Lead ideation of new toys, managing R&amp;D of all new iniatives.</p>
+                    <button class="link-button purple" onclick="location.href='linkedin.com'">View profile</button>
                 </div>
             </div>
             <div class="collaborator">
-                <img src="/assets/site/dom-profile.jpg">
+                <img src="/assets/site/dom-profile.jpg" />
                 <div class="info">
                     <h6>Josh Baskin</h6>
-                    <p>Lead ideation of new toys, managing R&D of all new iniatives.</p>
-                    <button class="link-button {{ page.theme }}" onclick="location.href='linkedin.com'">View profile</button>
+                    <p>Lead ideation of new toys, managing R&amp;D of all new iniatives.</p>
+                    <button class="link-button purple" onclick="location.href='linkedin.com'">View profile</button>
                 </div>
             </div>
             <div class="collaborator">
-                <img src="/assets/site/dom-profile.jpg">
+                <img src="/assets/site/dom-profile.jpg" />
                 <div class="info">
                     <h6>Josh Baskin</h6>
-                    <p>Lead ideation of new toys, managing R&D of all new iniatives.</p>
-                    <button class="link-button {{ page.theme }}" onclick="location.href='linkedin.com'">View profile</button>
+                    <p>Lead ideation of new toys, managing R&amp;D of all new iniatives.</p>
+                    <button class="link-button purple" onclick="location.href='linkedin.com'">View profile</button>
                 </div>
             </div>
         </div>
@@ -53,10 +37,10 @@ image: /assets/projects/leadership/hero-leadership.jpg
     <div class="smaller">
       <h3>Establishing the role of Design</h3>
       <p>
-        When I joined, the process of design was Dylan (Qwilr’s CEO & co-founder) sketching out ideas, discussing them with Engineers, and getting them built. It was fit for purpose, but the role of Design was entirely reactive. I created a foundational toolkit and process for design, enabling better collaboration, stakeholder awareness, and impact in our work.
+        When I joined, the process of design was Dylan (Qwilr’s CEO &amp; co-founder) sketching out ideas, discussing them with Engineers, and getting them built. It was fit for purpose, but the role of Design was entirely reactive. I created a foundational toolkit and process for design, enabling better collaboration, stakeholder awareness, and impact in our work.
       </p>
     </div>
-    <img class="bigger" src="/assets/projects/leadership/design.jpg">
+    <img class="bigger" src="/assets/projects/leadership/design.jpg" />
 </section>
 
 <section class="pair">
@@ -66,7 +50,7 @@ image: /assets/projects/leadership/hero-leadership.jpg
         Staunchly against “Adam Admin” personas, I spent time with customers to create our foundational JTBD across the company. Helping understand customer drivers, and summarised them into cards, to be actionable in brainstorming meetings and projects. After some wrestling, I worked with the Head of Engineering and Head of Product to create teams around these JTBD.  
       </p>
     </div>
-    <img class="bigger" src="/assets/projects/leadership/teams.jpg">
+    <img class="bigger" src="/assets/projects/leadership/teams.jpg" />
 </section>
 
 <section class="pair">
@@ -76,37 +60,44 @@ image: /assets/projects/leadership/hero-leadership.jpg
         While the panel gave them a way to manage the tokens, and navigate them quickly, we wanted to enable a faster way to add them in the flow of writing content. Leveraging the old curly braces as the keyboard shortcut, I designed a new panel lookup for customers. Letting them see what tokens were available to them in context, and adding them without needing to leave their keyboard. 
       </p>
     </div>
-    <img class="bigger" src="/assets/projects/leadership/workflow.jpg">
+    <img class="bigger" src="/assets/projects/leadership/workflow.jpg" />
 </section>
 
-{% include modules/image-layouts.html url="/assets/projects/leadership/banner.jpg" type="screen" %}
+<!-- Note to Future Dom — formatting on auto save will break this file, because it will add extra /figuress at the end... -->
+
+<figure class="full-width-image">
+  
+  
+<img class="border" src="/assets/projects/leadership/banner.jpg" alt="" />
+
+</figure>
 
 <section class="tiles center">
     <div>
         <h2>Creating a culture of excellence</h2>
         <div class="collaborators">
             <div class="collaborator">
-                <img src="/assets/site/dom-profile.jpg">
+                <img src="/assets/site/dom-profile.jpg" />
                 <div class="info">
                     <h6>Josh Baskin</h6>
-                    <p>Lead ideation of new toys, managing R&D of all new iniatives.</p>
-                    <button class="link-button {{ page.theme }}" onclick="location.href='linkedin.com'">View profile</button>
+                    <p>Lead ideation of new toys, managing R&amp;D of all new iniatives.</p>
+                    <button class="link-button purple" onclick="location.href='linkedin.com'">View profile</button>
                 </div>
             </div>
             <div class="collaborator">
-                <img src="/assets/site/dom-profile.jpg">
+                <img src="/assets/site/dom-profile.jpg" />
                 <div class="info">
                     <h6>Josh Baskin</h6>
-                    <p>Lead ideation of new toys, managing R&D of all new iniatives.</p>
-                    <button class="link-button {{ page.theme }}" onclick="location.href='linkedin.com'">View profile</button>
+                    <p>Lead ideation of new toys, managing R&amp;D of all new iniatives.</p>
+                    <button class="link-button purple" onclick="location.href='linkedin.com'">View profile</button>
                 </div>
             </div>
             <div class="collaborator">
-                <img src="/assets/site/dom-profile.jpg">
+                <img src="/assets/site/dom-profile.jpg" />
                 <div class="info">
                     <h6>Josh Baskin</h6>
-                    <p>Lead ideation of new toys, managing R&D of all new iniatives.</p>
-                    <button class="link-button {{ page.theme }}" onclick="location.href='linkedin.com'">View profile</button>
+                    <p>Lead ideation of new toys, managing R&amp;D of all new iniatives.</p>
+                    <button class="link-button purple" onclick="location.href='linkedin.com'">View profile</button>
                 </div>
             </div>
         </div>
@@ -120,10 +111,10 @@ image: /assets/projects/leadership/hero-leadership.jpg
     <div class="smaller">
       <h3>Starting together</h3>
       <p>
-        Highly interactive experiences need lots of prototyping, and collaboration, to really know if something feels right to use. An ambassador for mountaineering as a model of collaboration, I ran offsites, kickoffs, retreats and projects for PMs, Design & Engineers to start together. Balance blindspots and biases early, and leverage the collective knowledge to create the best solution for the customer. 
+        Highly interactive experiences need lots of prototyping, and collaboration, to really know if something feels right to use. An ambassador for mountaineering as a model of collaboration, I ran offsites, kickoffs, retreats and projects for PMs, Design &amp; Engineers to start together. Balance blindspots and biases early, and leverage the collective knowledge to create the best solution for the customer. 
       </p>
     </div>
-    <img class="bigger" src="/assets/projects/leadership/offsite.jpg">
+    <img class="bigger" src="/assets/projects/leadership/offsite.jpg" />
 </section>
 
 <section class="pair">
@@ -133,17 +124,17 @@ image: /assets/projects/leadership/hero-leadership.jpg
         As the number of teams grew, the visibility of their work became more opaque and siloed. After reading Creativity Inc and Creative Selection, I wanted to create a demo culture that changed that, showcasing progress on the actual customer experience. I facilitated weekly showcase that rotated team reps, shared context of what they were working on, and a way to get feedback from fresh eyes that weren’t in the trenches of the project. It was by far, my favourite meeting of the week. 
       </p>
     </div>
-    <img class="bigger" src="/assets/projects/leadership/showcase.jpg">
+    <img class="bigger" src="/assets/projects/leadership/showcase.jpg" />
 </section>
 
 <section class="pair">
     <div class="smaller">
       <h3>Establishing betas and dogfooding rituals</h3>
       <p>
-        Designing and building a tool you never use, makes you blind to its faults. I wanted teams to have greater empathy with the tools they were creating, and find faults and opportunities to improve them well before they were shipped. I created the dogfooding & beta practices for product teams, to bring in perspectives that balanced the teams blindpots and biases, helped us and deliver a more refined experience to customers.
+        Designing and building a tool you never use, makes you blind to its faults. I wanted teams to have greater empathy with the tools they were creating, and find faults and opportunities to improve them well before they were shipped. I created the dogfooding &amp; beta practices for product teams, to bring in perspectives that balanced the teams blindpots and biases, helped us and deliver a more refined experience to customers.
       </p>
     </div>
-    <img class="bigger" src="/assets/projects/leadership/dogfooding.jpg">
+    <img class="bigger" src="/assets/projects/leadership/dogfooding.jpg" />
 </section>
 
 <section class="pair">
@@ -153,7 +144,7 @@ image: /assets/projects/leadership/hero-leadership.jpg
         Design will always be a bottleneck unless experience quality is a shared ownership in the team. To do this well though needs structure, and to proactively bring in perspectives that balance blindspots and biases of the project team. I lead this practice at Qwilr, centering on archetypes and use cases, with artefacts that helped teams make necessary tradeoffs against what the sessions surfaced.
       </p>
     </div>
-    <img class="bigger" src="/assets/projects/leadership/reviews.jpg">
+    <img class="bigger" src="/assets/projects/leadership/reviews.jpg" />
 </section>
 
 <section class="pair">
@@ -163,10 +154,17 @@ image: /assets/projects/leadership/hero-leadership.jpg
         Design will always be a bottleneck unless experience quality is a shared ownership in the team. To do this well though needs structure, and to proactively bring in perspectives that balance blindspots and biases of the project team. I lead this practice at Qwilr, centering on archetypes and use cases, with artefacts that helped teams make necessary tradeoffs against what the sessions surfaced.
       </p>
     </div>
-    <img class="bigger" src="/assets/projects/leadership/posters.jpg">
+    <img class="bigger" src="/assets/projects/leadership/posters.jpg" />
 </section>
 
-{% include modules/image-layouts.html url="/assets/projects/leadership/droid.jpg" type="screen" %}
+<!-- Note to Future Dom — formatting on auto save will break this file, because it will add extra /figuress at the end... -->
+
+<figure class="full-width-image">
+  
+  
+<img class="border" src="/assets/projects/leadership/droid.jpg" alt="" />
+
+</figure>
 
 <div class="banner-break">
     <section class="tiles center">
@@ -174,27 +172,27 @@ image: /assets/projects/leadership/hero-leadership.jpg
             <h2>Formalising our company strategy</h2>
             <div class="collaborators">
                 <div class="collaborator">
-                    <img src="/assets/site/dom-profile.jpg">
+                    <img src="/assets/site/dom-profile.jpg" />
                     <div class="info">
                         <h6>Josh Baskin</h6>
-                        <p>Lead ideation of new toys, managing R&D of all new iniatives.</p>
-                        <button class="link-button {{ page.theme }}" onclick="location.href='linkedin.com'">View profile</button>
+                        <p>Lead ideation of new toys, managing R&amp;D of all new iniatives.</p>
+                        <button class="link-button purple" onclick="location.href='linkedin.com'">View profile</button>
                     </div>
                 </div>
                 <div class="collaborator">
-                    <img src="/assets/site/dom-profile.jpg">
+                    <img src="/assets/site/dom-profile.jpg" />
                     <div class="info">
                         <h6>Josh Baskin</h6>
-                        <p>Lead ideation of new toys, managing R&D of all new iniatives.</p>
-                        <button class="link-button {{ page.theme }}" onclick="location.href='linkedin.com'">View profile</button>
+                        <p>Lead ideation of new toys, managing R&amp;D of all new iniatives.</p>
+                        <button class="link-button purple" onclick="location.href='linkedin.com'">View profile</button>
                     </div>
                 </div>
                 <div class="collaborator">
-                    <img src="/assets/site/dom-profile.jpg">
+                    <img src="/assets/site/dom-profile.jpg" />
                     <div class="info">
                         <h6>Josh Baskin</h6>
-                        <p>Lead ideation of new toys, managing R&D of all new iniatives.</p>
-                        <button class="link-button {{ page.theme }}" onclick="location.href='linkedin.com'">View profile</button>
+                        <p>Lead ideation of new toys, managing R&amp;D of all new iniatives.</p>
+                        <button class="link-button purple" onclick="location.href='linkedin.com'">View profile</button>
                     </div>
                 </div>
             </div>
@@ -210,27 +208,27 @@ image: /assets/projects/leadership/hero-leadership.jpg
         <h2>Exploring visions of what’s next</h2>
         <div class="collaborators">
             <div class="collaborator">
-                <img src="/assets/site/dom-profile.jpg">
+                <img src="/assets/site/dom-profile.jpg" />
                 <div class="info">
                     <h6>Josh Baskin</h6>
-                    <p>Lead ideation of new toys, managing R&D of all new iniatives.</p>
-                    <button class="link-button {{ page.theme }}" onclick="location.href='linkedin.com'">View profile</button>
+                    <p>Lead ideation of new toys, managing R&amp;D of all new iniatives.</p>
+                    <button class="link-button purple" onclick="location.href='linkedin.com'">View profile</button>
                 </div>
             </div>
             <div class="collaborator">
-                <img src="/assets/site/dom-profile.jpg">
+                <img src="/assets/site/dom-profile.jpg" />
                 <div class="info">
                     <h6>Josh Baskin</h6>
-                    <p>Lead ideation of new toys, managing R&D of all new iniatives.</p>
-                    <button class="link-button {{ page.theme }}" onclick="location.href='linkedin.com'">View profile</button>
+                    <p>Lead ideation of new toys, managing R&amp;D of all new iniatives.</p>
+                    <button class="link-button purple" onclick="location.href='linkedin.com'">View profile</button>
                 </div>
             </div>
             <div class="collaborator">
-                <img src="/assets/site/dom-profile.jpg">
+                <img src="/assets/site/dom-profile.jpg" />
                 <div class="info">
                     <h6>Josh Baskin</h6>
-                    <p>Lead ideation of new toys, managing R&D of all new iniatives.</p>
-                    <button class="link-button {{ page.theme }}" onclick="location.href='linkedin.com'">View profile</button>
+                    <p>Lead ideation of new toys, managing R&amp;D of all new iniatives.</p>
+                    <button class="link-button purple" onclick="location.href='linkedin.com'">View profile</button>
                 </div>
             </div>
         </div>
@@ -247,7 +245,7 @@ image: /assets/projects/leadership/hero-leadership.jpg
         Partnering with Dylan, we first prototyped concepts without constraint, following intuition we’d developed by marinating in the space. The initial goal was to innovate on Qwilr’s core capabilities, exploring bigger bets and rethinks that could accelerate the timeline to deliver on the company strategy.  From it sprouted a primitive but interactive collection of product concepts and themes for teams to validate and build off. 
       </p>
     </div>
-    <img class="bigger" src="/assets/projects/leadership/daedalus.jpg">
+    <img class="bigger" src="/assets/projects/leadership/daedalus.jpg" />
 </section>
 
 <section class="pair">
@@ -257,7 +255,7 @@ image: /assets/projects/leadership/hero-leadership.jpg
         Early decisions around the editor’s mental and interaction models were making it less and less malleable to shape, and harder to push it into new directions. To explore long simmering rethinks, resolve core experience debt, and unlock new opportunities, I created a vision exploration project called Editor 2025. Exploring what we could do with the editor in a timeline outside of quarterly planning, socialised it with teams, and lead ideation with design team.
       </p>
     </div>
-    <img class="bigger" src="/assets/projects/leadership/one-pager.jpg">
+    <img class="bigger" src="/assets/projects/leadership/one-pager.jpg" />
 </section>
 
 <section class="pair">
@@ -267,5 +265,6 @@ image: /assets/projects/leadership/hero-leadership.jpg
         As we explored Editor 2025, we were gravitating to a well trodden problem — styling qwilr pages. The early transformation concepts would help deepen our differentiator, and unlock capabilities for our growing enterprise accounts. I worked with Hamish to kickoff design sprints, helping accelerate and refine concepts, and engage peers in leadership to adjust our roadmap to prioritise this transformation work. 
       </p>
     </div>
-    <img class="bigger" src="/assets/projects/leadership/transformation.jpg">
+    <img class="bigger" src="/assets/projects/leadership/transformation.jpg" />
 </section>
+:ET

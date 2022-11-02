@@ -21,24 +21,24 @@ image: /assets/projects/editor/hero-editor.jpg
             <div class="collaborator">
                 <img src="/assets/site/avatar-test.jpg">
                 <div class="info">
-                    <h6>Mike Nam Lee</h6>
-                    <p>This is s a test to see what I can write about someone working on this project.</p>
+                    <h6>Josh Baskin</h6>
+                    <p>Lead ideation of new toys, managing R&D of all new iniatives.</p>
+                    <button class="link-button {{ page.theme }}" onclick="location.href='linkedin.com'">View profile</button>
+                </div>
+            </div>
+            <div class="collaborator">
+                <img src="/assets/site/avatar-test.jpg">
+                 <div class="info">
+                    <h6>Josh Baskin</h6>
+                    <p>Lead ideation of new toys, managing R&D of all new iniatives.</p>
                     <button class="link-button {{ page.theme }}" onclick="location.href='linkedin.com'">View profile</button>
                 </div>
             </div>
             <div class="collaborator">
                 <img src="/assets/site/avatar-test.jpg">
                 <div class="info">
-                    <h6>Mike Nam Lee</h6>
-                    <p>This is s a test to see what I can write about someone working on this project.</p>
-                    <button class="link-button {{ page.theme }}" onclick="location.href='linkedin.com'">View profile</button>
-                </div>
-            </div>
-            <div class="collaborator">
-                <img src="/assets/site/avatar-test.jpg">
-                <div class="info">
-                    <h6>Mike Nam Lee</h6>
-                    <p>This is s a test to see what I can write about someone working on this project.</p>
+                    <h6>Josh Baskin</h6>
+                    <p>Lead ideation of new toys, managing R&D of all new iniatives.</p>
                     <button class="link-button {{ page.theme }}" onclick="location.href='linkedin.com'">View profile</button>
                 </div>
             </div>
@@ -88,24 +88,24 @@ image: /assets/projects/editor/hero-editor.jpg
             <div class="collaborator">
                 <img src="/assets/site/avatar-test.jpg">
                 <div class="info">
-                    <h6>Mike Nam Lee</h6>
-                    <p>This is s a test to see what I can write about someone working on this project.</p>
+                    <h6>Josh Baskin</h6>
+                    <p>Lead ideation of new toys, managing R&D of all new iniatives.</p>
                     <button class="link-button {{ page.theme }}" onclick="location.href='linkedin.com'">View profile</button>
                 </div>
             </div>
             <div class="collaborator">
                 <img src="/assets/site/avatar-test.jpg">
                 <div class="info">
-                    <h6>Mike Nam Lee</h6>
-                    <p>This is s a test to see what I can write about someone working on this project.</p>
+                    <h6>Josh Baskin</h6>
+                    <p>Lead ideation of new toys, managing R&D of all new iniatives.</p>
                     <button class="link-button {{ page.theme }}" onclick="location.href='linkedin.com'">View profile</button>
                 </div>
             </div>
             <div class="collaborator">
                 <img src="/assets/site/avatar-test.jpg">
                 <div class="info">
-                    <h6>Mike Nam Lee</h6>
-                    <p>This is s a test to see what I can write about someone working on this project.</p>
+                    <h6>Josh Baskin</h6>
+                    <p>Lead ideation of new toys, managing R&D of all new iniatives.</p>
                     <button class="link-button {{ page.theme }}" onclick="location.href='linkedin.com'">View profile</button>
                 </div>
             </div>
@@ -154,24 +154,24 @@ image: /assets/projects/editor/hero-editor.jpg
                 <div class="collaborator">
                     <img src="/assets/site/avatar-test.jpg">
                     <div class="info">
-                        <h6>Mike Nam Lee</h6>
-                        <p>This is s a test to see what I can write about someone working on this project.</p>
+                        <h6>Josh Baskin</h6>
+                        <p>Lead ideation of new toys, managing R&D of all new iniatives.</p>
                         <button class="link-button {{ page.theme }}" onclick="location.href='linkedin.com'">View profile</button>
                     </div>
                 </div>
                 <div class="collaborator">
                     <img src="/assets/site/avatar-test.jpg">
                     <div class="info">
-                        <h6>Mike Nam Lee</h6>
-                        <p>This is s a test to see what I can write about someone working on this project.</p>
+                        <h6>Josh Baskin</h6>
+                        <p>Lead ideation of new toys, managing R&D of all new iniatives.</p>
                         <button class="link-button {{ page.theme }}" onclick="location.href='linkedin.com'">View profile</button>
                     </div>
                 </div>
                 <div class="collaborator">
                     <img src="/assets/site/avatar-test.jpg">
                     <div class="info">
-                        <h6>Mike Nam Lee</h6>
-                        <p>This is s a test to see what I can write about someone working on this project.</p>
+                        <h6>Josh Baskin</h6>
+                        <p>Lead ideation of new toys, managing R&D of all new iniatives.</p>
                         <button class="link-button {{ page.theme }}" onclick="location.href='linkedin.com'">View profile</button>
                     </div>
                 </div>
@@ -190,24 +190,24 @@ image: /assets/projects/editor/hero-editor.jpg
             <div class="collaborator">
                 <img src="/assets/site/avatar-test.jpg">
                 <div class="info">
-                    <h6>Mike Nam Lee</h6>
-                    <p>This is s a test to see what I can write about someone working on this project.</p>
+                    <h6>Josh Baskin</h6>
+                    <p>Lead ideation of new toys, managing R&D of all new iniatives.</p>
                     <button class="link-button {{ page.theme }}" onclick="location.href='linkedin.com'">View profile</button>
                 </div>
             </div>
             <div class="collaborator">
                 <img src="/assets/site/avatar-test.jpg">
                 <div class="info">
-                    <h6>Mike Nam Lee</h6>
-                    <p>This is s a test to see what I can write about someone working on this project.</p>
+                    <h6>Josh Baskin</h6>
+                    <p>Lead ideation of new toys, managing R&D of all new iniatives.</p>
                     <button class="link-button {{ page.theme }}" onclick="location.href='linkedin.com'">View profile</button>
                 </div>
             </div>
             <div class="collaborator">
                 <img src="/assets/site/avatar-test.jpg">
                 <div class="info">
-                    <h6>Mike Nam Lee</h6>
-                    <p>This is s a test to see what I can write about someone working on this project.</p>
+                    <h6>Josh Baskin</h6>
+                    <p>Lead ideation of new toys, managing R&D of all new iniatives.</p>
                     <button class="link-button {{ page.theme }}" onclick="location.href='linkedin.com'">View profile</button>
                 </div>
             </div>

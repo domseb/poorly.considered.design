@@ -37,8 +37,16 @@
 }
 
 .image-footer {
-  @include margin(3, 0);
-  border-radius: 0 !important;
+  padding-top: 5em;
+  padding-bottom: 5em;
+  margin: 0 auto;
+  width: clamp(150px, 40vw, 400px);
+  display: flex;
+  // @include margin(3, 0);
+  img {
+    border-radius: 0 !important;
+  }
+  
 }
 
 .wide-image {
