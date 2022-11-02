@@ -177,9 +177,24 @@ button {
 
   .halo &:hover {
     background-color: var(--colour-darkest);
-    box-shadow: 0 0 0 20px var(--colour-darkest);
+    box-shadow: 0 0 0 10px var(--colour-darkest);
     @include transition(all $default-transition);
     border-radius: 4px;
+    // img {
+      @include transition(all $default-transition);
+      padding: 0 5px 20px 5px;
+    // }
+
+    .arrow {
+      opacity: 1;
+      @include transition(all $default-transition);
+    }
+  }
+
+  @media (max-width: 550px) {
+    .arrow {
+      display: none;
+    }
   }
 
   img {
@@ -194,20 +209,29 @@ button {
     justify-content: space-between;
   }
 
-  div > * {
-    display: flex;
-    align-items: center;
-  }
+  // div > * {
+  //   display: flex;
+  //   align-items: center;
+  // }
 
-  h3:first-of-type {
+  .timeline {
     font-family: "Obviously Semi";
-    margin-right: 20px;
-    font-size: 60px;
-    margin-top: -10px;
+    margin-right: 10px;
+    font-size: 0.85em;
+    // margin-top: -10px;
   }
 
   h3 {
-    font-size: clamp(25px, 3vw, 35px);
+    // font-size: clamp(25px, 3vw, 35px);
+    align-items: baseline;
+  }
+
+  .arrow {
+    opacity: 0;
+    font-family: "Degular Display Light";
+    margin: 0;
+    padding: 0;
+    align-self: center;
   }
 }
 

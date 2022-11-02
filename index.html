@@ -83,11 +83,8 @@ theme: indigo
     <div class="vingette">
       <img src="{{ project.image }}" />
       <div>
-        <div>
-          <h3 class="{{ project.theme }}">{{ project.year }}</h3>
-          <h3>{{ project.title }}</h3>
-        </div>
-        {% include svg/arrow-right.svg %}
+        <h3><span class="timeline {{ project.theme }}">{{ project.year }}</span>{{ project.title }}</h3>
+        <h3 class="arrow {{ project.theme }} arrow">→</h3>
       </div>
     </div>
   </a>
