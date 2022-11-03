@@ -62,8 +62,10 @@ theme: indigo
     {% for chapter in site.chapters %}
     <li>
       <a class="link-item" href="{{ chapter.url }}">
-        <h3>{{ chapter.role }}</h3>
-        <h3 class="{{ chapter.theme }} info">{{ chapter.timeframe }}</h3>
+        <div>
+          <h3>{{ chapter.role }}</h3>
+          <h3 class="{{ chapter.theme }} info">{{ chapter.timeframe }}</h3>
+        </div>
         <!-- <div> -->
         <!-- <h3 class="{{ chapter.theme }} info">{{ chapter.timeframe }}</h3> -->
         <h3 class="{{ chapter.theme }} arrow">→</h3>

@@ -134,6 +134,11 @@ button {
       border-radius: 10px;
       @include transition(all $default-transition);
 
+      div {
+        display: inline-flex;
+        align-items: baseline;
+      }
+
       h3 {
         padding-top: var(--spacer);
         padding-bottom: var(--spacer);
@@ -143,7 +148,8 @@ button {
       .info {
         font-family: "Obviously Semi";
         // font-size: 46px;
-        margin-left: 20px;
+        margin: 0 10px 0 20px;
+        padding: 0px;
         font-feature-settings: normal;
         white-space: nowrap;
       }
@@ -164,12 +170,14 @@ button {
           @include transition(all $default-transition);
         }
       }
-      @media (max-width: 550px) {
+      @media (max-width: 650px) {
         .arrow {
           opacity: 1;
         }
 
-        .link-item {
+        div {
+          justify-content: space-between;
+          width: 100%;
           align-items: center;
         }
       }
