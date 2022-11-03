@@ -21,36 +21,33 @@ description: I mainly write about design, film, and observations in between. I m
     </div>
     <div>
       <p>{{ chapter.description }}.</p>
-      <button class="link-button {{ chapter.theme }}" onclick="location.href='{{ chapter.url }}'">Read more</button>
+      <button
+        class="link-button {{ chapter.theme }}"
+        onclick="location.href='{{ chapter.url }}'"
+      >
+        Read more
+      </button>
     </div>
   </div>
 
   <div class="tiles">
-  {% for project in site.projects %}
-  {% capture ctag %}{{chapter.tags}}{% endcapture %}
-  {% capture ptag %}{{project.tags}}{% endcapture %}
-
-    {% if ptag == ctag %}
-      <a class="halo" href="{{ project.url }}">
-        <div class="vingette">
-          <img src="{{ project.image }}" />
-          <div>
-            <div>
-              <h3 class="{{ project.theme }}">{{ project.year }}</h3>
-              <h3>{{ project.title }}</h3>
-            </div>
-            {% include svg/arrow-right.svg %}
-          </div>
+    {% for project in site.projects %} {% capture ctag %}{{chapter.tags}}{%
+    endcapture %} {% capture ptag %}{{project.tags}}{% endcapture %} {% if ptag
+    == ctag %}
+    <a class="halo" href="{{ project.url }}">
+      <div class="vingette">
+        <img src="{{ project.image }}" />
+        <div>
+          <h3>
+            <span class="timeline {{ project.theme }}">{{ project.year }}</span
+            >{{ project.title }}
+          </h3>
+          <h3 class="arrow {{ project.theme }} arrow">→</h3>
         </div>
-      </a>
-      {% endif %}
-      {% endfor %}
-    </div>
-    <img src="{{ chapter.vingette }}">
-{% endfor %}
+      </div>
+    </a>
+    {% endif %} {% endfor %}
+  </div>
+  <img src="{{ chapter.vingette }}" />
+  {% endfor %}
 </section>
-
-
-
-
-

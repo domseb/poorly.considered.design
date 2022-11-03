@@ -129,6 +129,7 @@ button {
     .link-item {
       display: inline-flex;
       width: 100%;
+      align-items: baseline;
       justify-content: space-between;
       border-radius: 10px;
       @include transition(all $default-transition);
@@ -136,15 +137,15 @@ button {
       h3 {
         padding-top: var(--spacer);
         padding-bottom: var(--spacer);
-      }
-      div {
-        display: inline-flex;
+        // min-width: 13ch;
+        // max-width: 25ch;
       }
       .info {
-        font-family: Obviously;
-        font-size: 46px;
+        font-family: "Obviously Semi";
+        // font-size: 46px;
         margin-left: 20px;
         font-feature-settings: normal;
+        white-space: nowrap;
       }
       .arrow {
         opacity: 0;
@@ -161,6 +162,15 @@ button {
         .arrow {
           opacity: 1;
           @include transition(all $default-transition);
+        }
+      }
+      @media (max-width: 550px) {
+        .arrow {
+          opacity: 1;
+        }
+
+        .link-item {
+          align-items: center;
         }
       }
     }
@@ -181,8 +191,8 @@ button {
     @include transition(all $default-transition);
     border-radius: 4px;
     // img {
-      @include transition(all $default-transition);
-      padding: 0 5px 20px 5px;
+    @include transition(all $default-transition);
+    padding: 0 5px 20px 5px;
     // }
 
     .arrow {
