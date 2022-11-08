@@ -146,15 +146,15 @@ body { --lightness: 25%; --opacity: 1; --colour-base: hsl(var(--hue), 100%, 25%)
 
 .dark { --hue: 245; --colour-text: white; background-image: url("/assets/site/noise.png"); background-color: var(--colour-darkest); color: var(--colour-text); }
 
-.maroon { --hue: 330; color: hsl(var(--hue, 260), 100%, 55%); }
+.maroon { --hue: 330; --hover: hsla(var(--hue, 260), 100%, 55%,.1); color: hsl(var(--hue, 260), 100%, 55%); }
 
 .maroon hr { margin: 20px 0 20px 0; border: none; border-top: 1px solid var(--colour-light-dimmed); }
 
-.emerald { --hue: 170; color: hsl(var(--hue, 260), 100%, 55%); }
+.emerald { --hue: 170; --hover: hsla(var(--hue, 260), 100%, 55%,.1); color: hsl(var(--hue, 260), 100%, 55%); }
 
 .emerald hr { margin: 20px 0 20px 0; border: none; border-top: 1px solid var(--colour-light-dimmed); }
 
-.purple { --hue: 266; color: hsl(var(--hue, 260), 100%, 55%); }
+.purple { --hue: 266; --hover: hsla(var(--hue, 260), 100%, 55%,.1); color: hsl(var(--hue, 260), 100%, 55%); }
 
 .purple hr { margin: 20px 0 20px 0; border: none; border-top: 1px solid var(--colour-light-dimmed); }
 
@@ -409,7 +409,7 @@ button:hover { box-shadow: 0 0 0 3px var(--colour-light-50); background-color: v
 
 .link-stack li .link-item .arrow { opacity: 0; font-family: "Degular Display Light"; margin: 0; padding: 0; align-self: center; }
 
-.link-stack li .link-item:hover { background-color: var(--colour-darkest); padding: 0 30px 0 30px; -webkit-transition: all 0.3s ease; -moz-transition: all 0.3s ease; transition: all 0.3s ease; }
+.link-stack li .link-item:hover { background-color: var(--hover); padding: 0 30px 0 30px; -webkit-transition: all 0.3s ease; -moz-transition: all 0.3s ease; transition: all 0.3s ease; }
 
 .link-stack li .link-item:hover .arrow { opacity: 1; -webkit-transition: all 0.3s ease; -moz-transition: all 0.3s ease; transition: all 0.3s ease; }
 

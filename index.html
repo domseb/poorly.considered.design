@@ -38,7 +38,7 @@ theme: dark
     </div>
     <div>
       <img src="/assets/site/strategy.svg" />
-      <h3>➋ Strategy & culture</h3>
+      <h3>➋ VIsion & Strategy</h3>
       <p>
         "What happened to you?" Moss: "I got cockney neck. I've been speaking
         too much cockney, and it done my bloody neck in."
@@ -46,7 +46,7 @@ theme: dark
     </div>
     <div>
       <img src="/assets/site/refine.svg" />
-      <h3>➌ Transformation work</h3>
+      <h3>➌ New capabilities</h3>
       <p>
         "What happened to you?" Moss: "I got cockney neck. I've been speaking
         too much cockney, and it done my bloody neck in."
@@ -61,7 +61,7 @@ theme: dark
   <ul class="link-stack">
     {% for chapter in site.chapters %}
     <li>
-      <a class="link-item" href="{{ chapter.url }}">
+      <a class="link-item {{ chapter.theme }}" href="{{ chapter.url }}">
         <div>
           <h3>{{ chapter.role }}</h3>
           <h3 class="{{ chapter.theme }} info">{{ chapter.timeframe }}</h3>

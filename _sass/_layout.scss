@@ -84,6 +84,7 @@ body {
 
 .maroon {
   --hue: 330;
+  --hover: hsla(var(--hue, 260), 100%, 55%,.1);
   color: hsl(var(--hue, 260), 100%, 55%);
 
   hr {
@@ -95,6 +96,7 @@ body {
 
 .emerald {
   --hue: 170;
+  --hover: hsla(var(--hue, 260), 100%, 55%,.1);
   color: hsl(var(--hue, 260), 100%, 55%);
 
   hr {
@@ -106,6 +108,7 @@ body {
 
 .purple {
   --hue: 266;
+  --hover: hsla(var(--hue, 260), 100%, 55%,.1);
   color: hsl(var(--hue, 260), 100%, 55%);
 
   hr {
