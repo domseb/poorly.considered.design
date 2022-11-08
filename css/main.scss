@@ -16,4 +16,4 @@ $transition: 0.3s ease;
 $default-transition: 0.3s ease;
 
 // Import partials from `sass_dir` (defaults to `_sass`)
-@import "base", "layout", "syntax-highlighting", "components", "images";
+@import "base", "layout", "syntax-highlighting", "components", "images", "animations";

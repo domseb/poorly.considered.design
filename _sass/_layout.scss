@@ -9,12 +9,28 @@ body {
   --colour-darker: hsl(var(--hue, 245), 100%, 15%);
   --colour-darkest: hsla(var(--hue, 245), 100%, 5%, 1);
   --colour-darkest-dimmed: hsla(var(--hue, 245), 100%, 5%, 0.2);
+
+  --colour-dark-100: hsla(var(--hue, 245), 100%, 55%, 1);
+  --colour-dark-75: hsla(var(--hue, 245), 100%, 55%, 0.75);
+  --colour-dark-50: hsla(var(--hue, 245), 100%, 55%, 0.5);
+  --colour-dark-25: hsla(var(--hue, 245), 100%, 55%, 0.25);
+  --colour-dark-20: hsla(var(--hue, 245), 100%, 55%, 0.20);
+  --colour-dark-15: hsla(var(--hue, 245), 100%, 55%, 0.15);
+  --colour-dark-10: hsla(var(--hue, 245), 100%, 55%, 0.1);
   // LIGHTER
-  --colour-light: hsl(var(--hue, 245), 100%, 55%);
+  --colour-light: hsla(var(--hue, 245), 100%, 55%, 1);
   --colour-light-dimmed: hsla(var(--hue, 245), 100%, 55%, 0.75);
   --colour-light-dimmest: hsla(var(--hue, 245), 100%, 55%, 0.25);
   --colour-light-dimmestest: hsla(var(--hue, 245), 100%, 55%, 0.1);
-  --colour-lighter: hsl(var(--hue, 245), 100%, 65%, var(--opacity));
+  --colour-lighter: hsla(var(--hue, 245), 100%, 65%, var(--opacity));
+
+  --colour-light-100: hsla(var(--hue, 245), 100%, 55%, 1);
+  --colour-light-75: hsla(var(--hue, 245), 100%, 55%, 0.75);
+  --colour-light-50: hsla(var(--hue, 245), 100%, 55%, 0.5);
+  --colour-light-25: hsla(var(--hue, 245), 100%, 55%, 0.25);
+  --colour-light-20: hsla(var(--hue, 245), 100%, 55%, 0.20);
+  --colour-light-15: hsla(var(--hue, 245), 100%, 55%, 0.15);
+  --colour-light-10: hsla(var(--hue, 245), 100%, 55%, 0.1);
   // SPECIFIC COLOURS
   --text-headline: hsl(var(--hue), 0%, calc(var(--lightness) + 75%));
   --onyx: hsla(var(--hue, 0), 0%, 0%, var(--opacity));
@@ -68,7 +84,7 @@ body {
 
 .maroon {
   --hue: 330;
-  color: hsl(var(--hue, 260), 100%, 65%);
+  color: hsl(var(--hue, 260), 100%, 55%);
 
   hr {
     margin: 20px 0 20px 0;
@@ -79,7 +95,7 @@ body {
 
 .emerald {
   --hue: 170;
-  color: hsl(var(--hue, 260), 100%, 65%);
+  color: hsl(var(--hue, 260), 100%, 55%);
 
   hr {
     margin: 20px 0 20px 0;
@@ -90,7 +106,7 @@ body {
 
 .purple {
   --hue: 266;
-  color: hsl(var(--hue, 260), 100%, 65%);
+  color: hsl(var(--hue, 260), 100%, 55%);
 
   hr {
     margin: 20px 0 20px 0;

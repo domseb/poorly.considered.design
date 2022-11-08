@@ -2,8 +2,8 @@
 
 button {
   display: inline-block;
-  color: var(--colour-light);
-  background-color: var(--colour-light-dimmest);
+  color: var(--colour-light-100);
+  background-color: var(--colour-light-25);
   text-align: center;
   font-size: 22px;
   padding: 5px 20px 10px;
@@ -16,9 +16,12 @@ button {
   border: none;
   box-sizing: border-box;
   border-radius: var(--radius-s);
+  @include transition(all $default-transition);
 
-  &:hover,
-  &:focus {
+  &:hover {
+    box-shadow: 0 0 0 3px var(--colour-light-50);
+    background-color: var(--colour-light-50);
+    @include transition(all $default-transition);
   }
 }
 
@@ -51,6 +54,8 @@ button {
 
   &:hover {
     @include transition(all $default-transition);
+    box-shadow: none;
+    background-color: inherit;
     &::after {
       @include transition(all $default-transition);
       transform: translateX(10px);
@@ -192,6 +197,7 @@ button {
 .vingette {
   margin-bottom: 70px;
   padding-bottom: 20px;
+  @include transition(all $default-transition);
 
   .halo &:hover {
     background-color: var(--colour-darkest);
@@ -199,7 +205,6 @@ button {
     @include transition(all $default-transition);
     border-radius: 4px;
     // img {
-    @include transition(all $default-transition);
     padding: 0 5px 20px 5px;
     // }
 
@@ -310,6 +315,62 @@ nav {
     }
   }
 
+  .items {
+    display: flex;
+    align-items: center;
+
+    // a:first-of-type {
+    //   padding: 5px;
+    // }
+    a {
+      padding: 5px 10px 10px 10px;
+
+    }
+    .logo {
+      padding: 8px 5px 7px 5px;
+    }
+
+    p:hover {
+      box-shadow: 0 0 0 1px var(--colour-light-dimmest);
+      border-radius: var(--radius-m);
+      @include transition(all $default-transition);
+    }
+  
+    .active {
+      box-shadow: 0 0 0 1px var(--colour-light-dimmed);
+      border-radius: var(--radius-m);
+
+      &:hover {
+        box-shadow: 0 0 0 1px var(--colour-light-dimmed);
+        border-radius: var(--radius-m);
+        @include transition(all $default-transition);
+      }
+    }
+  }
+
+  p {
+    // @include spacing(0, 0);
+    margin: 0;
+    padding: 0;
+    font-family: "Obviously Semi";
+    font-size: 22px;
+    display: inline-grid;
+    color: var(--colour-light);
+    opacity: 1;
+    display: inline-flex;
+    margin-right: var(--spacer);
+    text-transform: uppercase;
+    font-feature-settings: normal;
+
+    span {
+      @include font-size(0.5, 1);
+      margin-right: var(--spacer);
+    }
+
+    &:hover {
+      text-decoration: none;
+    }
+  }
   .tooltip {
     background: var(--colour-darkest);
     color: white;
@@ -357,27 +418,6 @@ nav {
     margin: 0 !important;
   }
 
-  p {
-    @include spacing(0, 0);
-    font-family: "Obviously Semi";
-    font-size: 22px;
-    display: inline-grid;
-    color: var(--colour-light);
-    opacity: 1;
-    display: inline-flex;
-    margin-right: var(--spacer);
-    text-transform: uppercase;
-    font-feature-settings: normal;
-
-    span {
-      @include font-size(0.5, 1);
-      margin-right: var(--spacer);
-    }
-
-    &:hover {
-      text-decoration: none;
-    }
-  }
 }
 
 .footer {

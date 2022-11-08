@@ -8,13 +8,25 @@
 }
 
 @-webkit-keyframes fade-in-up-1 {
-  0% { opacity: 0; }
-  100% { opacity: 1; }
+  0% {
+    transform: translate(0px,var(--spacer-small));
+    opacity: 0;
+  }
+  100% {
+    transform: translate(0px,0px);
+    opacity: 1;
+	}
 }
 
 @keyframes fade-in-up-1 {
-  0% { opacity: 0; }
-  100% { opacity: 1; }
+  0% {
+    transform: translate(0px,var(--spacer-small));
+    opacity: 0;
+  }
+  100% {
+    transform: translate(0px,0px);
+    opacity: 1;
+	}
 }
 
 .fade-in-up-2 {
@@ -25,13 +37,25 @@
 }
 
 @-webkit-keyframes fade-in-up-2 {
-  0% { opacity: 0; }
-  100% { opacity: 1; }
+  0% {
+    transform: translate(0px,var(--spacer-small));
+    opacity: 0;
+  }
+  100% {
+    transform: translate(0px,0px);
+    opacity: 1;
+	}
 }
 
 @keyframes fade-in-up-2 {
-  0% { opacity: 0; }
-  100% { opacity: 1; }
+  0% {
+    transform: translate(0px,var(--spacer-small));
+    opacity: 0;
+  }
+  100% {
+    transform: translate(0px,0px);
+    opacity: 1;
+	}
 }
 
 .fade-in-up-3 {
@@ -43,13 +67,55 @@
 
 
 @-webkit-keyframes fade-in-up-3 {
-  0% { opacity: 0; }
-  100% { opacity: 1; }
+  0% {
+    transform: translate(0px,var(--spacer-small));
+    opacity: 0;
+  }
+  100% {
+    transform: translate(0px,0px);
+    opacity: 1;
+	}
 }
 
 @keyframes fade-in-up-3 {
-  0% { opacity: 0; }
-  100% { opacity: 1; }
+  0% {
+    transform: translate(0px,var(--spacer-small));
+    opacity: 0;
+  }
+  100% {
+    transform: translate(0px,0px);
+    opacity: 1;
+	}
+}
+
+.fade-in-up-4 {
+  animation: fade-in-up-4;
+  animation-duration: 2s;
+  animation-timing-function: cubic-bezier(0.680, -0.550, 0.265, 1.550);
+  transform-origin: 50%;
+}
+
+
+@-webkit-keyframes fade-in-up-4 {
+  0% {
+    transform: translate(0px,var(--spacer-small));
+    opacity: 0;
+  }
+  100% {
+    transform: translate(0px,0px);
+    opacity: 1;
+	}
+}
+
+@keyframes fade-in-up-4 {
+  0% {
+    transform: translate(0px,var(--spacer-small));
+    opacity: 0;
+  }
+  100% {
+    transform: translate(0px,0px);
+    opacity: 1;
+	}
 }
 
 .fade-in-up {
@@ -61,7 +127,7 @@
 
 @-webkit-keyframes fade-in-up {
   0% {
-    transform: translate(0px,$space-s);
+    transform: translate(0px,var(--spacer-small));
     opacity: 0;
   }
   100% {
@@ -72,7 +138,7 @@
 
 @keyframes fade-in-up {
   0% {
-    transform: translate(0px,$space-s);
+    transform: translate(0px,var(--spacer-small));
     opacity: 0;
   }
   100% {

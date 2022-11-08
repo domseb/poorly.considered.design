@@ -7,12 +7,8 @@ theme: indigo
   <section class="hero">
     <div class="headline">
       <h4 class="emdash">Considered Design</h4>
-      <h1>A lifelong practice.</h1>
-      <p>
-        His super power is combining radical empathy with a fastidious attention
-        to detail and quality, to create holistic experiences that differentiate
-        themselves in the market by how they feel to use.
-      </p>
+      <h1>Craft as a differentiator</h1>
+      <p>Creating opinionated strategies, cultures and experiences that help differentiate products in the market — products that win, because they are fundamentally better to use than their competitors.</p>
     </div>
     <a class="focus" href="/writing/one-eye-sees-the-other-feels/">
       <div class="callout">
@@ -26,11 +22,11 @@ theme: indigo
 
 <section>
   <h4>Outcomes</h4>
-  <h2>I differentiate companies through design.</h2>
+  <h2>Obsessive about quality, and creating holistic impact</h2>
   <div class="tiles">
     <div>
       <img src="/assets/site/strat.png" />
-      <h3>Foundations</h3>
+      <h3>➊ Foundations</h3>
       <p>
         Dominic Sebastian, a designer by profession, finds himself obsessively
         thinking about how to practice more considered design.
@@ -38,7 +34,7 @@ theme: indigo
     </div>
     <div>
       <img src="/assets/site/strat.png" />
-      <h3>North Stars</h3>
+      <h3>➋ North Stars</h3>
       <p>
         Dominic Sebastian, a designer by profession, finds himself obsessively
         thinking about how to practice more considered design.
@@ -46,7 +42,7 @@ theme: indigo
     </div>
     <div>
       <img src="/assets/site/strat.png" />
-      <h3>Craft</h3>
+      <h3>➌ Craft</h3>
       <p>
         Dominic Sebastian, a designer by profession, finds himself obsessively
         thinking about how to practice more considered design.
@@ -57,7 +53,7 @@ theme: indigo
 
 <section>
   <h4>Career</h4>
-  <h2>Experienced in AR to SaaS, and seed to series C.</h2>
+  <h2>Experienced in AR to SaaS, and seed to series C</h2>
   <ul class="link-stack">
     {% for chapter in site.chapters %}
     <li>
@@ -96,7 +92,7 @@ theme: indigo
 
 <section>
   <h4>Practices</h4>
-  <h2>Working on other lifelong practices I love.</h2>
+  <h2>Exploring the systems that enable excellence</h2>
   <div class="tiles">
     <a class="tile" href="/writing/">
       <div>
@@ -129,13 +125,19 @@ theme: indigo
   <section class="nested">
     <div>
       <h4>Profile</h4>
-      <h2>More about this human.</h2>
+      <h2>A lifelong practice</h2>
       <p>
         Dominic Sebastian, a designer by profession, finds himself obsessively
         thinking about how to practice more considered design. Even as he makes
         progress, the work never stops, and he faces new challenges in finding
         creative fulfillment.
       </p>
+      <button
+      class="link-button {{ chapter.theme }}"
+      onclick="location.href='{{ chapter.url }}'"
+    >
+      Read more
+    </button>
     </div>
     <div class="flexy">
       <div class="face sixty"></div>

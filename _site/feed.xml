@@ -6,9 +6,9 @@
 </description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 05 Nov 2022 19:51:13 +1100</pubDate>
-    <lastBuildDate>Sat, 05 Nov 2022 19:51:13 +1100</lastBuildDate>
-    <generator>Jekyll v3.7.3</generator>
+    <pubDate>Tue, 08 Nov 2022 11:49:06 +1100</pubDate>
+    <lastBuildDate>Tue, 08 Nov 2022 11:49:06 +1100</lastBuildDate>
+    <generator>Jekyll v4.2.2</generator>
     
       <item>
         <title>One eye sees, the other feels</title>
@@ -248,7 +248,7 @@
   
 &lt;/figure&gt;
 
-&lt;p&gt;To set my slack status was a little more complicated (for some reason I couldn’t get it to work through the same url schemes as above), but found &lt;a href=&quot;https://routinehub.co/shortcut/2443&quot;&gt;this Shortcut from Jake Bathman really useful&lt;/a&gt; (he also has an &lt;a href=&quot;https://medium.com/@jakebathman/setting-up-a-slack-app-for-use-with-ios-shortcuts-e8e16b15d0f3&quot;&gt;accompanying post here too&lt;/a&gt;). His Shortcut let’s you put in a custom text status each time, but as I just wanted to set a specific one each time, I cut a few of the steps out, and now mine looks like this, with a step above this which uses text to set my &lt;code class=&quot;highlighter-rouge&quot;&gt;SlackOAuthToken&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;To set my slack status was a little more complicated (for some reason I couldn’t get it to work through the same url schemes as above), but found &lt;a href=&quot;https://routinehub.co/shortcut/2443&quot;&gt;this Shortcut from Jake Bathman really useful&lt;/a&gt; (he also has an &lt;a href=&quot;https://medium.com/@jakebathman/setting-up-a-slack-app-for-use-with-ios-shortcuts-e8e16b15d0f3&quot;&gt;accompanying post here too&lt;/a&gt;). His Shortcut let’s you put in a custom text status each time, but as I just wanted to set a specific one each time, I cut a few of the steps out, and now mine looks like this, with a step above this which uses text to set my &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;SlackOAuthToken&lt;/code&gt;.&lt;/p&gt;
 
 &lt;figure class=&quot;image-trio&quot;&gt;
   &lt;div class=&quot;items&quot;&gt;
