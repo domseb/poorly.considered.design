@@ -14,7 +14,7 @@ body {
   --colour-dark-75: hsla(var(--hue, 245), 100%, 55%, 0.75);
   --colour-dark-50: hsla(var(--hue, 245), 100%, 55%, 0.5);
   --colour-dark-25: hsla(var(--hue, 245), 100%, 55%, 0.25);
-  --colour-dark-20: hsla(var(--hue, 245), 100%, 55%, 0.20);
+  --colour-dark-20: hsla(var(--hue, 245), 100%, 55%, 0.2);
   --colour-dark-15: hsla(var(--hue, 245), 100%, 55%, 0.15);
   --colour-dark-10: hsla(var(--hue, 245), 100%, 55%, 0.1);
   // LIGHTER
@@ -28,7 +28,7 @@ body {
   --colour-light-75: hsla(var(--hue, 245), 100%, 55%, 0.75);
   --colour-light-50: hsla(var(--hue, 245), 100%, 55%, 0.5);
   --colour-light-25: hsla(var(--hue, 245), 100%, 55%, 0.25);
-  --colour-light-20: hsla(var(--hue, 245), 100%, 55%, 0.20);
+  --colour-light-20: hsla(var(--hue, 245), 100%, 55%, 0.2);
   --colour-light-15: hsla(var(--hue, 245), 100%, 55%, 0.15);
   --colour-light-10: hsla(var(--hue, 245), 100%, 55%, 0.1);
   // SPECIFIC COLOURS
@@ -122,6 +122,15 @@ body {
   // padding-bottom: 10em;
 }
 
+.banner-image {
+  background-image: url("/assets/site/bg.png");
+  // background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: var(--colour-darkest);
+}
+
 // .banner-break {
 //   background-color: var(--colour-darkest);
 //   padding-bottom: 7em;
@@ -130,7 +139,7 @@ body {
 
 section {
   width: clamp(150px, 85vw, 1200px);
-  margin: 10em auto;
+  margin: 8em auto;
   // padding: 10vh 0;
 }
 
@@ -343,8 +352,9 @@ section {
 }
 
 .callout {
-  border-radius: 16px;
-  background: var(--colour-darker);
+  // border-radius: 16px;
+  background: var(--colour-darkest);
+  box-shadow: 0 0 0 1px var(--colour-light-dimmed);
   @include transition(all $default-transition);
   padding: 20px;
 
