@@ -11,10 +11,6 @@ description: While designing in a studio helped me create quickly, it was all st
 vingette: /assets/projects/editor/hero-editor.jpg
 ---
 
-### Collaborators
-
-Summarising the importance of collaborators, and what our actual responsibilities are beyond the titles.
-
 ### The story begins...
 
 Qwilr (pronounced quill-er) is simple but powerful content editing platform, that allows businesses to create and share all their sales documents as modern, interactive webpages. Unlike the common standard of sending proposals as boring PDFs, Qwilr Pages look professionally designed, and can be opened and signed from anywhere, including mobile. <br><br> I joined in mid 2017, pre Series A, as their first Design Lead. Although Qwilr had already largely found product market fit with SMBs, it needed to meet the growing demands of larger teams, and design some major feature updates to it’s core editing experience.

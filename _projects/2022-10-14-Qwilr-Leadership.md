@@ -20,7 +20,7 @@ image: /assets/projects/leadership/hero-leadership.jpg
         <h2>Forging and reforging teams</h2>
         <div class="collaborators">
             <div class="collaborator">
-                <img src="/assets/site/dom-profile.jpg">
+                <img src="/assets/site/avatar-test.jpg">
                 <div class="info">
                     <h6>Josh Baskin</h6>
                     <p>Lead ideation of new toys, managing R&D of all new iniatives.</p>
@@ -28,7 +28,7 @@ image: /assets/projects/leadership/hero-leadership.jpg
                 </div>
             </div>
             <div class="collaborator">
-                <img src="/assets/site/dom-profile.jpg">
+                <img src="/assets/site/avatar-test.jpg">
                 <div class="info">
                     <h6>Josh Baskin</h6>
                     <p>Lead ideation of new toys, managing R&D of all new iniatives.</p>
@@ -36,7 +36,7 @@ image: /assets/projects/leadership/hero-leadership.jpg
                 </div>
             </div>
             <div class="collaborator">
-                <img src="/assets/site/dom-profile.jpg">
+                <img src="/assets/site/avatar-test.jpg">
                 <div class="info">
                     <h6>Josh Baskin</h6>
                     <p>Lead ideation of new toys, managing R&D of all new iniatives.</p>
@@ -87,7 +87,7 @@ image: /assets/projects/leadership/hero-leadership.jpg
         <h2>Creating a culture of excellence</h2>
         <div class="collaborators">
             <div class="collaborator">
-                <img src="/assets/site/dom-profile.jpg">
+                <img src="/assets/site/avatar-test.jpg">
                 <div class="info">
                     <h6>Josh Baskin</h6>
                     <p>Lead ideation of new toys, managing R&D of all new iniatives.</p>
@@ -95,7 +95,7 @@ image: /assets/projects/leadership/hero-leadership.jpg
                 </div>
             </div>
             <div class="collaborator">
-                <img src="/assets/site/dom-profile.jpg">
+                <img src="/assets/site/avatar-test.jpg">
                 <div class="info">
                     <h6>Josh Baskin</h6>
                     <p>Lead ideation of new toys, managing R&D of all new iniatives.</p>
@@ -103,7 +103,7 @@ image: /assets/projects/leadership/hero-leadership.jpg
                 </div>
             </div>
             <div class="collaborator">
-                <img src="/assets/site/dom-profile.jpg">
+                <img src="/assets/site/avatar-test.jpg">
                 <div class="info">
                     <h6>Josh Baskin</h6>
                     <p>Lead ideation of new toys, managing R&D of all new iniatives.</p>
@@ -175,7 +175,7 @@ image: /assets/projects/leadership/hero-leadership.jpg
             <h2>Formalising our company strategy</h2>
             <div class="collaborators">
                 <div class="collaborator">
-                    <img src="/assets/site/dom-profile.jpg">
+                <img src="/assets/site/avatar-test.jpg">
                     <div class="info">
                         <h6>Josh Baskin</h6>
                         <p>Lead ideation of new toys, managing R&D of all new iniatives.</p>
@@ -183,7 +183,7 @@ image: /assets/projects/leadership/hero-leadership.jpg
                     </div>
                 </div>
                 <div class="collaborator">
-                    <img src="/assets/site/dom-profile.jpg">
+                <img src="/assets/site/avatar-test.jpg">
                     <div class="info">
                         <h6>Josh Baskin</h6>
                         <p>Lead ideation of new toys, managing R&D of all new iniatives.</p>
@@ -191,7 +191,7 @@ image: /assets/projects/leadership/hero-leadership.jpg
                     </div>
                 </div>
                 <div class="collaborator">
-                    <img src="/assets/site/dom-profile.jpg">
+                <img src="/assets/site/avatar-test.jpg">
                     <div class="info">
                         <h6>Josh Baskin</h6>
                         <p>Lead ideation of new toys, managing R&D of all new iniatives.</p>
@@ -211,7 +211,7 @@ image: /assets/projects/leadership/hero-leadership.jpg
         <h2>Exploring visions of what’s next</h2>
         <div class="collaborators">
             <div class="collaborator">
-                <img src="/assets/site/dom-profile.jpg">
+                <img src="/assets/site/avatar-test.jpg">
                 <div class="info">
                     <h6>Josh Baskin</h6>
                     <p>Lead ideation of new toys, managing R&D of all new iniatives.</p>
@@ -219,7 +219,7 @@ image: /assets/projects/leadership/hero-leadership.jpg
                 </div>
             </div>
             <div class="collaborator">
-                <img src="/assets/site/dom-profile.jpg">
+                <img src="/assets/site/avatar-test.jpg">
                 <div class="info">
                     <h6>Josh Baskin</h6>
                     <p>Lead ideation of new toys, managing R&D of all new iniatives.</p>
@@ -227,7 +227,7 @@ image: /assets/projects/leadership/hero-leadership.jpg
                 </div>
             </div>
             <div class="collaborator">
-                <img src="/assets/site/dom-profile.jpg">
+                <img src="/assets/site/avatar-test.jpg">
                 <div class="info">
                     <h6>Josh Baskin</h6>
                     <p>Lead ideation of new toys, managing R&D of all new iniatives.</p>
