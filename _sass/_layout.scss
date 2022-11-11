@@ -357,7 +357,7 @@ section {
 .callout {
   // border-radius: 16px;
   background: var(--colour-darkest);
-  box-shadow: 0 0 0 1px var(--colour-light-dimmed);
+  box-shadow: 0 0 0 1px var(--colour-light-25);
   @include transition(all $default-transition);
   padding: 20px;
 

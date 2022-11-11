@@ -6,7 +6,7 @@ role: Head of Design, Smart Sparrow
 theme: maroon
 slug: smart-sparrow
 
-description: While designing in a studio helped me create quickly, it was all standalone experiences. I was craving working on something real people used.
+description: That's the American one, you berk! I didn't even know Smarties made a cereal. They don't, it's just Smarties in a bowl with milk. It's like they're pally-wally with us when there's a problem with their printer, but once it's fixed... No, no there you go, no there you go. I just heard it come on.
 ---
 
 Smart Sparrow is a complete Learning Design platform, used by over 500 institutions globally to create high quality, personalised learning experiences. I joined after their Series B in 2014 to give a dedicated design and user experience focus across the company. For the past few years I’ve been the design lead across all product, brand and marketing projects.

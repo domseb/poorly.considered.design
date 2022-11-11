@@ -228,7 +228,7 @@ section { width: clamp(150px, 85vw, 1200px); margin: 8em auto; }
 
 .fullwidth { height: calc(100vh - 150px - 186px); width: 100vw; display: flex; align-items: center; justify-content: center; }
 
-.callout { background: var(--colour-darkest); box-shadow: 0 0 0 1px var(--colour-light-dimmed); -webkit-transition: all 0.3s ease; -moz-transition: all 0.3s ease; transition: all 0.3s ease; padding: 20px; }
+.callout { background: var(--colour-darkest); box-shadow: 0 0 0 1px var(--colour-light-25); -webkit-transition: all 0.3s ease; -moz-transition: all 0.3s ease; transition: all 0.3s ease; padding: 20px; }
 
 .callout h4 { margin-bottom: 10px; font-size: 22px; }
 
@@ -377,7 +377,7 @@ button:hover { box-shadow: 0 0 0 3px var(--colour-light-50); background-color: v
 
 .link-button:hover::after { -webkit-transition: all 0.3s ease; -moz-transition: all 0.3s ease; transition: all 0.3s ease; transform: translateX(10px); }
 
-.collaborators { display: inline-flex; }
+.collaborators { display: inline-flex; margin-top: 20px; }
 
 .collaborators .collaborator { height: 40px !important; width: 40px; margin-right: 10px; }
 

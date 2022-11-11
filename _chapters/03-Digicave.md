@@ -6,7 +6,7 @@ role: Design Lead, Digicave
 theme: emerald
 slug: digicave
 
-description: While designing in a studio helped me create quickly, it was all standalone experiences. I was craving working on something real people used.
+description: That's the American one, you berk! I didn't even know Smarties made a cereal. They don't, it's just Smarties in a bowl with milk. It's like they're pally-wally with us when there's a problem with their printer, but once it's fixed... No, no there you go, no there you go. I just heard it come on.
 ---
 
 ### My first startup experience
