@@ -60,7 +60,7 @@ p { font-family: "Degular"; font-size: clamp(16px, 1em, 20px); opacity: 0.75; }
 
 article { margin: 100px auto; }
 
-article h2, article h3, article h4, article h5, article p { width: clamp(150px, 85vw, 600px); }
+article h2, article h3, article h4, article h5, article p, article ul { width: clamp(150px, 85vw, 600px); }
 
 article h1 { margin: 1em auto 0.5em auto; color: var(--onyx); }
 
@@ -73,6 +73,14 @@ article h4 { margin: 0.5em auto 0.25em auto; color: var(--onyx); }
 article h5 { margin-top: 1.3rem; margin-bottom: 0.65rem; color: var(--onyx); }
 
 article h6 { margin-top: 1.3rem; margin-bottom: 0rem; color: var(--onyx); }
+
+article ul { margin: 0 auto 1.5em auto; color: var(--slate); font-size: clamp(16px, 1em, 20px); margin-bottom: 60px; margin-top: 40px; }
+
+article ul.lined { list-style: none; border-top: 1px solid var(--colour-light-100); border-bottom: 1px solid var(--colour-light-100); }
+
+article ul.lined li { border-top: 1px solid var(--colour-light-50); padding: 10px 0; }
+
+article ul.lined li:first-of-type { border-top: none; }
 
 article p { margin: 0 auto 1.5em auto; color: var(--slate); }
 

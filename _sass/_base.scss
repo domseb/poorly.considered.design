@@ -204,7 +204,7 @@ article {
   h3,
   h4,
   h5,
-  p {
+  p, ul {
     width: clamp(150px, 85vw, 600px);
   }
 
@@ -242,6 +242,29 @@ article {
   h6 {
     @include margin(1, 0);
     color: var(--onyx);
+  }
+
+  ul {
+    margin: 0 auto 1.5em auto;
+    color: var(--slate);
+    font-size: clamp(16px, 1em, 20px);
+    margin-bottom: 60px;
+    margin-top: 40px;
+
+    &.lined {
+      list-style: none;
+      border-top: 1px solid var(--colour-light-100);
+      border-bottom: 1px solid var(--colour-light-100);
+
+      li {
+        border-top: 1px solid var(--colour-light-50);
+        padding: 10px 0;
+
+        &:first-of-type {
+          border-top: none;
+        }
+      }
+    }
   }
 
   p {

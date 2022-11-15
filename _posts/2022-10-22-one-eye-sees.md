@@ -2,8 +2,10 @@
 layout: post
 title: "One eye sees, the other feels"
 permalink: /writing/one-eye-sees-the-other-feels/
-featured-image: /assets/blog/oestof-featured.jpg
+featured-image: /assets/blog/oestof-thumb.jpg
 ---
+
+{% include modules/image-layouts.html url="/assets/blog/oestof-banner.jpg" type="hero" %}
 
 Hello, IT. Have you tried forcing an unexpected reboot? Yes! Yesterday's jam. That is what we are to them!... Actually, that doesn't work, as a thing, because, you know, jam lasts for ages. Huh, what you think I'm afraid of you? I'm not afraid of you. OK. Moss, what did you have for breakfast this morning? Smarties cereal. How can you two... Don't Google the question, Moss! Yes! Yesterday's jam. That is what we are to them!... Actually, that doesn't work, as a thing, because, you know, jam lasts for ages.
 
