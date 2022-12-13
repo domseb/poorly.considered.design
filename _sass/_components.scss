@@ -197,16 +197,19 @@ button {
 
 .vingette {
   margin-bottom: 70px;
-  padding-bottom: 20px;
+  padding: 20px;
+  box-shadow: 0 0 0 1px var(--colour-light-25);
+  border-radius: var(--radius-l);
   @include transition(all $default-transition);
 
   .halo &:hover {
-    background-color: var(--colour-darkest);
-    box-shadow: 0 0 0 10px var(--colour-darkest);
+    background-color: var(--colour-light-25);
+    // box-shadow: 0 0 0 2px var(--colour-light-50);
+    transform: translateY(-10px);
     @include transition(all $default-transition);
-    border-radius: 4px;
+    // border-radius: 4px;
     // img {
-    padding: 0 5px 20px 5px;
+    // padding: 0 5px 20px 5px;
     // }
 
     .arrow {

@@ -12,15 +12,15 @@ body, h1, h2, h3, h4, h5, h6, p, blockquote, pre, hr, dl, dd, ol, ul, figure { m
 
 @font-face { font-family: "Degular Display Regular"; font-style: normal; font-weight: "woff2", "woff"; src: url("../assets/fonts/Degular_Display-Regular.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/Degular_Display-Regular.woff2") format("woff2"), url("../assets/fonts/Degular_Display-Regular.woff") format("woff"), url("../assets/fonts/Degular_Display-Regular.ttf") format("truetype"), url("../assets/fonts/Degular_Display-Regular.svg#Degular Display Regular") format("svg"); }
 
+@font-face { font-family: "Degular Display Medium Italic"; font-style: normal; font-weight: "woff2", "woff"; src: url("../assets/fonts/Degular_Display-Medium_Italic.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/Degular_Display-Medium_Italic.woff2") format("woff2"), url("../assets/fonts/Degular_Display-Medium_Italic.woff") format("woff"), url("../assets/fonts/Degular_Display-Medium_Italic.ttf") format("truetype"), url("../assets/fonts/Degular_Display-Medium_Italic.svg#Degular Display Medium Italic") format("svg"); }
+
+@font-face { font-family: "Degular Display Medium"; font-style: normal; font-weight: "woff2", "woff"; src: url("../assets/fonts/Degular_Display-Medium.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/Degular_Display-Medium.woff2") format("woff2"), url("../assets/fonts/Degular_Display-Medium.woff") format("woff"), url("../assets/fonts/Degular_Display-Medium.ttf") format("truetype"), url("../assets/fonts/Degular_Display-Medium.svg#Degular Display Medium") format("svg"); }
+
 @font-face { font-family: "Degular Display Italic"; font-style: normal; font-weight: "woff2", "woff"; src: url("../assets/fonts/Degular_Display-Italic.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/Degular_Display-Italic.woff2") format("woff2"), url("../assets/fonts/Degular_Display-Italic.woff") format("woff"), url("../assets/fonts/Degular_Display-Italic.ttf") format("truetype"), url("../assets/fonts/Degular_Display-Italic.svg#Degular Display Italic") format("svg"); }
 
 @font-face { font-family: "Degular Display Bold"; font-style: normal; font-weight: "woff2", "woff"; src: url("../assets/fonts/Degular_Display-Bold.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/Degular_Display-Bold.woff2") format("woff2"), url("../assets/fonts/Degular_Display-Bold.woff") format("woff"), url("../assets/fonts/Degular_Display-Bold.ttf") format("truetype"), url("../assets/fonts/Degular_Display-Bold.svg#Degular Display Bold") format("svg"); }
 
 @font-face { font-family: "Degular Display Bold Italic"; font-style: normal; font-weight: "woff2", "woff"; src: url("../assets/fonts/Degular_Display-Bold_Italic.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/Degular_Display-Bold_Italic.woff2") format("woff2"), url("../assets/fonts/Degular_Display-Bold_Italic.woff") format("woff"), url("../assets/fonts/Degular_Display-Bold_Italic.ttf") format("truetype"), url("../assets/fonts/Degular_Display-Bold_Italic.svg#Degular Display Bold Italic") format("svg"); }
-
-@font-face { font-family: "Degular Display Black"; font-style: normal; font-weight: "woff2", "woff"; src: url("../assets/fonts/Degular_Display-Black.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/Degular_Display-Black.woff2") format("woff2"), url("../assets/fonts/Degular_Display-Black.woff") format("woff"), url("../assets/fonts/Degular_Display-Black.ttf") format("truetype"), url("../assets/fonts/Degular_Display-Black.svg#Degular Display Black") format("svg"); }
-
-@font-face { font-family: "Degular Display Black Italic"; font-style: normal; font-weight: "woff2", "woff"; src: url("../assets/fonts/Degular_Display-Black_Italic.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/Degular_Display-Black_Italic.woff2") format("woff2"), url("../assets/fonts/Degular_Display-Black_Italic.woff") format("woff"), url("../assets/fonts/Degular_Display-Black_Italic.ttf") format("truetype"), url("../assets/fonts/Degular_Display-Black_Italic.svg#Degular Display Black Italic") format("svg"); }
 
 @font-face { font-family: "Obviously"; font-style: normal; font-weight: "woff2", "woff"; src: url("../assets/fonts/Obviously-Condensed.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/Obviously-Condensed.woff2") format("woff2"), url("../assets/fonts/Obviously-Condensed.woff") format("woff"), url("../assets/fonts/Obviously-Condensed.ttf") format("truetype"), url("../assets/fonts/Obviously-Condensed.svg#Obviously") format("svg"); }
 
@@ -40,7 +40,7 @@ h1 { color: var(--text-headline); line-height: 0.8; min-height: 0vw; letter-spac
 
 h2 { font-size: clamp(50px, 10vw, 110px); min-height: 0vw; line-height: 0.9; letter-spacing: -1px; font-weight: normal !important; max-width: 20ch; margin: 0.5em 0 1em 0; }
 
-h3 { font-size: clamp(25px, 5vw, 35px); line-height: 0.9; font-weight: normal !important; margin: 0.35em 0 0.25em 0; }
+h3 { font-family: "Degular Display Medium"; font-size: clamp(25px, 5vw, 46px); line-height: 0.9; font-weight: normal !important; margin: 0.5em 0 0.35em 0; }
 
 h4 { font-family: "Obviously Semi"; text-transform: uppercase; letter-spacing: 1px; color: var(--colour-light); font-weight: normal !important; font-size: clamp(24px, 2vw, 30px); line-height: 1; margin-bottom: 50px; }
 
@@ -95,7 +95,7 @@ hr { margin: 20px 0 20px 0; border: none; border-top: 1px solid var(--colour-dar
 img, blockquote, ul, ol, dl, .highlight { margin-top: 0rem; margin-bottom: 1.3rem; }
 
 /** Images */
-img { max-width: 100%; vertical-align: middle; }
+img { max-width: 100%; vertical-align: middle; border-radius: var(--radius-m); }
 
 /** Figures */
 figure > img { display: block; }
@@ -142,7 +142,7 @@ pre > code { border: 0; padding-right: 0; padding-left: 0; }
 
 .icon-text { font-family: "Degular Display Light"; margin: 5px 10px 0 10px; font-size: 20px; }
 
-body { --lightness: 25%; --opacity: 1; --colour-base: hsl(var(--hue), 100%, 25%); --colour-darker: hsl(var(--hue, 245), 100%, 15%); --colour-darkest: hsla(var(--hue, 245), 100%, 5%, 1); --colour-darkest-dimmed: hsla(var(--hue, 245), 100%, 5%, 0.2); --colour-dark-100: hsla(var(--hue, 245), 100%, 55%, 1); --colour-dark-75: hsla(var(--hue, 245), 100%, 55%, 0.75); --colour-dark-50: hsla(var(--hue, 245), 100%, 55%, 0.5); --colour-dark-25: hsla(var(--hue, 245), 100%, 55%, 0.25); --colour-dark-20: hsla(var(--hue, 245), 100%, 55%, 0.2); --colour-dark-15: hsla(var(--hue, 245), 100%, 55%, 0.15); --colour-dark-10: hsla(var(--hue, 245), 100%, 55%, 0.1); --colour-light: hsla(var(--hue, 245), 100%, 55%, 1); --colour-light-dimmed: hsla(var(--hue, 245), 100%, 55%, 0.75); --colour-light-dimmest: hsla(var(--hue, 245), 100%, 55%, 0.25); --colour-light-dimmestest: hsla(var(--hue, 245), 100%, 55%, 0.1); --colour-lighter: hsla(var(--hue, 245), 100%, 65%, var(--opacity)); --colour-light-100: hsla(var(--hue, 245), 100%, 55%, 1); --colour-light-75: hsla(var(--hue, 245), 100%, 55%, 0.75); --colour-light-50: hsla(var(--hue, 245), 100%, 55%, 0.5); --colour-light-25: hsla(var(--hue, 245), 100%, 55%, 0.25); --colour-light-20: hsla(var(--hue, 245), 100%, 55%, 0.2); --colour-light-15: hsla(var(--hue, 245), 100%, 55%, 0.15); --colour-light-10: hsla(var(--hue, 245), 100%, 55%, 0.1); --text-headline: hsl(var(--hue), 0%, calc(var(--lightness) + 75%)); --onyx: hsla(var(--hue, 0), 0%, 0%, var(--opacity)); --slate: hsla(var(--hue, 0), 0%, 40%, var(--opacity)); --smoke: hsla(var(--hue, 0), 0%, 80%, var(--opacity)); --feather: hsla(var(--hue, 0), 0%, 90%, var(--opacity)); --spacer-small: 10px; --spacer: 20px; --spacer-medium: 40px; --spacer-large: 100px; --radius-xs: 2px; --radius-s: 4px; --radius-m: 8px; }
+body { --lightness: 25%; --opacity: 1; --colour-base: hsl(var(--hue), 100%, 25%); --colour-darker: hsl(var(--hue, 245), 100%, 15%); --colour-darkest: hsla(var(--hue, 245), 100%, 5%, 1); --colour-darkest-dimmed: hsla(var(--hue, 245), 100%, 5%, 0.2); --colour-dark-100: hsla(var(--hue, 245), 100%, 55%, 1); --colour-dark-75: hsla(var(--hue, 245), 100%, 55%, 0.75); --colour-dark-50: hsla(var(--hue, 245), 100%, 55%, 0.5); --colour-dark-25: hsla(var(--hue, 245), 100%, 55%, 0.25); --colour-dark-20: hsla(var(--hue, 245), 100%, 55%, 0.2); --colour-dark-15: hsla(var(--hue, 245), 100%, 55%, 0.15); --colour-dark-10: hsla(var(--hue, 245), 100%, 55%, 0.1); --colour-light: hsla(var(--hue, 245), 100%, 55%, 1); --colour-light-dimmed: hsla(var(--hue, 245), 100%, 55%, 0.75); --colour-light-dimmest: hsla(var(--hue, 245), 100%, 55%, 0.25); --colour-light-dimmestest: hsla(var(--hue, 245), 100%, 55%, 0.1); --colour-lighter: hsla(var(--hue, 245), 100%, 65%, var(--opacity)); --colour-light-100: hsla(var(--hue, 245), 100%, 55%, 1); --colour-light-75: hsla(var(--hue, 245), 100%, 55%, 0.75); --colour-light-50: hsla(var(--hue, 245), 100%, 55%, 0.5); --colour-light-25: hsla(var(--hue, 245), 100%, 55%, 0.25); --colour-light-20: hsla(var(--hue, 245), 100%, 55%, 0.2); --colour-light-15: hsla(var(--hue, 245), 100%, 55%, 0.15); --colour-light-10: hsla(var(--hue, 245), 100%, 55%, 0.1); --text-headline: hsl(var(--hue), 0%, calc(var(--lightness) + 75%)); --onyx: hsla(var(--hue, 0), 0%, 0%, var(--opacity)); --slate: hsla(var(--hue, 0), 0%, 40%, var(--opacity)); --smoke: hsla(var(--hue, 0), 0%, 80%, var(--opacity)); --feather: hsla(var(--hue, 0), 0%, 90%, var(--opacity)); --spacer-small: 10px; --spacer: 20px; --spacer-medium: 40px; --spacer-large: 100px; --radius-xs: 2px; --radius-s: 4px; --radius-m: 10px; --radius-l: 20px; }
 
 .default { --hue: 245; --colour-text: white; color: var(--colour-text); }
 
@@ -236,13 +236,13 @@ section { width: clamp(150px, 85vw, 1200px); margin: 8em auto; }
 
 .fullwidth { height: calc(100vh - 150px - 186px); width: 100vw; display: flex; align-items: center; justify-content: center; }
 
-.callout { background: var(--colour-darkest); box-shadow: 0 0 0 1px var(--colour-light-25); -webkit-transition: all 0.3s ease; -moz-transition: all 0.3s ease; transition: all 0.3s ease; padding: 20px; }
+.callout { border-radius: var(--radius-m); background: var(--colour-darkest); box-shadow: 0 0 0 1px var(--colour-light-25); -webkit-transition: all 0.3s ease; -moz-transition: all 0.3s ease; transition: all 0.3s ease; padding: 20px; }
 
 .callout h4 { margin-bottom: 10px; font-size: 22px; }
 
 .callout p { opacity: 0.65; }
 
-.callout:hover { background: var(--colour-base); box-shadow: 0 0 0 5px var(--colour-base); -webkit-transition: all 0.3s ease; -moz-transition: all 0.3s ease; transition: all 0.3s ease; }
+.callout:hover { background: var(--colour-base); box-shadow: 0 0 0 5px var(--colour-base); transform: translateY(-10px); -webkit-transition: all 0.3s ease; -moz-transition: all 0.3s ease; transition: all 0.3s ease; }
 
 .center { align-items: center; justify-content: center; }
 
@@ -425,9 +425,9 @@ button:hover { box-shadow: 0 0 0 3px var(--colour-light-50); background-color: v
 
 .link-stack li:last-child { border-bottom: none; }
 
-.vingette { margin-bottom: 70px; padding-bottom: 20px; -webkit-transition: all 0.3s ease; -moz-transition: all 0.3s ease; transition: all 0.3s ease; }
+.vingette { margin-bottom: 70px; padding: 20px; box-shadow: 0 0 0 1px var(--colour-light-25); border-radius: var(--radius-l); -webkit-transition: all 0.3s ease; -moz-transition: all 0.3s ease; transition: all 0.3s ease; }
 
-.halo .vingette:hover { background-color: var(--colour-darkest); box-shadow: 0 0 0 10px var(--colour-darkest); -webkit-transition: all 0.3s ease; -moz-transition: all 0.3s ease; transition: all 0.3s ease; border-radius: 4px; padding: 0 5px 20px 5px; }
+.halo .vingette:hover { background-color: var(--colour-light-25); transform: translateY(-10px); -webkit-transition: all 0.3s ease; -moz-transition: all 0.3s ease; transition: all 0.3s ease; }
 
 .halo .vingette:hover .arrow { opacity: 1; -webkit-transition: all 0.3s ease; -moz-transition: all 0.3s ease; transition: all 0.3s ease; }
 
@@ -540,6 +540,8 @@ nav img { margin: 0 !important; }
 .image-trio img { border-radius: var(--spacer-small); border: 2px solid rgba(77, 100, 111, 0.15); box-shadow: 0px 15px 35px rgba(77, 100, 111, 0.1); }
 
 .flexy { height: 70vh; background: var(--colour-darkest); position: relative; width: 100%; }
+
+.flexy > div { border-radius: var(--radius-m); }
 
 .face { background-image: url("https://poorly.considered.design/assets/site/dom-profile.jpg"); background-size: cover; background-position: center; }
 

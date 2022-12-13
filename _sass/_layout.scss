@@ -43,9 +43,11 @@ body {
   --spacer-medium: 40px;
   --spacer-large: 100px;
   // OTHER
+
   --radius-xs: 2px;
   --radius-s: 4px;
-  --radius-m: 8px;
+  --radius-m: 10px;
+  --radius-l: 20px;
 }
 
 // THEMES
@@ -355,7 +357,7 @@ section {
 }
 
 .callout {
-  // border-radius: 16px;
+  border-radius: var(--radius-m);
   background: var(--colour-darkest);
   box-shadow: 0 0 0 1px var(--colour-light-25);
   @include transition(all $default-transition);
@@ -373,6 +375,7 @@ section {
   &:hover {
     background: var(--colour-base);
     box-shadow: 0 0 0 5px var(--colour-base);
+    transform: translateY(-10px);
     @include transition(all $default-transition);
   }
 }

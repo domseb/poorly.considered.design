@@ -37,6 +37,16 @@ figure {
   ("woff2", "woff")
 );
 @include font-face(
+  "Degular Display Medium Italic",
+  "../assets/fonts/Degular_Display-Medium_Italic",
+  ("woff2", "woff")
+);
+@include font-face(
+  "Degular Display Medium",
+  "../assets/fonts/Degular_Display-Medium",
+  ("woff2", "woff")
+);
+@include font-face(
   "Degular Display Italic",
   "../assets/fonts/Degular_Display-Italic",
   ("woff2", "woff")
@@ -49,16 +59,6 @@ figure {
 @include font-face(
   "Degular Display Bold Italic",
   "../assets/fonts/Degular_Display-Bold_Italic",
-  ("woff2", "woff")
-);
-@include font-face(
-  "Degular Display Black",
-  "../assets/fonts/Degular_Display-Black",
-  ("woff2", "woff")
-);
-@include font-face(
-  "Degular Display Black Italic",
-  "../assets/fonts/Degular_Display-Black_Italic",
   ("woff2", "woff")
 );
 @include font-face(
@@ -135,10 +135,11 @@ h2 {
 }
 
 h3 {
-  font-size: clamp(25px, 5vw, 35px);
+  font-family: "Degular Display Medium";
+  font-size: clamp(25px, 5vw, 46px);
   line-height: 0.9;
   font-weight: normal !important;
-  margin: 0.35em 0 0.25em 0;
+  margin: 0.5em 0 0.35em 0;
 }
 
 h4 {
@@ -308,7 +309,7 @@ dl,
 img {
   max-width: 100%;
   vertical-align: middle;
-  // border-radius: var(--spacer-small);
+  border-radius: var(--radius-m);
 }
 
 /**

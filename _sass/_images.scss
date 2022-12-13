@@ -101,6 +101,10 @@
   background: var(--colour-darkest);
   position: relative;
   width: 100%;
+
+  > div {
+    border-radius: var(--radius-m);
+  }
 }
 
 .face {
