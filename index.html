@@ -6,13 +6,10 @@ theme: dark
 <div class="banner-image">
   <section class="hero">
     <div class="headline">
-      <h4 class="emdash">Welcome, I'm Dominic</h4>
-      <h1>Designer & craft leader</h1>
+      <h4 class="emdash">Welcome</h4>
+      <h1>My name's Dominic</h1>
       <p>
-        I create opinionated strategies, cultures and experiences that
-        differentiate products in the market — products that win, because they
-        feel fundamentally better to use than their competitors.
-      </p>
+        I'm a Design Director with over 12 years of experience leading product design at startups. From first principles to final pixels, I enjoy solving complex and demanding problems, creating intuitive and empowering products, and helping teams focus on quality.       </p>
     </div>
     <a class="focus" href="/writing/one-eye-sees-the-other-feels/">
       <div class="callout">
@@ -25,29 +22,33 @@ theme: dark
 </div>
 
 <section>
-  <h4>Impact</h4>
+  <h4>Expertise</h4>
   <h2>I love helping companies differentiate through quality</h2>
   <div class="tiles">
     <div>
-      <img src="/assets/site/foundations.svg" />
+      <img class="tile" src="/assets/site/strategy.png" />
       <h3>Foundations</h3>
       <p>
-        I help create clear and engaging strategies, that empower teams, deliver value to customers, and differentiate companies in the market. 
+        I’ve helped companies focus on their differentiator in the market, and define the strategies to help them leverage it. From design principles, product strategies, and feature north stars, I pride myself in using words to inform, guide and empower teams to do their most impactful work.
       </p>
     </div>
     <div>
-      <img src="/assets/site/systems.svg" />
+      <img class="tile" src="/assets/site/execution.png" />
+      <h3>Execution</h3>
+      <p>
+        I’ve lead a wide range of projects in my career. From first foundations, to full platform redesigns. My expertise is helping companies design and deliver intuitive, empowering and impactful projects to their customers.       </p>
+    </div>
+    <div>
+      <img class="tile" src="/assets/site/systems.png" />
       <h3>Systems</h3>
       <p>
-        From first principles to final pixels, I establish the building blocks of creating high quality, holistic customer experiences.
-      </p>
+        As an executive in early startups, I’ve learned how to design systems that enable scale. Design systems, R&D operations, team practices and weekly rituals — I love helping companies create systems that streamline work, strengthen creative cultures, and optimise for quality.      </p>
     </div>
     <div>
-      <img src="/assets/site/futures.svg" />
+      <img class="tile" src="/assets/site/futures.png" />
       <h3>Futures</h3>
       <p>
-        I lead large scale, messy, and complex projects, to create thoughtful, impactful outcomes that are don’t compromise on quality. 
-      </p>
+        I get energised helping companies explore what a big leap forward for their product could look, feel and function like. These help align and rally around where the product is going, help validate directions with customers, and visualise ambitious product strategies.       </p>
     </div>
   </div>
 </section>
@@ -63,10 +64,9 @@ theme: dark
           <h3>{{ chapter.role }}</h3>
           <h3 class="{{ chapter.theme }} info">{{ chapter.timeframe }}</h3>
         </div>
-        <!-- <div> -->
-        <!-- <h3 class="{{ chapter.theme }} info">{{ chapter.timeframe }}</h3> -->
-        <h3 class="{{ chapter.theme }} arrow">→</h3>
-        <!-- </div> -->
+        <div>
+          <h3 class="{{ chapter.theme }} arrow">→</h3>
+        </div>
       </a>
     </li>
     {% endfor %}
@@ -81,61 +81,35 @@ theme: dark
     <div class="vingette">
       <img src="{{ project.image }}" />
       <div>
-        <h3>
-          <span class="timeline {{ project.theme }}">{{ project.year }}</span>{{
-          project.title }}
-        </h3>
-        <h3 class="arrow {{ project.theme }} arrow">→</h3>
+        <div>
+          <h3>{{ project.title }}</h3>
+          <p>{{ project.lede }}</p>
+        </div>
+        <div class="details">
+          {% for tag in project.tags %}
+          <p class="tag">{{ tag }}</p>
+          {% endfor %}
+          <h3 class="arrow">→</h3>
+        </div>
       </div>
     </div>
   </a>
   {% endfor %}
 </section>
 
-<!-- <section>
-  <h4>Practices</h4>
-  <h2>Exploring the systems that enable excellence</h2>
-  <div class="tiles">
-    <a class="tile" href="/writing/">
-      <div>
-        <img src="/assets/site/test-card.jpg" />
-        <h3>Open design cultures</h3>
-      </div>
-    </a>
-    <a class="tile" href="/photography/">
-      <div>
-        <img src="/assets/site/test-card.jpg" />
-        <h3>Creating shared "taste"</h3>
-      </div>
-    </a>
-    <a class="tile" href="/systems/">
-      <div>
-        <img src="/assets/site/test-card.jpg" />
-        <h3>Systems</h3>
-      </div>
-    </a>
-    <a class="tile" href="/bookshelf/">
-      <div>
-        <img src="/assets/site/test-card.jpg" />
-        <h3>Empowered iteration</h3>
-      </div>
-    </a>
-  </div>
-</section> -->
-
 <div class="banner">
   <section class="nested">
     <div>
-      <h4>Profile</h4>
-      <h2>A lifelong practice</h2>
+      <h4>Connect</h4>
+      <h2>Let's work together</h2>
       <p>
         Originally from London, I'm a Design Director with a broad range of experience — with projects across Industrial Design, Augmented Reality, edTech, mobile apps and SaaS products. Most recently I was the VP of Design at Qwilr, Head of Design at Smart Sparrow, and lead the design on multiple Bill & Melinda Gates Foundation projects. 
       </p>
       <button
-        class="link-button {{ chapter.theme }}"
-        onclick="location.href='/profile'"
+        class="blue"
+        onclick="location.href='mailto:dominic@considered.design'"
       >
-        Read more
+        Email me
       </button>
     </div>
     <div class="flexy">

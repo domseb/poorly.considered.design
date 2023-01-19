@@ -1,5 +1,18 @@
 // COMPONENTS
 
+.tag {
+  font-family: "Obviously Semi";
+  text-transform: uppercase;
+  color: var(--colour-light-100);
+  background-color: var(--colour-light-25);
+  border-radius: 50px;
+  display: inline-flex;
+  padding: 5px 10px 8px;
+  font-size: 22px;
+  letter-spacing: 1px;
+}
+
+
 button {
   display: inline-block;
   color: var(--colour-light-100);
@@ -23,8 +36,13 @@ button {
     background-color: var(--colour-light-50);
     @include transition(all $default-transition);
   }
+
 }
 
+.blue {
+  color: var(--colour-darkest) !important;
+  background-color: var(--colour-light-100) !important;
+}
 .link-button {
   display: inline-block;
   background-color: transparent;
@@ -203,7 +221,7 @@ button {
   @include transition(all $default-transition);
 
   .halo &:hover {
-    background-color: var(--colour-light-25);
+    background-color: var(--colour-light-15);
     // box-shadow: 0 0 0 2px var(--colour-light-50);
     transform: translateY(-10px);
     @include transition(all $default-transition);
@@ -212,8 +230,16 @@ button {
     // padding: 0 5px 20px 5px;
     // }
 
+    .details {
+      transform: translateX(0px);
+      @include transition(all 0.1s);
+
+
+    }
+
     .arrow {
       opacity: 1;
+      // visibility: visible;
       @include transition(all $default-transition);
     }
   }
@@ -230,10 +256,15 @@ button {
     width: 100%;
   }
 
+  p {
+    margin-top: 10px;
+  }
+
   div:first-of-type {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    gap: 20px;
   }
 
   // div > * {
@@ -241,10 +272,10 @@ button {
   //   align-items: center;
   // }
 
-  .timeline {
-    font-family: "Obviously Semi";
-    margin-right: 10px;
-    font-size: 0.85em;
+  .details {
+    display: inline-flex;
+    gap: 20px;
+    transform: translateX(50px);
     // margin-top: -10px;
   }
 
@@ -255,7 +286,9 @@ button {
 
   .arrow {
     opacity: 0;
-    font-family: "Degular Display Light";
+    // visibility: hidden;
+    font-family: "Degular Display Regular";
+    color: var(--colour-light-100);
     margin: 0;
     padding: 0;
     align-self: center;
@@ -428,6 +461,25 @@ nav {
   background-color: var(--colour-darkest);
   width: 100vw;
 
+  .socials {
+    display: inline-flex;
+    gap: 30px;
+    justify-content: end;
+
+    h4, h5 {
+      font-family: "Obviously Semi" !important;
+      font-size: 24px;
+      color: white;
+      opacity: 0.75;
+
+    &:hover {
+      opacity: 1;
+      @include transition(all $default-transition);
+
+    }
+    }
+  }
+
   > div {
     display: grid;
     width: clamp(150px, 85vw, 1200px);
@@ -444,6 +496,12 @@ nav {
     }
     p {
       margin: 0 auto;
+    }
+
+    .socials {
+      justify-content: center;
+      margin-top: 30px;
+
     }
   }
 

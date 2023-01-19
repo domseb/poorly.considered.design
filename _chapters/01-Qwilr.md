@@ -1,6 +1,6 @@
 ---
 layout: chapter
-chapter: one
+chapter: qwilr
 timeframe: 2017 — 2022
 role: VP Design, Qwilr
 theme: purple
@@ -19,9 +19,9 @@ Yesterday's jam. That is what we are to them!... Actually, that doesn't work, as
 ### Highlights
 
 <section><div class="tiles">
-    {% for project in site.projects %} {% capture ctag %}{{page.tags}}{%
-    endcapture %} {% capture ptag %}{{project.tags}}{% endcapture %} {% if ptag
-    == ctag %}
+    {% for project in site.projects %} {% capture cchapter %}{{page.chapter}}{%
+    endcapture %} {% capture pchapter %}{{project.chapter}}{% endcapture %} {% if cchapter
+    == pchapter %}
     <a class="halo" href="{{ project.url }}">
       <div class="vingette">
         <img src="{{ project.image }}" />
