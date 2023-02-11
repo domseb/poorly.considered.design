@@ -2,11 +2,11 @@
   <div class="items">
     <p {% if page.url == '/' %} class="active"{% endif %}>
       <!-- <a class="fade-in-up-1" href="{{ site.baseurl }}/">Considered Design</a> -->
-      <a class="fade-in-up-1 logo" href="{{ site.baseurl }}/">{% include svg/cd-logo.svg %}</a>
+      <a class="fade-in-up-1" href="{{ site.baseurl }}/">Considered Design</a>
     </p>
     {% if page.url contains 'work/qwilr' %} 
     <p class="active fade-in-up-2">
-      <a href="/work/">Work</a><span class="icon-text">▶</span><a href="/chapters/qwilr/">Qwilr</a>
+      <a href="/work/">Work</a>{% include svg/chevron.svg %}<a href="/chapters/qwilr/">Qwilr</a>
     </p>
     {% else %}
     <p {% if page.url == '/work/' %} class="active fade-in-up-2"{% endif %}>
@@ -21,9 +21,10 @@
     </p> -->
   </div>
   <div class="cta">
-    <p>Open to opportunities</p>
-    <button onclick="location.href='mailto:dominic@considered.design'"
-    >Reach out</button>
+    {% include svg/dot.svg %}
+    <p>Available for new projects</p>
+    <p class="icon-button" onclick="location.href='mailto:dominic@considered.design'"
+    >{% include svg/Envelope.svg %}</p>
     <!-- <div class="tooltip">
       <h6>Email</h6>
       <p>dominic@considered.design</p>

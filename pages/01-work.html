@@ -1,0 +1,35 @@
+---
+layout: default
+title: Career
+theme: dark
+permalink: /work/
+description: I mainly write about design, film, and observations in between. I mainly write about design, film, and observations in between.
+---
+
+<section class="header centered">
+  <h4>2010 — 2022</h4>
+  <h1>Select projects</h1>
+  <hr />
+</section>
+
+<section>
+  {% for project in site.projects %}
+  <a class="halo" href="{{ project.url }}">
+    <div class="vingette">
+      <img src="{{ project.image }}" />
+      <div class="details">
+        <div>
+          <h3>{{ project.title }}</h3>
+          <p>{{ project.lede }}</p>
+        </div>
+        <div class="tags">
+          {% for tag in project.tags %}
+          <p class="tag">{{ tag }}</p>
+          {% endfor %}
+          <h3 class="arrow">→</h3>
+        </div>
+      </div>
+    </div>
+  </a>
+  {% endfor %}
+</section>

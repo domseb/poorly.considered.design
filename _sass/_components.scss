@@ -3,13 +3,14 @@
 .tag {
   font-family: "Obviously Semi";
   text-transform: uppercase;
-  color: var(--colour-light-100);
-  background-color: var(--colour-light-25);
+  color: white;
+  background-color: var(--colour-white-25);
   border-radius: 50px;
   display: inline-flex;
   padding: 5px 10px 8px;
   font-size: 22px;
   letter-spacing: 1px;
+  opacity: 1;
 }
 
 
@@ -36,7 +37,33 @@ button {
     background-color: var(--colour-light-50);
     @include transition(all $default-transition);
   }
+}
 
+.icon-button {
+  // display: inline-block;
+  color: inherit;
+  background-color: inherit;
+  text-align: center;
+  // font-size: inherit;
+  // font-size: 22px;
+  padding: 20px;
+  margin: 0px;
+  // font-family: "Obviously Semi";
+  // text-transform: uppercase;
+  // text-decoration: none;
+  // white-space: nowrap;
+  cursor: pointer;
+  // border: none;
+  // box-sizing: border-box;
+  box-shadow: 0 0 0 1px var(--colour-white-25);
+  border-radius: 50px;
+  @include transition(all $default-transition);
+
+  &:hover {
+    box-shadow: 0 0 0 2px var(--colour-white-25);
+    background-color: var(--colour-white-05);
+    @include transition(all $default-transition);
+  }
 }
 
 .blue {
@@ -215,13 +242,21 @@ button {
 
 .vingette {
   margin-bottom: 70px;
-  padding: 20px;
-  box-shadow: 0 0 0 1px var(--colour-light-25);
+  // padding: 20px;
+  box-shadow: 0 0 0 1px var(--colour-white-15);
   border-radius: var(--radius-l);
   @include transition(all $default-transition);
 
+  .details {
+    padding: 30px;
+  }
+
+  h3, p {
+    margin: 0 !important;
+  }
+
   .halo &:hover {
-    background-color: var(--colour-light-15);
+    background-color: var(--colour-white-05);
     // box-shadow: 0 0 0 2px var(--colour-light-50);
     transform: translateY(-10px);
     @include transition(all $default-transition);
@@ -230,11 +265,9 @@ button {
     // padding: 0 5px 20px 5px;
     // }
 
-    .details {
+    .tags {
       transform: translateX(0px);
       @include transition(all 0.1s);
-
-
     }
 
     .arrow {
@@ -252,8 +285,10 @@ button {
 
   img {
     object-fit: cover;
+    border-radius: 20px;
     height: 60vh;
     width: 100%;
+    margin: 0;
   }
 
   p {
@@ -272,7 +307,7 @@ button {
   //   align-items: center;
   // }
 
-  .details {
+  .tags {
     display: inline-flex;
     gap: 20px;
     transform: translateX(50px);
@@ -288,7 +323,7 @@ button {
     opacity: 0;
     // visibility: hidden;
     font-family: "Degular Display Regular";
-    color: var(--colour-light-100);
+    color: white;
     margin: 0;
     padding: 0;
     align-self: center;
@@ -346,10 +381,25 @@ nav {
   justify-content: space-between;
   align-items: center;
 
+  .cta {
+    display: flex;
+    align-items: center;
+
+    p {
+      margin-bottom: 3px;
+      margin-left: 10px;
+    }
+  }
+
   @media (max-width: 750px) {
     .cta {
       display: none;
     }
+  }
+
+  .dot {
+    margin-right: 10px;
+    fill: white;
   }
 
   .items {
@@ -368,17 +418,19 @@ nav {
     }
 
     p:hover {
-      box-shadow: 0 0 0 1px var(--colour-light-dimmest);
+      box-shadow: 0 0 0 1px var(--colour-white-15);
       border-radius: var(--radius-m);
       @include transition(all $default-transition);
     }
   
     .active {
-      box-shadow: 0 0 0 1px var(--colour-light-dimmed);
+      box-shadow: 0 0 0 1px var(--colour-white-25);
       border-radius: var(--radius-m);
+      color: white;
+      align-items: center;
 
       &:hover {
-        box-shadow: 0 0 0 1px var(--colour-light-dimmed);
+        box-shadow: 0 0 0 1px var(--colour-white-25);
         border-radius: var(--radius-m);
         @include transition(all $default-transition);
       }
@@ -389,10 +441,10 @@ nav {
     // @include spacing(0, 0);
     margin: 0;
     padding: 0;
-    font-family: "Obviously Semi";
+    font-family: "Obviously Medium";
     font-size: 22px;
     display: inline-grid;
-    color: var(--colour-light);
+    color: var(--colour-white-50);
     opacity: 1;
     display: inline-flex;
     margin-right: var(--spacer);

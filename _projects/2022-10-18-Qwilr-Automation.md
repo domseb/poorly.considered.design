@@ -2,13 +2,12 @@
 layout: project
 refID: secondary
 chapter: qwilr
-theme: purple
 tags: execution futures
 company: qwilr
 
 year: 2022
 title: Droid
-lede: Enabling intuitive automation
+lede: Enabling smart, intuitive automation at scale
 path: /automation
 
 description: Personalising a page to a prospect takes time, and compounds as sales teams get larger. Templates in Qwilr were a faster way to personalise pages, pulling in real data from their CRM. The feature initially was impossible to discover though, and when customers did it was brittle and extremely limited. This transformation project fixed that original automation workflow, extended it, and fleshed out a longer term vision for where we needed to go.
@@ -21,7 +20,7 @@ image: /assets/projects/automation/hero-automation.jpg
         <h2>Templating simple token content</h2>
         <div class="collaborators">
             <div class="collaborator">
-                <img src="/assets/site/dom-profile.jpg">
+                <img src="/assets/site/avatar-test.jpg">
                 <div class="info">
                     <h6>Josh Baskin</h6>
                     <p>Lead ideation of new toys, managing R&D of all new iniatives.</p>
@@ -29,7 +28,7 @@ image: /assets/projects/automation/hero-automation.jpg
                 </div>
             </div>
             <div class="collaborator">
-                <img src="/assets/site/dom-profile.jpg">
+                <img src="/assets/site/avatar-test.jpg">
                 <div class="info">
                     <h6>Josh Baskin</h6>
                     <p>Lead ideation of new toys, managing R&D of all new iniatives.</p>
@@ -37,7 +36,7 @@ image: /assets/projects/automation/hero-automation.jpg
                 </div>
             </div>
             <div class="collaborator">
-                <img src="/assets/site/dom-profile.jpg">
+                <img src="/assets/site/avatar-test.jpg">
                 <div class="info">
                     <h6>Josh Baskin</h6>
                     <p>Lead ideation of new toys, managing R&D of all new iniatives.</p>

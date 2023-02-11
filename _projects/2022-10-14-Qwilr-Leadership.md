@@ -2,18 +2,17 @@
 layout: project
 refID: secondary
 chapter: qwilr
-theme: purple
 tags: strategy systems futures
 company: qwilr
 
 year: 2019 — 2022
 title: Maypole
-lede: Weaving strategy, culture & craft
+lede: Weaving strategy, culture & craft in a scaling startup
 path: /leadership
 
 description: I enjoyed a broad remit as VP of Design at Qwilr, helping shape many aspects of the company. From creating strategies, principles, team structures, and rituals to hone craft. The immense challenge is finding a way for them all to work together, and create better impact for it. Below are the highlights that helped give me a deeper understanding of the relationships between strategy, people, intuition and impact.
 
-image: /assets/projects/leadership/hero-leadership.jpg
+image: /assets/projects/leadership/maypole.jpg
 ---
 
 <section class="tiles center">

@@ -27,7 +27,7 @@ theme: dark
   <div class="tiles">
     <div>
       <img class="tile" src="/assets/site/strategy.png" />
-      <h3>Foundations</h3>
+      <h3>Strategy</h3>
       <p>
         I’ve helped companies focus on their differentiator in the market, and define the strategies to help them leverage it. From design principles, product strategies, and feature north stars, I pride myself in using words to inform, guide and empower teams to do their most impactful work.
       </p>
@@ -80,12 +80,12 @@ theme: dark
   <a class="halo" href="{{ project.url }}">
     <div class="vingette">
       <img src="{{ project.image }}" />
-      <div>
+      <div class="details">
         <div>
           <h3>{{ project.title }}</h3>
           <p>{{ project.lede }}</p>
         </div>
-        <div class="details">
+        <div class="tags">
           {% for tag in project.tags %}
           <p class="tag">{{ tag }}</p>
           {% endfor %}

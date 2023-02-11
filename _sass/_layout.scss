@@ -17,6 +17,13 @@ body {
   --colour-dark-20: hsla(var(--hue, 245), 100%, 55%, 0.2);
   --colour-dark-15: hsla(var(--hue, 245), 100%, 55%, 0.15);
   --colour-dark-10: hsla(var(--hue, 245), 100%, 55%, 0.1);
+
+  // WHITES
+  --colour-white-50: hsla(255,100%,100%,.50);
+  --colour-white-25: hsla(255,100%,100%,.25);
+  --colour-white-15: hsla(255,100%,100%,.15);
+  --colour-white-05: hsla(255,100%,100%,.05);
+
   // LIGHTER
   --colour-light: hsla(var(--hue, 245), 100%, 55%, 1);
   --colour-light-dimmed: hsla(var(--hue, 245), 100%, 55%, 0.75);
@@ -48,9 +55,17 @@ body {
   --radius-s: 4px;
   --radius-m: 10px;
   --radius-l: 20px;
+
+  // CORE THEME
+  background-color: var(--colour-darkest);
+  color: white;
 }
 
 // THEMES
+
+.light {
+  background-color: white;
+}
 
 .default {
   --hue: 245;
@@ -198,7 +213,7 @@ section {
 .header {
   padding-top: 250px;
   margin-top: -150px;
-  margin-bottom: 1em;
+  margin-bottom: 80px;
 
   p {
     max-width: 55ch;
@@ -221,13 +236,13 @@ section {
     }
   }
 
-  &.project {
-    // padding-bottom: clamp(50px, 10vh, 275px);
-    padding-bottom: clamp(100px, 25vw, 300px);
-    p {
-      color: white;
-    }
-  }
+  // &.project {
+  //   // padding-bottom: clamp(50px, 10vh, 275px);
+  //   padding-bottom: clamp(100px, 25vw, 300px);
+  //   p {
+  //     color: white;
+  //   }
+  // }
 
   &.centered {
     text-align: center;
@@ -237,9 +252,10 @@ section {
 .hero-image {
   width: clamp(150px, 85vw, 1200px);
   margin: 0 auto;
+  border-radius: 20px;
   display: flex;
   // margin-top: clamp(-50px, -10vh, -275px);
-  margin-top: clamp(-300px, -25vw, -100px);
+  // margin-top: clamp(-300px, -25vw, -100px);
 }
 
 // LAYOUTS
