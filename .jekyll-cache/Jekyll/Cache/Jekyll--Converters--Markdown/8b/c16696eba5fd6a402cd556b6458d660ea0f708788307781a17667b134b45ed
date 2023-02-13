@@ -1,0 +1,60 @@
+I"<h3 id="brick-by-brick">Brick by brick</h3>
+
+<p>I started the first version of Qwilr’s Design System, Kaleidoscope, in the first year of joining the company. Leading a small, informal team of ambassadors, we found our north star, and created something much more than just a component library. Becoming a cornerstone of how we designed, collaborated, and experimented with new ideas together.</p>
+
+<section class="bordered">
+        <div class="tiles center">
+        <div>
+            <h2>Finding a true north star</h2>
+            <div class="collaborators">
+                <div class="collaborator">
+                    <img src="/assets/site/avatar-test.jpg" />
+                    <div class="info">
+                        <h6>Josh Baskin</h6>
+                        <p>Lead ideation of new toys, managing R&amp;D of all new iniatives.</p>
+                        <button class="link-button " onclick="location.href='linkedin.com'">View profile</button>
+                    </div>
+                </div>
+                <div class="collaborator">
+                    <img src="/assets/site/avatar-test.jpg" />
+                    <div class="info">
+                        <h6>Josh Baskin</h6>
+                        <p>Lead ideation of new toys, managing R&amp;D of all new iniatives.</p>
+                        <button class="link-button " onclick="location.href='linkedin.com'">View profile</button>
+                    </div>
+                </div>
+                <div class="collaborator">
+                    <img src="/assets/site/avatar-test.jpg" />
+                    <div class="info">
+                        <h6>Josh Baskin</h6>
+                        <p>Lead ideation of new toys, managing R&amp;D of all new iniatives.</p>
+                        <button class="link-button " onclick="location.href='linkedin.com'">View profile</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div>
+            <p class="description">The purpose of a Design System varies a lot between different companies. Copying the popular approaches of others is easy and appealing, but without their resources, was a recipe for failure and fatigue. To find our purpose, we had to evolve over a number of years through trial and error. Optimising first for usability, then contribution, and  finally — the fastest way to develop new ideas.</p>
+        </div>
+    </div>
+</section>
+
+<h3 id="inefficient--inconsistent">Inefficient &amp; inconsistent</h3>
+
+<p>Components across the product had endless variations in style, interaction and implementation. Even the components that looked similar, worked very differently under the hood, and teams were struggling to design and build experiences for customers efficiently and consistently.</p>
+
+<h4 id="approach">Approach</h4>
+
+<h3 id="using-rewrites-to-restock">Using rewrites to restock</h3>
+
+<p>Before we could make any system be easy to use, it first needed new foundations to build off, so effort could be focussed on restocking with smarter, more composable components. I designed our foundational elements, wrote primitive CSS tokens, and core interaction states. I was then able to work with teams on projects undergoing large rewrites, to restock large parts of the app with new components, and expand the library as we worked.</p>
+
+<section>
+    <div class="gallery">
+        <img class="tall" src="/assets/x.jpg" />
+        <img class="split" src="/assets/y.jpg" />
+        <img class="split" src="/assets/z.jpg" />
+        <img class="full" src="/assets/z.jpg" />
+    </div>
+</section>
+:ET

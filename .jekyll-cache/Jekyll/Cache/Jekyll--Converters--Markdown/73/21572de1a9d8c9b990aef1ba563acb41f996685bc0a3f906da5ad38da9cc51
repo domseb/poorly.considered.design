@@ -1,0 +1,37 @@
+I"»<section class="bordered">
+        <div class="tiles center">
+        <div>
+            <h2>Redesigning the foundations</h2>
+            <div class="collaborators">
+                <div class="collaborator">
+                    <img src="/assets/site/avatar-test.jpg" />
+                    <div class="info">
+                        <h6>Josh Baskin</h6>
+                        <p>Lead ideation of new toys, managing R&amp;D of all new iniatives.</p>
+                        <button class="link-button " onclick="location.href='linkedin.com'">View profile</button>
+                    </div>
+                </div>
+                <div class="collaborator">
+                    <img src="/assets/site/avatar-test.jpg" />
+                    <div class="info">
+                        <h6>Josh Baskin</h6>
+                        <p>Lead ideation of new toys, managing R&amp;D of all new iniatives.</p>
+                        <button class="link-button " onclick="location.href='linkedin.com'">View profile</button>
+                    </div>
+                </div>
+                <div class="collaborator">
+                    <img src="/assets/site/avatar-test.jpg" />
+                    <div class="info">
+                        <h6>Josh Baskin</h6>
+                        <p>Lead ideation of new toys, managing R&amp;D of all new iniatives.</p>
+                        <button class="link-button " onclick="location.href='linkedin.com'">View profile</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div>
+            <p class="description">Qwilr was a fully WYSIWYG editor, and while it had visually simple UI, it was frustratingly unclear and unreliable in use. A legacy codebase made fixes unbearably slow, especially without a clear picture of how everything should work together. We started over, committing to a full rewrite and redesign of the editor from the ground up.</p>
+        </div>
+    </div>
+</section>
+:ET

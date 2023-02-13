@@ -182,6 +182,7 @@
   animation-iteration-count: infinite;
   animation-timing-function: ease;
   transform-origin: 50%;
+  fill: var(--colour-100);
 }
 
 @-webkit-keyframes pulse {

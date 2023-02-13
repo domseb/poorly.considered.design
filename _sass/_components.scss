@@ -55,14 +55,18 @@ button {
   cursor: pointer;
   // border: none;
   // box-sizing: border-box;
-  box-shadow: 0 0 0 1px var(--colour-white-25);
+  box-shadow: 0 0 0 1px var(--colour-25); 
   border-radius: 50px;
   @include transition(all $default-transition);
 
   &:hover {
-    box-shadow: 0 0 0 2px var(--colour-white-25);
-    background-color: var(--colour-white-05);
+    box-shadow: 0 0 0 2px var(--colour-25);
+    background-color: var(--colour-05);
     @include transition(all $default-transition);
+  }
+
+  svg {
+    fill: red;
   }
 }
 
@@ -399,7 +403,7 @@ nav {
 
   .dot {
     margin-right: 10px;
-    fill: white;
+    fill: var(--colour-100);
   }
 
   .items {
@@ -418,19 +422,19 @@ nav {
     }
 
     p:hover {
-      box-shadow: 0 0 0 1px var(--colour-white-15);
+      box-shadow: 0 0 0 1px var(--colour-15);
       border-radius: var(--radius-m);
       @include transition(all $default-transition);
     }
   
     .active {
-      box-shadow: 0 0 0 1px var(--colour-white-25);
+      box-shadow: 0 0 0 1px var(--colour-25);
       border-radius: var(--radius-m);
-      color: white;
+      color: var(--colour-100);
       align-items: center;
 
       &:hover {
-        box-shadow: 0 0 0 1px var(--colour-white-25);
+        box-shadow: 0 0 0 1px var(--colour-25);
         border-radius: var(--radius-m);
         @include transition(all $default-transition);
       }
@@ -444,7 +448,7 @@ nav {
     font-family: "Obviously Medium";
     font-size: 22px;
     display: inline-grid;
-    color: var(--colour-white-50);
+    color: var(--colour-50);
     opacity: 1;
     display: inline-flex;
     margin-right: var(--spacer);

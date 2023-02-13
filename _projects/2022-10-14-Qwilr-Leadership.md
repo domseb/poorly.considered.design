@@ -12,170 +12,20 @@ path: /leadership
 
 description: I enjoyed a broad remit as VP of Design at Qwilr, helping shape many aspects of the company. From creating strategies, principles, team structures, and rituals to hone craft. The immense challenge is finding a way for them all to work together, and create better impact for it. Below are the highlights that helped give me a deeper understanding of the relationships between strategy, people, intuition and impact.
 
-image: /assets/projects/leadership/maypole.jpg
+image: /assets/projects/maypole/hero-maypole.jpg
 ---
 
-<section class="tiles center">
-    <div>
-        <h2>Forging and reforging teams</h2>
-        <div class="collaborators">
-            <div class="collaborator">
-                <img src="/assets/site/avatar-test.jpg">
-                <div class="info">
-                    <h6>Josh Baskin</h6>
-                    <p>Lead ideation of new toys, managing R&D of all new iniatives.</p>
-                    <button class="link-button {{ page.theme }}" onclick="location.href='linkedin.com'">View profile</button>
-                </div>
-            </div>
-            <div class="collaborator">
-                <img src="/assets/site/avatar-test.jpg">
-                <div class="info">
-                    <h6>Josh Baskin</h6>
-                    <p>Lead ideation of new toys, managing R&D of all new iniatives.</p>
-                    <button class="link-button {{ page.theme }}" onclick="location.href='linkedin.com'">View profile</button>
-                </div>
-            </div>
-            <div class="collaborator">
-                <img src="/assets/site/avatar-test.jpg">
-                <div class="info">
-                    <h6>Josh Baskin</h6>
-                    <p>Lead ideation of new toys, managing R&D of all new iniatives.</p>
-                    <button class="link-button {{ page.theme }}" onclick="location.href='linkedin.com'">View profile</button>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div>
-        <p>Over 5 years Qwilr’s product teams went from a primitive “platform team” of engineers, to temporary cross-company project teams, to product area teams, to finally teams organised around JTBD. Each reforging taught me more, sometimes painfully, about how team’s relate their identity with impact, when quick changes feel responsive vs destructive, and the role of autonomy in effective teams. And how these team structures connect with broader company themes and priorities. Foundational changes that helped us be effective, and collaborate well.</p>
-    </div>
-</section>
+### A long road
 
-<section class="pair">
-    <div class="smaller">
-      <h3>Establishing the role of Design</h3>
-      <p>
-        When I joined, the process of design was Dylan (Qwilr’s CEO & co-founder) sketching out ideas, discussing them with Engineers, and getting them built. It was fit for purpose, but the role of Design was entirely reactive. I created a foundational toolkit and process for design, enabling better collaboration, stakeholder awareness, and impact in our work.
-      </p>
-    </div>
-    <img class="bigger" src="/assets/projects/leadership/design.jpg">
-</section>
+I enjoyed a broad remit as VP of Design at Qwilr, helping shape many aspects of the company. From creating strategies, principles, team structures, and rituals to hone craft. The immense challenge is finding a way for them all to work together, and create better impact for it. Below are the highlights that helped give me a deeper understanding of the relationships between strategy, people, intuition and impact.
 
-<section class="pair">
-    <div class="smaller reversed">
-      <h3>Organising teams around our JTBD</h3>
-      <p>
-        Staunchly against “Adam Admin” personas, I spent time with customers to create our foundational JTBD across the company. Helping understand customer drivers, and summarised them into cards, to be actionable in brainstorming meetings and projects. After some wrestling, I worked with the Head of Engineering and Head of Product to create teams around these JTBD.  
-      </p>
-    </div>
-    <img class="bigger" src="/assets/projects/leadership/teams.jpg">
-</section>
-
-<section class="pair">
-    <div class="smaller">
-      <h3>Ways of working</h3>
-      <p>
-        While the panel gave them a way to manage the tokens, and navigate them quickly, we wanted to enable a faster way to add them in the flow of writing content. Leveraging the old curly braces as the keyboard shortcut, I designed a new panel lookup for customers. Letting them see what tokens were available to them in context, and adding them without needing to leave their keyboard. 
-      </p>
-    </div>
-    <img class="bigger" src="/assets/projects/leadership/workflow.jpg">
-</section>
-
-{% include modules/image-layouts.html url="/assets/projects/leadership/banner.jpg" type="screen" %}
-
-<section class="tiles center">
-    <div>
-        <h2>Creating a culture of excellence</h2>
-        <div class="collaborators">
-            <div class="collaborator">
-                <img src="/assets/site/avatar-test.jpg">
-                <div class="info">
-                    <h6>Josh Baskin</h6>
-                    <p>Lead ideation of new toys, managing R&D of all new iniatives.</p>
-                    <button class="link-button {{ page.theme }}" onclick="location.href='linkedin.com'">View profile</button>
-                </div>
-            </div>
-            <div class="collaborator">
-                <img src="/assets/site/avatar-test.jpg">
-                <div class="info">
-                    <h6>Josh Baskin</h6>
-                    <p>Lead ideation of new toys, managing R&D of all new iniatives.</p>
-                    <button class="link-button {{ page.theme }}" onclick="location.href='linkedin.com'">View profile</button>
-                </div>
-            </div>
-            <div class="collaborator">
-                <img src="/assets/site/avatar-test.jpg">
-                <div class="info">
-                    <h6>Josh Baskin</h6>
-                    <p>Lead ideation of new toys, managing R&D of all new iniatives.</p>
-                    <button class="link-button {{ page.theme }}" onclick="location.href='linkedin.com'">View profile</button>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div>
-        <p>Cultures are defined by their default ways of thinking of acting, and when something is “good enough” can be a loaded subject. Over 5 years I helped create teams that had the mindsets, tools and practices to deliver their best work, and feel proud of what they were shipping to customers. Navigating tensions, negative urgency, and team dynamics, I’m very proud of the product culture I helped create at Qwilr. </p>
-    </div>
-</section>
-
-<section class="pair">
-    <div class="smaller">
-      <h3>Starting together</h3>
-      <p>
-        Highly interactive experiences need lots of prototyping, and collaboration, to really know if something feels right to use. An ambassador for mountaineering as a model of collaboration, I ran offsites, kickoffs, retreats and projects for PMs, Design & Engineers to start together. Balance blindspots and biases early, and leverage the collective knowledge to create the best solution for the customer. 
-      </p>
-    </div>
-    <img class="bigger" src="/assets/projects/leadership/offsite.jpg">
-</section>
-
-<section class="pair">
-    <div class="smaller reversed">
-      <h3>Weekly showcase</h3>
-      <p>
-        As the number of teams grew, the visibility of their work became more opaque and siloed. After reading Creativity Inc and Creative Selection, I wanted to create a demo culture that changed that, showcasing progress on the actual customer experience. I facilitated weekly showcase that rotated team reps, shared context of what they were working on, and a way to get feedback from fresh eyes that weren’t in the trenches of the project. It was by far, my favourite meeting of the week. 
-      </p>
-    </div>
-    <img class="bigger" src="/assets/projects/leadership/showcase.jpg">
-</section>
-
-<section class="pair">
-    <div class="smaller">
-      <h3>Establishing betas and dogfooding rituals</h3>
-      <p>
-        Designing and building a tool you never use, makes you blind to its faults. I wanted teams to have greater empathy with the tools they were creating, and find faults and opportunities to improve them well before they were shipped. I created the dogfooding & beta practices for product teams, to bring in perspectives that balanced the teams blindpots and biases, helped us and deliver a more refined experience to customers.
-      </p>
-    </div>
-    <img class="bigger" src="/assets/projects/leadership/dogfooding.jpg">
-</section>
-
-<section class="pair">
-    <div class="smaller reversed">
-      <h3>Cross functional experience reviews</h3>
-      <p>
-        Design will always be a bottleneck unless experience quality is a shared ownership in the team. To do this well though needs structure, and to proactively bring in perspectives that balance blindspots and biases of the project team. I lead this practice at Qwilr, centering on archetypes and use cases, with artefacts that helped teams make necessary tradeoffs against what the sessions surfaced.
-      </p>
-    </div>
-    <img class="bigger" src="/assets/projects/leadership/reviews.jpg">
-</section>
-
-<section class="pair">
-    <div class="smaller">
-      <h3>Celebrating launches</h3>
-      <p>
-        Design will always be a bottleneck unless experience quality is a shared ownership in the team. To do this well though needs structure, and to proactively bring in perspectives that balance blindspots and biases of the project team. I lead this practice at Qwilr, centering on archetypes and use cases, with artefacts that helped teams make necessary tradeoffs against what the sessions surfaced.
-      </p>
-    </div>
-    <img class="bigger" src="/assets/projects/leadership/posters.jpg">
-</section>
-
-{% include modules/image-layouts.html url="/assets/projects/leadership/droid.jpg" type="screen" %}
-
-<div class="banner-break">
-    <section class="tiles center">
+<section class="bordered">
+        <div class="tiles center">
         <div>
-            <h2>Formalising our company strategy</h2>
+            <h2>Foundations for collaboration</h2>
             <div class="collaborators">
                 <div class="collaborator">
-                <img src="/assets/site/avatar-test.jpg">
+                    <img src="/assets/site/avatar-test.jpg">
                     <div class="info">
                         <h6>Josh Baskin</h6>
                         <p>Lead ideation of new toys, managing R&D of all new iniatives.</p>
@@ -183,7 +33,7 @@ image: /assets/projects/leadership/maypole.jpg
                     </div>
                 </div>
                 <div class="collaborator">
-                <img src="/assets/site/avatar-test.jpg">
+                    <img src="/assets/site/avatar-test.jpg">
                     <div class="info">
                         <h6>Josh Baskin</h6>
                         <p>Lead ideation of new toys, managing R&D of all new iniatives.</p>
@@ -191,7 +41,7 @@ image: /assets/projects/leadership/maypole.jpg
                     </div>
                 </div>
                 <div class="collaborator">
-                <img src="/assets/site/avatar-test.jpg">
+                    <img src="/assets/site/avatar-test.jpg">
                     <div class="info">
                         <h6>Josh Baskin</h6>
                         <p>Lead ideation of new toys, managing R&D of all new iniatives.</p>
@@ -201,72 +51,171 @@ image: /assets/projects/leadership/maypole.jpg
             </div>
         </div>
         <div>
-            <p>Cultures are defined by their default ways of thinking of acting, and when something is “good enough” can be a loaded subject. Over 5 years I helped create teams that had the mindsets, tools and practices to deliver their best work, and feel proud of what they were shipping to customers. Navigating tensions, negative urgency, and team dynamics, I’m very proud of the product culture I helped create at Qwilr. </p>
-        </div>
-    </section>
-</div>
-
-<section class="tiles center">
-    <div>
-        <h2>Exploring visions of what’s next</h2>
-        <div class="collaborators">
-            <div class="collaborator">
-                <img src="/assets/site/avatar-test.jpg">
-                <div class="info">
-                    <h6>Josh Baskin</h6>
-                    <p>Lead ideation of new toys, managing R&D of all new iniatives.</p>
-                    <button class="link-button {{ page.theme }}" onclick="location.href='linkedin.com'">View profile</button>
-                </div>
-            </div>
-            <div class="collaborator">
-                <img src="/assets/site/avatar-test.jpg">
-                <div class="info">
-                    <h6>Josh Baskin</h6>
-                    <p>Lead ideation of new toys, managing R&D of all new iniatives.</p>
-                    <button class="link-button {{ page.theme }}" onclick="location.href='linkedin.com'">View profile</button>
-                </div>
-            </div>
-            <div class="collaborator">
-                <img src="/assets/site/avatar-test.jpg">
-                <div class="info">
-                    <h6>Josh Baskin</h6>
-                    <p>Lead ideation of new toys, managing R&D of all new iniatives.</p>
-                    <button class="link-button {{ page.theme }}" onclick="location.href='linkedin.com'">View profile</button>
-                </div>
-            </div>
+            <p class="description">Over 5 years Qwilr’s product teams went from a primitive “platform team” of engineers, to temporary cross-company project teams, to product area teams, to finally teams organised around JTBD. Each reforging taught me more, sometimes painfully, about how team’s relate their identity with impact, when quick changes feel responsive vs destructive, and the role of autonomy in effective teams. And how these team structures connect with broader company themes and priorities. Foundational changes that helped us be effective, and collaborate well.</p>
         </div>
     </div>
-    <div>
-        <p>Frustrated with teams heads down, constantly in the weeds of quarterly planning, I wanted to create space to resolve complex experience debt, and take a meaningful leap forward for customers and the business. To me the best explorations are like mountaineering — where Designers, Engineers and PMs have the freedom to explore independently, but come together early and often. My role was to paint a picture of the peak we were trying to reach, to create the space and direction to solve it well, and contribute concepts.</p>
+</section>
+
+### Creating a place for designers to grow
+
+Goal — why was this valuable? we can’t do everything, but there are many different users of the brand internally, help centre, website, satelite sites, mini owners of the brand, project archipelago, but also different perspectives of what makes it good. needed to bring them in to help co-design ideas
+Role — what did I do? ran workshops, loom playbacks, and iterating in public
+Impact — what was the outcome? a shared understanding of what we wanted to focus on
+
+<section>
+    <div class="gallery">
+        <img class="half" src="/assets/projects/maypole/templates.jpg">
+        <img class="half" src="/assets/projects/maypole/ladders.jpg">
+        <img class="third" src="/assets/projects/maypole/zoom.jpg">
+        <img class="twothirds" src="/assets/projects/maypole/rituals.jpg">
     </div>
 </section>
 
-<section class="pair">
-    <div class="smaller">
-      <h3>Daedalus</h3>
-      <p>
-        Partnering with Dylan, we first prototyped concepts without constraint, following intuition we’d developed by marinating in the space. The initial goal was to innovate on Qwilr’s core capabilities, exploring bigger bets and rethinks that could accelerate the timeline to deliver on the company strategy.  From it sprouted a primitive but interactive collection of product concepts and themes for teams to validate and build off. 
-      </p>
+### Making product work understood, clear & visible
+
+Goal — why was this valuable? we can’t do everything, but there are many different users of the brand internally, help centre, website, satelite sites, mini owners of the brand, project archipelago, but also different perspectives of what makes it good. needed to bring them in to help co-design ideas
+Role — what did I do? ran workshops, loom playbacks, and iterating in public
+Impact — what was the outcome? a shared understanding of what we wanted to focus on
+
+<section>
+    <div class="gallery">
+        <img class="full" src="/assets/projects/maypole/mentaculus.jpg">
+        <img class="half" src="/assets/projects/maypole/teams.jpg">
+        <img class="half" src="/assets/projects/maypole/teams.jpg">
     </div>
-    <img class="bigger" src="/assets/projects/leadership/daedalus.jpg">
 </section>
 
-<section class="pair">
-    <div class="smaller reversed">
-      <h3>Experience visions</h3>
-      <p>
-        Early decisions around the editor’s mental and interaction models were making it less and less malleable to shape, and harder to push it into new directions. To explore long simmering rethinks, resolve core experience debt, and unlock new opportunities, I created a vision exploration project called Editor 2025. Exploring what we could do with the editor in a timeline outside of quarterly planning, socialised it with teams, and lead ideation with design team.
-      </p>
+<section class="bordered">
+        <div class="tiles center">
+        <div>
+            <h2>Creating a culture of excellence</h2>
+            <div class="collaborators">
+                <div class="collaborator">
+                    <img src="/assets/site/avatar-test.jpg">
+                    <div class="info">
+                        <h6>Josh Baskin</h6>
+                        <p>Lead ideation of new toys, managing R&D of all new iniatives.</p>
+                        <button class="link-button {{ page.theme }}" onclick="location.href='linkedin.com'">View profile</button>
+                    </div>
+                </div>
+                <div class="collaborator">
+                    <img src="/assets/site/avatar-test.jpg">
+                    <div class="info">
+                        <h6>Josh Baskin</h6>
+                        <p>Lead ideation of new toys, managing R&D of all new iniatives.</p>
+                        <button class="link-button {{ page.theme }}" onclick="location.href='linkedin.com'">View profile</button>
+                    </div>
+                </div>
+                <div class="collaborator">
+                    <img src="/assets/site/avatar-test.jpg">
+                    <div class="info">
+                        <h6>Josh Baskin</h6>
+                        <p>Lead ideation of new toys, managing R&D of all new iniatives.</p>
+                        <button class="link-button {{ page.theme }}" onclick="location.href='linkedin.com'">View profile</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div>
+            <p class="description">While Design Systems need to be abstracted well to be successful, we were finding gaps and unintended consequences of the system when features launched. I wanted to find ways to proactively bring in more internal perspectives, real data, and unplanned use cases to road test our system against the real world. This helped create a more resilient system, and to ship things we’re more confident won’t warp under the pressure of reality.</p>
+        </div>
     </div>
-    <img class="bigger" src="/assets/projects/leadership/one-pager.jpg">
 </section>
 
-<section class="pair">
-    <div class="smaller">
-      <h3>Transformation projects</h3>
-      <p>
-        As we explored Editor 2025, we were gravitating to a well trodden problem — styling qwilr pages. The early transformation concepts would help deepen our differentiator, and unlock capabilities for our growing enterprise accounts. I worked with Hamish to kickoff design sprints, helping accelerate and refine concepts, and engage peers in leadership to adjust our roadmap to prioritise this transformation work. 
-      </p>
+### Starting together
+
+Components are referenced in designs, in code, help centres and in launch comms, by different perspectives working in different contexts. We wanted to combine these perspectives to find the most intuitive naming, and create a shared language across teams. I worked closely with Janine, engineers and Diana, to define a taxonomy that could scale as the system grew, and ensure everyone was always on the same page, from design to launch.
+
+<section>
+    <div class="gallery">
+        <img class="tall" src="/assets/projects/maypole/offsite.jpg">
+        <img class="half" src="/assets/projects/maypole/stickies.jpg">
+        <img class="half" src="/assets/projects/maypole/bento.jpg">
     </div>
-    <img class="bigger" src="/assets/projects/leadership/transformation.jpg">
+</section>
+
+### Establishing demos and dogfooding rituals
+
+Through a customer feedback call, we saw accounts in different languages visually broke a handful of key components in a way we had never seen. We needed a way to quickly see how things behaved in different languages, at different character lengths, without manually adding them into designs. I roughed out a concept, and Hamish built it out as a plugin, to give as a simple and fast way to “roulette” data into our designs.
+
+<section>
+    <div class="gallery">
+        <img class="full" src="/assets/projects/maypole/showcase.jpg">
+        <img class="twothirds" src="/assets/projects/maypole/dogfooding.jpg">
+        <img class="third" src="/assets/projects/maypole/review.jpg">
+    </div>
+</section>
+
+### Celebrating launches
+
+Through a customer feedback call, we saw accounts in different languages visually broke a handful of key components in a way we had never seen. We needed a way to quickly see how things behaved in different languages, at different character lengths, without manually adding them into designs. I roughed out a concept, and Hamish built it out as a plugin, to give as a simple and fast way to “roulette” data into our designs.
+
+<section>
+    <div class="gallery">
+        <img class="third" src="/assets/projects/maypole/champagne.jpg">
+        <img class="third" src="/assets/projects/maypole/posters.jpg">
+        <img class="third" src="/assets/projects/maypole/signing.jpg">
+    </div>
+</section>
+
+<section class="bordered">
+        <div class="tiles center">
+        <div>
+            <h2>Shaping a living, evolving strategy</h2>
+            <div class="collaborators">
+                <div class="collaborator">
+                    <img src="/assets/site/avatar-test.jpg">
+                    <div class="info">
+                        <h6>Josh Baskin</h6>
+                        <p>Lead ideation of new toys, managing R&D of all new iniatives.</p>
+                        <button class="link-button {{ page.theme }}" onclick="location.href='linkedin.com'">View profile</button>
+                    </div>
+                </div>
+                <div class="collaborator">
+                    <img src="/assets/site/avatar-test.jpg">
+                    <div class="info">
+                        <h6>Josh Baskin</h6>
+                        <p>Lead ideation of new toys, managing R&D of all new iniatives.</p>
+                        <button class="link-button {{ page.theme }}" onclick="location.href='linkedin.com'">View profile</button>
+                    </div>
+                </div>
+                <div class="collaborator">
+                    <img src="/assets/site/avatar-test.jpg">
+                    <div class="info">
+                        <h6>Josh Baskin</h6>
+                        <p>Lead ideation of new toys, managing R&D of all new iniatives.</p>
+                        <button class="link-button {{ page.theme }}" onclick="location.href='linkedin.com'">View profile</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div>
+            <p class="description">Frustrated with teams heads down, constantly in the weeds of quarterly planning, I wanted to create space to resolve complex experience debt, and take a meaningful leap forward for customers and the business. To me the best explorations are like mountaineering — where Designers, Engineers and PMs have the freedom to explore independently, but come together early and often. My role was to paint a picture of the peak we were trying to reach, to create the space and direction to solve it well, and contribute concepts.</p>
+        </div>
+    </div>
+</section>
+
+### Prototyping vision
+
+Qwilr is full of complex interactive challenges. To have real confidence in the experiences we designed, we needed to feel them in use, beyond static Figma mockups. To alleviate this bottleneck, and leverage the hard work the team had invested into Kaleidoscope, I defined a new north star to refocus our efforts. Optimising for teams to prototype and play with new ideas quickly, across Design and Engineering.
+
+<section>
+    <div class="gallery">
+        <img class="twothirds" src="/assets/projects/maypole/daedalus.jpg">
+        <img class="third" src="/assets/projects/maypole/activity.jpg">
+        <img class="full" src="/assets/projects/maypole/compare.jpg">
+    </div>
+</section>
+
+### Transformation projects
+
+Qwilr is full of complex interactive challenges. To have real confidence in the experiences we designed, we needed to feel them in use, beyond static Figma mockups. To alleviate this bottleneck, and leverage the hard work the team had invested into Kaleidoscope, I defined a new north star to refocus our efforts. Optimising for teams to prototype and play with new ideas quickly, across Design and Engineering.
+
+<section>
+    <div class="gallery">
+        <img class="tall" src="/assets/projects/maypole/outlines.jpg">
+        <img class="half" src="/assets/projects/maypole/sprint.jpg">
+        <img class="half" src="/assets/projects/maypole/styles-loom.jpg">
+        <img class="full" src="/assets/projects/maypole/styles-finals.jpg">
+    </div>
 </section>

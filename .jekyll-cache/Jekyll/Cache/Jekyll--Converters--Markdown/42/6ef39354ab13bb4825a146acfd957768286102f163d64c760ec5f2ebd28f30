@@ -1,0 +1,53 @@
+I"<h3 id="a-5-year-transformation">A 5 year transformation</h3>
+
+<p>In early 2017, Qwilr’s NPS was withering from a conceptually novel editor, that was struggling to deliver on it’s promise. Working with content was confusing, unpredictable and buggy. — not just from other tools, but from within the editor itself.</p>
+
+<p>Over 5 years, I lead the editor’s transformation from a nascent offering, to a sophisticated market differentiator. A journey I started as an IC, and ended as a leader. This graduation of roles allowed me to explore a deeply challenging space from multiple vantage points, and I’m incredibly proud of the impact and attention to detail achieved during this time.</p>
+
+<section class="bordered">
+        <h4>2017 — 2018</h4>
+        <div class="tiles center">
+        <div>
+            <h2>Redesigning the foundations</h2>
+            <div class="collaborators">
+                <div class="collaborator">
+                    <img src="/assets/site/avatar-test.jpg" />
+                    <div class="info">
+                        <h6>Josh Baskin</h6>
+                        <p>Lead ideation of new toys, managing R&amp;D of all new iniatives.</p>
+                        <button class="link-button " onclick="location.href='linkedin.com'">View profile</button>
+                    </div>
+                </div>
+                <div class="collaborator">
+                    <img src="/assets/site/avatar-test.jpg" />
+                    <div class="info">
+                        <h6>Josh Baskin</h6>
+                        <p>Lead ideation of new toys, managing R&amp;D of all new iniatives.</p>
+                        <button class="link-button " onclick="location.href='linkedin.com'">View profile</button>
+                    </div>
+                </div>
+                <div class="collaborator">
+                    <img src="/assets/site/avatar-test.jpg" />
+                    <div class="info">
+                        <h6>Josh Baskin</h6>
+                        <p>Lead ideation of new toys, managing R&amp;D of all new iniatives.</p>
+                        <button class="link-button " onclick="location.href='linkedin.com'">View profile</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div>
+            <p class="description">Qwilr was a fully WYSIWYG editor, and while it had visually simple UI, it was frustratingly unclear and unreliable in use. A legacy codebase made fixes unbearably slow, especially without a clear picture of how everything should work together. We started over, committing to a full rewrite and redesign of the editor from the ground up.</p>
+        </div>
+    </div>
+</section>
+
+<section>
+    <div class="gallery">
+        <img class="full" src="/assets/projects/gutenberg/kl-inputs.jpg" />
+        <img class="half" src="/assets/projects/gutenberg/kl-buttons.jpg" />
+        <img class="half" src="/assets/projects/gutenberg/kl-icons.jpg" />
+        <img class="full" src="/assets/projects/gutenberg/kl-patterns.jpg" />
+    </div>
+</section>
+:ET
