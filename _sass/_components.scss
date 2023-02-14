@@ -211,16 +211,16 @@ button {
         padding: 0;
         align-self: center;
       }
-      &:hover {
-        background-color: var(--hover);
-        padding: 0 30px 0 30px;
-        @include transition(all $default-transition);
+      // &:hover {
+      //   background-color: var(--hover);
+      //   padding: 0 30px 0 30px;
+      //   @include transition(all $default-transition);
 
-        .arrow {
-          opacity: 1;
-          @include transition(all $default-transition);
-        }
-      }
+      //   .arrow {
+      //     opacity: 1;
+      //     @include transition(all $default-transition);
+      //   }
+      // }
       @media (max-width: $device-m) {
         .arrow {
           opacity: 1;

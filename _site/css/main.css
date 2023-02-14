@@ -429,10 +429,6 @@ button:hover { box-shadow: 0 0 0 3px var(--colour-white-25); background-color: v
 
 .link-stack li .link-item .arrow { opacity: 0; font-family: "Degular Display Light"; margin: 0; padding: 0; align-self: center; }
 
-.link-stack li .link-item:hover { background-color: var(--hover); padding: 0 30px 0 30px; -webkit-transition: all 0.3s ease; -moz-transition: all 0.3s ease; transition: all 0.3s ease; }
-
-.link-stack li .link-item:hover .arrow { opacity: 1; -webkit-transition: all 0.3s ease; -moz-transition: all 0.3s ease; transition: all 0.3s ease; }
-
 @media (max-width: 650px) { .link-stack li .link-item .arrow { opacity: 1; } .link-stack li .link-item div { justify-content: space-between; width: 100%; align-items: center; } }
 
 .link-stack li:last-child { border-bottom: none; }
