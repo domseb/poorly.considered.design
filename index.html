@@ -6,10 +6,10 @@ theme: dark
 <div class="banner-image">
   <section class="hero">
     <div class="headline">
-      <h4 class="emdash">Welcome</h4>
-      <h1>My name's Dominic</h1>
+      <h4 class="emdash">North star</h4>
+      <h1>Optimising for quality & impact.</h1>
       <p>
-        I'm a Design Director with over 12 years of experience leading product design at startups. From first principles to final pixels, I enjoy solving complex and demanding problems, creating intuitive and empowering products, and helping teams focus on quality.       </p>
+        Connect, improve, enrich. Optimising for quality. Passionate about collaborative creative tools. I'm a Design Director with over 12 years of experience leading product design at startups. From first principles to final pixels, I enjoy solving complex and demanding problems, creating intuitive and empowering products, and helping teams focus on quality.       </p>
     </div>
     <!-- <a class="focus" href="/writing/one-eye-sees-the-other-feels/">
       <div class="callout">
@@ -22,30 +22,30 @@ theme: dark
 </div>
 
 <section>
-  <h4>Expertise</h4>
+  <h4 class="emdash">Expertise</h4>
   <h2>I love helping companies differentiate through quality</h2>
   <div class="tiles">
     <div>
-      <img class="tile" src="/assets/site/strategy.png" />
+      <img class="tile" src="/assets/site/strategy.svg" />
       <h3>Strategy</h3>
       <p>
         I’ve helped companies focus on their differentiator in the market, and define the strategies to help them leverage it. From design principles, product strategies, and feature north stars, I pride myself in using words to inform, guide and empower teams to do their most impactful work.
       </p>
     </div>
     <div>
-      <img class="tile" src="/assets/site/execution.png" />
+      <img class="tile" src="/assets/site/execution.svg" />
       <h3>Execution</h3>
       <p>
         I’ve lead a wide range of projects in my career. From first foundations, to full platform redesigns. My expertise is helping companies design and deliver intuitive, empowering and impactful projects to their customers.       </p>
     </div>
     <div>
-      <img class="tile" src="/assets/site/systems.png" />
+      <img class="tile" src="/assets/site/systems.svg" />
       <h3>Systems</h3>
       <p>
         As an executive in early startups, I’ve learned how to design systems that enable scale. Design systems, R&D operations, team practices and weekly rituals — I love helping companies create systems that streamline work, strengthen creative cultures, and optimise for quality.      </p>
     </div>
     <div>
-      <img class="tile" src="/assets/site/futures.png" />
+      <img class="tile" src="/assets/site/futures.svg" />
       <h3>Futures</h3>
       <p>
         I get energised helping companies explore what a big leap forward for their product could look, feel and function like. These help align and rally around where the product is going, help validate directions with customers, and visualise ambitious product strategies.       </p>
@@ -59,15 +59,15 @@ theme: dark
   <ul class="link-stack">
     {% for chapter in site.chapters %}
     <li>
-      <a class="link-item {{ chapter.theme }}" href="{{ chapter.url }}">
+      <div class="link-item {{ chapter.theme }}">
         <div>
           <h3>{{ chapter.role }}</h3>
           <h3 class="{{ chapter.theme }} info">{{ chapter.timeframe }}</h3>
         </div>
-        <div>
+        <!-- <div>
           <h3 class="{{ chapter.theme }} arrow">→</h3>
-        </div>
-      </a>
+        </div> -->
+      </div>
     </li>
     {% endfor %}
   </ul>

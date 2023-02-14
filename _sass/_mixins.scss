@@ -15,3 +15,8 @@
     #{$max * $base-font-size + "px"}
   );
 }
+
+// BREAKPOINTS
+$device-s: 450px;
+$device-m: 650px;
+$device-l: 768px;

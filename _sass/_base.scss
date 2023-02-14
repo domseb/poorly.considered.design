@@ -141,7 +141,7 @@ h2 {
 
 h3 {
   font-family: "Degular Display Medium";
-  font-size: clamp(25px, 5vw, 46px);
+  font-size: clamp(36px, 5vw, 46px);
   line-height: 0.9;
   font-weight: normal !important;
   margin: 0.5em 0 0.35em 0;
@@ -219,7 +219,7 @@ article {
   h4,
   h5,
   p, ul {
-    width: clamp(150px, 85vw, 600px);
+    width: clamp(150px, 85vw, 550px);
   }
 
   h1 {
@@ -322,7 +322,7 @@ dl,
 img {
   max-width: 100%;
   vertical-align: middle;
-  border-radius: var(--radius-m);
+  border-radius: clamp(var(--radius-s), 5%, var(--radius-m));
 }
 
 /**
@@ -376,7 +376,7 @@ a {
 }
 
 blockquote {
-  padding-left: var(--spacer);
+  padding-left: var(--space-s);
   font-style: italic;
   border-left: 2px solid var(--colour-base);
 

@@ -8,7 +8,7 @@
   border-radius: 50px;
   display: inline-flex;
   padding: 5px 10px 8px;
-  font-size: 22px;
+  font-size: 20px;
   letter-spacing: 1px;
   opacity: 1;
 }
@@ -16,8 +16,8 @@
 
 button {
   display: inline-block;
-  color: var(--colour-light-100);
-  background-color: var(--colour-light-25);
+  color: white;
+  background-color: var(--colour-white-10);
   text-align: center;
   font-size: 22px;
   padding: 5px 20px 10px;
@@ -33,8 +33,8 @@ button {
   @include transition(all $default-transition);
 
   &:hover {
-    box-shadow: 0 0 0 3px var(--colour-light-50);
-    background-color: var(--colour-light-50);
+    box-shadow: 0 0 0 3px var(--colour-white-25);
+    background-color: var(--colour-white-05);
     @include transition(all $default-transition);
   }
 }
@@ -42,7 +42,7 @@ button {
 .icon-button {
   // display: inline-block;
   color: inherit;
-  background-color: inherit;
+  background-color: var(--colour-white-10);
   text-align: center;
   // font-size: inherit;
   // font-size: 22px;
@@ -64,16 +64,12 @@ button {
     background-color: var(--colour-05);
     @include transition(all $default-transition);
   }
-
-  svg {
-    fill: red;
-  }
 }
 
-.blue {
-  color: var(--colour-darkest) !important;
-  background-color: var(--colour-light-100) !important;
-}
+// .blue {
+//   color: var(--colour-darkest) !important;
+//   background-color: var(--colour-light-100) !important;
+// }
 .link-button {
   display: inline-block;
   background-color: transparent;
@@ -139,7 +135,7 @@ button {
       width: clamp(150px, 85vw, 320px);
       opacity: 0;
 
-      @media (max-width: 450px) {
+      @media (max-width: $device-s) {
         left: 7.5vw;
       }
 
@@ -195,8 +191,8 @@ button {
       }
 
       h3 {
-        padding-top: var(--spacer);
-        padding-bottom: var(--spacer);
+        padding-top: var(--space-s);
+        padding-bottom: var(--space-s);
         // min-width: 13ch;
         // max-width: 25ch;
       }
@@ -225,7 +221,7 @@ button {
           @include transition(all $default-transition);
         }
       }
-      @media (max-width: 650px) {
+      @media (max-width: $device-m) {
         .arrow {
           opacity: 1;
         }
@@ -248,8 +244,15 @@ button {
   margin-bottom: 70px;
   // padding: 20px;
   box-shadow: 0 0 0 1px var(--colour-white-15);
-  border-radius: var(--radius-l);
+  border-radius: clamp(var(--radius-s), 5%, var(--radius-l));
   @include transition(all $default-transition);
+
+  div:first-of-type {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: var(--space-m);
+  }
 
   .details {
     padding: 30px;
@@ -261,13 +264,8 @@ button {
 
   .halo &:hover {
     background-color: var(--colour-white-05);
-    // box-shadow: 0 0 0 2px var(--colour-light-50);
     transform: translateY(-10px);
     @include transition(all $default-transition);
-    // border-radius: 4px;
-    // img {
-    // padding: 0 5px 20px 5px;
-    // }
 
     .tags {
       transform: translateX(0px);
@@ -281,12 +279,6 @@ button {
     }
   }
 
-  @media (max-width: 550px) {
-    .arrow {
-      display: none;
-    }
-  }
-
   img {
     object-fit: cover;
     border-radius: 20px;
@@ -296,30 +288,16 @@ button {
   }
 
   p {
-    margin-top: 10px;
+    margin-top: var(--space-s);
   }
-
-  div:first-of-type {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    gap: 20px;
-  }
-
-  // div > * {
-  //   display: flex;
-  //   align-items: center;
-  // }
 
   .tags {
     display: inline-flex;
-    gap: 20px;
+    gap: var(--space-m);
     transform: translateX(50px);
-    // margin-top: -10px;
   }
 
   h3 {
-    // font-size: clamp(25px, 3vw, 35px);
     align-items: baseline;
   }
 
@@ -331,6 +309,21 @@ button {
     margin: 0;
     padding: 0;
     align-self: center;
+  }
+
+  @media (max-width: $device-m) {
+    .arrow {
+      display: none;
+    }
+
+    div:first-of-type {
+      flex-direction: column;
+      text-align: center;
+    }
+
+    .tags {
+      transform: translateX(0px);
+    }
   }
 }
 
@@ -395,7 +388,7 @@ nav {
     }
   }
 
-  @media (max-width: 750px) {
+  @media (max-width: $device-l) {
     .cta {
       display: none;
     }
@@ -451,13 +444,13 @@ nav {
     color: var(--colour-50);
     opacity: 1;
     display: inline-flex;
-    margin-right: var(--spacer);
+    margin-right: var(--space-s);
     text-transform: uppercase;
     font-feature-settings: normal;
 
     span {
       @include font-size(0.5, 1);
-      margin-right: var(--spacer);
+      margin-right: var(--space-s);
     }
 
     &:hover {
@@ -477,7 +470,7 @@ nav {
     width: clamp(150px, 85vw, 320px);
     opacity: 0;
 
-    @media (max-width: 450px) {
+    @media (max-width: $device-s) {
       left: 7.5vw;
     }
 
@@ -546,7 +539,7 @@ nav {
     padding: 5vw 0;
   }
 
-  @media (max-width: 768px) {
+  @media (max-width: $device-m) {
     div:first-of-type {
       text-align: center;
     }
