@@ -4,11 +4,11 @@
   font-family: "Obviously Semi";
   text-transform: uppercase;
   color: white;
-  background-color: var(--colour-white-25);
+  background-color: var(--colour-white-15);
   border-radius: 50px;
   display: inline-flex;
   padding: 5px 10px 8px;
-  font-size: 20px;
+  font-size: clamp(16px, 4vw, 20px);
   letter-spacing: 1px;
   opacity: 1;
 }
@@ -197,12 +197,13 @@ button {
         // max-width: 25ch;
       }
       .info {
-        font-family: "Obviously Semi";
+        font-family: "Obviously Medium";
         // font-size: 46px;
         margin: 0 10px 0 20px;
         padding: 0px;
         font-feature-settings: normal;
         white-space: nowrap;
+        font-size: clamp(24px, 4vw, 34px);
       }
       .arrow {
         opacity: 0;

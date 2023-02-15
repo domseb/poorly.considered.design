@@ -3,7 +3,7 @@ layout: chapter
 chapter: qwilr
 timeframe: 2017 — 2022
 role: VP Design, Qwilr
-theme: purple
+theme: rose
 tags: testtag
 slug: qwilr
 

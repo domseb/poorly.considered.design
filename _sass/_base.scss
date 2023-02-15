@@ -148,14 +148,15 @@ h3 {
 }
 
 h4 {
-  font-family: "Obviously Semi";
+  font-family: "Obviously Medium";
   text-transform: uppercase;
   letter-spacing: 1px;
-  color: var(--colour-light);
+  // color: var(--colour-light);
   font-weight: normal !important;
   font-size: clamp(24px, 2vw, 30px);
   line-height: 1;
   margin-bottom: 50px;
+  opacity: .5;
 }
 
 h5 {
@@ -177,7 +178,7 @@ h6 {
 }
 
 .emdash::after {
-  content: url("/assets/site/thin-stroke.svg");
+  content: url("/assets/site/stroke.svg");
   display: inline-flex;
   margin-left: 10px;
   margin-bottom: 30px;
@@ -186,15 +187,15 @@ h6 {
 
 p {
   font-family: "Degular";
-  font-size: clamp(16px, 1em, 20px);
+  font-size: clamp(16px, 4vw, 20px);
   opacity: 0.5;
 
   &.description {
-    font-size: clamp(20px, 1em, 26px);
+    font-size: clamp(20px, 4vw, 26px);
   }
 
   &.note {
-    font-size: clamp(16px, 1em, 18px);
+    font-size: clamp(16px, 4vw, 18px);
   }
 }
 

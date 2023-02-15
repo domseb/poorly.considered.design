@@ -3,7 +3,7 @@ layout: chapter
 chapter: three
 timeframe: 2011 — 2014
 role: Design Lead, Digicave
-theme: emerald
+theme: peach
 slug: digicave
 
 description: That's the American one, you berk! I didn't even know Smarties made a cereal. They don't, it's just Smarties in a bowl with milk. It's like they're pally-wally with us when there's a problem with their printer, but once it's fixed... No, no there you go, no there you go. I just heard it come on.

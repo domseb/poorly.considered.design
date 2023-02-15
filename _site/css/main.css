@@ -44,19 +44,19 @@ h2 { font-size: clamp(50px, 10vw, 110px); min-height: 0vw; line-height: 0.9; let
 
 h3 { font-family: "Degular Display Medium"; font-size: clamp(36px, 5vw, 46px); line-height: 0.9; font-weight: normal !important; margin: 0.5em 0 0.35em 0; }
 
-h4 { font-family: "Obviously Semi"; text-transform: uppercase; letter-spacing: 1px; color: var(--colour-light); font-weight: normal !important; font-size: clamp(24px, 2vw, 30px); line-height: 1; margin-bottom: 50px; }
+h4 { font-family: "Obviously Medium"; text-transform: uppercase; letter-spacing: 1px; font-weight: normal !important; font-size: clamp(24px, 2vw, 30px); line-height: 1; margin-bottom: 50px; opacity: .5; }
 
 h5 { text-transform: uppercase; letter-spacing: 1px; line-height: 1; font-weight: normal !important; font-size: 20px; font-family: "Degular Display Regular"; }
 
 h6 { color: var(--text-muted); font-size: clamp(20px, 2vw, 26px); line-height: 1; font-weight: normal !important; }
 
-.emdash::after { content: url("/assets/site/thin-stroke.svg"); display: inline-flex; margin-left: 10px; margin-bottom: 30px; vertical-align: middle; }
+.emdash::after { content: url("/assets/site/stroke.svg"); display: inline-flex; margin-left: 10px; margin-bottom: 30px; vertical-align: middle; }
 
-p { font-family: "Degular"; font-size: clamp(16px, 1em, 20px); opacity: 0.5; }
+p { font-family: "Degular"; font-size: clamp(16px, 4vw, 20px); opacity: 0.5; }
 
-p.description { font-size: clamp(20px, 1em, 26px); }
+p.description { font-size: clamp(20px, 4vw, 26px); }
 
-p.note { font-size: clamp(16px, 1em, 18px); }
+p.note { font-size: clamp(16px, 4vw, 18px); }
 
 .light { font-family: "Degular Display Light" !important; }
 
@@ -151,6 +151,12 @@ pre > code { border: 0; padding-right: 0; padding-left: 0; }
 body { --lightness: 25%; --opacity: 1; --colour-base: hsl(var(--hue), 100%, 25%); --colour-darker: hsl(var(--hue, 245), 100%, 15%); --colour-darkest: hsla(var(--hue, 245), 100%, 5%, 1); --colour-darkest-dimmed: hsla(var(--hue, 245), 100%, 5%, 0.2); --colour-dark-100: hsla(var(--hue, 245), 100%, 5%, 1); --colour-dark-75: hsla(var(--hue, 245), 100%, 5%, 0.75); --colour-dark-50: hsla(var(--hue, 245), 100%, 5%, 0.5); --colour-dark-25: hsla(var(--hue, 245), 100%, 5%, 0.25); --colour-dark-20: hsla(var(--hue, 245), 100%, 5%, 0.2); --colour-dark-15: hsla(var(--hue, 245), 100%, 5%, 0.15); --colour-dark-10: hsla(var(--hue, 245), 100%, 5%, 0.1); --colour-white-50: hsla(255,100%,100%,.50); --colour-white-25: hsla(255,100%,100%,.25); --colour-white-15: hsla(255,100%,100%,.15); --colour-white-10: hsla(255,100%,100%,.10); --colour-white-05: hsla(255,100%,100%,.05); --colour-light-100: hsla(var(--hue, 245), 100%, 55%, 1); --colour-light-75: hsla(var(--hue, 245), 100%, 55%, 0.75); --colour-light-50: hsla(var(--hue, 245), 100%, 55%, 0.5); --colour-light-25: hsla(var(--hue, 245), 100%, 55%, 0.25); --colour-light-20: hsla(var(--hue, 245), 100%, 55%, 0.2); --colour-light-15: hsla(var(--hue, 245), 100%, 55%, 0.15); --colour-light-10: hsla(var(--hue, 245), 100%, 55%, 0.1); --text-headline: hsl(var(--hue), 0%, calc(var(--lightness) + 75%)); --onyx: hsla(var(--hue, 0), 0%, 0%, var(--opacity)); --slate: hsla(var(--hue, 0), 0%, 40%, var(--opacity)); --smoke: hsla(var(--hue, 0), 0%, 80%, var(--opacity)); --feather: hsla(var(--hue, 0), 0%, 90%, var(--opacity)); --spacing-unit: 10px; --space-xs: calc(var(--spacing-unit)/2); --space-s: var(--spacing-unit); --space-m: calc(var(--spacing-unit)*2); --space-l: calc(var(--spacing-unit)*4); --space-xl: calc(var(--spacing-unit)*10); --space-xxl: calc(var(--spacing-unit)*20); --radius-xs: 2px; --radius-s: 4px; --radius-m: 10px; --radius-l: 20px; background-color: white; color: var(--text-headline); --colour-100: var(--colour-dark-100); --colour-50: var(--colour-dark-50); --colour-25: var(--colour-dark-25); --colour-15: var(--colour-dark-15); }
 
 .dark { --hue: 245; --colour-100: white; --colour-50: var(--colour-white-50); --colour-25: var(--colour-white-25); --colour-15: var(--colour-white-15); color: white; background-color: var(--colour-darkest); }
+
+.rose { color: #FF6258; }
+
+.purple { color: #9788FC; }
+
+.peach { color: #FF9182; }
 
 .banner { background-color: var(--colour-darkest); }
 
@@ -379,7 +385,7 @@ section.bordered { margin: 100px auto !important; padding: 80px 0 80px 0; border
 
 .highlight .il { color: #099; }
 
-.tag { font-family: "Obviously Semi"; text-transform: uppercase; color: white; background-color: var(--colour-white-25); border-radius: 50px; display: inline-flex; padding: 5px 10px 8px; font-size: 20px; letter-spacing: 1px; opacity: 1; }
+.tag { font-family: "Obviously Semi"; text-transform: uppercase; color: white; background-color: var(--colour-white-15); border-radius: 50px; display: inline-flex; padding: 5px 10px 8px; font-size: clamp(16px, 4vw, 20px); letter-spacing: 1px; opacity: 1; }
 
 button { display: inline-block; color: white; background-color: var(--colour-white-10); text-align: center; font-size: 22px; padding: 5px 20px 10px; margin: 0px; font-family: "Obviously Semi"; text-transform: uppercase; text-decoration: none; white-space: nowrap; cursor: pointer; border: none; box-sizing: border-box; border-radius: var(--radius-s); -webkit-transition: all 0.3s ease; -moz-transition: all 0.3s ease; transition: all 0.3s ease; }
 
@@ -425,7 +431,7 @@ button:hover { box-shadow: 0 0 0 3px var(--colour-white-25); background-color: v
 
 .link-stack li .link-item h3 { padding-top: var(--space-s); padding-bottom: var(--space-s); }
 
-.link-stack li .link-item .info { font-family: "Obviously Semi"; margin: 0 10px 0 20px; padding: 0px; font-feature-settings: normal; white-space: nowrap; }
+.link-stack li .link-item .info { font-family: "Obviously Medium"; margin: 0 10px 0 20px; padding: 0px; font-feature-settings: normal; white-space: nowrap; font-size: clamp(24px, 4vw, 34px); }
 
 .link-stack li .link-item .arrow { opacity: 0; font-family: "Degular Display Light"; margin: 0; padding: 0; align-self: center; }
 
@@ -592,8 +598,6 @@ nav img { margin: 0 !important; }
 .hunny-b { width: 93%; height: 95%; opacity: 1; position: absolute; bottom: 0; left: 0; background-color: var(--colour-darkest); z-index: 110; }
 
 .hunnyy { width: 100%; height: 100%; opacity: 0.1; position: absolute; bottom: 0; left: 0; z-index: 100; }
-
-.tile { width: 125px; }
 
 .fade-in-up-1 { animation: fade-in-up-1; animation-duration: .5s; animation-timing-function: cubic-bezier(0.68, -0.55, 0.265, 1.55); transform-origin: 50%; }
 

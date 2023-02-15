@@ -4,6 +4,7 @@ refID: secondary
 chapter: qwilr
 tags: strategy execution systems
 company: qwilr
+theme: dark
 
 year: 2019 — 2022
 title: Archipelago
