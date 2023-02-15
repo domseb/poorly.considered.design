@@ -32,11 +32,11 @@ body, h1, h2, h3, h4, h5, h6, p, blockquote, pre, hr, dl, dd, ol, ul, figure { m
 
 @font-face { font-family: "Degular Italic"; font-style: normal; font-weight: "woff2", "woff"; src: url("../assets/fonts/Degular-Italic.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/Degular-Italic.woff2") format("woff2"), url("../assets/fonts/Degular-Italic.woff") format("woff"), url("../assets/fonts/Degular-Italic.ttf") format("truetype"), url("../assets/fonts/Degular-Italic.svg#Degular Italic") format("svg"); }
 
-body { font-family: "Degular"; font-size: 20; font-size: clamp(20px, 2vw, 26px); line-height: 1.3; font-feature-settings: "lnum", "ss01" 1, "ss02" 1, "ss03" 1, "ss04" 1; -moz-font-feature-settings: "lnum", "ss01" 1, "ss02" 1, "ss03" 1, "ss04" 1; -ms-font-feature-settings: "lnum", "ss01" 1, "ss02" 1, "ss03" 1, "ss04" 1; -webkit-font-feature-settings: "lnum", "ss01" 1, "ss02" 1, "ss03" 1, "ss04" 1; -o-font-feature-settings: "lnum", "ss01" 1, "ss02" 1, "ss03" 1, "ss04" 1; -webkit-text-size-adjust: 100%; -moz-osx-font-smoothing: grayscale; -webkit-font-smoothing: antialiased; hanging-punctuation: first; }
+body { font-family: "Degular"; font-size: clamp(20px, 2vw, 26px); line-height: 1.4; font-feature-settings: "lnum", "ss01" 1, "ss02" 1, "ss03" 1, "ss04" 1; -moz-font-feature-settings: "lnum", "ss01" 1, "ss02" 1, "ss03" 1, "ss04" 1; -ms-font-feature-settings: "lnum", "ss01" 1, "ss02" 1, "ss03" 1, "ss04" 1; -webkit-font-feature-settings: "lnum", "ss01" 1, "ss02" 1, "ss03" 1, "ss04" 1; -o-font-feature-settings: "lnum", "ss01" 1, "ss02" 1, "ss03" 1, "ss04" 1; -webkit-text-size-adjust: 100%; -moz-osx-font-smoothing: grayscale; -webkit-font-smoothing: antialiased; hanging-punctuation: first; }
 
 blockquote p { hanging-punctuation: first; }
 
-h1, h2, h3, h4, h5, h6 { color: var(--text-headline); font-family: "Degular Display Bold"; }
+h1, h2, h3, h5, h6 { color: var(--text-headline); font-family: "Degular Display Bold"; }
 
 h1 { color: var(--text-headline); line-height: 0.8; min-height: 0vw; letter-spacing: -1px; font-size: clamp(90px, 12vw, 160px); margin-bottom: 0.25em; font-weight: normal !important; }
 
@@ -44,7 +44,7 @@ h2 { font-size: clamp(50px, 10vw, 110px); min-height: 0vw; line-height: 0.9; let
 
 h3 { font-family: "Degular Display Medium"; font-size: clamp(36px, 5vw, 46px); line-height: 0.9; font-weight: normal !important; margin: 0.5em 0 0.35em 0; }
 
-h4 { font-family: "Obviously Medium"; text-transform: uppercase; letter-spacing: 1px; font-weight: normal !important; font-size: clamp(24px, 2vw, 30px); line-height: 1; margin-bottom: 50px; opacity: .5; }
+h4 { font-family: "Obviously Medium"; text-transform: uppercase; letter-spacing: 1px; font-weight: normal !important; font-size: clamp(24px, 2vw, 30px); line-height: 1; margin-bottom: 50px; }
 
 h5 { text-transform: uppercase; letter-spacing: 1px; line-height: 1; font-weight: normal !important; font-size: 20px; font-family: "Degular Display Regular"; }
 
@@ -52,7 +52,7 @@ h6 { color: var(--text-muted); font-size: clamp(20px, 2vw, 26px); line-height: 1
 
 .emdash::after { content: url("/assets/site/stroke.svg"); display: inline-flex; margin-left: 10px; margin-bottom: 30px; vertical-align: middle; }
 
-p { font-family: "Degular"; font-size: clamp(16px, 4vw, 20px); opacity: 0.5; }
+p { font-family: "Degular"; font-size: clamp(16px, 4vw, 20px); }
 
 p.description { font-size: clamp(20px, 4vw, 26px); }
 
@@ -66,7 +66,7 @@ p.note { font-size: clamp(16px, 4vw, 18px); }
 
 article { margin: 100px auto; }
 
-article h2, article h3, article h4, article h5, article p, article ul { width: clamp(150px, 85vw, 550px); }
+article h2, article h3, article h4, article h5, article p, article ol, article ul { width: clamp(150px, 85vw, 550px); }
 
 article h1 { margin: 1em auto 0.5em auto; }
 
@@ -80,7 +80,15 @@ article h5 { margin-top: 1.3rem; margin-bottom: 0.65rem; }
 
 article h6 { margin-top: 1.3rem; margin-bottom: 0rem; }
 
-article ul { margin: 0 auto 1.5em auto; font-size: clamp(16px, 1em, 20px); margin-bottom: 60px; margin-top: 40px; }
+article ol { margin: 1em auto; }
+
+article ol li { font-family: "Degular"; font-size: clamp(16px, 4vw, 20px); }
+
+article ul { margin: 0 auto 1.5em auto; font-size: clamp(16px, 1em, 20px); margin-bottom: 60px; margin-top: 40px; list-style: none; }
+
+article ul li { border-top: 1px solid var(--colour-white-25); padding: var(--space-s) 0; }
+
+article ul li:last-child { border-bottom: 1px solid var(--colour-white-25); }
 
 article ul.lined { list-style: none; border-top: 1px solid var(--colour-light-100); border-bottom: 1px solid var(--colour-light-100); }
 
@@ -106,7 +114,7 @@ img { max-width: 100%; vertical-align: middle; border-radius: clamp(var(--radius
 /** Figures */
 figure > img { display: block; }
 
-figcaption { font-size: clamp(20px, 2vw, 22px); text-align: center; color: var(--slate); margin: 20px; }
+figcaption { font-size: clamp(15px, 4vw, 18px); text-align: center; color: var(--slate); margin: 20px; }
 
 ul { margin-left: var(--space-small); }
 
@@ -126,7 +134,7 @@ blockquote { padding-left: var(--space-s); font-style: italic; border-left: 2px 
 
 blockquote > :last-child { margin-bottom: 0; }
 
-pre, code { font-size: clamp(20px, 2vw, 22px); border: 1px solid grey; border-radius: 3px; background-color: var(--smoke); }
+pre, code { font-size: clamp(16px, 4vw, 20px); border: 1px solid var(--smoke); border-radius: 3px; background-color: var(--feather); font-family: "Degular"; }
 
 code { padding: 1px 5px; }
 
@@ -148,9 +156,9 @@ pre > code { border: 0; padding-right: 0; padding-left: 0; }
 
 .icon-text { font-family: "Degular Display Light"; margin: 5px 10px 0 10px; font-size: 20px; }
 
-body { --lightness: 25%; --opacity: 1; --colour-base: hsl(var(--hue), 100%, 25%); --colour-darker: hsl(var(--hue, 245), 100%, 15%); --colour-darkest: hsla(var(--hue, 245), 100%, 5%, 1); --colour-darkest-dimmed: hsla(var(--hue, 245), 100%, 5%, 0.2); --colour-dark-100: hsla(var(--hue, 245), 100%, 5%, 1); --colour-dark-75: hsla(var(--hue, 245), 100%, 5%, 0.75); --colour-dark-50: hsla(var(--hue, 245), 100%, 5%, 0.5); --colour-dark-25: hsla(var(--hue, 245), 100%, 5%, 0.25); --colour-dark-20: hsla(var(--hue, 245), 100%, 5%, 0.2); --colour-dark-15: hsla(var(--hue, 245), 100%, 5%, 0.15); --colour-dark-10: hsla(var(--hue, 245), 100%, 5%, 0.1); --colour-white-50: hsla(255,100%,100%,.50); --colour-white-25: hsla(255,100%,100%,.25); --colour-white-15: hsla(255,100%,100%,.15); --colour-white-10: hsla(255,100%,100%,.10); --colour-white-05: hsla(255,100%,100%,.05); --colour-light-100: hsla(var(--hue, 245), 100%, 55%, 1); --colour-light-75: hsla(var(--hue, 245), 100%, 55%, 0.75); --colour-light-50: hsla(var(--hue, 245), 100%, 55%, 0.5); --colour-light-25: hsla(var(--hue, 245), 100%, 55%, 0.25); --colour-light-20: hsla(var(--hue, 245), 100%, 55%, 0.2); --colour-light-15: hsla(var(--hue, 245), 100%, 55%, 0.15); --colour-light-10: hsla(var(--hue, 245), 100%, 55%, 0.1); --text-headline: hsl(var(--hue), 0%, calc(var(--lightness) + 75%)); --onyx: hsla(var(--hue, 0), 0%, 0%, var(--opacity)); --slate: hsla(var(--hue, 0), 0%, 40%, var(--opacity)); --smoke: hsla(var(--hue, 0), 0%, 80%, var(--opacity)); --feather: hsla(var(--hue, 0), 0%, 90%, var(--opacity)); --spacing-unit: 10px; --space-xs: calc(var(--spacing-unit)/2); --space-s: var(--spacing-unit); --space-m: calc(var(--spacing-unit)*2); --space-l: calc(var(--spacing-unit)*4); --space-xl: calc(var(--spacing-unit)*10); --space-xxl: calc(var(--spacing-unit)*20); --radius-xs: 2px; --radius-s: 4px; --radius-m: 10px; --radius-l: 20px; background-color: white; color: var(--text-headline); --colour-100: var(--colour-dark-100); --colour-50: var(--colour-dark-50); --colour-25: var(--colour-dark-25); --colour-15: var(--colour-dark-15); }
+body { --lightness: 25%; --opacity: 1; --colour-base: hsl(var(--hue), 100%, 25%); --colour-darker: hsl(var(--hue, 245), 100%, 15%); --colour-darkest: hsla(var(--hue, 245), 100%, 5%, 1); --colour-darkest-dimmed: hsla(var(--hue, 245), 100%, 5%, 0.2); --colour-dark-100: hsla(var(--hue, 245), 100%, 5%, 1); --colour-dark-75: hsla(var(--hue, 245), 100%, 5%, 0.75); --colour-dark-50: hsla(var(--hue, 245), 100%, 5%, 0.5); --colour-dark-25: hsla(var(--hue, 245), 100%, 5%, 0.25); --colour-dark-20: hsla(var(--hue, 245), 100%, 5%, 0.2); --colour-dark-15: hsla(var(--hue, 245), 100%, 5%, 0.15); --colour-dark-10: hsla(var(--hue, 245), 100%, 5%, 0.1); --colour-white-50: hsla(255,100%,100%,.50); --colour-white-25: hsla(255,100%,100%,.25); --colour-white-15: hsla(255,100%,100%,.15); --colour-white-10: hsla(255,100%,100%,.10); --colour-white-05: hsla(255,100%,100%,.05); --colour-light-100: hsla(var(--hue, 245), 100%, 55%, 1); --colour-light-75: hsla(var(--hue, 245), 100%, 55%, 0.75); --colour-light-50: hsla(var(--hue, 245), 100%, 55%, 0.5); --colour-light-25: hsla(var(--hue, 245), 100%, 55%, 0.25); --colour-light-20: hsla(var(--hue, 245), 100%, 55%, 0.2); --colour-light-15: hsla(var(--hue, 245), 100%, 55%, 0.15); --colour-light-10: hsla(var(--hue, 245), 100%, 55%, 0.1); --onyx: hsla(var(--hue, 0), 0%, 0%, var(--opacity)); --slate: hsla(var(--hue, 0), 0%, 40%, var(--opacity)); --smoke: hsla(var(--hue, 0), 0%, 80%, var(--opacity)); --feather: hsla(var(--hue, 0), 0%, 90%, var(--opacity)); --spacing-unit: 10px; --space-xs: calc(var(--spacing-unit)/2); --space-s: var(--spacing-unit); --space-m: calc(var(--spacing-unit)*2); --space-l: calc(var(--spacing-unit)*4); --space-xl: calc(var(--spacing-unit)*10); --space-xxl: calc(var(--spacing-unit)*20); --radius-xs: 2px; --radius-s: 5px; --radius-m: 10px; --radius-l: 20px; background-color: white; --text-headline: #01001B; color: #515060; --colour-100: var(--colour-dark-100); --colour-50: var(--colour-dark-50); --colour-25: var(--colour-dark-25); --colour-15: var(--colour-dark-15); }
 
-.dark { --hue: 245; --colour-100: white; --colour-50: var(--colour-white-50); --colour-25: var(--colour-white-25); --colour-15: var(--colour-white-15); color: white; background-color: var(--colour-darkest); }
+.dark { --hue: 245; --colour-100: white; --colour-50: var(--colour-white-50); --colour-25: var(--colour-white-25); --colour-15: var(--colour-white-15); --text-headline: white; color: #787797; background-color: var(--colour-darkest); }
 
 .rose { color: #FF6258; }
 
@@ -162,7 +170,7 @@ body { --lightness: 25%; --opacity: 1; --colour-base: hsl(var(--hue), 100%, 25%)
 
 .banner-image { background-image: url("/assets/site/bg.png"); background-position: center; background-repeat: no-repeat; background-size: cover; background-color: var(--colour-darkest); }
 
-section { width: clamp(150px, 85vw, 1180px); margin: 8em auto; }
+section { width: clamp(150px, 85vw, 1180px); margin: 6em auto; }
 
 section.bordered { margin: 100px auto !important; padding: 80px 0 80px 0; border-top: 1px solid var(--colour-white-15); border-bottom: 1px solid var(--colour-white-15); }
 
@@ -180,7 +188,7 @@ section.bordered { margin: 100px auto !important; padding: 80px 0 80px 0; border
 
 .hero .focus { flex: 2; min-width: 200px; max-width: 100%; }
 
-.header { padding-top: 250px; margin-top: -150px; margin-bottom: 80px; }
+.header { padding-top: 25vh; margin-top: -150px; margin-bottom: 80px; }
 
 .header p { max-width: 55ch; margin: 0 auto; }
 
@@ -385,7 +393,7 @@ section.bordered { margin: 100px auto !important; padding: 80px 0 80px 0; border
 
 .highlight .il { color: #099; }
 
-.tag { font-family: "Obviously Semi"; text-transform: uppercase; color: white; background-color: var(--colour-white-15); border-radius: 50px; display: inline-flex; padding: 5px 10px 8px; font-size: clamp(16px, 4vw, 20px); letter-spacing: 1px; opacity: 1; }
+.tag { font-family: "Obviously Medium"; text-transform: uppercase; color: white; background-color: var(--colour-white-15); border-radius: 50px; display: inline-flex; padding: 5px 10px 8px; font-size: clamp(16px, 4vw, 20px); letter-spacing: 1px; opacity: 1; }
 
 button { display: inline-block; color: white; background-color: var(--colour-white-10); text-align: center; font-size: 22px; padding: 5px 20px 10px; margin: 0px; font-family: "Obviously Semi"; text-transform: uppercase; text-decoration: none; white-space: nowrap; cursor: pointer; border: none; box-sizing: border-box; border-radius: var(--radius-s); -webkit-transition: all 0.3s ease; -moz-transition: all 0.3s ease; transition: all 0.3s ease; }
 

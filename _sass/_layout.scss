@@ -35,7 +35,7 @@ body {
   --colour-light-10: hsla(var(--hue, 245), 100%, 55%, 0.1);
   
   // SPECIFIC COLOURS
-  --text-headline: hsl(var(--hue), 0%, calc(var(--lightness) + 75%));
+  // --text-headline: hsl(var(--hue), 0%, calc(var(--lightness) + 75%));
   --onyx: hsla(var(--hue, 0), 0%, 0%, var(--opacity));
   --slate: hsla(var(--hue, 0), 0%, 40%, var(--opacity));
   --smoke: hsla(var(--hue, 0), 0%, 80%, var(--opacity));
@@ -52,13 +52,14 @@ body {
   
   // OTHER
   --radius-xs: 2px;
-  --radius-s: 4px;
+  --radius-s: 5px;
   --radius-m: 10px;
   --radius-l: 20px;
 
   // CORE THEME
   background-color: white;
-  color: var(--text-headline);
+  --text-headline: #01001B;
+  color: #515060; 
   --colour-100: var(--colour-dark-100);
   --colour-50: var(--colour-dark-50);
   --colour-25: var(--colour-dark-25);
@@ -73,7 +74,9 @@ body {
   --colour-50: var(--colour-white-50);
   --colour-25: var(--colour-white-25);
   --colour-15: var(--colour-white-15);
-  color: white;
+  --text-headline: white;
+  color: #787797;
+  // color: #9C9BBC;
   background-color: var(--colour-darkest);
 }
 
@@ -115,7 +118,7 @@ body {
 
 section {
   width: clamp(150px, 85vw, 1180px);
-  margin: 8em auto;
+  margin: 6em auto;
 
   &.bordered {
     margin: 100px auto !important;
@@ -173,7 +176,7 @@ section {
 }
 
 .header {
-  padding-top: 250px;
+  padding-top: 25vh;
   margin-top: -150px;
   margin-bottom: 80px;
 

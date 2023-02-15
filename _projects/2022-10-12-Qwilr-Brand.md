@@ -22,9 +22,9 @@ image: /assets/projects/archipelago/archipelago.jpg
             <h2>Creating shared focus in a rebrand</h2>
             <div class="collaborators">
                 <div class="collaborator">
-                    <img src="/assets/site/avatar-test.jpg">
+                    <img src="/assets/projects/collaborators/diana.jpeg">
                     <div class="info">
-                        <h6>Josh Baskin</h6>
+                        <h6>Diana Potter</h6>
                         <p>Lead ideation of new toys, managing R&D of all new iniatives.</p>
                         <button class="link-button {{ page.theme }}" onclick="location.href='linkedin.com'">View profile</button>
                     </div>
