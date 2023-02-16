@@ -244,7 +244,7 @@ section.bordered { margin: 100px auto !important; padding: 80px 0 80px 0; border
 
 .listings a:hover p { --opacity: 0; background: -webkit-linear-gradient(90deg, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.2)); -webkit-background-clip: text; -webkit-text-fill-color: transparent; -webkit-transition: all 0.3s ease; -moz-transition: all 0.3s ease; transition: all 0.3s ease; }
 
-.listings a:hover:before { content: "Continue reading"; font-family: "Obviously Semi"; letter-spacing: 1px; color: var(--colour-light); font-size: 22px; position: absolute; left: 25px; bottom: 25px; text-transform: uppercase; }
+.listings a:hover:before { content: "Continue reading"; font-family: "Obviously Medium"; letter-spacing: 1px; color: var(--colour-light); font-size: 22px; position: absolute; left: 25px; bottom: 25px; text-transform: uppercase; }
 
 .listings a:hover:after { content: "→"; font-family: "DEgular Display Regular"; color: var(--colour-light); font-size: 22px; position: absolute; right: 25px; bottom: 25px; }
 
@@ -395,7 +395,7 @@ section.bordered { margin: 100px auto !important; padding: 80px 0 80px 0; border
 
 .tag { font-family: "Obviously Medium"; text-transform: uppercase; color: white; background-color: var(--colour-white-15); border-radius: 50px; display: inline-flex; padding: 5px 10px 8px; font-size: clamp(16px, 4vw, 20px); letter-spacing: 1px; opacity: 1; }
 
-button { display: inline-block; color: white; background-color: var(--colour-white-10); text-align: center; font-size: 22px; padding: 5px 20px 10px; margin: 0px; font-family: "Obviously Semi"; text-transform: uppercase; text-decoration: none; white-space: nowrap; cursor: pointer; border: none; box-sizing: border-box; border-radius: var(--radius-s); -webkit-transition: all 0.3s ease; -moz-transition: all 0.3s ease; transition: all 0.3s ease; }
+button { display: inline-block; color: white; background-color: var(--colour-white-10); text-align: center; font-size: 22px; padding: 5px 20px 10px; margin: 0px; font-family: "Obviously Medium"; text-transform: uppercase; text-decoration: none; white-space: nowrap; cursor: pointer; border: none; box-sizing: border-box; border-radius: var(--radius-s); -webkit-transition: all 0.3s ease; -moz-transition: all 0.3s ease; transition: all 0.3s ease; }
 
 button:hover { box-shadow: 0 0 0 3px var(--colour-white-25); background-color: var(--colour-white-05); -webkit-transition: all 0.3s ease; -moz-transition: all 0.3s ease; transition: all 0.3s ease; }
 
@@ -403,7 +403,7 @@ button:hover { box-shadow: 0 0 0 3px var(--colour-white-25); background-color: v
 
 .icon-button:hover { box-shadow: 0 0 0 2px var(--colour-25); background-color: var(--colour-05); -webkit-transition: all 0.3s ease; -moz-transition: all 0.3s ease; transition: all 0.3s ease; }
 
-.link-button { display: inline-block; background-color: transparent; text-align: center; font-size: 22px; padding: 10px 30px 15px 0px; margin: 0px; font-family: "Obviously Semi"; text-transform: uppercase; text-decoration: none; white-space: nowrap; cursor: pointer; border: none; box-sizing: border-box; box-shadow: 0px 0 0 0; line-height: 22px; margin-top: 20px; -webkit-transition: all 0.3s ease; -moz-transition: all 0.3s ease; transition: all 0.3s ease; }
+.link-button { display: inline-block; background-color: transparent; text-align: center; font-size: 22px; padding: 10px 30px 15px 0px; margin: 0px; font-family: "Obviously Medium"; text-transform: uppercase; text-decoration: none; white-space: nowrap; cursor: pointer; border: none; box-sizing: border-box; box-shadow: 0px 0 0 0; line-height: 22px; margin-top: 20px; -webkit-transition: all 0.3s ease; -moz-transition: all 0.3s ease; transition: all 0.3s ease; }
 
 .link-button::after { content: "→"; font-family: "Degular Display Light"; font-size: 24px; margin-left: 10px; position: absolute; }
 
@@ -417,7 +417,7 @@ button:hover { box-shadow: 0 0 0 3px var(--colour-white-25); background-color: v
 
 .collaborators .collaborator img { border-radius: 100%; margin-bottom: 10px; }
 
-.collaborators .collaborator .info { background: var(--colour-darkest); color: white; padding: 25px 20px 20px 20px; visibility: hidden; position: absolute; z-index: 99; transform: translateY(-20px); -webkit-transition: all 0.3s ease; -moz-transition: all 0.3s ease; transition: all 0.3s ease; border-radius: 10px; width: clamp(150px, 85vw, 320px); opacity: 0; }
+.collaborators .collaborator .info { background: var(--colour-darkest); color: white; padding: 25px 20px 20px 20px; visibility: hidden; position: absolute; z-index: 99; transform: translateY(-20px); -webkit-transition: all 0.3s ease; -moz-transition: all 0.3s ease; transition: all 0.3s ease; border-radius: var(--radius-m); width: clamp(150px, 85vw, 320px); opacity: 0; box-shadow: 0 10px 100px 0px var(--colour-white-05); border: 1px solid var(--colour-white-10); }
 
 @media (max-width: 450px) { .collaborators .collaborator .info { left: 7.5vw; } }
 
@@ -481,7 +481,7 @@ button:hover { box-shadow: 0 0 0 3px var(--colour-white-25); background-color: v
 
 .featured-posts div > * { display: flex; align-items: center; }
 
-.featured-posts h3:first-of-type { font-family: "Obviously Semi"; margin-right: 20px; font-size: 60px; margin-top: -10px; }
+.featured-posts h3:first-of-type { font-family: "Obviously Medium"; margin-right: 20px; font-size: 60px; margin-top: -10px; }
 
 .featured-posts h3 { font-size: clamp(25px, 3vw, 35px); }
 
@@ -499,7 +499,9 @@ nav .items { display: flex; align-items: center; }
 
 nav .items a { padding: 5px 10px 10px 10px; }
 
-nav .items .logo { padding: 8px 5px 7px 5px; }
+nav .items .logo-b { display: none; }
+
+@media (max-width: 450px) { nav .items .logo-a { display: none; } nav .items .logo-b { display: initial; } }
 
 nav .items p:hover { box-shadow: 0 0 0 1px var(--colour-15); border-radius: var(--radius-m); -webkit-transition: all 0.3s ease; -moz-transition: all 0.3s ease; transition: all 0.3s ease; }
 
@@ -531,7 +533,7 @@ nav img { margin: 0 !important; }
 
 .footer .socials { display: inline-flex; gap: 30px; justify-content: end; }
 
-.footer .socials h4, .footer .socials h5 { font-family: "Obviously Semi" !important; font-size: 24px; color: white; opacity: 0.75; }
+.footer .socials h4, .footer .socials h5 { font-family: "Obviously Medium" !important; font-size: 24px; color: white; opacity: 0.75; }
 
 .footer .socials h4:hover, .footer .socials h5:hover { opacity: 1; -webkit-transition: all 0.3s ease; -moz-transition: all 0.3s ease; transition: all 0.3s ease; }
 

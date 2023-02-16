@@ -17,39 +17,30 @@ image: /assets/projects/archipelago/archipelago.jpg
 ---
 
 <section class="bordered">
-        <div class="tiles center">
+    <div class="tiles center">
         <div>
             <h2>Creating shared focus in a rebrand</h2>
             <div class="collaborators">
-            {% include modules/collaborator.html 
-                namme = "Dom" 
-                role = "test role"
-                link = "test.com"
-            %}
-                <div class="collaborator">
-                    <img src="/assets/projects/collaborators/diana.jpg">
-                    <div class="info">
-                        <h6>Diana Potter</h6>
-                        <p>Lead ideation of new toys, managing R&D of all new iniatives.</p>
-                        <button class="link-button {{ page.theme }}" onclick="location.href='linkedin.com'">View profile</button>
-                    </div>
-                </div>
-                <div class="collaborator">
-                    <img src="/assets/site/avatar-test.jpg">
-                    <div class="info">
-                        <h6>Josh Baskin</h6>
-                        <p>Lead ideation of new toys, managing R&D of all new iniatives.</p>
-                        <button class="link-button {{ page.theme }}" onclick="location.href='linkedin.com'">View profile</button>
-                    </div>
-                </div>
-                <div class="collaborator">
-                    <img src="/assets/site/avatar-test.jpg">
-                    <div class="info">
-                        <h6>Josh Baskin</h6>
-                        <p>Lead ideation of new toys, managing R&D of all new iniatives.</p>
-                        <button class="link-button {{ page.theme }}" onclick="location.href='linkedin.com'">View profile</button>
-                    </div>
-                </div>
+                {% include modules/collaborator.html 
+                    name = "Me" 
+                    role = "Creative Director, leading workshops, disovery and explorations of early brand concepts."
+                    link = "https://www.linkedin.com/in/dominicsebastian/"
+                %}
+                {% include modules/collaborator.html 
+                    name = "Chris"
+                    role = "Head of Marketing, helping shape goals of the rebrand, and how it fit into the broader marketing strategy."
+                    link = "https://www.linkedin.com/in/christopherschreiber"
+                %}
+                {% include modules/collaborator.html 
+                    name = "Tania"
+                    role = "Product Marketing Lead, ensuring alignment with GTM messaging, and early concepts for upcoming campaigns."
+                    link = "https://www.tania-maree.com"
+                %}
+                {% include modules/collaborator.html 
+                    name = "Aaron"
+                    role = "Demand Gen, helping understand viability of certain concepts with top of funnel marketing activties."
+                    link = "https://www.linkedin.com/in/aaronbeashel"
+                %}
             </div>
         </div>
         <div>
@@ -99,30 +90,26 @@ Impact — what was the outcome? a shared understanding of what we wanted to foc
         <div>
             <h2>Finding our differentiator</h2>
             <div class="collaborators">
-                <div class="collaborator">
-                    <img src="/assets/site/avatar-test.jpg">
-                    <div class="info">
-                        <h6>Josh Baskin</h6>
-                        <p>Lead ideation of new toys, managing R&D of all new iniatives.</p>
-                        <button class="link-button {{ page.theme }}" onclick="location.href='linkedin.com'">View profile</button>
-                    </div>
-                </div>
-                <div class="collaborator">
-                    <img src="/assets/site/avatar-test.jpg">
-                    <div class="info">
-                        <h6>Josh Baskin</h6>
-                        <p>Lead ideation of new toys, managing R&D of all new iniatives.</p>
-                        <button class="link-button {{ page.theme }}" onclick="location.href='linkedin.com'">View profile</button>
-                    </div>
-                </div>
-                <div class="collaborator">
-                    <img src="/assets/site/avatar-test.jpg">
-                    <div class="info">
-                        <h6>Josh Baskin</h6>
-                        <p>Lead ideation of new toys, managing R&D of all new iniatives.</p>
-                        <button class="link-button {{ page.theme }}" onclick="location.href='linkedin.com'">View profile</button>
-                    </div>
-                </div>
+                {% include modules/collaborator.html 
+                    name = "Me" 
+                    role = "Creative Director, leading explorations, prototyping concepts, and driving internal feedback & alignment."
+                    link = "https://www.linkedin.com/in/dominicsebastian/"
+                %}
+                {% include modules/collaborator.html 
+                    name = "Tania"
+                    role = "Product Marketing Lead, and a key partner in the new brand. Helping develop and refine concepts throughout the process."
+                    link = "https://www.tania-maree.com"
+                %}
+                {% include modules/collaborator.html 
+                    name = "Hamish"
+                    role = "Senior Designer, developed core 3D assets and animations, helping develop and refine all brand concepts."
+                    link = "https://hamishw.com"
+                %}
+                {% include modules/collaborator.html 
+                    name = "Charl"
+                    role = "Designer and artworker, helping build off Hamish's 3D work, and rolling out concepts across touchpoints."
+                    link = "https://www.behance.net/anfieldcha5745/projects"
+                %}
             </div>
         </div>
         <div>
@@ -171,30 +158,21 @@ Through a customer feedback call, we saw accounts in different languages visuall
         <div>
             <h2>Creating assets that empower</h2>
             <div class="collaborators">
-                <div class="collaborator">
-                    <img src="/assets/site/avatar-test.jpg">
-                    <div class="info">
-                        <h6>Josh Baskin</h6>
-                        <p>Lead ideation of new toys, managing R&D of all new iniatives.</p>
-                        <button class="link-button {{ page.theme }}" onclick="location.href='linkedin.com'">View profile</button>
-                    </div>
-                </div>
-                <div class="collaborator">
-                    <img src="/assets/site/avatar-test.jpg">
-                    <div class="info">
-                        <h6>Josh Baskin</h6>
-                        <p>Lead ideation of new toys, managing R&D of all new iniatives.</p>
-                        <button class="link-button {{ page.theme }}" onclick="location.href='linkedin.com'">View profile</button>
-                    </div>
-                </div>
-                <div class="collaborator">
-                    <img src="/assets/site/avatar-test.jpg">
-                    <div class="info">
-                        <h6>Josh Baskin</h6>
-                        <p>Lead ideation of new toys, managing R&D of all new iniatives.</p>
-                        <button class="link-button {{ page.theme }}" onclick="location.href='linkedin.com'">View profile</button>
-                    </div>
-                </div>
+                {% include modules/collaborator.html 
+                    name = "Me" 
+                    role = "Worked with the marketing team to understand what they needed, and created the brand system in Figma, Qwilr and on the marketing site."
+                    link = "https://www.linkedin.com/in/dominicsebastian/"
+                %}
+                {% include modules/collaborator.html 
+                    name = "Tania"
+                    role = "Product Marketing Lead, helped come up with ideas for the library, then road test and iterate it so it was fit for use."
+                    link = "https://www.tania-maree.com"
+                %}
+                {% include modules/collaborator.html 
+                    name = "Hamish"
+                    role = "Build out the library on Kaleidoscope, as well as refining some of the components in Figma and the marketing site."
+                    link = "https://www.hamishw.com"
+                %}
             </div>
         </div>
         <div>

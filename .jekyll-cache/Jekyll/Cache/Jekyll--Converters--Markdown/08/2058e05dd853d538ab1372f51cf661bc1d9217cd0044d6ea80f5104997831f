@@ -1,0 +1,221 @@
+I"�-<section class="bordered">
+    <div class="tiles center">
+        <div>
+            <h2>Creating shared focus in a rebrand</h2>
+            <div class="collaborators">
+                <div class="collaborator">
+    <img src="/assets/projects/collaborators/Me.jpg" />
+    <div class="info">
+        <h6>Me</h6>
+        <p>Creative Director, leading workshops, disovery and explorations of early brand concepts.</p>
+        <button class="link-button dark" onclick="location.href='https://www.linkedin.com/in/dominicsebastian/'">View profile</button>
+    </div>
+</div>
+                <div class="collaborator">
+    <img src="/assets/projects/collaborators/Chris.jpg" />
+    <div class="info">
+        <h6>Chris</h6>
+        <p>Head of Marketing, ensuring early alignment with GTM messaging, and fit for upcoming campaigns.</p>
+        <button class="link-button dark" onclick="location.href='https://www.linkedin.com/in/christopherschreiber'">View profile</button>
+    </div>
+</div>
+                <div class="collaborator">
+    <img src="/assets/projects/collaborators/Tania.jpg" />
+    <div class="info">
+        <h6>Tania</h6>
+        <p>Product Marketing Lead, ensuring early alignment with GTM messaging, and fit for upcoming campaigns.</p>
+        <button class="link-button dark" onclick="location.href='https://www.linkedin.com/in/taniaclarke'">View profile</button>
+    </div>
+</div>
+                <div class="collaborator">
+    <img src="/assets/projects/collaborators/Aaron.jpg" />
+    <div class="info">
+        <h6>Aaron</h6>
+        <p>Demand Gen, ensuring early alignment with GTM messaging, and fit for upcoming campaigns.</p>
+        <button class="link-button dark" onclick="location.href='https://www.linkedin.com/in/aaronbeashel'">View profile</button>
+    </div>
+</div>
+                <div class="collaborator">
+    <img src="/assets/projects/collaborators/Liz.jpg" />
+    <div class="info">
+        <h6>Liz</h6>
+        <p>Senior Marketing Consultant, ensuring early alignment with GTM messaging, and fit for upcoming campaigns.</p>
+        <button class="link-button dark" onclick="location.href='https://www.linkedin.com/in/elizabethobee'">View profile</button>
+    </div>
+</div>
+            </div>
+        </div>
+        <div>
+            <p class="description">The purpose of a Design System varies a lot between different companies. Copying the popular approaches of others is easy and appealing, but without their resources, was a recipe for failure and fatigue. To find our purpose, we had to evolve over a number of years through trial and error. Optimising first for usability, then contribution, and  finally — the fastest way to develop new ideas.</p>
+        </div>
+    </div>
+</section>
+
+<h4 id="challenge">Challenge</h4>
+
+<h3 id="a-sprawling-patchwork">A sprawling patchwork</h3>
+
+<p>To be written…</p>
+
+<section>
+    <div class="gallery">
+        <img class="half" src="/assets/projects/archipelago/example-a.jpg" />
+        <img class="half" src="/assets/projects/archipelago/example-b.jpg" />
+        <img class="half" src="/assets/projects/archipelago/example-c.jpg" />
+        <img class="half" src="/assets/projects/archipelago/example-d.jpg" />
+    </div>
+</section>
+
+<h4 id="approach">Approach</h4>
+
+<h3 id="co-design-workshops">Co-design workshops</h3>
+
+<p>Goal — why was this valuable? we can’t do everything, but there are many different users of the brand internally, help centre, website, satelite sites, mini owners of the brand, project archipelago, but also different perspectives of what makes it good. needed to bring them in to help co-design ideas
+Role — what did I do? ran workshops, loom playbacks, and iterating in public
+Impact — what was the outcome? a shared understanding of what we wanted to focus on</p>
+
+<ul>
+  <li>Enable focus</li>
+  <li>Optimise for flow</li>
+  <li>Match intentions</li>
+  <li>Reward play</li>
+</ul>
+
+<section>
+    <div class="gallery">
+        <img class="half" src="/assets/projects/archipelago/workshop-a.jpg" />
+        <img class="half" src="/assets/projects/archipelago/workshop-b.jpg" />
+        <img class="full" src="/assets/projects/archipelago/workshop-c.jpg" />
+    </div>
+</section>
+
+<section class="bordered">
+        <div class="tiles center">
+        <div>
+            <h2>Finding our differentiator</h2>
+            <div class="collaborators">
+                <div class="collaborator">
+    <img src="/assets/projects/collaborators/Me.jpg" />
+    <div class="info">
+        <h6>Me</h6>
+        <p>Creative Director, leading explorations, prototyping concepts, and driving internal feedback &amp; alignment.</p>
+        <button class="link-button dark" onclick="location.href='https://www.linkedin.com/in/dominicsebastian/'">View profile</button>
+    </div>
+</div>
+                <div class="collaborator">
+    <img src="/assets/projects/collaborators/Tania.jpg" />
+    <div class="info">
+        <h6>Tania</h6>
+        <p>Product Marketing Lead, and a key partner in the new brand. Helping develop and refine concepts throughout the process.</p>
+        <button class="link-button dark" onclick="location.href='https://www.tania-maree.com'">View profile</button>
+    </div>
+</div>
+                <div class="collaborator">
+    <img src="/assets/projects/collaborators/Hamish.jpg" />
+    <div class="info">
+        <h6>Hamish</h6>
+        <p>Senior Designer, developing 3D assets, animations, and helping develop and refine all brand concepts.</p>
+        <button class="link-button dark" onclick="location.href='https://hamishw.com'">View profile</button>
+    </div>
+</div>
+                <div class="collaborator">
+    <img src="/assets/projects/collaborators/Charl.jpg" />
+    <div class="info">
+        <h6>Charl</h6>
+        <p>Designer and artworker, helping build off Hamish's 3D work, and rolling out concepts across touchpoints.</p>
+        <button class="link-button dark" onclick="location.href='https://www.behance.net/anfieldcha5745/projects'">View profile</button>
+    </div>
+</div>
+            </div>
+        </div>
+        <div>
+            <p class="description">While Design Systems need to be abstracted well to be successful, we were finding gaps and unintended consequences of the system when features launched. I wanted to find ways to proactively bring in more internal perspectives, real data, and unplanned use cases to road test our system against the real world. This helped create a more resilient system, and to ship things we’re more confident won’t warp under the pressure of reality.</p>
+        </div>
+    </div>
+</section>
+
+<h3 id="putting-their-brand-first">Putting their brand first</h3>
+
+<p>Components are referenced in designs, in code, help centres and in launch comms, by different perspectives working in different contexts. We wanted to combine these perspectives to find the most intuitive naming, and create a shared language across teams. I worked closely with Janine, engineers and Diana, to define a taxonomy that could scale as the system grew, and ensure everyone was always on the same page, from design to launch.</p>
+
+<section>
+    <div class="gallery">
+        <img class="third" src="/assets/projects/archipelago/brand.jpg" />
+        <img class="twothirds" src="/assets/projects/archipelago/fake-brand.jpg" />
+    </div>
+</section>
+
+<h3 id="emphasizing-interaction">Emphasizing interaction</h3>
+
+<p>We had large blindspots to areas of the product we didn’t use ourselves, and once we had enough of Kaleidoscope live in the product, we needed to feel how these use cases felt to use. I created a ritual called Flow Roulette, that randomised a JTBD archetype and a use case, for the team to run through the (often painful) experience through the lens of that archetype. Creating greater empathy in teams for how it was looking in reality, as well as a good system to pick up low hanging fruit.</p>
+
+<section>
+    <div class="gallery">
+        <img class="half" src="/assets/projects/archipelago/interaction-a.jpg" />
+        <img class="half" src="/assets/projects/archipelago/interaction-b.jpg" />
+        <img class="full" src="/assets/projects/archipelago/interaction-c.jpg" />
+    </div>
+</section>
+
+<h3 id="shared-surfaces">Shared surfaces</h3>
+
+<p>Through a customer feedback call, we saw accounts in different languages visually broke a handful of key components in a way we had never seen. We needed a way to quickly see how things behaved in different languages, at different character lengths, without manually adding them into designs. I roughed out a concept, and Hamish built it out as a plugin, to give as a simple and fast way to “roulette” data into our designs.</p>
+
+<section>
+    <div class="gallery">
+        <img class="full" src="/assets/projects/archipelago/surfaces-a.jpg" />
+        <img class="half" src="/assets/projects/archipelago/surfaces-b.jpg" />
+        <img class="half" src="/assets/projects/archipelago/surfaces-c.jpg" />
+    </div>
+</section>
+
+<section class="bordered">
+        <div class="tiles center">
+        <div>
+            <h2>Creating assets that empower</h2>
+            <div class="collaborators">
+                <div class="collaborator">
+                    <img src="/assets/site/avatar-test.jpg" />
+                    <div class="info">
+                        <h6>Josh Baskin</h6>
+                        <p>Lead ideation of new toys, managing R&amp;D of all new iniatives.</p>
+                        <button class="link-button dark" onclick="location.href='linkedin.com'">View profile</button>
+                    </div>
+                </div>
+                <div class="collaborator">
+                    <img src="/assets/site/avatar-test.jpg" />
+                    <div class="info">
+                        <h6>Josh Baskin</h6>
+                        <p>Lead ideation of new toys, managing R&amp;D of all new iniatives.</p>
+                        <button class="link-button dark" onclick="location.href='linkedin.com'">View profile</button>
+                    </div>
+                </div>
+                <div class="collaborator">
+                    <img src="/assets/site/avatar-test.jpg" />
+                    <div class="info">
+                        <h6>Josh Baskin</h6>
+                        <p>Lead ideation of new toys, managing R&amp;D of all new iniatives.</p>
+                        <button class="link-button dark" onclick="location.href='linkedin.com'">View profile</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div>
+            <p class="description">Once all is said and done, the strength of a rebrand lies with how easy it is to use by others without it looking shit. wanted to create a system in figma that helped across the brand suite — wireframes, avatar components, devices etc.</p>
+        </div>
+    </div>
+</section>
+
+<h3 id="wireframing-to-launch">Wireframing to launch</h3>
+
+<p>Qwilr is full of complex interactive challenges. To have real confidence in the experiences we designed, we needed to feel them in use, beyond static Figma mockups. To alleviate this bottleneck, and leverage the hard work the team had invested into Kaleidoscope, I defined a new north star to refocus our efforts. Optimising for teams to prototype and play with new ideas quickly, across Design and Engineering.</p>
+
+<section>
+    <div class="gallery">
+        <img class="twothirds" src="/assets/projects/archipelago/book.jpg" />
+        <img class="third" src="/assets/projects/archipelago/wireframe.jpg" />
+        <img class="third" src="/assets/projects/archipelago/guides.jpg" />
+        <img class="twothirds" src="/assets/projects/archipelago/library.jpg" />
+    </div>
+</section>
+:ET

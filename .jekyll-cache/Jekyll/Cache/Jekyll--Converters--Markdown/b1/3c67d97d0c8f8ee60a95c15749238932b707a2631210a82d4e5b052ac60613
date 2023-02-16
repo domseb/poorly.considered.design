@@ -1,0 +1,29 @@
+I"ù<section class="bordered">
+    <div class="tiles center">
+        <div>
+            <h2>Creating shared focus in a rebrand</h2>
+            <div class="collaborators">
+                <div class="collaborator">
+    <img src="/assets/projects/collaborators/.jpg" />
+    <div class="info">
+        <h6></h6>
+        <p>Creative Director, leading workshops and design explorations</p>
+        <button class="link-button dark" onclick="location.href='https://www.linkedin.com/in/dominicsebastian/'">View profile</button>
+    </div>
+</div>
+                <div class="collaborator">
+    <img src="/assets/projects/collaborators/.jpg" />
+    <div class="info">
+        <h6></h6>
+        <p>Head of Marketing, partnering on messaging and brand concept development</p>
+        <button class="link-button dark" onclick="location.href='https://www.linkedin.com/in/christopherschreiber'">View profile</button>
+    </div>
+</div>
+            </div>
+        </div>
+        <div>
+            <p class="description">The purpose of a Design System varies a lot between different companies. Copying the popular approaches of others is easy and appealing, but without their resources, was a recipe for failure and fatigue. To find our purpose, we had to evolve over a number of years through trial and error. Optimising first for usability, then contribution, and  finally ‚Äî the fastest way to develop new ideas.</p>
+        </div>
+    </div>
+</section>
+:ET
