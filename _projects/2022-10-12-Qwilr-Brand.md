@@ -21,8 +21,13 @@ image: /assets/projects/archipelago/archipelago.jpg
         <div>
             <h2>Creating shared focus in a rebrand</h2>
             <div class="collaborators">
+            {% include modules/collaborator.html 
+                namme = "Dom" 
+                role = "test role"
+                link = "test.com"
+            %}
                 <div class="collaborator">
-                    <img src="/assets/projects/collaborators/diana.jpeg">
+                    <img src="/assets/projects/collaborators/diana.jpg">
                     <div class="info">
                         <h6>Diana Potter</h6>
                         <p>Lead ideation of new toys, managing R&D of all new iniatives.</p>
