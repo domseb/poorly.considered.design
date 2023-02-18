@@ -25,30 +25,26 @@ I enjoyed a broad remit as VP of Design at Qwilr, helping shape many aspects of 
         <div>
             <h2>Foundations for collaboration</h2>
             <div class="collaborators">
-                <div class="collaborator">
-                    <img src="/assets/site/avatar-test.jpg">
-                    <div class="info">
-                        <h6>Josh Baskin</h6>
-                        <p>Lead ideation of new toys, managing R&D of all new iniatives.</p>
-                        <button class="link-button {{ page.theme }}" onclick="location.href='linkedin.com'">View profile</button>
-                    </div>
-                </div>
-                <div class="collaborator">
-                    <img src="/assets/site/avatar-test.jpg">
-                    <div class="info">
-                        <h6>Josh Baskin</h6>
-                        <p>Lead ideation of new toys, managing R&D of all new iniatives.</p>
-                        <button class="link-button {{ page.theme }}" onclick="location.href='linkedin.com'">View profile</button>
-                    </div>
-                </div>
-                <div class="collaborator">
-                    <img src="/assets/site/avatar-test.jpg">
-                    <div class="info">
-                        <h6>Josh Baskin</h6>
-                        <p>Lead ideation of new toys, managing R&D of all new iniatives.</p>
-                        <button class="link-button {{ page.theme }}" onclick="location.href='linkedin.com'">View profile</button>
-                    </div>
-                </div>
+                {% include modules/collaborator.html 
+                    name = "Me"
+                    role = "Demand Gen, helping understand viability of certain concepts with top of funnel marketing activties."
+                    link = "https://www.linkedin.com/in/aaronbeashel"
+                %}
+                {% include modules/collaborator.html 
+                    name = "Dylan"
+                    role = "Product Marketing Lead, ensuring alignment with GTM messaging, and early concepts for upcoming campaigns."
+                    link = "https://www.tania-maree.com"
+                %}
+                {% include modules/collaborator.html 
+                    name = "Ben"
+                    role = "Demand Gen, helping understand viability of certain concepts with top of funnel marketing activties."
+                    link = "https://www.linkedin.com/in/aaronbeashel"
+                %}
+                {% include modules/collaborator.html 
+                    name = "Diana"
+                    role = "Demand Gen, helping understand viability of certain concepts with top of funnel marketing activties."
+                    link = "https://www.linkedin.com/in/aaronbeashel"
+                %}
             </div>
         </div>
         <div>
@@ -91,30 +87,26 @@ Impact — what was the outcome? a shared understanding of what we wanted to foc
         <div>
             <h2>Creating a culture of excellence</h2>
             <div class="collaborators">
-                <div class="collaborator">
-                    <img src="/assets/site/avatar-test.jpg">
-                    <div class="info">
-                        <h6>Josh Baskin</h6>
-                        <p>Lead ideation of new toys, managing R&D of all new iniatives.</p>
-                        <button class="link-button {{ page.theme }}" onclick="location.href='linkedin.com'">View profile</button>
-                    </div>
-                </div>
-                <div class="collaborator">
-                    <img src="/assets/site/avatar-test.jpg">
-                    <div class="info">
-                        <h6>Josh Baskin</h6>
-                        <p>Lead ideation of new toys, managing R&D of all new iniatives.</p>
-                        <button class="link-button {{ page.theme }}" onclick="location.href='linkedin.com'">View profile</button>
-                    </div>
-                </div>
-                <div class="collaborator">
-                    <img src="/assets/site/avatar-test.jpg">
-                    <div class="info">
-                        <h6>Josh Baskin</h6>
-                        <p>Lead ideation of new toys, managing R&D of all new iniatives.</p>
-                        <button class="link-button {{ page.theme }}" onclick="location.href='linkedin.com'">View profile</button>
-                    </div>
-                </div>
+                {% include modules/collaborator.html 
+                    name = "Me"
+                    role = "Demand Gen, helping understand viability of certain concepts with top of funnel marketing activties."
+                    link = "https://www.linkedin.com/in/aaronbeashel"
+                %}
+                {% include modules/collaborator.html 
+                    name = "Annie"
+                    role = "Product Marketing Lead, ensuring alignment with GTM messaging, and early concepts for upcoming campaigns."
+                    link = "https://www.tania-maree.com"
+                %}
+                {% include modules/collaborator.html 
+                    name = "Hamish"
+                    role = "Demand Gen, helping understand viability of certain concepts with top of funnel marketing activties."
+                    link = "https://www.linkedin.com/in/aaronbeashel"
+                %}
+                {% include modules/collaborator.html 
+                    name = "Teams"
+                    role = "Demand Gen, helping understand viability of certain concepts with top of funnel marketing activties."
+                    link = "https://www.linkedin.com/in/aaronbeashel"
+                %}
             </div>
         </div>
         <div>
@@ -164,30 +156,31 @@ Through a customer feedback call, we saw accounts in different languages visuall
         <div>
             <h2>Shaping a living, evolving strategy</h2>
             <div class="collaborators">
-                <div class="collaborator">
-                    <img src="/assets/site/avatar-test.jpg">
-                    <div class="info">
-                        <h6>Josh Baskin</h6>
-                        <p>Lead ideation of new toys, managing R&D of all new iniatives.</p>
-                        <button class="link-button {{ page.theme }}" onclick="location.href='linkedin.com'">View profile</button>
-                    </div>
-                </div>
-                <div class="collaborator">
-                    <img src="/assets/site/avatar-test.jpg">
-                    <div class="info">
-                        <h6>Josh Baskin</h6>
-                        <p>Lead ideation of new toys, managing R&D of all new iniatives.</p>
-                        <button class="link-button {{ page.theme }}" onclick="location.href='linkedin.com'">View profile</button>
-                    </div>
-                </div>
-                <div class="collaborator">
-                    <img src="/assets/site/avatar-test.jpg">
-                    <div class="info">
-                        <h6>Josh Baskin</h6>
-                        <p>Lead ideation of new toys, managing R&D of all new iniatives.</p>
-                        <button class="link-button {{ page.theme }}" onclick="location.href='linkedin.com'">View profile</button>
-                    </div>
-                </div>
+                {% include modules/collaborator.html 
+                    name = "Me"
+                    role = "Demand Gen, helping understand viability of certain concepts with top of funnel marketing activties."
+                    link = "https://www.linkedin.com/in/aaronbeashel"
+                %}
+                {% include modules/collaborator.html 
+                    name = "Dylan"
+                    role = "Product Marketing Lead, ensuring alignment with GTM messaging, and early concepts for upcoming campaigns."
+                    link = "https://www.tania-maree.com"
+                %}
+                {% include modules/collaborator.html 
+                    name = "Hamish"
+                    role = "Demand Gen, helping understand viability of certain concepts with top of funnel marketing activties."
+                    link = "https://www.linkedin.com/in/aaronbeashel"
+                %}
+                {% include modules/collaborator.html 
+                    name = "Ben M"
+                    role = "CTO. Gen, helping understand viability of certain concepts with top of funnel marketing activties."
+                    link = "https://www.linkedin.com/in/bdmackie"
+                %}
+                {% include modules/collaborator.html 
+                    name = "Leo"
+                    role = "Demand Gen, helping understand viability of certain concepts with top of funnel marketing activties."
+                    link = "https://www.linkedin.com/in/leobalan"
+                %}
             </div>
         </div>
         <div>

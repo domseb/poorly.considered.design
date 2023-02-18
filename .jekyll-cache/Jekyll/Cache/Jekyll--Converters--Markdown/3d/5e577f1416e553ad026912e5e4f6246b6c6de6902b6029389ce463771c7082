@@ -1,120 +1,4 @@
-<!DOCTYPE html>
-
-<html>
-  <head>
-  <meta charset="utf-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <meta name="theme-color" content="#00021A" />
-  <title>
-    Kaleidoscope
-  </title>
-  <meta
-    name="description"
-    content="Brick by brick"
-  />
-  <!-- 
-  
-  <figure>
-   -->
-  <!-- Facebook OG data for homepage -->
-  <meta property="og:type" content="website" />
-  <meta property="og:url" content="http://considered.design" />
-  <meta
-    property="og:image"
-    content="http://considered.design/assets/site/opengraph.jpg"
-  />
-
-  <!-- Twitter OG data for homepage -->
-  <meta name="twitter:card" content="summary_large_image" />
-  <meta name="twitter:domain" value="considered.design" />
-  <meta name="twitter:title" value="Considered Design" />
-  <meta
-    name="twitter:description"
-    value="I like solving interesting problems, for things that matter. Product designer. London, Rio, now Sydney."
-  />
-  <meta
-    name="twitter:image"
-    content="http://considered.design/assets/site/opengraph.jpg"
-  />
-  <meta name="twitter:url" value="http://considered.design" />
-
-  <link rel="stylesheet" href="https://use.typekit.net/bgh8ugb.css" />
-  <link rel="apple-touch-icon" sizes="57x57" href="/assets/favicons/apple-icon-57x57.png">
-<link rel="apple-touch-icon" sizes="60x60" href="/assets/favicons/apple-icon-60x60.png">
-<link rel="apple-touch-icon" sizes="72x72" href="/assets/favicons/apple-icon-72x72.png">
-<link rel="apple-touch-icon" sizes="76x76" href="/assets/favicons/apple-icon-76x76.png">
-<link rel="apple-touch-icon" sizes="114x114" href="/assets/favicons/apple-icon-114x114.png">
-<link rel="apple-touch-icon" sizes="120x120" href="/assets/favicons/apple-icon-120x120.png">
-<link rel="apple-touch-icon" sizes="144x144" href="/assets/favicons/apple-icon-144x144.png">
-<link rel="apple-touch-icon" sizes="152x152" href="/assets/favicons/apple-icon-152x152.png">
-<link rel="apple-touch-icon" sizes="180x180" href="/assets/favicons/apple-icon-180x180.png">
-<link rel="icon" type="image/png" sizes="192x192"  href="/assets/favicons/android-icon-192x192.png">
-<link rel="icon" type="image/png" sizes="32x32" href="/assets/favicons/favicon-32x32.png">
-<link rel="icon" type="image/png" sizes="96x96" href="/assets/favicons/favicon-96x96.png">
-<link rel="icon" type="image/png" sizes="16x16" href="/assets/favicons/favicon-16x16.png">
-<link rel="manifest" href="/assets/favicons/manifest.json">
-<meta name="msapplication-TileColor" content="#ffffff">
-<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
-<meta name="theme-color" content="#ffffff">
- <link rel="stylesheet" href="/css/main.css">
-  <link
-    rel="canonical"
-    href="http://localhost:4000/work/qwilr-kaleidoscope/"
-  />
-  <link rel="alternate" type="application/rss+xml" title="Considered Design"
-  href="http://localhost:4000/feed.xml" />
-</head>
- <nav>
-  <div class="items">
-    <p >
-      <a class="fade-in-up-1 logo-a" href="/">Considered Design</a>
-      <a class="fade-in-up-1 logo-b" href="/">CD</a>
-    </p>
-     
-    <p class="active fade-in-up-2">
-      <a href="/work/">Work</a><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" viewBox="0 0 24 24">
-  <path d="M10.61 6 15 11.328v.344L10.61 17 9 16.02l3.636-4.533L9 6.954 10.61 6Z"/>
-</svg>
-<a href="/chapters/qwilr/">Qwilr</a>
-    </p>
-    
-    <p >
-      <a class="fade-in-up-3" href="/blog/">Writing</a>
-    </p>
-    <!-- <p >
-      <a class="fade-in-up-4" href="/profile/">Profile</a>
-    </p> -->
-  </div>
-  <div class="cta">
-    <svg class="pulse" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" viewBox="0 0 24 24">
-  <circle cx="12" cy="12" r="8"/>
-</svg>
-
-    <p>Available for new projects</p>
-    <p class="icon-button" onclick="location.href='mailto:dominic@considered.design'"
-    ><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" viewBox="0 0 24 24">
-  <path fill-rule="evenodd" d="m12 .596 9.219 6.146A4 4 0 0 1 23 10.07V19a4 4 0 0 1-4 4H5a4 4 0 0 1-4-4v-8.93a4 4 0 0 1 1.781-3.328L12 .596Zm-8.11 7.81L12 3l8.11 5.406A2 2 0 0 1 21 10.07V19a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-8.93a2 2 0 0 1 .89-1.664Z" clip-rule="evenodd"/>
-  <path fill-rule="evenodd" d="M4.593 9.71a.5.5 0 0 1 .698-.117L12 14.386l6.71-4.793a.5.5 0 1 1 .58.814L12 15.614l-7.29-5.207a.5.5 0 0 1-.117-.698Z" clip-rule="evenodd"/>
-</svg>
-</p>
-    <!-- <div class="tooltip">
-      <h6>Email</h6>
-      <p>dominic@considered.design</p>
-      <button class="link-button dark" onclick="location.href='linkedin.com'">Open in Mail</button>
-  </div>-->
-  </div>
-</nav>
-  <body class="dark">
-    <div><!-- <div class="banner"> -->
-  <section class="header project centered">
-    <h4>2022 </h4>
-    <h1>Kaleidoscope</h1>
-    <p class="description">Leading the co-design of a cross-functional design systems</p>
-  </section>
-<!-- </div> -->
-<img class="hero-image" src="/assets/projects/kaleidoscope/Kaleidoscope.jpg" />
-<article><h3 id="brick-by-brick">Brick by brick</h3>
+I"o5<h3 id="brick-by-brick">Brick by brick</h3>
 
 <p>I started the first version of Qwilr’s Design System, Kaleidoscope, in the first year of joining the company. Leading a small, informal team of ambassadors, we found our north star, and created something much more than just a component library. Becoming a cornerstone of how we designed, collaborated, and experimented with new ideas together.</p>
 
@@ -287,45 +171,29 @@
             <h2>Learning loops and reflections</h2>
             <div class="collaborators">
                 <div class="collaborator">
-    <img src="/assets/projects/collaborators/Me.jpg" />
-    <div class="info">
-        <h6>Me</h6>
-        <p>Demand Gen, helping understand viability of certain concepts with top of funnel marketing activties.</p>
-        <button class="link-button dark" onclick="location.href='https://www.linkedin.com/in/aaronbeashel'">View profile</button>
-    </div>
-</div>
+                    <img src="/assets/site/avatar-test.jpg" />
+                    <div class="info">
+                        <h6>Josh Baskin</h6>
+                        <p>Lead ideation of new toys, managing R&amp;D of all new iniatives.</p>
+                        <button class="link-button dark" onclick="location.href='linkedin.com'">View profile</button>
+                    </div>
+                </div>
                 <div class="collaborator">
-    <img src="/assets/projects/collaborators/Hamish.jpg" />
-    <div class="info">
-        <h6>Hamish</h6>
-        <p>Product Marketing Lead, ensuring alignment with GTM messaging, and early concepts for upcoming campaigns.</p>
-        <button class="link-button dark" onclick="location.href='https://www.tania-maree.com'">View profile</button>
-    </div>
-</div>
+                    <img src="/assets/site/avatar-test.jpg" />
+                    <div class="info">
+                        <h6>Josh Baskin</h6>
+                        <p>Lead ideation of new toys, managing R&amp;D of all new iniatives.</p>
+                        <button class="link-button dark" onclick="location.href='linkedin.com'">View profile</button>
+                    </div>
+                </div>
                 <div class="collaborator">
-    <img src="/assets/projects/collaborators/Mitch.jpg" />
-    <div class="info">
-        <h6>Mitch</h6>
-        <p>Demand Gen, helping understand viability of certain concepts with top of funnel marketing activties.</p>
-        <button class="link-button dark" onclick="location.href='https://www.linkedin.com/in/aaronbeashel'">View profile</button>
-    </div>
-</div>
-                <div class="collaborator">
-    <img src="/assets/projects/collaborators/Sarah.jpg" />
-    <div class="info">
-        <h6>Sarah</h6>
-        <p>Demand Gen, helping understand viability of certain concepts with top of funnel marketing activties.</p>
-        <button class="link-button dark" onclick="location.href='https://www.linkedin.com/in/aaronbeashel'">View profile</button>
-    </div>
-</div>
-                <div class="collaborator">
-    <img src="/assets/projects/collaborators/Drew.jpg" />
-    <div class="info">
-        <h6>Drew</h6>
-        <p>Demand Gen, helping understand viability of certain concepts with top of funnel marketing activties.</p>
-        <button class="link-button dark" onclick="location.href='https://www.linkedin.com/in/aaronbeashel'">View profile</button>
-    </div>
-</div>
+                    <img src="/assets/site/avatar-test.jpg" />
+                    <div class="info">
+                        <h6>Josh Baskin</h6>
+                        <p>Lead ideation of new toys, managing R&amp;D of all new iniatives.</p>
+                        <button class="link-button dark" onclick="location.href='linkedin.com'">View profile</button>
+                    </div>
+                </div>
             </div>
         </div>
         <div>
@@ -355,26 +223,4 @@
   <li>Learn from that are under similar constraints to your org</li>
   <li>Be patient, it’s arduous (and often tedious) work</li>
 </ul>
-</article>
-</div>
-    <div class="footer">
-  <div>
-    <div>
-      <a href="https://www.youtube.com/watch?v=9tXVK7fh-kI"
-        >© Always and forever <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" viewBox="0 0 24 24">
-  <path fill-rule="evenodd" d="M21 6 8 2v12.016C7.267 13.393 6.195 13 5 13c-2.21 0-4 1.343-4 3s1.79 3 4 3 4-1.343 4-3V6.308l11 3.384v8.324C19.267 17.393 18.195 17 17 17c-2.21 0-4 1.343-4 3s1.79 3 4 3 4-1.343 4-3V6Z" clip-rule="evenodd"/>
-</svg>
-</a
-      >
-      <p>Designed, written and carefully built, by Dominic Sebastian</p>
-    </div>
-    <div class="socials">
-      <a href="https://www.linkedin.com/in/dominicsebastian/?originalSubdomain=au"><h5>Linkedin</h5></a>
-      <a href="https://twitter.com/dominosebastian"><h5>Twitter</h5></a>
-      <a href="mailto:dominic@considered.design"><h5>Email</h5></a>
-    </div>
-  </div>
-</div>
-
-  </body>
-</html>
+:ET

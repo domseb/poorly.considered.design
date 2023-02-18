@@ -25,30 +25,36 @@ I started the first version of Qwilr’s Design System, Kaleidoscope, in the fir
         <div>
             <h2>Finding a true north star</h2>
             <div class="collaborators">
-                <div class="collaborator">
-                    <img src="/assets/site/avatar-test.jpg">
-                    <div class="info">
-                        <h6>Josh Baskin</h6>
-                        <p>Lead ideation of new toys, managing R&D of all new iniatives.</p>
-                        <button class="link-button {{ page.theme }}" onclick="location.href='linkedin.com'">View profile</button>
-                    </div>
-                </div>
-                <div class="collaborator">
-                    <img src="/assets/site/avatar-test.jpg">
-                    <div class="info">
-                        <h6>Josh Baskin</h6>
-                        <p>Lead ideation of new toys, managing R&D of all new iniatives.</p>
-                        <button class="link-button {{ page.theme }}" onclick="location.href='linkedin.com'">View profile</button>
-                    </div>
-                </div>
-                <div class="collaborator">
-                    <img src="/assets/site/avatar-test.jpg">
-                    <div class="info">
-                        <h6>Josh Baskin</h6>
-                        <p>Lead ideation of new toys, managing R&D of all new iniatives.</p>
-                        <button class="link-button {{ page.theme }}" onclick="location.href='linkedin.com'">View profile</button>
-                    </div>
-                </div>
+                {% include modules/collaborator.html 
+                    name = "Me" 
+                    role = "Creative Director, leading workshops, disovery and explorations of early brand concepts."
+                    link = "https://www.linkedin.com/in/dominicsebastian/"
+                %}
+                {% include modules/collaborator.html 
+                    name = "Janine"
+                    role = "Head of Marketing, helping shape goals of the rebrand, and how it fit into the broader marketing strategy."
+                    link = "https://www.linkedin.com/in/christopherschreiber"
+                %}
+                {% include modules/collaborator.html 
+                    name = "Mike"
+                    role = "Product Marketing Lead, ensuring alignment with GTM messaging, and early concepts for upcoming campaigns."
+                    link = "https://www.tania-maree.com"
+                %}
+                {% include modules/collaborator.html 
+                    name = "Yundi"
+                    role = "Demand Gen, helping understand viability of certain concepts with top of funnel marketing activties."
+                    link = "https://www.linkedin.com/in/aaronbeashel"
+                %}
+                {% include modules/collaborator.html 
+                    name = "Mitch"
+                    role = "Product Marketing Lead, ensuring alignment with GTM messaging, and early concepts for upcoming campaigns."
+                    link = "https://www.tania-maree.com"
+                %}
+                {% include modules/collaborator.html 
+                    name = "Hamish"
+                    role = "Demand Gen, helping understand viability of certain concepts with top of funnel marketing activties."
+                    link = "https://www.linkedin.com/in/aaronbeashel"
+                %}
             </div>
         </div>
         <div>
@@ -107,30 +113,26 @@ Qwilr is full of complex interactive challenges. To have real confidence in the 
         <div>
             <h2>Balancing biases and blindspots</h2>
             <div class="collaborators">
-                <div class="collaborator">
-                    <img src="/assets/site/avatar-test.jpg">
-                    <div class="info">
-                        <h6>Josh Baskin</h6>
-                        <p>Lead ideation of new toys, managing R&D of all new iniatives.</p>
-                        <button class="link-button {{ page.theme }}" onclick="location.href='linkedin.com'">View profile</button>
-                    </div>
-                </div>
-                <div class="collaborator">
-                    <img src="/assets/site/avatar-test.jpg">
-                    <div class="info">
-                        <h6>Josh Baskin</h6>
-                        <p>Lead ideation of new toys, managing R&D of all new iniatives.</p>
-                        <button class="link-button {{ page.theme }}" onclick="location.href='linkedin.com'">View profile</button>
-                    </div>
-                </div>
-                <div class="collaborator">
-                    <img src="/assets/site/avatar-test.jpg">
-                    <div class="info">
-                        <h6>Josh Baskin</h6>
-                        <p>Lead ideation of new toys, managing R&D of all new iniatives.</p>
-                        <button class="link-button {{ page.theme }}" onclick="location.href='linkedin.com'">View profile</button>
-                    </div>
-                </div>
+                {% include modules/collaborator.html 
+                    name = "Me"
+                    role = "Demand Gen, helping understand viability of certain concepts with top of funnel marketing activties."
+                    link = "https://www.linkedin.com/in/aaronbeashel"
+                %}
+                {% include modules/collaborator.html 
+                    name = "Janine"
+                    role = "Product Marketing Lead, ensuring alignment with GTM messaging, and early concepts for upcoming campaigns."
+                    link = "https://www.tania-maree.com"
+                %}
+                {% include modules/collaborator.html 
+                    name = "Hamish"
+                    role = "Demand Gen, helping understand viability of certain concepts with top of funnel marketing activties."
+                    link = "https://www.linkedin.com/in/aaronbeashel"
+                %}
+                {% include modules/collaborator.html 
+                    name = "Annie"
+                    role = "Demand Gen, helping understand viability of certain concepts with top of funnel marketing activties."
+                    link = "https://www.linkedin.com/in/aaronbeashel"
+                %}
             </div>
         </div>
         <div>
@@ -156,30 +158,31 @@ Through a customer feedback call, we saw accounts in different languages visuall
         <div>
             <h2>Learning loops and reflections</h2>
             <div class="collaborators">
-                <div class="collaborator">
-                    <img src="/assets/site/avatar-test.jpg">
-                    <div class="info">
-                        <h6>Josh Baskin</h6>
-                        <p>Lead ideation of new toys, managing R&D of all new iniatives.</p>
-                        <button class="link-button {{ page.theme }}" onclick="location.href='linkedin.com'">View profile</button>
-                    </div>
-                </div>
-                <div class="collaborator">
-                    <img src="/assets/site/avatar-test.jpg">
-                    <div class="info">
-                        <h6>Josh Baskin</h6>
-                        <p>Lead ideation of new toys, managing R&D of all new iniatives.</p>
-                        <button class="link-button {{ page.theme }}" onclick="location.href='linkedin.com'">View profile</button>
-                    </div>
-                </div>
-                <div class="collaborator">
-                    <img src="/assets/site/avatar-test.jpg">
-                    <div class="info">
-                        <h6>Josh Baskin</h6>
-                        <p>Lead ideation of new toys, managing R&D of all new iniatives.</p>
-                        <button class="link-button {{ page.theme }}" onclick="location.href='linkedin.com'">View profile</button>
-                    </div>
-                </div>
+                {% include modules/collaborator.html 
+                    name = "Me"
+                    role = "Demand Gen, helping understand viability of certain concepts with top of funnel marketing activties."
+                    link = "https://www.linkedin.com/in/aaronbeashel"
+                %}
+                {% include modules/collaborator.html 
+                    name = "Hamish"
+                    role = "Product Marketing Lead, ensuring alignment with GTM messaging, and early concepts for upcoming campaigns."
+                    link = "https://www.tania-maree.com"
+                %}
+                {% include modules/collaborator.html 
+                    name = "Mitch"
+                    role = "Demand Gen, helping understand viability of certain concepts with top of funnel marketing activties."
+                    link = "https://www.linkedin.com/in/aaronbeashel"
+                %}
+                {% include modules/collaborator.html 
+                    name = "Sarah"
+                    role = "Demand Gen, helping understand viability of certain concepts with top of funnel marketing activties."
+                    link = "https://www.linkedin.com/in/aaronbeashel"
+                %}
+                {% include modules/collaborator.html 
+                    name = "Drew"
+                    role = "Demand Gen, helping understand viability of certain concepts with top of funnel marketing activties."
+                    link = "https://www.linkedin.com/in/aaronbeashel"
+                %}
             </div>
         </div>
         <div>
