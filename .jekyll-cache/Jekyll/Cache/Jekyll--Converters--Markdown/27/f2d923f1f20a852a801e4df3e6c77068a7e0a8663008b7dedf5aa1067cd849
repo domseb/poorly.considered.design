@@ -1,4 +1,4 @@
-I"^4<h3 id="brick-by-brick">Brick by brick</h3>
+I"68<h3 id="brick-by-brick">Brick by brick</h3>
 
 <p>I started the first version of Qwilr’s Design System, Kaleidoscope, in the first year of joining the company. Leading a small, informal team of ambassadors, we found our north star, and created something much more than just a component library. Becoming a cornerstone of how we designed, collaborated, and experimented with new ideas together.</p>
 
@@ -8,7 +8,7 @@
             <h2>Finding a true north star</h2>
             <div class="collaborators">
                 <div class="collaborator">
-    <img src="/assets/projects/collaborators/Me.jpg" />
+    <img src="../assets/projects/collaborators/Me.jpg" />
     <div class="info">
         <h6>Me</h6>
         <p>Creative Director, leading workshops, disovery and explorations of early brand concepts.</p>
@@ -16,7 +16,7 @@
     </div>
 </div>
                 <div class="collaborator">
-    <img src="/assets/projects/collaborators/Janine.jpg" />
+    <img src="../assets/projects/collaborators/Janine.jpg" />
     <div class="info">
         <h6>Janine</h6>
         <p>Head of Marketing, helping shape goals of the rebrand, and how it fit into the broader marketing strategy.</p>
@@ -24,7 +24,7 @@
     </div>
 </div>
                 <div class="collaborator">
-    <img src="/assets/projects/collaborators/Mike.jpg" />
+    <img src="../assets/projects/collaborators/Mike.jpg" />
     <div class="info">
         <h6>Mike</h6>
         <p>Product Marketing Lead, ensuring alignment with GTM messaging, and early concepts for upcoming campaigns.</p>
@@ -32,7 +32,7 @@
     </div>
 </div>
                 <div class="collaborator">
-    <img src="/assets/projects/collaborators/Yundi.jpg" />
+    <img src="../assets/projects/collaborators/Yundi.jpg" />
     <div class="info">
         <h6>Yundi</h6>
         <p>Demand Gen, helping understand viability of certain concepts with top of funnel marketing activties.</p>
@@ -40,7 +40,7 @@
     </div>
 </div>
                 <div class="collaborator">
-    <img src="/assets/projects/collaborators/Mitch.jpg" />
+    <img src="../assets/projects/collaborators/Mitch.jpg" />
     <div class="info">
         <h6>Mitch</h6>
         <p>Product Marketing Lead, ensuring alignment with GTM messaging, and early concepts for upcoming campaigns.</p>
@@ -48,7 +48,7 @@
     </div>
 </div>
                 <div class="collaborator">
-    <img src="/assets/projects/collaborators/Hamish.jpg" />
+    <img src="../assets/projects/collaborators/Hamish.jpg" />
     <div class="info">
         <h6>Hamish</h6>
         <p>Demand Gen, helping understand viability of certain concepts with top of funnel marketing activties.</p>
@@ -114,29 +114,37 @@
             <h2>Balancing biases and blindspots</h2>
             <div class="collaborators">
                 <div class="collaborator">
-                    <img src="/assets/site/avatar-test.jpg" />
-                    <div class="info">
-                        <h6>Josh Baskin</h6>
-                        <p>Lead ideation of new toys, managing R&amp;D of all new iniatives.</p>
-                        <button class="link-button dark" onclick="location.href='linkedin.com'">View profile</button>
-                    </div>
-                </div>
+    <img src="../assets/projects/collaborators/Me.jpg" />
+    <div class="info">
+        <h6>Me</h6>
+        <p>Demand Gen, helping understand viability of certain concepts with top of funnel marketing activties.</p>
+        <button class="link-button dark" onclick="location.href='https://www.linkedin.com/in/aaronbeashel'">View profile</button>
+    </div>
+</div>
                 <div class="collaborator">
-                    <img src="/assets/site/avatar-test.jpg" />
-                    <div class="info">
-                        <h6>Josh Baskin</h6>
-                        <p>Lead ideation of new toys, managing R&amp;D of all new iniatives.</p>
-                        <button class="link-button dark" onclick="location.href='linkedin.com'">View profile</button>
-                    </div>
-                </div>
+    <img src="../assets/projects/collaborators/Janine.jpg" />
+    <div class="info">
+        <h6>Janine</h6>
+        <p>Product Marketing Lead, ensuring alignment with GTM messaging, and early concepts for upcoming campaigns.</p>
+        <button class="link-button dark" onclick="location.href='https://www.tania-maree.com'">View profile</button>
+    </div>
+</div>
                 <div class="collaborator">
-                    <img src="/assets/site/avatar-test.jpg" />
-                    <div class="info">
-                        <h6>Josh Baskin</h6>
-                        <p>Lead ideation of new toys, managing R&amp;D of all new iniatives.</p>
-                        <button class="link-button dark" onclick="location.href='linkedin.com'">View profile</button>
-                    </div>
-                </div>
+    <img src="../assets/projects/collaborators/Hamish.jpg" />
+    <div class="info">
+        <h6>Hamish</h6>
+        <p>Demand Gen, helping understand viability of certain concepts with top of funnel marketing activties.</p>
+        <button class="link-button dark" onclick="location.href='https://www.linkedin.com/in/aaronbeashel'">View profile</button>
+    </div>
+</div>
+                <div class="collaborator">
+    <img src="../assets/projects/collaborators/Annie.jpg" />
+    <div class="info">
+        <h6>Annie</h6>
+        <p>Demand Gen, helping understand viability of certain concepts with top of funnel marketing activties.</p>
+        <button class="link-button dark" onclick="location.href='https://www.linkedin.com/in/aaronbeashel'">View profile</button>
+    </div>
+</div>
             </div>
         </div>
         <div>
@@ -163,29 +171,45 @@
             <h2>Learning loops and reflections</h2>
             <div class="collaborators">
                 <div class="collaborator">
-                    <img src="/assets/site/avatar-test.jpg" />
-                    <div class="info">
-                        <h6>Josh Baskin</h6>
-                        <p>Lead ideation of new toys, managing R&amp;D of all new iniatives.</p>
-                        <button class="link-button dark" onclick="location.href='linkedin.com'">View profile</button>
-                    </div>
-                </div>
+    <img src="../assets/projects/collaborators/Me.jpg" />
+    <div class="info">
+        <h6>Me</h6>
+        <p>Demand Gen, helping understand viability of certain concepts with top of funnel marketing activties.</p>
+        <button class="link-button dark" onclick="location.href='https://www.linkedin.com/in/aaronbeashel'">View profile</button>
+    </div>
+</div>
                 <div class="collaborator">
-                    <img src="/assets/site/avatar-test.jpg" />
-                    <div class="info">
-                        <h6>Josh Baskin</h6>
-                        <p>Lead ideation of new toys, managing R&amp;D of all new iniatives.</p>
-                        <button class="link-button dark" onclick="location.href='linkedin.com'">View profile</button>
-                    </div>
-                </div>
+    <img src="../assets/projects/collaborators/Hamish.jpg" />
+    <div class="info">
+        <h6>Hamish</h6>
+        <p>Product Marketing Lead, ensuring alignment with GTM messaging, and early concepts for upcoming campaigns.</p>
+        <button class="link-button dark" onclick="location.href='https://www.tania-maree.com'">View profile</button>
+    </div>
+</div>
                 <div class="collaborator">
-                    <img src="/assets/site/avatar-test.jpg" />
-                    <div class="info">
-                        <h6>Josh Baskin</h6>
-                        <p>Lead ideation of new toys, managing R&amp;D of all new iniatives.</p>
-                        <button class="link-button dark" onclick="location.href='linkedin.com'">View profile</button>
-                    </div>
-                </div>
+    <img src="../assets/projects/collaborators/Mitch.jpg" />
+    <div class="info">
+        <h6>Mitch</h6>
+        <p>Demand Gen, helping understand viability of certain concepts with top of funnel marketing activties.</p>
+        <button class="link-button dark" onclick="location.href='https://www.linkedin.com/in/aaronbeashel'">View profile</button>
+    </div>
+</div>
+                <div class="collaborator">
+    <img src="../assets/projects/collaborators/Sarah.jpg" />
+    <div class="info">
+        <h6>Sarah</h6>
+        <p>Demand Gen, helping understand viability of certain concepts with top of funnel marketing activties.</p>
+        <button class="link-button dark" onclick="location.href='https://www.linkedin.com/in/aaronbeashel'">View profile</button>
+    </div>
+</div>
+                <div class="collaborator">
+    <img src="../assets/projects/collaborators/Drew.jpg" />
+    <div class="info">
+        <h6>Drew</h6>
+        <p>Demand Gen, helping understand viability of certain concepts with top of funnel marketing activties.</p>
+        <button class="link-button dark" onclick="location.href='https://www.linkedin.com/in/aaronbeashel'">View profile</button>
+    </div>
+</div>
             </div>
         </div>
         <div>

@@ -1,22 +1,38 @@
-I"2'<section class="bordered">
+I"�+<section class="bordered">
     <div class="tiles center">
         <div>
             <h2>Creating shared focus in a rebrand</h2>
             <div class="collaborators">
                 <div class="collaborator">
-    <img src="/assets/projects/collaborators/.jpg" />
+    <img src="../assets/projects/collaborators/Me.jpg" />
     <div class="info">
-        <h6></h6>
-        <p>Creative Director, leading workshops and design explorations</p>
+        <h6>Me</h6>
+        <p>Creative Director, leading workshops, disovery and explorations of early brand concepts.</p>
         <button class="link-button dark" onclick="location.href='https://www.linkedin.com/in/dominicsebastian/'">View profile</button>
     </div>
 </div>
                 <div class="collaborator">
-    <img src="/assets/projects/collaborators/diana.jpg" />
+    <img src="../assets/projects/collaborators/Chris.jpg" />
     <div class="info">
-        <h6>diana</h6>
-        <p>test role</p>
-        <button class="link-button dark" onclick="location.href='test.com'">View profile</button>
+        <h6>Chris</h6>
+        <p>Head of Marketing, helping shape goals of the rebrand, and how it fit into the broader marketing strategy.</p>
+        <button class="link-button dark" onclick="location.href='https://www.linkedin.com/in/christopherschreiber'">View profile</button>
+    </div>
+</div>
+                <div class="collaborator">
+    <img src="../assets/projects/collaborators/Tania.jpg" />
+    <div class="info">
+        <h6>Tania</h6>
+        <p>Product Marketing Lead, ensuring alignment with GTM messaging, and early concepts for upcoming campaigns.</p>
+        <button class="link-button dark" onclick="location.href='https://www.tania-maree.com'">View profile</button>
+    </div>
+</div>
+                <div class="collaborator">
+    <img src="../assets/projects/collaborators/Aaron.jpg" />
+    <div class="info">
+        <h6>Aaron</h6>
+        <p>Demand Gen, helping understand viability of certain concepts with top of funnel marketing activties.</p>
+        <button class="link-button dark" onclick="location.href='https://www.linkedin.com/in/aaronbeashel'">View profile</button>
     </div>
 </div>
             </div>
@@ -71,29 +87,37 @@ Impact — what was the outcome? a shared understanding of what we wanted to foc
             <h2>Finding our differentiator</h2>
             <div class="collaborators">
                 <div class="collaborator">
-                    <img src="/assets/site/avatar-test.jpg" />
-                    <div class="info">
-                        <h6>Josh Baskin</h6>
-                        <p>Lead ideation of new toys, managing R&amp;D of all new iniatives.</p>
-                        <button class="link-button dark" onclick="location.href='linkedin.com'">View profile</button>
-                    </div>
-                </div>
+    <img src="../assets/projects/collaborators/Me.jpg" />
+    <div class="info">
+        <h6>Me</h6>
+        <p>Creative Director, leading explorations, prototyping concepts, and driving internal feedback &amp; alignment.</p>
+        <button class="link-button dark" onclick="location.href='https://www.linkedin.com/in/dominicsebastian/'">View profile</button>
+    </div>
+</div>
                 <div class="collaborator">
-                    <img src="/assets/site/avatar-test.jpg" />
-                    <div class="info">
-                        <h6>Josh Baskin</h6>
-                        <p>Lead ideation of new toys, managing R&amp;D of all new iniatives.</p>
-                        <button class="link-button dark" onclick="location.href='linkedin.com'">View profile</button>
-                    </div>
-                </div>
+    <img src="../assets/projects/collaborators/Tania.jpg" />
+    <div class="info">
+        <h6>Tania</h6>
+        <p>Product Marketing Lead, and a key partner in the new brand. Helping develop and refine concepts throughout the process.</p>
+        <button class="link-button dark" onclick="location.href='https://www.tania-maree.com'">View profile</button>
+    </div>
+</div>
                 <div class="collaborator">
-                    <img src="/assets/site/avatar-test.jpg" />
-                    <div class="info">
-                        <h6>Josh Baskin</h6>
-                        <p>Lead ideation of new toys, managing R&amp;D of all new iniatives.</p>
-                        <button class="link-button dark" onclick="location.href='linkedin.com'">View profile</button>
-                    </div>
-                </div>
+    <img src="../assets/projects/collaborators/Hamish.jpg" />
+    <div class="info">
+        <h6>Hamish</h6>
+        <p>Senior Designer, developed core 3D assets and animations, helping develop and refine all brand concepts.</p>
+        <button class="link-button dark" onclick="location.href='https://hamishw.com'">View profile</button>
+    </div>
+</div>
+                <div class="collaborator">
+    <img src="../assets/projects/collaborators/Charl.jpg" />
+    <div class="info">
+        <h6>Charl</h6>
+        <p>Designer and artworker, helping build off Hamish's 3D work, and rolling out concepts across touchpoints.</p>
+        <button class="link-button dark" onclick="location.href='https://www.behance.net/anfieldcha5745/projects'">View profile</button>
+    </div>
+</div>
             </div>
         </div>
         <div>
@@ -143,29 +167,29 @@ Impact — what was the outcome? a shared understanding of what we wanted to foc
             <h2>Creating assets that empower</h2>
             <div class="collaborators">
                 <div class="collaborator">
-                    <img src="/assets/site/avatar-test.jpg" />
-                    <div class="info">
-                        <h6>Josh Baskin</h6>
-                        <p>Lead ideation of new toys, managing R&amp;D of all new iniatives.</p>
-                        <button class="link-button dark" onclick="location.href='linkedin.com'">View profile</button>
-                    </div>
-                </div>
+    <img src="../assets/projects/collaborators/Me.jpg" />
+    <div class="info">
+        <h6>Me</h6>
+        <p>Worked with the marketing team to understand what they needed, and created the brand system in Figma, Qwilr and on the marketing site.</p>
+        <button class="link-button dark" onclick="location.href='https://www.linkedin.com/in/dominicsebastian/'">View profile</button>
+    </div>
+</div>
                 <div class="collaborator">
-                    <img src="/assets/site/avatar-test.jpg" />
-                    <div class="info">
-                        <h6>Josh Baskin</h6>
-                        <p>Lead ideation of new toys, managing R&amp;D of all new iniatives.</p>
-                        <button class="link-button dark" onclick="location.href='linkedin.com'">View profile</button>
-                    </div>
-                </div>
+    <img src="../assets/projects/collaborators/Tania.jpg" />
+    <div class="info">
+        <h6>Tania</h6>
+        <p>Product Marketing Lead, helped come up with ideas for the library, then road test and iterate it so it was fit for use.</p>
+        <button class="link-button dark" onclick="location.href='https://www.tania-maree.com'">View profile</button>
+    </div>
+</div>
                 <div class="collaborator">
-                    <img src="/assets/site/avatar-test.jpg" />
-                    <div class="info">
-                        <h6>Josh Baskin</h6>
-                        <p>Lead ideation of new toys, managing R&amp;D of all new iniatives.</p>
-                        <button class="link-button dark" onclick="location.href='linkedin.com'">View profile</button>
-                    </div>
-                </div>
+    <img src="../assets/projects/collaborators/Hamish.jpg" />
+    <div class="info">
+        <h6>Hamish</h6>
+        <p>Build out the library on Kaleidoscope, as well as refining some of the components in Figma and the marketing site.</p>
+        <button class="link-button dark" onclick="location.href='https://www.hamishw.com'">View profile</button>
+    </div>
+</div>
             </div>
         </div>
         <div>

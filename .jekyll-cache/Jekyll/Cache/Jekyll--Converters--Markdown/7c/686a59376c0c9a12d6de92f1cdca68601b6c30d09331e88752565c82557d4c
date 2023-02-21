@@ -1,10 +1,10 @@
-I"	<section class="bordered">
+I"!	<section class="bordered">
     <div class="tiles center">
         <div>
             <h2>Creating shared focus in a rebrand</h2>
             <div class="collaborators">
                 <div class="collaborator">
-    <img src="/assets/projects/collaborators/Me.jpg" />
+    <img src="../assets/projects/collaborators/Me.jpg" />
     <div class="info">
         <h6>Me</h6>
         <p>Creative Director, leading workshops, disovery and explorations of early brand concepts.</p>
@@ -12,23 +12,23 @@
     </div>
 </div>
                 <div class="collaborator">
-    <img src="/assets/projects/collaborators/Chris.jpg" />
+    <img src="../assets/projects/collaborators/Chris.jpg" />
     <div class="info">
         <h6>Chris</h6>
-        <p>Head of Marketing, helping shape goals of the rebrand, and partnering on strategy.</p>
+        <p>Head of Marketing, helping shape goals of the rebrand, and how it fit into the broader marketing strategy.</p>
         <button class="link-button dark" onclick="location.href='https://www.linkedin.com/in/christopherschreiber'">View profile</button>
     </div>
 </div>
                 <div class="collaborator">
-    <img src="/assets/projects/collaborators/Tania.jpg" />
+    <img src="../assets/projects/collaborators/Tania.jpg" />
     <div class="info">
         <h6>Tania</h6>
-        <p>Product Marketing Lead, ensuring early alignment with GTM messaging, and early concepts for upcoming campaigns.</p>
-        <button class="link-button dark" onclick="location.href='https://www.linkedin.com/in/taniaclarke'">View profile</button>
+        <p>Product Marketing Lead, ensuring alignment with GTM messaging, and early concepts for upcoming campaigns.</p>
+        <button class="link-button dark" onclick="location.href='https://www.tania-maree.com'">View profile</button>
     </div>
 </div>
                 <div class="collaborator">
-    <img src="/assets/projects/collaborators/Aaron.jpg" />
+    <img src="../assets/projects/collaborators/Aaron.jpg" />
     <div class="info">
         <h6>Aaron</h6>
         <p>Demand Gen, helping understand viability of certain concepts with top of funnel marketing activties.</p>
