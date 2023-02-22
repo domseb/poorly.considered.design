@@ -174,6 +174,8 @@ section { width: clamp(150px, 85vw, 1180px); margin: 6em auto; }
 
 section.bordered { margin: 100px auto !important; padding: 80px 0 80px 0; border-top: 1px solid var(--colour-white-15); border-bottom: 1px solid var(--colour-white-15); }
 
+section.bordered h4 { width: auto; }
+
 .nested { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); align-items: center; column-gap: 150px; margin: 0 auto; row-gap: 100px; padding-top: 7em; padding-bottom: 7em; }
 
 .nested h2 { margin: 0.5em 0 0.5em 0; }

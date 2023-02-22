@@ -1,120 +1,4 @@
-<!DOCTYPE html>
-
-<html>
-  <head>
-  <meta charset="utf-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <meta name="theme-color" content="#00021A" />
-  <title>
-    Maypole
-  </title>
-  <meta
-    name="description"
-    content="Designing pixels, teams, and cultures"
-  />
-  <!-- 
-  
-  <figure>
-   -->
-  <!-- Facebook OG data for homepage -->
-  <meta property="og:type" content="website" />
-  <meta property="og:url" content="http://considered.design" />
-  <meta
-    property="og:image"
-    content="http://considered.design/assets/site/opengraph.jpg"
-  />
-
-  <!-- Twitter OG data for homepage -->
-  <meta name="twitter:card" content="summary_large_image" />
-  <meta name="twitter:domain" value="considered.design" />
-  <meta name="twitter:title" value="Considered Design" />
-  <meta
-    name="twitter:description"
-    value="I like solving interesting problems, for things that matter. Product designer. London, Rio, now Sydney."
-  />
-  <meta
-    name="twitter:image"
-    content="http://considered.design/assets/site/opengraph.jpg"
-  />
-  <meta name="twitter:url" value="http://considered.design" />
-
-  <link rel="stylesheet" href="https://use.typekit.net/bgh8ugb.css" />
-  <link rel="apple-touch-icon" sizes="57x57" href="/assets/favicons/apple-icon-57x57.png">
-<link rel="apple-touch-icon" sizes="60x60" href="/assets/favicons/apple-icon-60x60.png">
-<link rel="apple-touch-icon" sizes="72x72" href="/assets/favicons/apple-icon-72x72.png">
-<link rel="apple-touch-icon" sizes="76x76" href="/assets/favicons/apple-icon-76x76.png">
-<link rel="apple-touch-icon" sizes="114x114" href="/assets/favicons/apple-icon-114x114.png">
-<link rel="apple-touch-icon" sizes="120x120" href="/assets/favicons/apple-icon-120x120.png">
-<link rel="apple-touch-icon" sizes="144x144" href="/assets/favicons/apple-icon-144x144.png">
-<link rel="apple-touch-icon" sizes="152x152" href="/assets/favicons/apple-icon-152x152.png">
-<link rel="apple-touch-icon" sizes="180x180" href="/assets/favicons/apple-icon-180x180.png">
-<link rel="icon" type="image/png" sizes="192x192"  href="/assets/favicons/android-icon-192x192.png">
-<link rel="icon" type="image/png" sizes="32x32" href="/assets/favicons/favicon-32x32.png">
-<link rel="icon" type="image/png" sizes="96x96" href="/assets/favicons/favicon-96x96.png">
-<link rel="icon" type="image/png" sizes="16x16" href="/assets/favicons/favicon-16x16.png">
-<link rel="manifest" href="/assets/favicons/manifest.json">
-<meta name="msapplication-TileColor" content="#ffffff">
-<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
-<meta name="theme-color" content="#ffffff">
- <link rel="stylesheet" href="/css/main.css">
-  <link
-    rel="canonical"
-    href="http://localhost:4000/work/qwilr-leadership/"
-  />
-  <link rel="alternate" type="application/rss+xml" title="Considered Design"
-  href="http://localhost:4000/feed.xml" />
-</head>
- <nav>
-  <div class="items">
-    <p >
-      <a class="fade-in-up-1 logo-a" href="/">Considered Design</a>
-      <a class="fade-in-up-1 logo-b" href="/">CD</a>
-    </p>
-     
-    <p class="active fade-in-up-2">
-      <a href="/work/">Work</a><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" viewBox="0 0 24 24">
-  <path d="M10.61 6 15 11.328v.344L10.61 17 9 16.02l3.636-4.533L9 6.954 10.61 6Z"/>
-</svg>
-<a href="/chapters/qwilr/">Qwilr</a>
-    </p>
-    
-    <p >
-      <a class="fade-in-up-3" href="/blog/">Writing</a>
-    </p>
-    <!-- <p >
-      <a class="fade-in-up-4" href="/profile/">Profile</a>
-    </p> -->
-  </div>
-  <div class="cta">
-    <svg class="pulse" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" viewBox="0 0 24 24">
-  <circle cx="12" cy="12" r="8"/>
-</svg>
-
-    <p>Available for new projects</p>
-    <p class="icon-button" onclick="location.href='mailto:dominic@considered.design'"
-    ><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" viewBox="0 0 24 24">
-  <path fill-rule="evenodd" d="m12 .596 9.219 6.146A4 4 0 0 1 23 10.07V19a4 4 0 0 1-4 4H5a4 4 0 0 1-4-4v-8.93a4 4 0 0 1 1.781-3.328L12 .596Zm-8.11 7.81L12 3l8.11 5.406A2 2 0 0 1 21 10.07V19a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-8.93a2 2 0 0 1 .89-1.664Z" clip-rule="evenodd"/>
-  <path fill-rule="evenodd" d="M4.593 9.71a.5.5 0 0 1 .698-.117L12 14.386l6.71-4.793a.5.5 0 1 1 .58.814L12 15.614l-7.29-5.207a.5.5 0 0 1-.117-.698Z" clip-rule="evenodd"/>
-</svg>
-</p>
-    <!-- <div class="tooltip">
-      <h6>Email</h6>
-      <p>dominic@considered.design</p>
-      <button class="link-button dark" onclick="location.href='linkedin.com'">Open in Mail</button>
-  </div>-->
-  </div>
-</nav>
-  <body class="dark">
-    <div><!-- <div class="banner"> -->
-  <section class="header project centered">
-    <h4>2019 — 2022 </h4>
-    <h1>Maypole</h1>
-    <p class="description">Weaving strategy, culture & craft in a scaling startup</p>
-  </section>
-<!-- </div> -->
-<img class="hero-image" src="/assets/projects/maypole/hero-maypole.jpg" />
-<article><h3 id="designing-pixels-teams-and-cultures">Designing pixels, teams, and cultures</h3>
+I"�7<h3 id="designing-pixels-teams-and-cultures">Designing pixels, teams, and cultures</h3>
 
 <p>My role changed a lot during my 5 years at Qwilr. First to establish and grow design at Qwilr, then to manage the product teams, and finally into leadership as VP Design. From fine detail to broader brush strokes, working at each vantage point gave me a better perspective of the whole. Below are my highlights of that journey. What I learned and loved from a very meaningful chapter of my career.</p>
 
@@ -261,7 +145,7 @@
 
 <h3 id="celebrating-launches">Celebrating launches</h3>
 
-<p>Startups can feel like a never-ending treadmill, and without time to take a beat it’s hard to recognise the progress that’s been made. To mark launches in a more tangible way, I created posters with feature teams. Combining project names with pop culture music and film posters, members would get to sign the ones we had in the office, and send postcards for remote, but vital, teammates that made the launch possible.</p>
+<p>Through a customer feedback call, we saw accounts in different languages visually broke a handful of key components in a way we had never seen. We needed a way to quickly see how things behaved in different languages, at different character lengths, without manually adding them into designs. I roughed out a concept, and Hamish built it out as a plugin, to give as a simple and fast way to “roulette” data into our designs.</p>
 
 <section>
     <div class="gallery">
@@ -319,14 +203,14 @@
             </div>
         </div>
         <div>
-            <p class="description">Now a VP, my “first team” was leadership, and my role was to explore, communicate and negotiate what I believed the longer view of the product should be. A practice I found immensely challenging and rewarding. Over time I found my rhythm with it. To create artefacts that inspired teams, increased clarity, and created options for the future, without derailing focus on the near term goals.</p>
+            <p class="description">Frustrated with teams heads down, constantly in the weeds of quarterly planning, I wanted to create space to resolve complex experience debt, and take a meaningful leap forward for customers and the business. To me the best explorations are like mountaineering — where Designers, Engineers and PMs have the freedom to explore independently, but come together early and often. My role was to paint a picture of the peak we were trying to reach, to create the space and direction to solve it well, and contribute concepts.</p>
         </div>
     </div>
 </section>
 
-<h3 id="prototyping-our-vision">Prototyping our vision</h3>
+<h3 id="prototyping-vision">Prototyping vision</h3>
 
-<p>Dylan, Qwilr’s CEO &amp; cofounder, was gifted with words, and skilled in publishing internal narratives to guide and inspire the company. As the company and our product ambitions had grown, we needed faster and more tangible ways to explore and communicate the vision of the product. I partnered with him to turn our abstract ideas into concrete, interactive prototypes. Making the vision of Qwilr something teams could play with, internalise and rally around.</p>
+<p>Qwilr is full of complex interactive challenges. To have real confidence in the experiences we designed, we needed to feel them in use, beyond static Figma mockups. To alleviate this bottleneck, and leverage the hard work the team had invested into Kaleidoscope, I defined a new north star to refocus our efforts. Optimising for teams to prototype and play with new ideas quickly, across Design and Engineering.</p>
 
 <section>
     <div class="gallery">
@@ -338,7 +222,7 @@
 
 <h3 id="transformation-projects">Transformation projects</h3>
 
-<p>Large surface areas of the product were bound by old tech decisions, complicated experience debt, and created for an older idea of who our ICP was. My role was to lead these large scale transformation projects. To paint a picture of the summit we were trying to reach, create the direction, space and structure for the teams to get there, and contribute early core concepts. Taking it from an early exploration to a key priority on our roadmap.</p>
+<p>Qwilr is full of complex interactive challenges. To have real confidence in the experiences we designed, we needed to feel them in use, beyond static Figma mockups. To alleviate this bottleneck, and leverage the hard work the team had invested into Kaleidoscope, I defined a new north star to refocus our efforts. Optimising for teams to prototype and play with new ideas quickly, across Design and Engineering.</p>
 
 <section>
     <div class="gallery">
@@ -348,26 +232,4 @@
         <img class="full" src="/assets/projects/maypole/styles-finals.jpg" />
     </div>
 </section>
-</article>
-</div>
-    <div class="footer">
-  <div>
-    <div>
-      <a href="https://www.youtube.com/watch?v=9tXVK7fh-kI"
-        >© Always and forever <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" viewBox="0 0 24 24">
-  <path fill-rule="evenodd" d="M21 6 8 2v12.016C7.267 13.393 6.195 13 5 13c-2.21 0-4 1.343-4 3s1.79 3 4 3 4-1.343 4-3V6.308l11 3.384v8.324C19.267 17.393 18.195 17 17 17c-2.21 0-4 1.343-4 3s1.79 3 4 3 4-1.343 4-3V6Z" clip-rule="evenodd"/>
-</svg>
-</a
-      >
-      <p>Designed, written and carefully built, by Dominic Sebastian</p>
-    </div>
-    <div class="socials">
-      <a href="https://www.linkedin.com/in/dominicsebastian/?originalSubdomain=au"><h5>Linkedin</h5></a>
-      <a href="https://twitter.com/dominosebastian"><h5>Twitter</h5></a>
-      <a href="mailto:dominic@considered.design"><h5>Email</h5></a>
-    </div>
-  </div>
-</div>
-
-  </body>
-</html>
+:ET
