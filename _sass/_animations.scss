@@ -208,3 +208,40 @@
     opacity: 0;
 	}
 }
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+.pinwheel {
+  animation: pinwheel 15s ease infinite;
+}
+
+@keyframes pinwheel {
+	0% {
+		color: #ee7752;
+    fill: #ee7752;
+	}
+	50% {
+		color: #e73c7e;
+    fill: #e73c7e;
+
+	}
+	100% {
+		color: #23a6d5;
+    fill: #23a6d5;
+	}
+  100% {
+		color: #23d5ab;
+    fill: #23d5ab;
+	}
+}
+

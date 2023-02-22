@@ -168,7 +168,7 @@ body { --lightness: 25%; --opacity: 1; --colour-base: hsl(var(--hue), 100%, 25%)
 
 .banner { background-color: var(--colour-darkest); }
 
-.banner-image { background-image: url("/assets/site/bg.png"); background-position: center; background-repeat: no-repeat; background-size: cover; background-color: var(--colour-darkest); }
+.banner-image { background-image: url("/assets/site/bg-rays.png"); background-position: center; background-repeat: no-repeat; background-size: cover; background-color: var(--colour-darkest); border-bottom: 1px solid var(--colour-white-15); }
 
 section { width: clamp(150px, 85vw, 1180px); margin: 6em auto; }
 
@@ -186,7 +186,7 @@ section.bordered h4 { width: auto; }
 
 .hero .headline { flex: 5; min-width: 300px; max-width: 100%; }
 
-.hero .headline p { width: clamp(325px, 85%, 50ch); }
+.hero .headline p { margin-top: 2.5em; width: clamp(325px, 85%, 50ch); }
 
 .hero .focus { flex: 2; min-width: 200px; max-width: 100%; }
 
@@ -692,5 +692,20 @@ nav img { margin: 0 !important; }
 @keyframes pulse { 0% { opacity: 0; }
   50% { opacity: 1; }
   100% { opacity: 0; } }
+
+@keyframes gradient { 0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; } }
+
+.pinwheel { animation: pinwheel 15s ease infinite; }
+
+@keyframes pinwheel { 0% { color: #ee7752;
+    fill: #ee7752; }
+  50% { color: #e73c7e;
+    fill: #e73c7e; }
+  100% { color: #23a6d5;
+    fill: #23a6d5; }
+  100% { color: #23d5ab;
+    fill: #23d5ab; } }
 
 /*# sourceMappingURL=main.css.map */

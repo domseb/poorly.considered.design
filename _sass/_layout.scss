@@ -68,6 +68,13 @@ body {
 
 // THEMES
 
+// body {
+// 	background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+// 	background-size: 400% 400%;
+// 	animation: gradient 15s ease infinite;
+// 	height: 100vh;
+// }
+
 .dark {
   --hue: 245;
   --colour-100: white;
@@ -101,12 +108,23 @@ body {
 }
 
 .banner-image {
-  background-image: url("/assets/site/bg.png");
+  background-image: url("/assets/site/bg-rays.png");
   // background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   background-color: var(--colour-darkest);
+  border-bottom: 1px solid var(--colour-white-15);
+  // background: rgb(1,0,27);
+  // background: rgb(131,58,180);
+  // background: linear-gradient(160deg, rgba(252,176,69,1) 10%, rgba(1,0,27,1) 12%, rgba(1,0,27,1) 75%, rgba(252,176,69,1) 100%);  
+  // background-image:
+// radial-gradient(at 40% 20%, hsla(242,100%,5%,1) 0px, transparent 50%),
+// radial-gradient(at 80% 0%, hsla(242,100%,5%,1) 0px, transparent 50%),
+// radial-gradient(at 12% 38%, hsla(242,100%,5%,1) 0px, transparent 50%),
+// radial-gradient(at 23% 98%, hsla(22,100%,77%,.51) 0px, transparent 50%),
+// radial-gradient(at 91% 89%, hsla(340,100%,76%,1) 0px, transparent 50%),
+// radial-gradient(at 0% 0%, hsla(242,100%,5%,1) 0px, transparent 50%);
 }
 
 // .banner-break {
@@ -167,7 +185,9 @@ section {
     flex: 5;
     min-width: 300px;
     max-width: 100%;
+
     p {
+      margin-top: 2.5em;
       width: clamp(325px, 85%, 50ch);
     }
   }
