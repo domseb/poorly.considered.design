@@ -19,11 +19,11 @@ body {
   --colour-dark-10: hsla(var(--hue, 245), 100%, 5%, 0.1);
 
   // WHITES
-  --colour-white-50: hsla(255,100%,100%,.50);
-  --colour-white-25: hsla(255,100%,100%,.25);
-  --colour-white-15: hsla(255,100%,100%,.15);
-  --colour-white-10: hsla(255,100%,100%,.10);
-  --colour-white-05: hsla(255,100%,100%,.05);
+  --colour-white-50: hsla(255, 100%, 100%, 0.5);
+  --colour-white-25: hsla(255, 100%, 100%, 0.25);
+  --colour-white-15: hsla(255, 100%, 100%, 0.15);
+  --colour-white-10: hsla(255, 100%, 100%, 0.1);
+  --colour-white-05: hsla(255, 100%, 100%, 0.05);
 
   // LIGHTER
   --colour-light-100: hsla(var(--hue, 245), 100%, 55%, 1);
@@ -33,23 +33,23 @@ body {
   --colour-light-20: hsla(var(--hue, 245), 100%, 55%, 0.2);
   --colour-light-15: hsla(var(--hue, 245), 100%, 55%, 0.15);
   --colour-light-10: hsla(var(--hue, 245), 100%, 55%, 0.1);
-  
+
   // SPECIFIC COLOURS
   // --text-headline: hsl(var(--hue), 0%, calc(var(--lightness) + 75%));
   --onyx: hsla(var(--hue, 0), 0%, 0%, var(--opacity));
   --slate: hsla(var(--hue, 0), 0%, 40%, var(--opacity));
   --smoke: hsla(var(--hue, 0), 0%, 80%, var(--opacity));
   --feather: hsla(var(--hue, 0), 0%, 90%, var(--opacity));
-  
+
   // SPACING TOKENS
   --spacing-unit: 10px;
-  --space-xs: calc(var(--spacing-unit)/2);
+  --space-xs: calc(var(--spacing-unit) / 2);
   --space-s: var(--spacing-unit);
-  --space-m: calc(var(--spacing-unit)*2);
-  --space-l: calc(var(--spacing-unit)*4);
-  --space-xl: calc(var(--spacing-unit)*10);
-  --space-xxl: calc(var(--spacing-unit)*20);
-  
+  --space-m: calc(var(--spacing-unit) * 2);
+  --space-l: calc(var(--spacing-unit) * 4);
+  --space-xl: calc(var(--spacing-unit) * 10);
+  --space-xxl: calc(var(--spacing-unit) * 20);
+
   // OTHER
   --radius-xs: 2px;
   --radius-s: 5px;
@@ -58,8 +58,8 @@ body {
 
   // CORE THEME
   background-color: white;
-  --text-headline: #01001B;
-  color: #515060; 
+  --text-headline: #01001b;
+  color: #515060;
   --colour-100: var(--colour-dark-100);
   --colour-50: var(--colour-dark-50);
   --colour-25: var(--colour-dark-25);
@@ -88,17 +88,16 @@ body {
 }
 
 .rose {
-  color: #FF6258;
+  color: #ff6258;
 }
 
 .purple {
-  color: #9788FC;
+  color: #9788fc;
 }
 
 .peach {
-  color: #FF9182;
+  color: #ff9182;
 }
-
 
 // CONTAINERS
 
@@ -117,14 +116,14 @@ body {
   border-bottom: 1px solid var(--colour-white-15);
   // background: rgb(1,0,27);
   // background: rgb(131,58,180);
-  // background: linear-gradient(160deg, rgba(252,176,69,1) 10%, rgba(1,0,27,1) 12%, rgba(1,0,27,1) 75%, rgba(252,176,69,1) 100%);  
+  // background: linear-gradient(160deg, rgba(252,176,69,1) 10%, rgba(1,0,27,1) 12%, rgba(1,0,27,1) 75%, rgba(252,176,69,1) 100%);
   // background-image:
-// radial-gradient(at 40% 20%, hsla(242,100%,5%,1) 0px, transparent 50%),
-// radial-gradient(at 80% 0%, hsla(242,100%,5%,1) 0px, transparent 50%),
-// radial-gradient(at 12% 38%, hsla(242,100%,5%,1) 0px, transparent 50%),
-// radial-gradient(at 23% 98%, hsla(22,100%,77%,.51) 0px, transparent 50%),
-// radial-gradient(at 91% 89%, hsla(340,100%,76%,1) 0px, transparent 50%),
-// radial-gradient(at 0% 0%, hsla(242,100%,5%,1) 0px, transparent 50%);
+  // radial-gradient(at 40% 20%, hsla(242,100%,5%,1) 0px, transparent 50%),
+  // radial-gradient(at 80% 0%, hsla(242,100%,5%,1) 0px, transparent 50%),
+  // radial-gradient(at 12% 38%, hsla(242,100%,5%,1) 0px, transparent 50%),
+  // radial-gradient(at 23% 98%, hsla(22,100%,77%,.51) 0px, transparent 50%),
+  // radial-gradient(at 91% 89%, hsla(340,100%,76%,1) 0px, transparent 50%),
+  // radial-gradient(at 0% 0%, hsla(242,100%,5%,1) 0px, transparent 50%);
 }
 
 // .banner-break {
@@ -132,7 +131,6 @@ body {
 //   padding-bottom: 7em;
 //   padding-top: 7em;
 // }
-
 
 section {
   width: clamp(150px, 85vw, 1180px);
@@ -179,7 +177,7 @@ section {
   margin-top: -150px;
   margin-bottom: 0px;
   gap: 100px;
-  padding-bottom: 10em;
+  padding-bottom: 7em;
 
   .headline {
     flex: 5;

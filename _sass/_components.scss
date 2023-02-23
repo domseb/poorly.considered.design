@@ -13,7 +13,6 @@
   opacity: 1;
 }
 
-
 button {
   display: inline-block;
   color: white;
@@ -55,7 +54,7 @@ button {
   cursor: pointer;
   // border: none;
   // box-sizing: border-box;
-  box-shadow: 0 0 0 1px var(--colour-25); 
+  box-shadow: 0 0 0 1px var(--colour-25);
   border-radius: 50px;
   @include transition(all $default-transition);
 
@@ -261,7 +260,8 @@ button {
     padding: 30px;
   }
 
-  h3, p {
+  h3,
+  p {
     margin: 0 !important;
   }
 
@@ -411,7 +411,6 @@ nav {
     // }
     a {
       padding: 5px 10px 10px 10px;
-
     }
     // .logo {
     //   padding: 8px 5px 7px 5px;
@@ -435,7 +434,7 @@ nav {
       border-radius: var(--radius-m);
       @include transition(all $default-transition);
     }
-  
+
     .active {
       box-shadow: 0 0 0 1px var(--colour-25);
       border-radius: var(--radius-m);
@@ -519,7 +518,6 @@ nav {
   img {
     margin: 0 !important;
   }
-
 }
 
 .footer {
@@ -531,17 +529,17 @@ nav {
     gap: 30px;
     justify-content: end;
 
-    h4, h5 {
+    h4,
+    h5 {
       font-family: "Obviously Medium" !important;
       font-size: 24px;
       color: white;
       opacity: 0.75;
 
-    &:hover {
-      opacity: 1;
-      @include transition(all $default-transition);
-
-    }
+      &:hover {
+        opacity: 1;
+        @include transition(all $default-transition);
+      }
     }
   }
 
@@ -566,7 +564,6 @@ nav {
     .socials {
       justify-content: center;
       margin-top: 30px;
-
     }
   }
 
@@ -583,6 +580,7 @@ nav {
   p {
     max-width: 30ch;
     margin-top: 6px;
+    color: #787797;
   }
 
   * {
