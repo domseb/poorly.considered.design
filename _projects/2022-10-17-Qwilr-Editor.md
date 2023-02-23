@@ -7,7 +7,7 @@ company: qwilr
 categories: qwilr
 theme: dark
 
-year: 2017 — 2022
+year: 2017 – 2022
 title: Gutenberg
 lede: Crafting a forwarding thinking editor
 slug: /qwilr/gutenberg
@@ -24,7 +24,7 @@ In early 2017, Qwilr’s NPS was withering from a conceptually novel editor, tha
 Over 5 years, I lead the editor’s transformation from a nascent offering, to a sophisticated market differentiator. A journey I started as an IC, and ended as a leader. This graduation of roles allowed me to explore a deeply challenging space from multiple vantage points, and I’m incredibly proud of the impact and attention to detail achieved during this time.
 
 <section class="bordered">
-        <h4>2017 — 2018</h4>
+        <h4>2017 – 2018</h4>
         <div class="tiles center">
         <div>
             <h2>Redesigning the foundations</h2>
@@ -104,7 +104,7 @@ In the old editor, each element had a different ways to select, resize, restyle 
 </section>
 
 <section class="bordered">
-    <h4>2018 — 2019</h4>
+    <h4>2018 – 2019</h4>
     <div class="tiles center">
     <div>
         <h2>Turning styles into a core strength</h2>
@@ -185,7 +185,7 @@ I lead redesigned the entire feature, and lead a team through beta, dogfooding a
 </section>
 
 <section class="bordered">
-    <h4>2020 — 2022</h4>
+    <h4>2020 – 2022</h4>
     <div class="tiles center">
     <div>
         <h2>Widening Qwilr’s moat in the market</h2>

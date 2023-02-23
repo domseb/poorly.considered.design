@@ -1,7 +1,7 @@
 ---
 layout: chapter
 chapter: three
-timeframe: 2011 — 2014
+timeframe: 2011 – 2014
 role: Design Lead, Digicave
 theme: emerald
 slug: digicave

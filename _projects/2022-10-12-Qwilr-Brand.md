@@ -6,7 +6,7 @@ tags: strategy execution systems
 company: qwilr
 theme: dark
 
-year: 2019 — 2022
+year: 2019 – 2022
 title: Archipelago
 lede: A platform rebrand centered around user relationships
 path: /archipelago

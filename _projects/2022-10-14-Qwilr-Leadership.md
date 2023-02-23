@@ -6,7 +6,7 @@ tags: strategy systems futures
 company: qwilr
 theme: dark
 
-year: 2019 — 2022
+year: 2019 – 2022
 title: Maypole
 lede: Weaving strategy, culture & craft in a scaling startup
 path: /leadership

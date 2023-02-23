@@ -1,7 +1,7 @@
 ---
 layout: chapter
 chapter: one
-timeframe: 2017 — 2022
+timeframe: 2017 – 2022
 role: VP Design, Qwilr
 theme: purple
 tags: testtag

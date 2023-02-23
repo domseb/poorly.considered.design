@@ -1,7 +1,7 @@
 ---
 layout: chapter
 chapter: qwilr
-timeframe: 2017 — 2022
+timeframe: 2017 – 2022
 role: VP Design, Qwilr
 theme: rose
 tags: testtag

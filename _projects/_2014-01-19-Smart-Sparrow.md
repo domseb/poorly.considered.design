@@ -4,7 +4,7 @@ refID: secondary
 chapter: two
 
 company: Smart Sparrow
-timeline: 2014 — 2017
+timeline: 2014 – 2017
 role: Head of Design
 description: Creating a user centered platform to create personalised online learning at scale
 

@@ -1,7 +1,7 @@
 ---
 layout: chapter
 chapter: two
-timeframe: 2014 — 2017
+timeframe: 2014 – 2017
 role: Head of Design, Smart Sparrow
 theme: maroon
 slug: smart-sparrow

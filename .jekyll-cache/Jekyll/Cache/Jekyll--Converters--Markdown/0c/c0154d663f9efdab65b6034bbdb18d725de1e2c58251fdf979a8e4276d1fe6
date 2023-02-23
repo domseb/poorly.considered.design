@@ -23,8 +23,8 @@
       <div class="vingette">
         <img src="/assets/projects/archipelago/archipelago.jpg" />
         <div>
-          <h3>2019 – 2022
-            <span class="timeline dark">2019 – 2022</span>Archipelago
+          <h3>
+            <span class="timeline dark">2019 – 2022</span>Archipelago
           </h3>
           <h3 class="arrow dark arrow">→</h3>
         </div>
@@ -35,8 +35,8 @@
       <div class="vingette">
         <img src="/assets/projects/maypole/hero-maypole.jpg" />
         <div>
-          <h3>2019 – 2022
-            <span class="timeline dark">2019 – 2022</span>Maypole
+          <h3>
+            <span class="timeline dark">2019 – 2022</span>Maypole
           </h3>
           <h3 class="arrow dark arrow">→</h3>
         </div>
@@ -47,8 +47,8 @@
       <div class="vingette">
         <img src="/assets/projects/gutenberg/editor-hero.jpg" />
         <div>
-          <h3>
-            <span class="timeline dark">2017 – 2022</span>Gutenberg
+          <h3>– 20
+            <span class="timeline dark">2017 — 2022</span>Gutenberg
           </h3>
           <h3 class="arrow dark arrow">→</h3>
         </div>
