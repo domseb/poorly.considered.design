@@ -10,7 +10,7 @@ theme: dark
 year: 2017 – 2022
 title: Gutenberg
 lede: Crafting a forwarding thinking editor
-slug: /qwilr/gutenberg
+slug: /gutenberg
 
 description: I worked on the Qwilr editor for the full 5 years I was at the company, taking it from a simple but nascent offering, to a leading market differentiator. Trying to convey that effort in a succinct way is a challenge in itself, but the breadth and depth I got to explore has been a career highlight. The transformation in  that time is something I’m incredibly proud of, and below are some cherry picked highlights of that journey.
 

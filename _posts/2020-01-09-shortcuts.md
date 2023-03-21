@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Shortcuts for automated bliss
-permalink: /shortcuts-for-automated-bliss/
+permalink: /writing/shortcuts-for-automated-bliss/
 featured: true
 ---
 

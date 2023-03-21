@@ -9,7 +9,7 @@ theme: dark
 year: 2022
 title: Kaleidoscope
 lede: Leading the co-design of a cross-functional design systems
-path: /automation
+slug: /kaleidoscope
 
 description: I started the first version of Qwilr’s Design System, Kaleidoscope, in the first year of joining the company. Leading a small, informal team of ambassadors, we found our north star, and created something much more than just a component library. Becoming a cornerstone of how we designed, collaborated, and experimented with new ideas together.
 

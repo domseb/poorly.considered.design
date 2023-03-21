@@ -9,7 +9,7 @@ theme: dark
 year: 2019 – 2022
 title: Maypole
 lede: Weaving strategy, culture & craft in a scaling startup
-path: /leadership
+slug: /leadership
 
 description: I enjoyed a broad remit as VP of Design at Qwilr, helping shape many aspects of the company. From creating strategies, principles, team structures, and rituals to hone craft. The immense challenge is finding a way for them all to work together, and create better impact for it. Below are the highlights that helped give me a deeper understanding of the relationships between strategy, people, intuition and impact.
 
