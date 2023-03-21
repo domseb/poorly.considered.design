@@ -555,7 +555,7 @@ nav img { margin: 0 !important; }
 
 .device { border: 20px solid var(--onyx); border-radius: 40px; }
 
-.image { width: clamp(150px, 85vw, 650px); margin-top: 3.9rem; margin-bottom: 3.9rem; }
+.image { width: clamp(150px, 85vw, 650px); margin: 4em auto; }
 
 .full-width-hero { margin-top: -93px; margin-bottom: 4.5rem; z-index: -1; border-radius: 0 !important; }
 

@@ -2,10 +2,8 @@
 layout: post
 title: Purging my Pocket
 permalink: /writing/purging-my-pocket/
-tag: thoughts
+image: /assets/blog/writing-opengraph.jpg
 description: Before writing this I had 412 items in my Pocket list. A tiny handful of them I’d actually read. A few just misplaced bookmarks. The remaining? Literally hours and hours worth of neglected reading material.
-featured: true
-refID: brown
 ---
 
 I signed up for Pocket late in 2012, soon after it changed from Read it Later. Long after I had iPad apps that delivered RSS feeds in quaint little faux newspapers, and Pulse was ruined for me by LinkedIn – Pocket looked like it had _finally_ solved my reading list problem.
