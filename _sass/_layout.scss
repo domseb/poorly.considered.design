@@ -173,7 +173,7 @@ section {
   display: flex;
   flex-wrap: wrap;
   align-items: flex-end;
-  padding-top: 35vh;
+  padding-top: clamp(150px, 30vh, 500px);
   margin-top: -150px;
   margin-bottom: 0px;
   gap: 100px;

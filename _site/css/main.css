@@ -182,7 +182,7 @@ section.bordered h4 { width: auto; }
 
 .nested p { margin-bottom: 40px; }
 
-.hero { display: flex; flex-wrap: wrap; align-items: flex-end; padding-top: 35vh; margin-top: -150px; margin-bottom: 0px; gap: 100px; padding-bottom: 7em; }
+.hero { display: flex; flex-wrap: wrap; align-items: flex-end; padding-top: clamp(150px, 30vh, 500px); margin-top: -150px; margin-bottom: 0px; gap: 100px; padding-bottom: 7em; }
 
 .hero .headline { flex: 5; min-width: 300px; max-width: 100%; }
 
