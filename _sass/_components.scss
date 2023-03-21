@@ -275,7 +275,7 @@ button {
   }
 
   .halo &:hover {
-    background-color: var(--colour-white-05);
+    background-color: var(--colour-dark-100);
     transform: translateY(5px);
     @include transition(all $default-transition);
 
