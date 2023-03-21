@@ -239,7 +239,7 @@ section {
 .hero-image {
   width: clamp(150px, 85vw, 1200px);
   margin: 0 auto;
-  border-radius: 20px;
+  border-radius: clamp(var(--radius-s), 3%, var(--radius-l));
   display: flex;
   // margin-top: clamp(-50px, -10vh, -275px);
   // margin-top: clamp(-300px, -25vw, -100px);

@@ -251,11 +251,10 @@ button {
   margin-bottom: 70px;
   // padding: 20px;
   // box-shadow: 0 0 0 1px var(--colour-white-15);
-  border-radius: clamp(var(--radius-s), 5%, var(--radius-l));
+  border-radius: clamp(var(--radius-s), 3%, var(--radius-l));
   box-shadow:0 0 0 1px var(--colour-white-15), inset 0 1px 0 0 rgba(255,255,255,.10), 0 2px 20px 0 rgba(0,0,0,.10), 0 40px 80px -24px rgba(0,0,0,.25), 0 1px 5px 0 rgba(0,0,0,.15), 0 20px 50px -16px rgba(0,0,0,.25);
   @include transition(all $default-transition);
   background-color: var(--colour-white-05);
-
 
   div:first-of-type {
     display: flex;
@@ -292,8 +291,8 @@ button {
 
   img {
     object-fit: cover;
-    border-radius: 20px;
-    height: 60vh;
+    border-radius: clamp(var(--radius-s), 3%, var(--radius-l));
+    // height: 60vh;
     width: 100%;
     margin: 0;
   }
