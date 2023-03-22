@@ -27,33 +27,38 @@ I started the first version of Qwilr’s Design System, Kaleidoscope, in the fir
             <div class="collaborators">
                 {% include modules/collaborator.html 
                     name = "Me" 
-                    role = "Creative Director, leading workshops, disovery and explorations of early brand concepts."
+                    role = "Designed components and the system as a whole, leading a team of ambassadors and contributors."
                     link = "https://www.linkedin.com/in/dominicsebastian/"
                 %}
                 {% include modules/collaborator.html 
                     name = "Janine"
-                    role = "Head of Marketing, helping shape goals of the rebrand, and how it fit into the broader marketing strategy."
-                    link = "https://www.linkedin.com/in/christopherschreiber"
+                    role = "UX Writer, created holistic naming practices in Kaleidoscope, helped unify the voice of Kaleidoscope."
+                    link = "https://www.linkedin.com/in/janinesaunders8"
                 %}
                 {% include modules/collaborator.html 
                     name = "Mike"
-                    role = "Product Marketing Lead, ensuring alignment with GTM messaging, and early concepts for upcoming campaigns."
-                    link = "https://www.tania-maree.com"
+                    role = "Engineer, key partner in components being composable, scalable and to a very high standard."
+                    link = "https://www.linkedin.com/in/mike-nl"
                 %}
                 {% include modules/collaborator.html 
                     name = "Yundi"
-                    role = "Demand Gen, helping understand viability of certain concepts with top of funnel marketing activties."
-                    link = "https://www.linkedin.com/in/aaronbeashel"
+                    role = "Engineer, created a lot of the early patterns of Kaleidoscope in React."
+                    link = "https://www.linkedin.com/in/yundifu"
                 %}
                 {% include modules/collaborator.html 
                     name = "Mitch"
-                    role = "Product Marketing Lead, ensuring alignment with GTM messaging, and early concepts for upcoming campaigns."
-                    link = "https://www.tania-maree.com"
+                    role = "Engineer, key partner in scaling Kaleidoscope, and making the components and how we worked more sophisticated."
+                    link = "https://www.linkedin.com/in/mitchellbusby"
+                %}
+                {% include modules/collaborator.html 
+                    name = "Annie"
+                    role = "Designer, created early Kaleidoscope guides, design workflows, and later more advanced components."
+                    link = "https://www.linkedin.com/in/anniekuang"
                 %}
                 {% include modules/collaborator.html 
                     name = "Hamish"
-                    role = "Demand Gen, helping understand viability of certain concepts with top of funnel marketing activties."
-                    link = "https://www.linkedin.com/in/aaronbeashel"
+                    role = "Designer & Developer, helped patterns that increased the quality and ease of use of Kaleidoscope."
+                    link = "https://www.linkedin.com/in/hamishwilliams"
                 %}
             </div>
         </div>
@@ -114,23 +119,23 @@ Qwilr is full of complex interactive challenges. To have real confidence in the 
             <div class="collaborators">
                 {% include modules/collaborator.html 
                     name = "Me"
-                    role = "Demand Gen, helping understand viability of certain concepts with top of funnel marketing activties."
-                    link = "https://www.linkedin.com/in/aaronbeashel"
+                    role = "Lead the team, created rituals and feedback mechanisms to improve Kaleidoscope."
+                    link = "https://www.linkedin.com/in/dominicsebastian/"
                 %}
                 {% include modules/collaborator.html 
                     name = "Janine"
-                    role = "Product Marketing Lead, ensuring alignment with GTM messaging, and early concepts for upcoming campaigns."
-                    link = "https://www.tania-maree.com"
+                    role = "UX Writer, created holistic naming practices in Kaleidoscope, helped unify the voice of Kaleidoscope."
+                    link = "https://www.linkedin.com/in/janinesaunders8"
                 %}
                 {% include modules/collaborator.html 
                     name = "Hamish"
-                    role = "Demand Gen, helping understand viability of certain concepts with top of funnel marketing activties."
-                    link = "https://www.linkedin.com/in/aaronbeashel"
+                    role = "Designer & Developer, built out Data Roulette Figma plugin and others to advance Kaleidoscope."
+                    link = "https://www.linkedin.com/in/hamishwilliams"
                 %}
                 {% include modules/collaborator.html 
                     name = "Annie"
-                    role = "Demand Gen, helping understand viability of certain concepts with top of funnel marketing activties."
-                    link = "https://www.linkedin.com/in/aaronbeashel"
+                    role = "Designer, created the process for capturing ."
+                    link = "https://www.linkedin.com/in/anniekuang"
                 %}
             </div>
         </div>
@@ -163,28 +168,28 @@ Through a customer feedback call, we saw accounts in different languages visuall
             <div class="collaborators">
                 {% include modules/collaborator.html 
                     name = "Me"
-                    role = "Demand Gen, helping understand viability of certain concepts with top of funnel marketing activties."
-                    link = "https://www.linkedin.com/in/aaronbeashel"
+                    role = "Creating first working rituals within the team, then delegrating responsibilities amongst the group."
+                    link = "https://www.linkedin.com/in/dominicsebastian/"
                 %}
                 {% include modules/collaborator.html 
                     name = "Hamish"
-                    role = "Product Marketing Lead, ensuring alignment with GTM messaging, and early concepts for upcoming campaigns."
-                    link = "https://www.tania-maree.com"
+                    role = "Designer & Developer, responsible for running Kaleidoscope sessions, and design decisions across Kaleidoscope."
+                    link = "https://www.linkedin.com/in/hamishwilliams"
                 %}
                 {% include modules/collaborator.html 
                     name = "Mitch"
-                    role = "Demand Gen, helping understand viability of certain concepts with top of funnel marketing activties."
-                    link = "https://www.linkedin.com/in/aaronbeashel"
+                    role = "Engineer, key driver of accessible documentation, and making Kaleidoscope continually easier to use."
+                    link = "https://www.linkedin.com/in/mitchellbusby"
                 %}
                 {% include modules/collaborator.html 
                     name = "Sarah"
-                    role = "Demand Gen, helping understand viability of certain concepts with top of funnel marketing activties."
-                    link = "https://www.linkedin.com/in/aaronbeashel"
+                    role = "Engineer, responsible for quality of life improvements, and getting feedback from the broader teams."
+                    link = "https://www.linkedin.com/in/sarahjlawrence"
                 %}
                 {% include modules/collaborator.html 
                     name = "Drew"
-                    role = "Demand Gen, helping understand viability of certain concepts with top of funnel marketing activties."
-                    link = "https://www.linkedin.com/in/aaronbeashel"
+                    role = "Engineer, responsible for improving architectural decisions and approach across Kaleidoscope."
+                    link = "https://www.linkedin.com/in/drew-schrauf-a2042853"
                 %}
             </div>
         </div>
@@ -203,13 +208,3 @@ Qwilr is full of complex interactive challenges. To have real confidence in the 
         <img class="full" src="/assets/projects/kaleidoscope/kl-home.jpg">
     </div>
 </section>
-
-### If I had my time over
-
-Qwilr is full of complex interactive challenges. To have real confidence in the experiences we designed, we needed to feel them in use, beyond static Figma mockups. To alleviate this bottleneck, and leverage the hard work the team had invested into Kaleidoscope, I defined a new north star to refocus our efforts. Optimising for teams to prototype and play with new ideas quickly, across Design and Engineering.
-
-- Find & empower ambassadors
-- Create north stars that are appropriate to your stage
-- Align system goals with company goals
-- Learn from that are under similar constraints to your org
-- Be patient, it’s arduous (and often tedious) work

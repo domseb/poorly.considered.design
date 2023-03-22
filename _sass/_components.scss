@@ -116,7 +116,7 @@ button {
 
 .collaborators {
   display: inline-flex;
-  margin-top: 20px;
+  margin-top: var(--space-m);
 
   .collaborator {
     height: 40px !important;

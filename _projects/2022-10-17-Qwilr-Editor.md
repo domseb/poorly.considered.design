@@ -4,7 +4,6 @@ refID: secondary
 chapter: qwilr
 tags: execution futures
 company: qwilr
-categories: qwilr
 theme: dark
 
 year: 2017 – 2022
@@ -29,30 +28,26 @@ Over 5 years, I lead the editor’s transformation from a nascent offering, to a
         <div>
             <h2>Redesigning the foundations</h2>
             <div class="collaborators">
-                <div class="collaborator">
-                    <img src="/assets/site/avatar-test.jpg">
-                    <div class="info">
-                        <h6>Josh Baskin</h6>
-                        <p>Lead ideation of new toys, managing R&D of all new iniatives.</p>
-                        <button class="link-button {{ page.theme }}" onclick="location.href='linkedin.com'">View profile</button>
-                    </div>
-                </div>
-                <div class="collaborator">
-                    <img src="/assets/site/avatar-test.jpg">
-                    <div class="info">
-                        <h6>Josh Baskin</h6>
-                        <p>Lead ideation of new toys, managing R&D of all new iniatives.</p>
-                        <button class="link-button {{ page.theme }}" onclick="location.href='linkedin.com'">View profile</button>
-                    </div>
-                </div>
-                <div class="collaborator">
-                    <img src="/assets/site/avatar-test.jpg">
-                    <div class="info">
-                        <h6>Josh Baskin</h6>
-                        <p>Lead ideation of new toys, managing R&D of all new iniatives.</p>
-                        <button class="link-button {{ page.theme }}" onclick="location.href='linkedin.com'">View profile</button>
-                    </div>
-                </div>
+                {% include modules/collaborator.html 
+                    name = "Me" 
+                    role = "Defined and designed all editor behaviours so they were intuitive, consistent, and scalable."
+                    link = "https://www.linkedin.com/in/dominicsebastian/"
+                %}
+                {% include modules/collaborator.html 
+                    name = "Ravi"
+                    role = "Engineer, responsible for the engineering side of the rewrite, and helped definiing core behaviours."
+                    link = "https://www.linkedin.com/in/janinesaunders8"
+                %}
+                {% include modules/collaborator.html 
+                    name = "Ben"
+                    role = "Engineer, lead the rewrite project and migrating to Slate, and collaborator on core behaviours."
+                    link = "https://www.linkedin.com/in/mike-nl"
+                %}
+                {% include modules/collaborator.html 
+                    name = "Marcin"
+                    role = "Advisor, bringing expertise from his role at Medium, to sharpen our approach and behaviour definitions."
+                    link = "https://www.linkedin.com/in/mike-nl"
+                %}
             </div>
         </div>
         <div>
@@ -95,7 +90,7 @@ I found that the best editors were the result of countless small and thoughtful 
     </div>
 </section>
 
-### Sreamlining controls
+### Streamlining controls
 
 In the old editor, each element had a different ways to select, resize, restyle and even delete — a problem compounded by visually inconsistent controls. I wanted to make working with any element in the editor more discoverable, simpler, and more consistent. I redesigned all controls to have a sharper focus on accessibility, and designed them in a way that could scale with our upcoming feature. The first building blocks of Kaleidoscope, Qwilr’s Design System.
 
@@ -111,29 +106,32 @@ In the old editor, each element had a different ways to select, resize, restyle 
     <div>
         <h2>Turning styles into a core strength</h2>
         <div class="collaborators">
-            <div class="collaborator">
-                <img src="/assets/site/avatar-test.jpg">
-                <div class="info">
-                    <h6>Josh Baskin</h6>
-                    <p>Lead ideation of new toys, managing R&D of all new iniatives.</p>
-                    <button class="link-button {{ page.theme }}" onclick="location.href='linkedin.com'">View profile</button>
-                </div>
-            </div>
-            <div class="collaborator">
-                <img src="/assets/site/avatar-test.jpg">
-                <div class="info">
-                    <h6>Josh Baskin</h6>
-                    <p>Lead ideation of new toys, managing R&D of all new iniatives.</p>
-                    <button class="link-button {{ page.theme }}" onclick="location.href='linkedin.com'">View profile</button>
-                </div>
-            </div>
-            <div class="collaborator">
-                <img src="/assets/site/avatar-test.jpg">
-                <div class="info">
-                    <h6>Josh Baskin</h6>
-                    <p>Lead ideation of new toys, managing R&D of all new iniatives.</p>
-                    <button class="link-button {{ page.theme }}" onclick="location.href='linkedin.com'">View profile</button>
-                </div>
+            <div class="collaborators">
+                {% include modules/collaborator.html 
+                    name = "Me" 
+                    role = "Lead the discovery, redesign, beta testing and launch of the feature redesign."
+                    link = "https://www.linkedin.com/in/dominicsebastian/"
+                %}
+                {% include modules/collaborator.html 
+                    name = "Yundi"
+                    role = "Engineering Lead, building out core functionality in the redesign, and point person for beta changes."
+                    link = "https://www.linkedin.com/in/yundifu"
+                %}
+                {% include modules/collaborator.html 
+                    name = "Mike"
+                    role = "Engineering Lead, designing the underlying data model of styles so it was robust and scalable."
+                    link = "https://www.linkedin.com/in/mike-nl"
+                %}
+                {% include modules/collaborator.html 
+                    name = "Janine"
+                    role = "UX Writer, responsible for how the feature was framed and referred to, from first concepts to launch."
+                    link = "https://www.linkedin.com/in/janinesaunders8"
+                %}
+                {% include modules/collaborator.html 
+                    name = "Annie"
+                    role = "Designer, helping finalise the style library concepts, and save styles flows."
+                    link = "https://www.linkedin.com/in/anniekuang"
+                %}
             </div>
         </div>
     </div>
@@ -192,29 +190,37 @@ I lead another full redesigned of the feature; leading a team through betas, dog
     <div>
         <h2>Widening Qwilr’s moat in the market</h2>
         <div class="collaborators">
-            <div class="collaborator">
-                <img src="/assets/site/avatar-test.jpg">
-                <div class="info">
-                    <h6>Josh Baskin</h6>
-                    <p>Lead ideation of new toys, managing R&D of all new iniatives.</p>
-                    <button class="link-button {{ page.theme }}" onclick="location.href='linkedin.com'">View profile</button>
-                </div>
-            </div>
-            <div class="collaborator">
-                <img src="/assets/site/avatar-test.jpg">
-                <div class="info">
-                    <h6>Josh Baskin</h6>
-                    <p>Lead ideation of new toys, managing R&D of all new iniatives.</p>
-                    <button class="link-button {{ page.theme }}" onclick="location.href='linkedin.com'">View profile</button>
-                </div>
-            </div>
-            <div class="collaborator">
-                <img src="/assets/site/avatar-test.jpg">
-                <div class="info">
-                    <h6>Josh Baskin</h6>
-                    <p>Lead ideation of new toys, managing R&D of all new iniatives.</p>
-                    <button class="link-button {{ page.theme }}" onclick="location.href='linkedin.com'">View profile</button>
-                </div>
+            <div class="collaborators">
+                {% include modules/collaborator.html 
+                    name = "Me" 
+                    role = "Design Director, responsible for setting direction, running workshops, and high level concepts."
+                    link = "https://www.linkedin.com/in/dominicsebastian/"
+                %}
+                {% include modules/collaborator.html 
+                    name = "Hamish"
+                    role = "Designer, responsible for prototyping out interactive concepts, and leading feature projects."
+                    link = "https://www.linkedin.com/in/hamishwilliams"
+                %}
+                {% include modules/collaborator.html 
+                    name = "Annie"
+                    role = "Designer, responsible for prototyping out interactive concepts, and leading feature projects."
+                    link = "https://www.linkedin.com/in/anniekuang"
+                %}
+                {% include modules/collaborator.html 
+                    name = "Mitch"
+                    role = "Engineer, key collaborator in developing concepts and delivering high quality experiences."
+                    link = "https://www.linkedin.com/in/mitchellbusby"
+                %}
+                {% include modules/collaborator.html 
+                    name = "Drew"
+                    role = "Engineer, key collaborator in developing concepts and delivering high quality experiences."
+                    link = "https://www.linkedin.com/in/drew-schrauf-a2042853"
+                %}
+                {% include modules/collaborator.html 
+                    name = "Sarah"
+                    role = "Engineer, key collaborator in developing concepts and delivering high quality experiences."
+                    link = "https://www.linkedin.com/in/sarahjlawrence"
+                %}
             </div>
         </div>
     </div>

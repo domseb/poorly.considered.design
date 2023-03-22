@@ -415,7 +415,7 @@ button:hover { transform: translateY(3px); background-color: var(--colour-white-
 
 .link-button:hover::after { -webkit-transition: all 0.3s ease; -moz-transition: all 0.3s ease; transition: all 0.3s ease; transform: translateX(10px); }
 
-.collaborators { display: inline-flex; margin-top: 20px; }
+.collaborators { display: inline-flex; margin-top: var(--space-m); }
 
 .collaborators .collaborator { height: 40px !important; width: 40px; margin-right: 10px; }
 

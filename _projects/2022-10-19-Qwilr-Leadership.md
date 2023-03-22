@@ -27,22 +27,22 @@ My role changed a lot during my 5 years at Qwilr. First to establish and grow de
             <div class="collaborators">
                 {% include modules/collaborator.html 
                     name = "Me"
-                    role = "Demand Gen, helping understand viability of certain concepts with top of funnel marketing activties."
-                    link = "https://www.linkedin.com/in/aaronbeashel"
+                    role = "Lead the new product team structures and designed their core workflows and early practices."
+                    link = "https://www.linkedin.com/in/dominicsebastian/"
                 %}
                 {% include modules/collaborator.html 
                     name = "Dylan"
-                    role = "Product Marketing Lead, ensuring alignment with GTM messaging, and early concepts for upcoming campaigns."
-                    link = "https://www.tania-maree.com"
+                    role = "CEO, responsible for keeping alignment with teams and Qwilr's vission, mission and strategy."
+                    link = "https://dylanbaskind.com"
                 %}
                 {% include modules/collaborator.html 
                     name = "Ben"
-                    role = "Demand Gen, helping understand viability of certain concepts with top of funnel marketing activties."
+                    role = "Engineering Manager, early partner in how team workflows could be more collaborative and fruitful."
                     link = "https://www.linkedin.com/in/benjamin-lambert-smith-a1669230/"
                 %}
                 {% include modules/collaborator.html 
                     name = "Diana"
-                    role = "Demand Gen, helping understand viability of certain concepts with top of funnel marketing activties."
+                    role = "Responsible for early team designs and leadership, especially how features were launched well."
                     link = "https://www.linkedin.com/in/dianarpotter"
                 %}
             </div>
@@ -87,23 +87,23 @@ As I grew the design team, I needed to scaffold the structure for designers to t
             <div class="collaborators">
                 {% include modules/collaborator.html 
                     name = "Me"
-                    role = "Demand Gen, helping understand viability of certain concepts with top of funnel marketing activties."
-                    link = "https://www.linkedin.com/in/aaronbeashel"
+                    role = "Created and lead foundational product team practices and rituals to improve outcome quality."
+                    link = "https://www.linkedin.com/in/dominicsebastian/"
                 %}
                 {% include modules/collaborator.html 
                     name = "Annie"
-                    role = "Product Marketing Lead, ensuring alignment with GTM messaging, and early concepts for upcoming campaigns."
-                    link = "https://www.tania-maree.com"
+                    role = "Helped establish early dogfooding practices and workshops, and designed launch posters."
+                    link = "https://www.linkedin.com/in/anniekuang"
                 %}
                 {% include modules/collaborator.html 
                     name = "Hamish"
-                    role = "Demand Gen, helping understand viability of certain concepts with top of funnel marketing activties."
-                    link = "https://www.linkedin.com/in/aaronbeashel"
+                    role = "Helped drive more advanced demo and prototyping practices in design, and surfacing it to broader teams."
+                    link = "https://www.linkedin.com/in/hamishwilliams"
                 %}
                 {% include modules/collaborator.html 
                     name = "Teams"
-                    role = "Demand Gen, helping understand viability of certain concepts with top of funnel marketing activties."
-                    link = "https://www.linkedin.com/in/aaronbeashel"
+                    role = "Past and present, key collaborators in making the rituals more inclusive, valuable and fun for teams."
+                    link = "https://www.linkedin.com/company/qwilr"
                 %}
             </div>
         </div>
@@ -156,27 +156,17 @@ Startups can feel like a never-ending treadmill, and without time to take a beat
             <div class="collaborators">
                 {% include modules/collaborator.html 
                     name = "Me"
-                    role = "Demand Gen, helping understand viability of certain concepts with top of funnel marketing activties."
-                    link = "https://www.linkedin.com/in/aaronbeashel"
+                    role = "Design Leader, responsible for developing concepts, and getting buy in for transformation projects."
+                    link = "https://www.linkedin.com/in/dominicsebastian/"
                 %}
                 {% include modules/collaborator.html 
                     name = "Dylan"
-                    role = "Product Marketing Lead, ensuring alignment with GTM messaging, and early concepts for upcoming campaigns."
-                    link = "https://www.tania-maree.com"
-                %}
-                {% include modules/collaborator.html 
-                    name = "Hamish"
-                    role = "Demand Gen, helping understand viability of certain concepts with top of funnel marketing activties."
-                    link = "https://www.linkedin.com/in/aaronbeashel"
-                %}
-                {% include modules/collaborator.html 
-                    name = "Ben M"
-                    role = "CTO. Gen, helping understand viability of certain concepts with top of funnel marketing activties."
-                    link = "https://www.linkedin.com/in/bdmackie"
+                    role = "Product Leader, key partner in prototyping concepts, and articulating overall product strategy"
+                    link = "https://dylanbaskind.com"
                 %}
                 {% include modules/collaborator.html 
                     name = "Leo"
-                    role = "Demand Gen, helping understand viability of certain concepts with top of funnel marketing activties."
+                    role = "Principle Product Manager, helped refine strategy and socialise it with the broader company."
                     link = "https://www.linkedin.com/in/leobalan"
                 %}
             </div>

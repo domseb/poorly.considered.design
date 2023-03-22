@@ -34,7 +34,7 @@ image: /assets/projects/archipelago/archipelago.jpg
                 {% include modules/collaborator.html 
                     name = "Tania"
                     role = "Product Marketing Lead, ensuring alignment with GTM messaging, and early concepts for upcoming campaigns."
-                    link = "https://www.tania-maree.com"
+                    link = "https://www.linkedin.com/in/taniaclarke/"
                 %}
                 {% include modules/collaborator.html 
                     name = "Aaron"
@@ -91,17 +91,17 @@ Three key themes emerged early on in discussions. How could the brand be easier 
                 {% include modules/collaborator.html 
                     name = "Tania"
                     role = "Product Marketing Lead, and a key partner in the new brand. Helping develop and refine concepts throughout the process."
-                    link = "https://www.tania-maree.com"
+                    link = "https://www.linkedin.com/in/taniaclarke/"
                 %}
                 {% include modules/collaborator.html 
                     name = "Hamish"
                     role = "Senior Designer, developed core 3D assets and animations, helping develop and refine all brand concepts."
-                    link = "https://hamishw.com"
+                    link = "https://www.linkedin.com/in/hamishwilliams/"
                 %}
                 {% include modules/collaborator.html 
                     name = "Charl"
                     role = "Designer and artworker, helping build off Hamish's 3D work, and rolling out concepts across touchpoints."
-                    link = "https://www.behance.net/anfieldcha5745/projects"
+                    link = "https://www.linkedin.com/in/charl-anfield-406a9215b"
                 %}
             </div>
         </div>
@@ -165,12 +165,12 @@ Bringing all this work together gave us a flexible framework for creating featur
                 {% include modules/collaborator.html 
                     name = "Tania"
                     role = "Product Marketing Lead, helped come up with ideas for the library, then road test and iterate it so it was fit for use."
-                    link = "https://www.tania-maree.com"
+                    link = "https://www.linkedin.com/in/taniaclarke/"
                 %}
                 {% include modules/collaborator.html 
                     name = "Hamish"
                     role = "Build out the library on Kaleidoscope, as well as refining some of the components in Figma and the marketing site."
-                    link = "https://www.hamishw.com"
+                    link = "https://www.linkedin.com/in/hamishwilliams/"
                 %}
             </div>
         </div>
