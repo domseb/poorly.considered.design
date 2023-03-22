@@ -102,8 +102,6 @@ article p a { color: inherit; border-bottom: 1px solid var(--colour-light); }
 
 article p a:hover { background-color: var(--colour-light-dimmest); color: var(--colour-light); -webkit-transition: all 0.3s ease; -moz-transition: all 0.3s ease; transition: all 0.3s ease; }
 
-article p + p { text-indent: 1em; }
-
 hr { margin: 20px 0 20px 0; border: none; border-top: 1px solid var(--colour-darkest, grey); }
 
 img, blockquote, ul, ol, dl, .highlight { margin-top: 0rem; margin-bottom: 1.3rem; }

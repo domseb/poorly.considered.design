@@ -23,7 +23,7 @@ I started the first version of Qwilr’s Design System, Kaleidoscope, in the fir
 <section class="bordered">
         <div class="tiles center">
         <div>
-            <h2>Finding a true north star</h2>
+            <h2>Creating a system with purpose</h2>
             <div class="collaborators">
                 {% include modules/collaborator.html 
                     name = "Me" 
@@ -77,23 +77,22 @@ Before we could make any system be easy to use, it first needed new foundations 
 
 <section>
     <div class="gallery">
-        <img class="full" src="/assets/projects/kaleidoscope/kl-inputs.jpg">
-        <img class="half" src="/assets/projects/kaleidoscope/kl-buttons.jpg">
-        <img class="half" src="/assets/projects/kaleidoscope/kl-icons.jpg">
-        <img class="full" src="/assets/projects/kaleidoscope/kl-patterns.jpg">
+        <img class="full" src="/assets/projects/kaleidoscope/tcdc.jpg">
+        <img class="half" src="/assets/projects/kaleidoscope/icons.jpg">
+        <img class="half" src="/assets/projects/kaleidoscope/inputs.jpg">
+        <img class="full" src="/assets/projects/kaleidoscope/patterns.jpg">
     </div>
 </section>
 
-### Establishing workflows
+### Creating shared languages and workflows
 
-Redesigning a core editor feature kicked off a full React migration, and with it, a lot more demands and users of Kaleidoscope. I used this as an opportunity to create new workflows for creating, referencing, and updating Kaleidoscope components across the design and product teams. Collaborating with design, UX writer and engineers to formalise these in Notion & Figma.
+Components are referenced in designs, in code, help centres and in launch comms, by different perspectives working in different contexts. We wanted to combine these perspectives to find the most intuitive naming, and create a shared language across teams. I worked closely with Janine, engineers and Diana, to define a taxonomy that could scale as the system grew, and ensure everyone was always on the same page, from design to launch.
 
 <section>
     <div class="gallery">
-        <img class="full" src="/assets/projects/kaleidoscope/kl-inputs.jpg">
-        <img class="half" src="/assets/projects/kaleidoscope/kl-buttons.jpg">
-        <img class="half" src="/assets/projects/kaleidoscope/kl-icons.jpg">
-        <img class="full" src="/assets/projects/kaleidoscope/kl-patterns.jpg">
+        <img class="tall" src="/assets/projects/kaleidoscope/schematic.jpg">
+        <img class="half" src="/assets/projects/kaleidoscope/guides.jpg">
+        <img class="half" src="/assets/projects/kaleidoscope/language.jpg">
     </div>
 </section>
 
@@ -141,15 +140,19 @@ Qwilr is full of complex interactive challenges. To have real confidence in the 
     </div>
 </section>
 
-### Creating a shared language
-
-Components are referenced in designs, in code, help centres and in launch comms, by different perspectives working in different contexts. We wanted to combine these perspectives to find the most intuitive naming, and create a shared language across teams. I worked closely with Janine, engineers and Diana, to define a taxonomy that could scale as the system grew, and ensure everyone was always on the same page, from design to launch.
-
 ### Flow Roulettes™
 
 We had large blindspots to areas of the product we didn’t use ourselves, and once we had enough of Kaleidoscope live in the product, we needed to feel how these use cases felt to use. I created a ritual called Flow Roulette, that randomised a JTBD archetype and a use case, for the team to run through the (often painful) experience through the lens of that archetype. Creating greater empathy in teams for how it was looking in reality, as well as a good system to pick up low hanging fruit.
 
-### Designing for the extremes
+<section>
+    <div class="gallery">
+        <img class="tall" src="/assets/projects/kaleidoscope/dogfooding.jpg">
+        <img class="half" src="/assets/projects/kaleidoscope/roast.jpg">
+        <img class="half" src="/assets/projects/kaleidoscope/wins.jpg">
+    </div>
+</section>
+
+### Enabling the team to self organise
 
 Through a customer feedback call, we saw accounts in different languages visually broke a handful of key components in a way we had never seen. We needed a way to quickly see how things behaved in different languages, at different character lengths, without manually adding them into designs. I roughed out a concept, and Hamish built it out as a plugin, to give as a simple and fast way to “roulette” data into our designs.
 

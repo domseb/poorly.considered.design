@@ -67,6 +67,8 @@ Over 5 years, I lead the editor’s transformation from a nascent offering, to a
 
 At this stage, there was less than a dozen full time employees at Qwilr, and customers tended to be solo founders, companies of one, or tiny agencies. Resource strapped, but eyeing up a move to mid-market, the editor simply wasn’t at a standard to compete at a higher price point.
 
+![NPS feedback](/assets/projects/gutenberg/NPS.jpg)
+
 #### Approach
 
 ### Back to first principles
@@ -174,7 +176,7 @@ Through user interviews post launch, I discovered two extremes I had failed to d
 - Minimise friction for changes in context
 - Empower brand owners & brand users
 
-I lead redesigned the entire feature, and lead a team through beta, dogfooding and delivery. The resulting suite of styling features, internally called “Technicolour Dreamcoat”, focussed on simple, direct and empowering controls. An enormous effort , and a triumph of cross-functional collaboration, we launched again, and finally delivered something customers loved — dropping styles as a churn contributor from 35% to just 5%.
+I lead another full redesigned of the feature; leading a team through betas, dogfooding and launch. The resulting suite of styling features, internally called “Technicolour Dreamcoat”, focussed on simple, direct and empowering controls. An enormous effort , and a triumph of cross-functional collaboration, we launched again, and finally delivered something customers loved — dropping styles as a churn contributor from 35% to just 5%.
 
 <section>
     <div class="gallery">
@@ -238,11 +240,7 @@ Later as VP Design, I lead teams and designers to transform these areas into new
 
 ### Unlocking new use-cases
 
-To be easily mobile responsive, Qwilr Pages had always been single column, only allowing simple content elements, like tables, images and text. As Qwilr was adopted into more sales and marketing teams, the demands on layout and interactive content grew. Both to make more visually engaging pages, and to help differentiate Qwilr from competitors.
-
-Over several years, I lead design, projects and teams to create a suite of new layouts and interactive components in the editor. All aiming to help pages communicate in richer detail, engage and impress their audience, but still created with ease.
-
-Creating concepts, dividing with team, ensuring strategic alignment, look and feel
+Over several years, I lead design, projects and teams to create a suite of new layouts and interactive components in the editor. I spent my time creating high level proof of concepts, ensuring strategic alignment, look and feel across teams. Below are a few favourites.
 
 <section>
     <div class="gallery">

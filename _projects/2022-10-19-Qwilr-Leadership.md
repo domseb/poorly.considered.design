@@ -16,14 +16,14 @@ description: I enjoyed a broad remit as VP of Design at Qwilr, helping shape man
 image: /assets/projects/maypole/hero-maypole.jpg
 ---
 
-### Designing pixels, teams, and cultures
+### Growing from 10 to 80
 
 My role changed a lot during my 5 years at Qwilr. First to establish and grow design at Qwilr, then to manage the product teams, and finally into leadership as VP Design. From fine detail to broader brush strokes, working at each vantage point gave me a better perspective of the whole. Below are my highlights of that journey. What I learned and loved from a very meaningful chapter of my career.
 
 <section class="bordered">
         <div class="tiles center">
         <div>
-            <h2>Forging our ways of working</h2>
+            <h2>Teams, practices & pathways</h2>
             <div class="collaborators">
                 {% include modules/collaborator.html 
                     name = "Me"
@@ -38,17 +38,17 @@ My role changed a lot during my 5 years at Qwilr. First to establish and grow de
                 {% include modules/collaborator.html 
                     name = "Ben"
                     role = "Demand Gen, helping understand viability of certain concepts with top of funnel marketing activties."
-                    link = "https://www.linkedin.com/in/aaronbeashel"
+                    link = "https://www.linkedin.com/in/benjamin-lambert-smith-a1669230/"
                 %}
                 {% include modules/collaborator.html 
                     name = "Diana"
                     role = "Demand Gen, helping understand viability of certain concepts with top of funnel marketing activties."
-                    link = "https://www.linkedin.com/in/aaronbeashel"
+                    link = "https://www.linkedin.com/in/dianarpotter"
                 %}
             </div>
         </div>
         <div>
-            <p class="description">I was the first design hire at Qwilr, given the role to establish and scale the value of good design across the company. The understanding of how design worked was limited, giving me the opportunity to start from a blank slate. To  shape our early ways of working, and move Design from being reactive firefighter, to a proactive partner in Product.</p>
+            <p class="description">Design was the smallest team, and for it to make a real impact, the broader product teams and workflows needed clearer ways of working. Over two years I helped redesign our product teams, their foundational practices, and how updates were shared with the wider company.</p>
         </div>
     </div>
 </section>
@@ -57,13 +57,13 @@ My role changed a lot during my 5 years at Qwilr. First to establish and grow de
 
 When I joined, Dylan (Qwilr’s CEO & cofounder) was communicating design ideas through a series of sketches and scrapbooks of screenshots. With only a “platform team” of 4 engineers, work was spread across Asana, gDocs, and in heads. Intractable to anyone outside the team. Before I could set new expectations about Design’s place in all this, we first needed to make this broader workflow clear, and visible to the company.
 
-To reduce this sprawl, I moved the company to Notion, and designed new workflows, optimised for one of Qwilr’s core principles — “clarity through collaboration”. Creating a traceable line between roadmap, individual teams, projects and their tasks. Created shared definitions for priorities, how work progressed and why. This system scaled with us through the years to come, increased how effectively we could collaborate, and allowed me to visualise how Design worked.
+To reduce this sprawl, I moved the company to Notion, and designed new workflows, optimised for one of Qwilr’s core principles — “clarity through collaboration”. Creating a traceable line between roadmap, individual teams, projects and their tasks. From shared definitions of priorities, to how work progressed and why. This system scaled with us through the years to come, increased how effectively we could collaborate, and allowed me to visualise how Design worked.
 
 <section>
     <div class="gallery">
         <img class="full" src="/assets/projects/maypole/mentaculus.jpg">
         <img class="half" src="/assets/projects/maypole/teams.jpg">
-        <img class="half" src="/assets/projects/maypole/teams.jpg">
+        <img class="half" src="/assets/projects/maypole/documents.jpg">
     </div>
 </section>
 
@@ -73,7 +73,7 @@ As I grew the design team, I needed to scaffold the structure for designers to t
 
 <section>
     <div class="gallery">
-        <img class="half" src="/assets/projects/maypole/templates.jpg">
+        <img class="half" src="/assets/projects/maypole/outlines.jpg">
         <img class="half" src="/assets/projects/maypole/ladders.jpg">
         <img class="third" src="/assets/projects/maypole/zoom.jpg">
         <img class="twothirds" src="/assets/projects/maypole/rituals.jpg">
@@ -208,6 +208,5 @@ Large surface areas of the product were bound by old tech decisions, complicated
         <img class="tall" src="/assets/projects/maypole/outlines.jpg">
         <img class="half" src="/assets/projects/maypole/sprint.jpg">
         <img class="half" src="/assets/projects/maypole/styles-loom.jpg">
-        <img class="full" src="/assets/projects/maypole/styles-finals.jpg">
     </div>
 </section>
